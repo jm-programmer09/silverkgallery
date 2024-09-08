@@ -21,6 +21,9 @@
   --header-pure-height: 70px;
   --header-pure-padding: 20px;
   --header-height: calc(var(--header-pure-height) + (var(--header-pure-padding)* 2));
+
+  /*  For Animation  */
+  --slider-timing: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 body {

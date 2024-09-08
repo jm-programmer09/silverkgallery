@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Applies to all */
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
+  user-select: none;
+}
+
+/* Variables */
+:root {
+  /* Main colour from the logo */
+  --primary: #003399;
+  
+  /* Colour for buttons */
+  --b-primary: #012b7f;
+
+  /* header */
+  --header-pure-height: 70px;
+  --header-pure-padding: 20px;
+  --header-height: calc(var(--header-pure-height) + (var(--header-pure-padding)* 2));
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

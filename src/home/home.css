@@ -60,6 +60,16 @@ section.main figcaption > a {
   padding: 20px;
   width: fit-content;
   margin-top: 30px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 150ms;
+  border: 2px solid var(--b-primary);
+}
+section.main figcaption > a:hover {
+  background-color: transparent;
+  transition: all 150ms;
+  border: 2px solid black;
+  color: black;
 }
 
 @media only screen and (max-width: 1120px) {

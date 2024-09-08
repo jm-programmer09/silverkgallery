@@ -44,7 +44,32 @@ section.main figcaption > h1 > span {
   margin: 0;
   display: block;
   padding: 0;
+  opacity: 0;
+  transform: translateY(50px);
 }
+/* The animations for the words of the header */
+.h1-one {
+  animation: flyin_animation 600ms var(--slider-timing) forwards;
+}
+.h1-two {
+  animation: flyin_animation 600ms var(--slider-timing) 0.2s forwards;
+}
+.h1-three {
+  animation: flyin_animation 600ms var(--slider-timing) 0.4s forwards;
+}
+
+@keyframes flyin_animation {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 /* Subheading */
 section.main figcaption > h2 {
   font-size: 18px;

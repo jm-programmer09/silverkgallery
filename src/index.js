@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 // Loading in the router
 import Router from "./Router";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('webapp'));
 root.render(
   <Router />
 );

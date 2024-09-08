@@ -11,7 +11,7 @@ export default function Home () {
           
           {/* For the text on the right */}
           <figcaption>
-            <h1><span>discover </span><span>timeless </span><span> animatography</span></h1>
+            <h1><span className="h1-one">discover </span><span className="h1-two">timeless </span><span className="h1-three"> animatography</span></h1>
             <h2>Silver K Gallery - Celebrating 40 years of Artistic Innovation</h2>
 
             <Link to={"/collection"}>Explore our collection</Link>

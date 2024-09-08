@@ -55,7 +55,7 @@ section.main figcaption > h1 > span {
   animation: flyin_animation 600ms var(--slider-timing) 0.2s forwards;
 }
 .h1-three {
-  animation: flyin_animation 600ms var(--slider-timing) 0.4s forwards;
+  animation: flyin_animation 600ms var(--slider-timing) 0.3s forwards;
 }
 
 @keyframes flyin_animation {
@@ -75,6 +75,20 @@ section.main figcaption > h2 {
   font-size: 18px;
   font-weight: 500;
   color: black;
+  animation: h2_flyin 600ms var(--slider-timing) 0.5ms forwards;
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+@keyframes h2_flyin {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 /* Link button */

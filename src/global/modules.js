@@ -1,3 +1,6 @@
+
+
+// For the search icon
 export function SearchIcon ({ classname, size = 24 }) {
   return (
     <svg className={classname} height={size} width={size} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

@@ -4,8 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles.css";
 
 // Documents
-import Home from './home/Home';
+import Home from "./home/Home";
 import Header from "./global/Header";
+import Footer from "./global/Footer";
 
 
 export default function Router () {
@@ -18,9 +19,9 @@ export default function Router () {
       <Routes>
         <Route path="/" element={ <Home />} /> 
 
-
       </Routes>
 
+      <Footer />
     </BrowserRouter>
   );
 }

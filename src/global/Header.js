@@ -1,20 +1,21 @@
-import { Link } from "react-router-dom";
-import "./header.css";
+import { Link, useLocation } from "react-router-dom";
 
 // Modules
-import { SearchIcon } from "./icons";
+import { SearchIcon } from "./modules";
 
 export default function Header () {
+  const location = useLocation();
+
   return (
     <header>
       <Link to="/"><img src="/img/logo.png" alt="Silver K Gallery" /></Link>
 
       {/* Links */}
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/collection">Our Collection</Link>
-        <Link to="/events">Events</Link>
-        <Link to="/contactus" style={{ marginRight: "20px"}}>Contact Us</Link>
+        <Link to="/" className={location.pathname === "/" ? "selected" : ""}>Home</Link>
+        <Link to="/collection" className={location.pathname.includes("/collection") ? "selected" : ""}>Our Collection</Link>
+        <Link to="/events" className={location.pathname === "/events" ? "selected" : ""}>Events</Link>
+        <Link to="/contactus" className={location.pathname === "/contactus" ? "selected" : ""} style={{ marginRight: "20px"}}>Contact Us</Link>
 
         <SearchIcon classname="header-search-icon" size={24} />
       </nav>

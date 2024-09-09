@@ -27,6 +27,9 @@ section.main img {
   margin-left: 1%;
   max-width: 50%;
   border-bottom-left-radius: 150px;
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: left-fly-in 600ms var(--slider-timing) forwards;
 }
 
 /* Caption */
@@ -58,37 +61,14 @@ section.main figcaption > h1 > span {
   animation: flyin_animation 600ms var(--slider-timing) 0.4s forwards;
 }
 
-@keyframes flyin_animation {
-  from {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-
 /* Subheading */
 section.main figcaption > h2 {
   font-size: 18px;
   font-weight: 500;
   color: black;
-  animation: h2_flyin 600ms cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
+  animation: right-fly-in 600ms cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
   opacity: 0;
   transform: translateX(100px);
-}
-
-@keyframes h2_flyin {
-    from {
-        opacity: 0;
-        transform: translateX(100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
 }
 
 /* Link button */
@@ -159,5 +139,39 @@ section.main figcaption > a:hover {
 @media only screen and (max-width: 800px) {
   section.main figcaption > h1 > span {
     font-size: 40px;
+  }
+}
+
+
+/* Animations */
+@keyframes right-fly-in {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes left-fly-in {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes flyin_animation {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

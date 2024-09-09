@@ -15,6 +15,11 @@ header {
 header > a > img {
   height: var(--header-pure-height);
 }
+header > a > img[alt] {
+  color: var(--primary);
+  font-size: 35px;
+  font-weight: 700;
+}
 
 /* Link section */
 header > nav {

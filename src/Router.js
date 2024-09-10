@@ -11,7 +11,7 @@ import Footer from "./global/Footer";
 
 export default function Router () {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/silverkgallery">
       {/* Global items for all pages */}
       <Header />
 

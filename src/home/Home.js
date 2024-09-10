@@ -21,11 +21,11 @@ const SpecialCard = ({ url, src, logosrc, fromleft, styling = {}, delay = 0}) =>
       href={"/collection" + url}
     >
       <figure>
-        <img src={`/img` + src} alt="Theme" style={styling}/>
+        <img src={process.env.PUBLIC_URL + `/img` + src} alt="Theme" style={styling}/>
       </figure>
 
       <figcaption>
-        <img src={"/img" + logosrc} draggable="false" alt="Theme Name" />
+        <img src={process.env.PUBLIC_URL + "/img" + logosrc} draggable="false" alt="Theme Name" />
 
         <p>Find more</p>
       </figcaption>
@@ -45,7 +45,7 @@ export default function Home () {
     <>
       <section className="main">
         <figure>
-          <img src="/img/ronniewoods.jpg" alt="Ronnie Woods Art" draggable={false}/>
+          <img src={process.env.PUBLIC_URL + "/img/ronniewoods.jpg"} alt="Ronnie Woods Art" draggable={false}/>
           
           {/* For the text on the right */}
           <figcaption>
@@ -98,7 +98,7 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
               duration: 1, 
               ease: [0.16, 1, 0.3, 1], // cubic-bezier
             }}
-           src="/img/engineofimagination.jpg" alt="Piece of the week" />
+           src={process.env.PUBLIC_URL + "/img/engineofimagination.jpg"} alt="Piece of the week" />
         </figure>
       </section>
 

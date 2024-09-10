@@ -50,16 +50,23 @@ header {
   width: calc(100vw - 30px);
   display: flex;
   flex-direction: row;
+  z-index: 100;
   justify-content: space-between;
   padding: var(--header-pure-padding) 15px var(--header-pure-padding) 15px;
   max-height: var(--header-pure-height);
+  height: var(--header-pure-height);
   align-items: center;
   border-bottom: 1px solid var(--grey);
 }
 
 /* Logo */
+header > a {
+  display: flex;
+  align-items: center;
+}
 header > a > img {
-  height: var(--header-pure-height);
+  max-height: var(--header-pure-height);
+  max-width: 90%;
 }
 header > a > img[alt] {
   color: var(--primary);
@@ -68,14 +75,14 @@ header > a > img[alt] {
 }
 
 /* Link section */
-header > nav {
+header > nav.pc {
   display: flex;
   flex-direction: row;
   gap: 30px;
   align-items: center;
   margin-right: 20px;
 }
-header > nav * {
+header > nav.pc * {
   cursor: pointer;
   color: black;
   fill: var(--b-primary);
@@ -87,10 +94,10 @@ header > nav * {
 }
 
 /* For if the link is selected */
-header nav > a.selected {
+header nav.pc > a.selected {
   color: var(--b-primary);
 }
-header nav > a.selected::after {
+header nav.pc > a.selected::after {
   content: '';
   position: absolute;
   bottom: -4px;
@@ -100,13 +107,13 @@ header nav > a.selected::after {
   left: 0;
 }
 /* Actual link */
-header > nav > a:hover {
+header > nav.pc > a:hover {
   color: var(--b-primary);
   transition: color 150ms;
 }
 
 /* Link hover styling */
-header > nav > a::after {
+header > nav.pc > a::after {
   content: '';
   position: absolute;
   bottom: -4px;
@@ -116,7 +123,7 @@ header > nav > a::after {
   transition: var(--slider-timing) width 400ms;
   left: 0;
 }
-header > nav > a:hover::after {
+header > nav.pc > a:hover::after {
   width: 100%;
   transition: var(--slider-timing) width 400ms;
 }
@@ -126,6 +133,108 @@ header .header-search-icon:hover {
   transform: scale(1.1);
   transition: transform 150ms;
 }
+
+/* For the header icon */
+header nav > button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  height: 20px;
+  padding: 5px;
+  display: none;
+  margin: 0;
+}
+header button > div {
+  background-color: black;
+  outline: none;
+  border: none;
+  width: 24px;
+  height: 1.5px;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+}
+header button > div.open {
+  background-color: transparent;
+}
+/* For the symbols that move on click  */
+header button > div::before {
+  position: absolute;
+  top: -5.5px;
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  left: 0;
+  cursor: pointer;
+  transition: all 200ms;
+}
+header button > div::after {
+  position: absolute;
+  top: 5.5px;
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  left: 0;
+  transition: all 200ms;
+  cursor: pointer;
+}
+
+/* When it gets clicked */
+header button > div.open::before {
+  transform: rotate(45deg);
+  top: 0;
+  width: 20px;
+  transition: all 200ms;
+}
+header button > div.open::after {
+  transform: rotate(-45deg);
+  transition: all 200ms;
+  top: 0;
+  width: 20px;
+}
+
+/* For the mobile navbar */
+header nav.mobile {
+  position: absolute;
+  top: var(--header-height);
+  z-index: 100;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  flex-direction: column;
+  gap: 0px;
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  padding-bottom: 8px;
+}
+header > nav.mobile * {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 15px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  text-align: left;
+  margin-right: 20px;
+}
+header > nav.mobile > *:hover {
+  background-color: #111;
+}
+
+header > nav.mobile div {
+  display: flex;
+}
+header nav.mobile > div > a {
+  width: 100%;
+}
 /* END OF THE HEADER */
 
 /* Start of the footer */
@@ -134,3 +243,25 @@ footer {
   height: 200px;
 }
 /* end of the footer */
+
+@media only screen and (max-width: 460px) {
+  :root {
+    --header-pure-padding: 5px;
+  }
+}
+
+/* Media for the header */
+@media only screen and (max-width: 1030px) {
+  header nav.pc {
+    gap: 10px;
+  }
+  header nav.pc > a {
+    display: none;
+  }
+  header nav.pc > button {
+    display: block;
+  }
+  header .header-search-icon {
+    padding-top: 2px;
+  }
+}

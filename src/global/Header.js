@@ -8,7 +8,7 @@ export default function Header () {
 
   return (
     <header>
-      <Link to="/"><img src="/img/logo.png" alt="Silver K Gallery" /></Link>
+      <Link to="/"><img src={process.env.PUBLIC_URL + "/img/logo.png"} alt="Silver K Gallery" /></Link>
 
       {/* Links */}
       <nav>

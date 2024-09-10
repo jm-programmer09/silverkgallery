@@ -1,0 +1,210 @@
+{
+  "animation": {
+    "marvel": {
+      "spidermen": {
+        "image": "/spidermen.jpg",
+        "title": "Spider-Men #2 (Number 1 variant edition)",
+        "type": "Glicee on canvas",
+        "dimensions": [[17, 26], 95],
+        "special": [true],
+        "tags": ["spider", "red", "medium", "hero"]
+      },
+      "amazingspiderman": {
+        "image": "/amazingspiderman.jpg",
+        "title": "amazing spiderman #610",
+        "type": "Glicee on canvas",
+        "dimensions": [[15, 22]],
+        "special": [true],
+        "tags": ["punch", "signed", "hero"]
+      },
+      "icandothisallday": {
+        "image": "/icandothisallday.jpg",
+        "title": "i can do this all day",
+        "type": "Giclee on canvas",
+        "dimensions": [[16, 24]],
+        "special": [true],
+        "tags": ["america", "usa", "shield", "colonial", "hero"]
+      },
+      "thetruthis": {
+        "image": "/thetruthis.jpg",
+        "title": "the truth is",
+        "type": "Giclee on canvas",
+        "special": [true],
+        "dimensions": [[16, 24]],
+        "tags": ["iron", "man", "robot", "tech", "hero"]
+      },
+      "thunderbolts": {
+        "image": "/thunderbolts.jpg",
+        "title": "thunderbolts",
+        "type": "Giclee on canvas",
+        "special": [true],
+        "dimensions": [[17, 26]],
+        "tags": ["fire", "chain", "hell", "hero", "avengers"]
+      },
+      "wakanda-forever": {
+        "image": "/wakandaforever.jpg",
+        "title": "wakanda forever",
+        "type": "Glicee on canvas",
+        "dimensions": [[24, 31]],
+        "special": [true],
+        "tags": ["wakanda", "black panther", "panther", "avengers", "hero"]
+      },
+      "the-best-their-is": {
+        "image": "/thebesttheiris.jpg",
+        "title": "the best their is",
+        "type": "Lithograph on paper",
+        "dimensions": [[12, 24]],
+        "special": [true],
+        "tags": ["wolverine", "fight"]
+      },
+      "shield": {
+        "image": "/shield.jpg",
+        "title": "Shield",
+        "type": "",
+        "special": [true],
+        "dimensions": [0],
+        "tags": ["shield", "team"]
+      },
+      "hailhydra2": {
+        "image": "/hailhydra2.jpg",
+        "title": "hail hydra II",
+        "type": "",
+        "dimensions": [0],
+        "special": [true],
+        "tags": ["avengers", "team", "ironman", "thor"]
+      },
+      "directflight": {
+        "image": "/directflight.jpg",
+        "title": "direct flight",
+        "type": "Glicee on canvas",
+        "special": [true],
+        "dimensions": [[20, 26], 95],
+        "tags": ["ironman", "fight", "flight"]
+      },
+      "amazing": {
+        "image": "/amazing.jpg",
+        "title": "amazing",
+        "type": "Glicee on canvas",
+        "special": [true],
+        "dimensions": [[17, 26], 95],
+        "tags": ["spiderman", "mask"]
+      },
+      "silversurfer": {
+        "image": "/silversurfer.gif",
+        "title": "silver surfer",
+        "type": "Original Cel",
+        "special": [false, "Stan Lee"],
+        "dimensions": [0],
+        "tags": ["original", "rare"]
+      },
+      "spidermankeyoriginal": {
+        "image": "/spidermankeyoriginal.gif",
+        "title": "Spiderman",
+        "type": "Key original cel",
+        "special": [false, "Stan Lee"],
+        "dimensions": [0],
+        "tags": ["rare", "", "save"]
+      }
+
+    },
+    "simpsons": {
+      "devilandhomer": {
+        "image": "/devilandhomer.gif",
+        "title": "the devil and homer",
+        "type": "Hand painted",
+        "dimensions": [0],
+        "tags": ["episode"]
+      },
+      "gardenofspringfield": {
+        "image": "/gardenofspringfield.gif",
+        "title": "the garden of springfield",
+        "type": "Hand painted",
+        "dimensions": [0],
+        "tags": ["", "", "garden", "springfield"]
+      },
+      "heatwave": {
+        "image": "/heatwave.gif",
+        "title": "heatwave",
+        "type": "Hand painted",
+        "dimensions": [0],
+        "tags": ["hot", "family"]
+      },
+      "homerandmargepersona": {
+        "image": "/homerandmargepersona.gif",
+        "title": "homer and marge persona",
+        "type": "Sericel",
+        "dimensions": [0, 350],
+        "tags": ["love", "rom"]
+      }
+    },
+    "star-wars": {
+      "whatremains": {
+        "image": "/whatremains.jpg",
+        "title": "what remains",
+        "type": "Glicee on canvas",
+        "dimensions": [[18, 24], 0, 250],
+        "tags": ["darth", "vader", "jedi", "sith"]
+      },
+      "usurper": {
+        "image": "/usurper.jpg",
+        "title": "usurper",
+        "type": "Glicee on canvas",
+        "dimensions": [[18, 24], 0, 250],
+        "tags": ["devil", "evil", "sith"]
+      },
+      "waysoftheforce": {
+        "image": "/waysoftheforce.jpg",
+        "title": "the ways of the force",
+        "type": "Glicee on canvas",
+        "dimensions": [[18, 24], 0, 24],
+        "tags": ["attack", "war", "fight"]
+      },
+      "youweremybrother": {
+        "image": "/youweremybrother.jpg",
+        "title": "you were my brother",
+        "type": "Glicee on canvas",
+        "dimensions": [[12, 16], 0, 0, 395],
+        "tags": ["battle", "sith"]
+      },
+      "onewiththelight": {
+        "image": "/onewiththelight.jpg",
+        "title": "one with the light",
+        "type": "Glicee on canvas",
+        "dimensions": [[[11, 12], [16, 33]], 0, 0, 0, 95],
+        "tags": ["yoda"]
+      }
+    },
+    "disney": {
+      
+    }
+  },
+  "photography": {
+    "the-beatles": {
+      "paulmccartney" : {
+        "image": "/paulmccartney.jpg",
+        "title": "paul McCartney",
+        "type": "Photography",
+        "author": "robert freeman",
+        "dimensions" : [0],
+        "tags": ["paul mccartney", " ", "paul", "mc"]
+      },
+      "johnglasses" : {
+        "image" : "/johnglasses.jpg",
+        "title": "John Lennon",
+        "type": "Photography",
+        "author": "robert freeman",
+        "dimensions": [0],
+        "tags": ["john lennon", "glasses"]
+      }
+    },
+    "rolling-stones": {
+
+    },
+    "marilyn-monroe": {
+
+    },
+    "elvis": {
+
+    }
+  }
+}

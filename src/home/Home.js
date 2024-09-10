@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./home.css";
+import { Card } from "../global/modules";
 import { motion, useInView } from 'framer-motion';
 import { useRef } from "react";
 
@@ -121,13 +122,13 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
         </div>
 
         <Link className="featured" to={"/collection/animation/featured"}>See featured items...</Link>
-
+        
         <h3>Featured Animation Artwork</h3>
       </section>
 
       {/* Photography */}
       <section className="cards">
-
+            <Card />
       </section>
     </>
   );

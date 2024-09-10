@@ -299,6 +299,7 @@ section.cards .mobile-theme-row {
 }
 /* The link for the featured cards when it is mobile */
 section.cards > a.featured {
+  display: none;
   color: var(--primary);
   margin-top: 30px;
   text-decoration: none;
@@ -334,6 +335,9 @@ section.cards > a.featured:hover {
   }
   section.cards .mobile-theme-row > a > img {
     max-height: 80px;
+  }
+  section.cards > a.featured {
+    display: block;
   }
   
   /* Not displaying the pc version anymore */

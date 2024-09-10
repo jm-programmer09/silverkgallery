@@ -88,7 +88,7 @@ His father and an uncle had spent time working on railroads, and as a teen in Ka
 His passion for trains is reflected at Disneyland, which has been home to its own railroad since opening in 1955.
             </motion.p>
           </figcaption>
-          
+          <div className="gap"></div>
           <motion.img 
            ref={powimgRef} 
            draggable={false}

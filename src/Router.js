@@ -7,6 +7,7 @@ import "./styles.css";
 import Home from "./home/Home";
 import Header from "./global/Header";
 import Footer from "./global/Footer";
+import OurCollection from "./collection/Collection";
 
 
 export default function Router () {
@@ -19,6 +20,8 @@ export default function Router () {
       <Routes>
         <Route path="/" element={ <Home />} /> 
 
+        {/* Collection pathway */}
+        <Route path="/collection" element={ <OurCollection />} />
       </Routes>
 
       <Footer />

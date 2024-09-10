@@ -151,6 +151,8 @@ section.pow figcaption > h3 {
   position: relative;
   margin-left: 13px;
 }
+
+
 /* The gap for when it is mobile */
 section.pow figure > div {
   height: 0px;
@@ -185,10 +187,14 @@ section.pow figcaption > p {
 }
 /* End of the piece of the week */
 
+/* CARDS and then non-special cards  */
 /* For the special cards */
 section.cards {
   padding-top: 0px;
   margin-right: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 section.cards h2 {
   text-align: center;
@@ -197,6 +203,9 @@ section.cards h2 {
   margin-bottom: 40px;
   font-family: "montserrat", serif;
   text-transform: capitalize;
+}
+section.cards h3 {
+  text-align: center;
 }
 section.cards .theme-row {
   display: flex;
@@ -284,10 +293,62 @@ section.cards a:hover > figcaption > p::before {
   transition: all 100ms;
 }
 
+/* The mobile area for the cards */
+section.cards .mobile-theme-row {
+  display: none;
+}
+/* The link for the featured cards when it is mobile */
+section.cards > a.featured {
+  color: var(--primary);
+  margin-top: 30px;
+  text-decoration: none;
+}
+section.cards > a.featured:hover {
+  text-decoration: underline;
+}
 
 
 
 /* Mobile compatibility */
+/* For the difference in the cards at the bottom */
+@media only screen and (max-width: 630px) {
+  section.cards .mobile-theme-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 630px;
+  }
+  section.cards .mobile-theme-row > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    border-radius: 0px;
+  }
+  section.cards .mobile-theme-row > a > img.disney {
+    transform: scale(8);
+  }
+  section.cards .mobile-theme-row > a > img {
+    max-height: 80px;
+  }
+  
+  /* Not displaying the pc version anymore */
+  section.cards .theme-row {
+    display: none;
+  }
+
+  h3 {
+    display: none;
+  }
+}
+
+
+/* For the rest */
+
 
 @media only screen and (max-width: 1280px) {
   section.pow figure {
@@ -320,14 +381,14 @@ section.cards a:hover > figcaption > p::before {
   section.pow figure {
     flex-direction: column-reverse;
     max-height: none;
-    border-bottom-right-radius: 0px;
+    border-radius: 0px;
     align-items: center;
   }
   section.pow figure > div {
     height: 30px;
   }
   section.pow figure > img {
-    border-radius: 0px;
+    border-radius: 0px !important;
     max-height: 350px;
     max-width: none;
     width: fit-content;
@@ -385,6 +446,16 @@ section.cards a:hover > figcaption > p::before {
 @media only screen and (max-width: 500px) {
   section.main figure > img {
     margin-bottom: 5px;
+  }
+
+  section.cards .mobile-theme-row  {
+    gap: 10px;
+  }
+  section.cards .mobile-theme-row > a > img {
+    max-height: 60px;
+  }
+  section.cards .mobile-theme-row > a > img.disney {
+    transform: scale(5);
   }
 }
 

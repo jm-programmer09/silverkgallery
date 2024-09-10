@@ -36,10 +36,10 @@ const SpecialCard = ({ url, src, logosrc, fromleft, styling = {}, delay = 0}) =>
 
 export default function Home () {
   // Setting up the scrolling animations
-  const powh2Ref = useRef(null);
-  const powpRef = useRef(null);
-  const powimgRef = useRef(null);
-  const isInView = useInView(powpRef, { once: true});
+  const powfigureRef = useRef(null);
+  const figcaptionRef = useRef(null);
+  const isInView = useInView(powfigureRef, { once: true});
+  const isTextInView = useInView(figcaptionRef, { once: true });
 
   return (
     <>
@@ -58,13 +58,12 @@ export default function Home () {
       </section>
   
       <section className="pow">
-        <figure>
-          <figcaption>
+        <figure ref={powfigureRef}>
+          <figcaption ref={figcaptionRef}>
             <h3>Piece of the Month</h3>
             <motion.h2 
-              ref={powh2Ref} 
               initial={{ opacity: 0, y: 100 }}
-              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+              animate={isTextInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
               transition={{ 
                 duration: 0.5, 
                 ease: [0.16, 1, 0.3, 1], // cubic-bezier
@@ -74,9 +73,8 @@ export default function Home () {
               The Engine of Imagination
             </motion.h2>
             <motion.p
-              ref={powpRef} 
               initial={{ opacity: 0, y: 100 }}
-              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+              animate={isTextInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
               transition={{ 
                 duration: 0.5, 
                 ease: [0.16, 1, 0.3, 1], // cubic-bezier
@@ -90,7 +88,6 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
           </figcaption>
           <div className="gap"></div>
           <motion.img 
-           ref={powimgRef} 
            draggable={false}
            initial={{ opacity: 0.1 }}
             animate={isInView ? { opacity: 1 } : { opacity: 0.1 }}
@@ -114,6 +111,18 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
           <SpecialCard url={"/animation/star-wars"} src={"/animation/star-wars/whatremains.jpg"} logosrc={"/animation/star-wars/swlogo.png"} styling={{ marginLeft: "-25px"}} fromleft={false} />
           <SpecialCard url={"/animation/disney"} src={"/animation/disney/celebratethemouse.gif"} logosrc={"/animation/disney/disneylogo.svg"} fromleft={false} delay={0.2}/>
         </div>
+        
+        {/* Mobile theme row */}
+        <div className="mobile-theme-row">
+          <Link to={"/collection/animation/marvel"}><img src={process.env.PUBLIC_URL + "/img/animation/marvel/marvelogo.png"} alt="Marvel" /></Link>
+          <Link to={"/collection/animation/simpsons"}><img src={process.env.PUBLIC_URL + "/img/animation/simpsons/simpsonslogo.png"} alt="Simpsons"/></Link>
+          <Link to={"/collection/animation/star-wars"}><img src={process.env.PUBLIC_URL + "/img/animation/star-wars/swlogo.png"} alt="Star Wars" /></Link>
+          <Link to={"/collection/animation/disney"}><img style={{ marginTop: "10px"}} className="disney" src={process.env.PUBLIC_URL + "/img/animation/disney/dislogoblack.svg"} alt="Disney"/></Link>
+        </div>
+
+        <Link className="featured" to={"/collection/animation/featured"}>See featured items...</Link>
+
+        <h3>Featured Animation Artwork</h3>
       </section>
 
       {/* Photography */}

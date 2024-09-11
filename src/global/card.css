@@ -46,6 +46,7 @@
   font-weight: 400;
   position: absolute;
   bottom: 0;
+  font-size: 16px;
 }
 .global-card > .text::before {
   position: absolute;

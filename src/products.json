@@ -112,21 +112,21 @@
         "image": "/devilandhomer.gif",
         "title": "the devil and homer",
         "type": "Hand painted",
-        "dimensions": [0],
+        "dimensions": [0, 50],
         "tags": ["episode"]
       },
       "gardenofspringfield": {
         "image": "/gardenofspringfield.gif",
         "title": "the garden of springfield",
         "type": "Hand painted",
-        "dimensions": [0],
+        "dimensions": [0, 50],
         "tags": ["", "", "garden", "springfield"]
       },
       "heatwave": {
         "image": "/heatwave.gif",
         "title": "heatwave",
         "type": "Hand painted",
-        "dimensions": [0],
+        "dimensions": [0, 50],
         "tags": ["hot", "family"]
       },
       "homerandmargepersona": {

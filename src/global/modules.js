@@ -1,4 +1,5 @@
 import "./card.css";
+import data from "../products.json";
 
 // For the search icon
 export function SearchIcon ({ classname, size = 24 }) {
@@ -11,7 +12,19 @@ export function SearchIcon ({ classname, size = 24 }) {
 
 // The card design
 export function Card ({ url, src, id}) {
+  const title = data[id].title;
+  
   return (
-    <div className={"card"}>Test</div>
+    <Link to={url} className="global-card">
+      <div className="imgP">
+        <img src={process.env.PUBLIC_URL + "/img" + src} alt={title}  />
+      </div>
+
+      <div className="text">
+        <h4>{title}</h4>
+        <small>data[id].dimensions</small>
+        <p>data[id].type</p>
+      </div>
+    </Link>
   );
 }

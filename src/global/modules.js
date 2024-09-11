@@ -1,4 +1,5 @@
 import "./card.css";
+import { Link } from "react-router-dom";
 import data from "../products.json";
 
 // For the search icon
@@ -11,19 +12,19 @@ export function SearchIcon ({ classname, size = 24 }) {
 }
 
 // The card design
-export function Card ({ url, src, id}) {
-  const title = data[id].title;
+export function Card ({ id}) {
+  const element = data[id.split("/")[0]][id.split("/")[1]][id.split("/")[2]];
   
   return (
-    <Link to={url} className="global-card">
+    <Link to={"/collection/" + id} className="global-card">
       <div className="imgP">
-        <img src={process.env.PUBLIC_URL + "/img" + src} alt={title}  />
+        <img src={process.env.PUBLIC_URL + "/img/" + (id.split("/")[0] + "/" + id.split("/")[1]) + element.image} alt={id.split("/")[2]}  />
       </div>
 
       <div className="text">
-        <h4>{title}</h4>
-        <small>data[id].dimensions</small>
-        <p>data[id].type</p>
+        <h4>{element.title}</h4>
+        <small>{element.dimensions}</small>
+        <p>{element.type}</p>
       </div>
     </Link>
   );

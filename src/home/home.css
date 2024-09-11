@@ -308,11 +308,23 @@ section.cards > a.featured:hover {
   text-decoration: underline;
 }
 
+/* For the cards when it is not mobile */
+section.cards > .card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; 
+  padding: 20px;
+  justify-content: center;
+}
+
 
 
 /* Mobile compatibility */
 /* For the difference in the cards at the bottom */
 @media only screen and (max-width: 630px) {
+  section.cards > .card-grid {
+    display: none;
+  }
   section.cards .mobile-theme-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -326,6 +338,16 @@ section.cards > a.featured:hover {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    border-radius: 0px;
+  }
+  section.cards .mobile-theme-row > a:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transform: scale(1.05);
     overflow: hidden;
     transition: transform 0.3s ease;
     border-radius: 0px;
@@ -345,7 +367,7 @@ section.cards > a.featured:hover {
     display: none;
   }
 
-  h3 {
+  section.cards h3 {
     display: none;
   }
 }
@@ -372,6 +394,12 @@ section.cards > a.featured:hover {
     margin: 0;
     margin-right: 15px;
   }
+  @media screen and (max-width: 1200px) {
+    section.cards > .card-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
   
 }
 
@@ -380,6 +408,10 @@ section.cards > a.featured:hover {
 @media only screen and (max-width: 970px) {
   section {
     padding: 20px;
+  }
+
+  section.cards > .card-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
   /* For the pow changes */
   section.pow figure {

@@ -50,53 +50,11 @@ export default function Home () {
           
           {/* For the text on the right */}
           <figcaption>
-            <h1><span className="h1-one">discover </span><span className="h1-two">timeless </span><span className="h1-three"> animatography</span></h1>
+            <h1><span className="h1-one">discover </span><span className="h1-two">timeless </span><span className="h1-three"> artwork</span></h1>
             <h2>Silver K Gallery - Celebrating 40 years of Artistic Innovation</h2>
 
             <Link to={"/collection"}>Explore our collection</Link>
           </figcaption>
-        </figure>
-      </section>
-  
-      <section className="pow">
-        <figure ref={powfigureRef}>
-          <figcaption ref={figcaptionRef}>
-            <h3>Piece of the Month</h3>
-            <motion.h2 
-              initial={{ opacity: 0, y: 100 }}
-              animate={isTextInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
-              transition={{ 
-                duration: 0.5, 
-                ease: [0.16, 1, 0.3, 1], // cubic-bezier
-                delay: 0 // 0.2 second delay
-              }}
-            >
-              The Engine of Imagination
-            </motion.h2>
-            <motion.p
-              initial={{ opacity: 0, y: 100 }}
-              animate={isTextInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
-              transition={{ 
-                duration: 0.5, 
-                ease: [0.16, 1, 0.3, 1], // cubic-bezier
-                delay: 0.2 
-              }}
-            >
-              Walt Disney had a long fascination with trains.
-His father and an uncle had spent time working on railroads, and as a teen in Kansas City Walt did a brief stint selling newspapers and snacks on trains.  Later, Walt constructed elaborate model train sets as a way to unwind from the stress of his job. In the late 1940s, he built himself a one-eighth-scale steam locomotive, and after moving into a new home in the Holmby Hills section of Los Angeles in 1950 he laid half a mile of tracks around the property for his railroad. He would dress up in a train engineer’s clothing and give visitors rides on his Carolwood Pacific Railroad, named for the street he lived on.
-His passion for trains is reflected at Disneyland, which has been home to its own railroad since opening in 1955.
-            </motion.p>
-          </figcaption>
-          <div className="gap"></div>
-          <motion.img 
-           draggable={false}
-           initial={{ opacity: 0.1 }}
-            animate={isInView ? { opacity: 1 } : { opacity: 0.1 }}
-            transition={{ 
-              duration: 1, 
-              ease: [0.16, 1, 0.3, 1], // cubic-bezier
-            }}
-           src={process.env.PUBLIC_URL + "/img/engineofimagination.jpg"} alt="Piece of the week" />
         </figure>
       </section>
 
@@ -140,6 +98,48 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
       {/* Photography */}
       <section className="cards">
         
+      </section>
+
+      <section className="pow">
+        <figure ref={powfigureRef}>
+          <figcaption ref={figcaptionRef}>
+            <h3>Piece of the Month</h3>
+            <motion.h2 
+              initial={{ opacity: 0, y: 100 }}
+              animate={isTextInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+              transition={{ 
+                duration: 0.5, 
+                ease: [0.16, 1, 0.3, 1], // cubic-bezier
+                delay: 0 // 0.2 second delay
+              }}
+            >
+              The Engine of Imagination
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 100 }}
+              animate={isTextInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+              transition={{ 
+                duration: 0.5, 
+                ease: [0.16, 1, 0.3, 1], // cubic-bezier
+                delay: 0.2 
+              }}
+            >
+              Walt Disney had a long fascination with trains.
+His father and an uncle had spent time working on railroads, and as a teen in Kansas City Walt did a brief stint selling newspapers and snacks on trains.  Later, Walt constructed elaborate model train sets as a way to unwind from the stress of his job. In the late 1940s, he built himself a one-eighth-scale steam locomotive, and after moving into a new home in the Holmby Hills section of Los Angeles in 1950 he laid half a mile of tracks around the property for his railroad. He would dress up in a train engineer’s clothing and give visitors rides on his Carolwood Pacific Railroad, named for the street he lived on.
+His passion for trains is reflected at Disneyland, which has been home to its own railroad since opening in 1955.
+            </motion.p>
+          </figcaption>
+          <div className="gap"></div>
+          <motion.img 
+           draggable={false}
+           initial={{ opacity: 0.1 }}
+            animate={isInView ? { opacity: 1 } : { opacity: 0.1 }}
+            transition={{ 
+              duration: 1, 
+              ease: [0.16, 1, 0.3, 1], // cubic-bezier
+            }}
+           src={process.env.PUBLIC_URL + "/img/engineofimagination.jpg"} alt="Piece of the week" />
+        </figure>
       </section>
     </>
   );

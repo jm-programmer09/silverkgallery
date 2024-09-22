@@ -190,7 +190,6 @@ section.pow figcaption > p {
 /* CARDS and then non-special cards  */
 /* For the special cards */
 section.cards {
-  padding-top: 0px;
   margin-right: 0;
   align-items: center;
   display: flex;
@@ -451,7 +450,7 @@ section.cards > .card-grid {
     min-height: 320px;
     max-height: 320px;
     border-radius: 20px;
-    margin-right: 15px;
+    margin-right: 20px;
   }
   section.main figcaption > h1 > span {
     display: inline;

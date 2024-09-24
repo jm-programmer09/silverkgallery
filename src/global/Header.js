@@ -49,7 +49,7 @@ export default function Header () {
         <Link to="/events" className={location.pathname === "/events" ? "selected" : ""}>Our News</Link>
         <Link to="/contactus" className={location.pathname === "/contactus" ? "selected" : ""} >Contact Us</Link>
 
-        <SearchIcon classname="header-search-icon" size={24} onClick={() => { searchBarOpen ? setSearchBarOpen(false) : setSearchBarOpen(true) }}/>
+        {!location.pathname.includes("collection") && <SearchIcon classname="header-search-icon" size={24} onClick={() => { searchBarOpen ? setSearchBarOpen(false) : setSearchBarOpen(true) }}/> }
         <button onClick={() => {mobileMenuOpen ? setMobileMenuOpen(false) : setMobileMenuOpen(true)}}><div className={mobileMenuOpen ? "open" : undefined}></div></button>
       </nav>
 
@@ -94,7 +94,7 @@ export default function Header () {
         <div className="formsec">
           <button type="submit"><SearchIcon classname="icon" size={24} /></button>
 
-          <input placeholder="Search..." name="search" />
+          <input placeholder="Search..." name="search" autoComplete="off" />
 
           <button type="button" onClick={() => { setSearchBarOpen(false)}} className="close"></button>
         </div>

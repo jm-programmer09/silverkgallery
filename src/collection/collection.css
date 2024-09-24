@@ -1,0 +1,177 @@
+/* This is for the search bar */
+section.searchbar {
+  margin: 0;
+  padding: 0;
+  margin-left: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* This is for the search result info thing */
+section.searchbar > h2 {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* For the stuff inside of the h2 */
+section.searchbar h2 > span.title {
+  font-weight: 600;
+  font-size: 15px;
+}
+section.searchbar h2 > span.result {
+  color: rgb(130, 130, 130);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* This is for the actual search bar and not for the bit above */
+section.searchbar > form {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 50px;
+  align-items: center;
+}
+
+/* input area */
+section.searchbar form > button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.searchbar form > input {
+  border: none;
+  flex-grow: 1;
+  font-size: 18px;
+  border-radius: none;
+  z-index: 10;
+  background-color: transparent;
+}
+section.searchbar form > input:focus {
+  border: none;
+  outline: none;
+}
+
+section.searchbar::after {
+  position: absolute;
+  content: '';
+  bottom: -6px;
+  height: 0.5px;
+  background-color: rgb(170, 170, 170);
+  width: calc(100% - 50px);
+  transition: all 100ms;
+}
+section.searchbar:focus-within::after {
+  background-color: rgb(80, 80, 80);
+  transition: all 100ms;
+}
+
+/* This is to seperate the items that can be searched up from the menu on the left */
+section.collection {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+/* The navbar on the left */
+section.collection nav {
+  max-width: 200px;
+  width: 200px;
+  padding-top: 30px;
+  background-color: white;
+  padding-left: 40px;
+  height: calc(100vh - var(--header-height) - 72.8px);
+}
+
+/* The nav bar is for the elements */
+section.collection nav > ul {
+  padding-left: 0;
+}
+/* This is for the title */
+section.collection nav > h3 {
+  margin: 0;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+/* THis is for the actual menu */
+section.collection nav > ul > li {
+  list-style-type: none;
+  margin-top: 20px;
+  position: relative;
+}
+
+/* This is for the gray border line */
+section.collection nav > ul > li::after {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: -5px;
+  height: 0.5px;
+  width: calc(100% + 10px);
+  background-color: rgb(170, 170, 170);
+}
+
+section.collection nav > ul > li.top::before {
+  content: '';
+  position: absolute;
+  height: 0.5px;
+  top: -10px;
+  left: -5px;
+  width: calc(100% + 10px);
+  background-color: rgb(170, 170, 170);
+}
+
+/* End of the grey border line */
+
+section.collection nav > ul > li > h4 {
+  margin: 0;
+  cursor: pointer;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+/* This is for the elements inside of the actual li */
+section.collection  ul.theme-list {
+  list-style-type: none;
+  padding-left: 20px;
+}
+section.collection ul.theme-list > li {
+  margin-top: 5px;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+/* This is for the label of the inputcheckbox */
+section.collection ul.theme-list label {
+  cursor: pointer;
+}
+section.collection ul.theme-list input[type="checkbox"] {
+  accent-color: var(--primary);
+}

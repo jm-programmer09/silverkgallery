@@ -56,30 +56,6 @@ function MenuOpener({ title, data }) {
 export default function OurCollection () {
   return (
     <>
-      <section className="searchbar">
-        {/* We will have to update this H2 based on the search */}
-        <h2>
-          <span className="title">Gallery</span>
-          <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" fill="rgb(130, 130, 130)" version="1.1" width="8px" height="8px" viewBox="0 0 103.536 103.536" >
-          <g>
-            <g>
-              <path d="M0.65,91.928c1.221,2.701,3.881,4.3,6.665,4.3c1.006,0,2.029-0.209,3.006-0.65l88.917-40.195    c2.688-1.216,4.381-3.925,4.295-6.873c-0.085-2.948-1.934-5.554-4.687-6.609L9.929,7.794C6.17,6.352,1.933,8.23,0.489,12.001    c-1.447,3.769,0.438,7.995,4.207,9.44l72.569,27.834L4.299,82.255C0.62,83.92-1.012,88.249,0.65,91.928z"/>
-            </g>
-          </g>
-          </svg>
-          <span className="result">{"Results__HERE"}</span>
-        </h2>
-
-        {/* The search bar */}
-        <form>
-          <button type="submit"><SearchIcon size={24} classname={"searchicon"}/> </button>
-
-          <input required="" type="text" className="search" name="search" autoComplete="off" placeholder="Search..."/>
-
-        </form>
-      </section>
-
-
       <section className="collection">
         {/* This is for the searching */}
         <nav>
@@ -105,6 +81,42 @@ export default function OurCollection () {
 
           </ul>
         </nav>
+
+
+        {/* This includes the resulting cards and then the search bar */}
+        <section className="result_parent">
+          {/* Searchbar */}
+          <section className="searchbar">
+            {/* We will have to update this H2 based on the search */}
+            <h2>
+              <span className="title">Gallery</span>
+              <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" fill="rgb(130, 130, 130)" version="1.1" width="8px" height="8px" viewBox="0 0 103.536 103.536" >
+              <g>
+                <g>
+                  <path d="M0.65,91.928c1.221,2.701,3.881,4.3,6.665,4.3c1.006,0,2.029-0.209,3.006-0.65l88.917-40.195    c2.688-1.216,4.381-3.925,4.295-6.873c-0.085-2.948-1.934-5.554-4.687-6.609L9.929,7.794C6.17,6.352,1.933,8.23,0.489,12.001    c-1.447,3.769,0.438,7.995,4.207,9.44l72.569,27.834L4.299,82.255C0.62,83.92-1.012,88.249,0.65,91.928z"/>
+                </g>
+              </g>
+              </svg>
+              <span className="result">{"Results__HERE"}</span>
+            </h2>
+
+            {/* The search bar */}
+            <form>
+              <button type="submit"><SearchIcon size={24} classname={"searchicon"}/> </button>
+
+              <input required="" spellCheck="false" type="text" className="search" name="search" autoComplete="off" placeholder="Search..."/>
+
+            </form>
+          </section>
+
+
+          {/* These are the cards here */}
+          <section className="results_child">
+
+            {/* For if there are no results, make it say "We're Sorry. We couldn't find any matches. And then say: "maybe you will like our featured animation works" */}
+          </section>
+
+        </section>
       </section>
     </>
   );

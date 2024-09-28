@@ -1,12 +1,35 @@
+/* This is to seperate the items that can be searched up from the menu on the left */
+section.collection {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 40px;
+  gap: 50px;
+  padding-top: 0;
+  padding-top: 10px;
+}
+
+/* This is the css for the results part */
+/* For the parents of the results */
+section.collection section.result_parent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
 /* This is for the search bar */
 section.searchbar {
   margin: 0;
   padding: 0;
-  margin-left: 40px;
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 /* This is for the search result info thing */
@@ -17,7 +40,6 @@ section.searchbar > h2 {
   margin: 0;
   padding: 0;
   align-items: center;
-  margin-top: 10px;
 }
 
 /* For the stuff inside of the h2 */
@@ -73,28 +95,21 @@ section.searchbar::after {
   height: 0.5px;
   background-color: rgb(170, 170, 170);
   width: calc(100% - 50px);
-  transition: all 100ms;
+  transition: all 200ms;
 }
 section.searchbar:focus-within::after {
-  background-color: rgb(80, 80, 80);
-  transition: all 100ms;
+  background-color: var(--primary);
+  height:2px;
+  transition: all 200ms;
 }
 
-/* This is to seperate the items that can be searched up from the menu on the left */
-section.collection {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
-}
 
 /* The navbar on the left */
 section.collection nav {
   max-width: 200px;
-  width: 200px;
-  padding-top: 30px;
+  min-width: 200px;
+  padding-top: 10px;
   background-color: white;
-  padding-left: 40px;
   height: calc(100vh - var(--header-height) - 72.8px);
 }
 
@@ -106,7 +121,6 @@ section.collection nav > ul {
 section.collection nav > h3 {
   margin: 0;
   margin-bottom: 30px;
-  margin-top: 30px;
   font-weight: 600;
   display: flex;
   flex-direction: row;

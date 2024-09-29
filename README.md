@@ -5,4 +5,4 @@
 - Image src's need to start with process.env.PUBLIC_URL
 - ```npm run deploy``` for uploading to gh-pages
 
-Hours: 250;
+Hours: 265;

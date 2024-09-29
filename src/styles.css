@@ -357,12 +357,6 @@ footer {
 
 /* end of the footer */
 
-@media only screen and (max-width: 460px) {
-  :root {
-    --header-pure-padding: 5px;
-  }
-}
-
 /* Media for the header */
 @media only screen and (max-width: 1030px) {
   header nav.pc {

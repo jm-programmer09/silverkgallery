@@ -58,6 +58,25 @@ export default function Home () {
         </figure>
       </section>
 
+      <section className="mobile-main">
+
+        <h1>Celebrating <big>40</big> years of artistic innovation...</h1>
+
+        <img src={process.env.PUBLIC_URL + "/img/ronniewoods.jpg"} alt="Ronnie Woods Art" draggable={false}/>
+
+        <div className="row">
+          <h2>
+            <span>Discover</span>
+            <span>Timeless</span>
+            <span>Artwork</span>
+          </h2>
+
+          <Link to={"/collection"}>Explore our collection</Link>
+
+        </div>
+
+      </section>
+
       {/* The cards for the themes */}
       {/* Animatiin */}
       <section className="cards">

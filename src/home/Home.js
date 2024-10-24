@@ -98,10 +98,10 @@ export default function Home () {
           <Link to={"/collection/animation/disney"}><img style={{ marginTop: "10px"}} className="disney" src={process.env.PUBLIC_URL + "/img/animation/disney/dislogoblack.svg"} alt="Disney"/></Link>
         </div>
 
-        <Link className="featured" to={"/collection/animation/featured"}>See featured items...</Link>
+        <Link className="featured" to={"/collection/animation/?featured=1+0"}>See featured items...</Link>
       
         <h3>Featured Animation Artwork</h3>
-        
+
         <div className="card-grid">
           <Card id={"animation/marvel/spidermen"} />
           <Card id={"animation/star-wars/whatremains"} />

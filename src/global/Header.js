@@ -15,12 +15,20 @@ export default function Header () {
     window.addEventListener("resize", () => {
       if (window.innerWidth > 1030) setMobileMenuOpen(false);
     });
-  });
+  }, []);
 
   // This is for turning off the search bar and mobile menu shut when the url is changed
   useEffect(() => {
     setMobileMenuOpen(false);
     setSearchBarOpen(false);
+
+    // To scroll the user back up
+    window.scrollTo({
+      top: 0, 
+      left: 0, 
+      behavior: "instant"
+    });
+
   }, [location.pathname]);
 
   // The mobile menu animation entrance effect

@@ -4,6 +4,10 @@ import { Card } from "../global/modules";
 import { motion, useInView } from 'framer-motion';
 import { useRef } from "react";
 
+
+// get rid of this once we move it to the real site
+const initialLINK = "/silverkgallery";
+
 // The special cards for the themes
 const SpecialCard = ({ url, src, logosrc, fromleft, styling = {}, delay = 0}) => {
   const motionReference = useRef(null);
@@ -19,7 +23,7 @@ const SpecialCard = ({ url, src, logosrc, fromleft, styling = {}, delay = 0}) =>
         ease: [0.16, 1, 0.3, 1],
         delay: delay
       }}
-      href={"/collection" + url}
+      href={initialLINK + "/collection" + url}
     >
       <figure>
         <img src={process.env.PUBLIC_URL + `/img` + src} alt="Theme" style={styling}/>
@@ -115,8 +119,16 @@ export default function Home () {
       </section>
 
       {/* Photography */}
-      <section className="cards">
-        
+      <section className="cards" style={{ paddingTop: "0px", paddingBottom: "0px"}}>
+        <h2>Photography</h2>
+
+        {/* Row of the special cards */}
+        <div className="theme-row">
+          <SpecialCard url={"/photography/the-beatles"} src={"/photography/the-beatles/beatles_background.webp"} styling={{ marginLeft: "0px", width: "250px", height: "550px", marginTop: "-40px"}} logosrc={"/photography/the-beatles/beatles.png"} fromleft={true} delay={0.2}/>
+          <SpecialCard url={"/photography/marylin-monroe"} logosrc={"/photography/marylin-monroe/logo.png"} src={"/photography/marylin-monroe/background.webp"} fromleft={true} />
+        </div>
+
+        <h3>Featured Photography Artwork</h3>
       </section>
 
       <section className="pow">

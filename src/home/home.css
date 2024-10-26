@@ -292,6 +292,7 @@ section.cards .theme-row {
 section.cards .theme-row > a {
   height: 400px;
   max-width: 250px;
+  min-width: 250px;
   position: relative;
   overflow: hidden;
   background-color: red;

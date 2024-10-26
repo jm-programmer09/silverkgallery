@@ -6,13 +6,6 @@ import { SearchIcon } from "../global/modules";
 import { useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
 
 // WARNING, we should make a URL check for the __featured__ variable at the start of the MenuIttems function, as if the user manually changes the url, it could cause errors
-// NOTETDJDKJFLJS:LDF
-// NDOJHDJF
-// MAKE IT SO THAT WHEN THE THING IS ON THE ALL FUNCTION, THAT THE FEATURED CAN STILL BE ADDED IN
-
-
-
-
 
 // in the menuOpener function all we need is a function that shows the inputs that are highlighted or not
 function MenuItems ( { title, categories, themes }) {
@@ -26,8 +19,6 @@ function MenuItems ( { title, categories, themes }) {
   const featured = searchParams.get("featured") === null ? [0, 0] : searchParams.get("featured").split(" "); // this will be equal to 0/1+0/1 
   // featured is euqal to null if the .get is empty
   // left is animation and 1 is on and 0 is off 
-
-
 
 
   // to check that the 'all' is selected, check for whether the themes contains any specific themes, and if it doesnt, then all has been selected
@@ -90,7 +81,7 @@ function MenuItems ( { title, categories, themes }) {
   function checkAll (title) {
     // First if there are no categories it is an easy add
     if (categories === undefined) {
-      navigate(`/collection/${title}`);
+      navigate(`/collection/${title}/${featured !== null && `?featured=${featured.join("+")}`}`);
       return;
     }
 
@@ -99,7 +90,7 @@ function MenuItems ( { title, categories, themes }) {
       categories.push(title);
 
       // now putting the categories in
-      navigate(`/collection/${categories.join("+")}/${themes === undefined ? "" : themes.join("+")}`);
+      navigate(`/collection/${categories.join("+")}/${themes === undefined ? "" : themes.join("+")}/${featured !== null && `?featured=${featured.join("+")}`}`);
       return;
     }
 
@@ -119,7 +110,7 @@ function MenuItems ( { title, categories, themes }) {
     if (foundSubThemes) {
       if (!categories.includes(title)) categories.push(title);
 
-      navigate(`/collection/${categories.join("+")}/${themes.join("+")}`);
+      navigate(`/collection/${categories.join("+")}/${themes.join("+")}/${featured !== null && `?featured=${featured.join("+")}`}`);
     } else {
       // this is for making it not all
       categories = categories.filter((value) => {
@@ -127,7 +118,7 @@ function MenuItems ( { title, categories, themes }) {
         return true;
       });
 
-      navigate(`/collection/${categories}/${themes === undefined ? " " : themes.join("+")}`);
+      navigate(`/collection/${categories}/${themes === undefined ? " " : themes.join("+")}/${featured !== null && `?featured=${featured.join("+")}`}`);
     }
 
   }
@@ -135,6 +126,8 @@ function MenuItems ( { title, categories, themes }) {
   // for whether to show the featured or not
   function feature (title) {
     // now changing the zeros
+
+    if (checkAll_Query(title)) checkAll(title);
 
     if (title === "animation") {
       featured[0] = featured[0] === '1' ? '0' : '1';

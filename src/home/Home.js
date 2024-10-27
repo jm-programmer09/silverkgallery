@@ -45,6 +45,8 @@ export default function Home () {
   const figcaptionRef = useRef(null);
   const isInView = useInView(powfigureRef, { once: true});
   const isTextInView = useInView(figcaptionRef, { once: true });
+  const historyRef = useRef(null);
+  const isHistoryInView = useInView(historyRef, {once: true }); 
 
   return (
     <>
@@ -126,6 +128,7 @@ export default function Home () {
         <div className="theme-row">
           <SpecialCard url={"/photography/the-beatles"} src={"/photography/the-beatles/beatles_background.webp"} styling={{ marginLeft: "0px", width: "250px", height: "550px", marginTop: "-40px"}} logosrc={"/photography/the-beatles/beatles.png"} fromleft={true} delay={0.2}/>
           <SpecialCard url={"/photography/marylin-monroe"} logosrc={"/photography/marylin-monroe/logo.png"} src={"/photography/marylin-monroe/background.webp"} fromleft={true} />
+          <SpecialCard url={"/photography/rolling-stones"} logosrc={"/photography/rolling-stones/logo.webp"} src={"/photography/rolling-stones/rollingstones_band.jpeg"} fromleft={false} />
         </div>
 
         <h3>Featured Photography Artwork</h3>
@@ -171,6 +174,96 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
             }}
            src={process.env.PUBLIC_URL + "/img/engineofimagination.jpg"} alt="Piece of the week" />
         </figure>
+      </section>
+
+
+      {/* Have an our history part on the history of silver k gallery */}
+      <section className="history">
+        
+        <figure>
+          <motion.img 
+          initial={ { opacity: 0, x: -200 } }
+          animate={isHistoryInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -200 }}
+              transition={{ 
+                duration: 0.5, 
+                ease: [0.16, 1, 0.3, 1], // cubic-bezier
+                delay: 0
+          }}
+          src={process.env.PUBLIC_URL + "/img/col_sitting.jpg"} draggable={false} />
+          <figcaption>Silver K Gallery's Owner: 
+
+            <a href="tel:0395095577">Colin Kaye</a>
+          </figcaption>
+        </figure>
+        
+        <div className="info">
+          {/* Title */}
+          <h2>Silver K's History</h2>
+
+        {/* List of history */}
+          <div className="inline">
+            {/* The numberiong */}
+            <ol>
+              <li className="order">1</li>
+              <li className="order">2</li>
+              <li className="order">3</li>
+
+            </ol>
+
+            {/* For the text */}
+            <ul>
+              {/* Start of history */}
+              <motion.li
+                initial={{ opacity: 0, x: 100}}
+                animate={isHistoryInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 100}}
+                transition={{
+                  duration: 0.5,
+                  ease: [0.16, 1, 0.3, 1],
+                  delay: 0
+                }}
+              >
+                <h4>Set up shop (1970)</h4>
+                
+                <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+
+              </motion.li>
+
+              <motion.li 
+                initial={{ opacity: 0, x: 100}}
+                animate={isHistoryInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 100}}
+                transition={{
+                  duration: 0.5,
+                  ease: [0.16, 1, 0.3, 1],
+                  delay: 0.2
+                }}
+
+              ref={historyRef}>
+                <h4>Set up shop (1970)</h4>
+                
+                <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+
+              </motion.li>
+
+              <motion.li 
+                initial={{ opacity: 0, x: 100}}
+                animate={isHistoryInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 100}}
+                transition={{
+                  duration: 0.5,
+                  ease: [0.16, 1, 0.3, 1],
+                  delay: 0.4
+                }}
+
+              >
+                <h4>Set up shop (1970)</h4>
+                
+                <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+
+              </motion.li>
+            </ul>
+          </div>
+        
+        </div>
+
       </section>
     </>
   );

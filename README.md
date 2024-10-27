@@ -5,4 +5,5 @@
 - Image src's need to start with process.env.PUBLIC_URL
 - ```npm run deploy``` for uploading to gh-pages
 
-Hours: 320;
+## WARNING, to host on github, this is running on base /silverkgallery - change in home page and check other pages and main router to change it back to base '/'
+Hours: 330;

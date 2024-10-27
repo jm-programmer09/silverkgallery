@@ -393,6 +393,152 @@ section.cards > .card-grid {
 }
 
 
+/* OUR HISTORY */
+section.history {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin: 0 !important;
+  justify-content: space-evenly;
+  padding: 40px;
+  background-color: rgb(221, 221, 221);
+  margin-right: 0;
+  width: 100vw;
+  user-select: auto;
+}
+/* Cols image on the left */
+section.history figure {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section.history figure > img {
+  max-height: 530px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+section.history figcaption {
+  color: var(--p);
+  font-weight: 500;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+section.history figcaption > a {
+  font-style: italic;
+  color: var(--primary);
+  text-decoration: none;
+}
+section.history figcaption > a:hover {
+  text-decoration: underline;
+}
+
+/* For the text on the right */
+section.history > .info {
+  display: flex;
+  --gapping: 20px;
+  flex-direction: column;
+}
+section.history > .info h2 {
+  font-family: "Playfair display", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  font-size: 60px;
+  background-image: linear-gradient(45deg, var(--b-primary), var(--gradientTo));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+/* For the list */
+section.history div.inline {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  padding-top: 20px;
+}
+
+section.history > .info ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 30px;
+  gap: 50px;
+  list-style: none;
+  padding-left: 50px;
+}
+/* For the items */
+section.history ul > li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+/* Inside text */
+section.history li > h4 {
+  margin: 0;
+  font-family: "Montserrat"; 
+  font-size: 20px;
+  color: var(--subtext);
+}
+section.history li > p {
+  color: var(--p);
+  margin: 0;
+  max-width: 500px;
+}
+
+
+
+/* For the numbering */
+section.history ol {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 89px;
+  padding-left: 0;
+}
+section.history ol >  li.order {
+  font-family: "Montserrat", serif;
+  padding: 10px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  color: var(--primary);
+  font-size: 30px;
+  justify-content: center;
+  position: relative;
+}
+section.history ol > li.order::after {
+  content: "";
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  left: 50px;
+  background-color: rgb(240, 240, 240);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+section.history ol > li.order::before {
+  content: "";
+  width: 3px;
+  height: 95px;
+  position: absolute;
+  top: 50px;
+  background-color: rgb(240, 240, 240);
+}
+
+/* END OF OUR HISTORY */
+
+
+
+
 
 /* Mobile compatibility */
 /* For the difference in the cards at the bottom */

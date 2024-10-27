@@ -17,6 +17,11 @@
   
   /* Colour for buttons */
   --b-primary: #012b7f;
+  --gradientTo: #0055ff;
+
+  /* Text */
+  --subtext: #272525;
+  --p: #2c2929;
 
   /* header */
   --header-pure-height: 70px;

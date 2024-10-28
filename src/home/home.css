@@ -546,6 +546,9 @@ section.history ol > li.order::before {
   section.cards > .card-grid {
     display: none;
   }
+  section.cards {
+    padding-bottom: 40px !important;
+  }
   section.cards .mobile-theme-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -553,6 +556,7 @@ section.history ol > li.order::before {
     gap: 30px;
     width: 100%;
     max-width: 630px;
+    margin-top: 10px;
   }
   section.cards .mobile-theme-row > a {
     display: flex;

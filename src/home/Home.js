@@ -98,27 +98,46 @@ export default function Home () {
         
         {/* Mobile theme row */}
         <div className="mobile-theme-row">
-          <Link to={"/collection/animation/marvel"}><img src={process.env.PUBLIC_URL + "/img/animation/marvel/marvelogo.png"} alt="Marvel" /></Link>
-          <Link to={"/collection/animation/simpsons"}><img src={process.env.PUBLIC_URL + "/img/animation/simpsons/simpsonslogo.png"} alt="Simpsons"/></Link>
-          <Link to={"/collection/animation/star-wars"}><img src={process.env.PUBLIC_URL + "/img/animation/star-wars/swlogo.png"} alt="Star Wars" /></Link>
-          <Link to={"/collection/animation/disney"}><img style={{ marginTop: "10px"}} className="disney" src={process.env.PUBLIC_URL + "/img/animation/disney/dislogoblack.svg"} alt="Disney"/></Link>
+          <Link to={"/collection/animation/marvel"}><img src={process.env.PUBLIC_URL + "/img/animation/marvel/marvelogo.png"} alt="Marvel" title="Marvel"/></Link>
+          <Link to={"/collection/animation/simpsons"}><img src={process.env.PUBLIC_URL + "/img/animation/simpsons/simpsonslogo.png"} alt="Simpsons" title="Simpsons"/></Link>
+          <Link to={"/collection/animation/star-wars"}><img src={process.env.PUBLIC_URL + "/img/animation/star-wars/swlogo.png"} alt="Star Wars" title="Star Wars" /></Link>
+          <Link to={"/collection/animation/disney"}><img style={{ marginTop: "10px"}} className="disney" title="disney" src={process.env.PUBLIC_URL + "/img/animation/disney/dislogoblack.svg"} alt="Disney"/></Link>
         </div>
 
-        <Link className="featured" to={"/collection/animation/?featured=1+0"}>See featured items...</Link>
+        <Link className="featured" to={"/collection/animation/?featured=1+0"}>See the featured items...</Link>
       </section>
 
       {/* Photography */}
       <section className="cards" style={{ paddingTop: "0px", paddingBottom: "0px"}}>
-        <h2>Photography</h2>
+        <h2>Rock N' Roll Photography</h2>
 
         {/* Row of the special cards */}
-        {/* Have the animations for these go from center */}
         <div className="theme-row">
           <SpecialCard url={"/photography/the-beatles"} src={"/photography/the-beatles/beatles_background.webp"} styling={{ marginLeft: "0px", width: "250px", height: "550px", marginTop: "-40px"}} logosrc={"/photography/the-beatles/beatles.png"} fromleft={true} delay={0.2}/>
           <SpecialCard url={"/photography/marylin-monroe"} logosrc={"/photography/marylin-monroe/logo.png"} src={"/photography/marylin-monroe/background.webp"} fromleft={true} />
           <SpecialCard url={"/photography/rolling-stones"} logosrc={"/photography/rolling-stones/logo.webp"} src={"/photography/rolling-stones/rollingstones_band.jpeg"} fromleft={false} logoStyling={{ width: "110%", marginBottom: "35px" }} styling={{ marginLeft: "-80px", height: "105%", marginTop: "-10px"}} />
           <SpecialCard url={"/photography/ronnie-woods"} logosrc={"/photography/ronnie-woods/logo.png"} src={"/photography/ronnie-woods/background.jpg"} fromleft={false} delay={.2} styling={{ height: "115%"}} />
         </div>
+
+        {/* Mobile version of above */}
+        <div className="mobile-theme-row">
+          <Link to={"/collection/photography/the-beatles"}>
+            <img src={process.env.PUBLIC_URL + "/img/photography/the-beatles/beatles-mobile.png"} alt="The Beatles" title="The Beatles" />
+          </Link>
+
+          <Link to={"/collection/photography/marylin-monroe"}>
+            <img style={{ transform: "scale(1.2)"}} src={process.env.PUBLIC_URL + "/img/photography/marylin-monroe/logo-mobile.png"} alt="Marylin Monroe" title="Marylin Monroe" />
+          </Link>
+          <Link to={"/collection/photography/rolling-stones"}>
+            <img src={process.env.PUBLIC_URL + "/img/photography/rolling-stones/logo-red.png"} alt="Rolling Stones" title="Rolling Stones" />
+          </Link>
+          <Link to={"/collection/photography/ronnie-woods"}>
+            <img style={{ transform: "scale(0.9)"}} src={process.env.PUBLIC_URL + "/img/photography/ronnie-woods/logo.avif"} alt="Ronnie Woods" title="Ronnie Woods" />
+          </Link>
+        </div>
+
+        <Link className="featured" to={"/collection/photography/?featured=0+1"}>See the featured items...</Link>
+
       </section>
 
       {/* Add a click on bit to take to the featured item */}
@@ -272,7 +291,7 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
 
       {/* Photography */}
       <section className="cards" style={{ paddingTop: "0px"}}>
-        <h3>Featured Photography Artwork</h3>
+        <h3>Featured Rock N' Roll Photography</h3>
       </section>
     </>
   );

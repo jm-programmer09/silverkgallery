@@ -9,7 +9,7 @@ import { useRef } from "react";
 const initialLINK = "/silverkgallery";
 
 // The special cards for the themes
-const SpecialCard = ({ url, src, logosrc, fromleft, styling = {}, delay = 0}) => {
+const SpecialCard = ({ url, src, logosrc, fromleft, styling = {}, delay = 0, logoStyling = {}}) => {
   const motionReference = useRef(null);
   const isInView = useInView(motionReference, { once: true });
 
@@ -30,7 +30,7 @@ const SpecialCard = ({ url, src, logosrc, fromleft, styling = {}, delay = 0}) =>
       </figure>
 
       <figcaption>
-        <img src={process.env.PUBLIC_URL + "/img" + logosrc} draggable="false" alt="Theme Name" />
+        <img src={process.env.PUBLIC_URL + "/img" + logosrc} draggable="false" style={logoStyling} alt="Theme Name" />
 
         <p>Find more</p>
       </figcaption>
@@ -52,7 +52,7 @@ export default function Home () {
     <>
       <section className="main">
         <figure>
-          <img src={process.env.PUBLIC_URL + "/img/ronniewoods.jpg"} alt="Ronnie Woods Art" draggable={false}/>
+          <img src={process.env.PUBLIC_URL + "/img/home_image.jpg"} alt="Ronnie Woods Art" draggable={false}/>
           
           {/* For the text on the right */}
           <figcaption>
@@ -85,7 +85,7 @@ export default function Home () {
 
       {/* The cards for the themes */}
       {/* Animatiin */}
-      <section className="cards">
+      <section className="cards" style={{ paddingBottom: "10px"}}>
         <h2>Animation</h2>
 
         {/* Row of the special cards */}
@@ -105,19 +105,6 @@ export default function Home () {
         </div>
 
         <Link className="featured" to={"/collection/animation/?featured=1+0"}>See featured items...</Link>
-      
-        <h3>Featured Animation Artwork</h3>
-
-        <div className="card-grid">
-          <Card id={"animation/marvel/spidermen"} />
-          <Card id={"animation/star-wars/whatremains"} />
-          <Card id={"animation/marvel/thetruthis"} />
-          <Card id={"animation/star-wars/youweremybrother"} />
-          <Card id={"animation/simpsons/devilandhomer"} />
-          <Card id={"animation/simpsons/heatwave"} />
-          <Card id={"animation/marvel/directflight"} />
-          <Card id={"animation/star-wars/waysoftheforce"} />
-        </div>
       </section>
 
       {/* Photography */}
@@ -125,16 +112,18 @@ export default function Home () {
         <h2>Photography</h2>
 
         {/* Row of the special cards */}
+        {/* Have the animations for these go from center */}
         <div className="theme-row">
           <SpecialCard url={"/photography/the-beatles"} src={"/photography/the-beatles/beatles_background.webp"} styling={{ marginLeft: "0px", width: "250px", height: "550px", marginTop: "-40px"}} logosrc={"/photography/the-beatles/beatles.png"} fromleft={true} delay={0.2}/>
           <SpecialCard url={"/photography/marylin-monroe"} logosrc={"/photography/marylin-monroe/logo.png"} src={"/photography/marylin-monroe/background.webp"} fromleft={true} />
-          <SpecialCard url={"/photography/rolling-stones"} logosrc={"/photography/rolling-stones/logo.webp"} src={"/photography/rolling-stones/rollingstones_band.jpeg"} fromleft={false} />
+          <SpecialCard url={"/photography/rolling-stones"} logosrc={"/photography/rolling-stones/logo.webp"} src={"/photography/rolling-stones/rollingstones_band.jpeg"} fromleft={false} logoStyling={{ width: "110%", marginBottom: "35px" }} styling={{ marginLeft: "-80px", height: "105%", marginTop: "-10px"}} />
+          <SpecialCard url={"/photography/ronnie-woods"} logosrc={"/photography/ronnie-woods/logo.png"} src={"/photography/ronnie-woods/background.jpg"} fromleft={false} delay={.2} styling={{ height: "115%"}} />
         </div>
-
-        <h3>Featured Photography Artwork</h3>
       </section>
 
-      <section className="pow">
+      {/* Add a click on bit to take to the featured item */}
+       {/* Piece of the week goes before history */}
+       <section className="pow">
         <figure ref={powfigureRef}>
           <figcaption ref={figcaptionRef}>
             <h3>Piece of the Month</h3>
@@ -175,7 +164,6 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
            src={process.env.PUBLIC_URL + "/img/engineofimagination.jpg"} alt="Piece of the week" />
         </figure>
       </section>
-
 
       {/* Have an our history part on the history of silver k gallery */}
       <section className="history">
@@ -264,6 +252,27 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
         
         </div>
 
+      </section>
+
+      {/* For the featured items of each */}
+      <section className="cards">
+        <h3>Featured Animation Artwork</h3>
+
+        <div className="card-grid">
+          <Card id={"animation/marvel/spidermen"} />
+          <Card id={"animation/star-wars/whatremains"} />
+          <Card id={"animation/marvel/thetruthis"} />
+          <Card id={"animation/star-wars/youweremybrother"} />
+          <Card id={"animation/simpsons/devilandhomer"} />
+          <Card id={"animation/simpsons/heatwave"} />
+          <Card id={"animation/marvel/directflight"} />
+          <Card id={"animation/star-wars/waysoftheforce"} />
+        </div>
+      </section>
+
+      {/* Photography */}
+      <section className="cards" style={{ paddingTop: "0px"}}>
+        <h3>Featured Photography Artwork</h3>
       </section>
     </>
   );

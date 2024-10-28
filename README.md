@@ -7,4 +7,3 @@
 
 ## WARNING, to host on github, this is running on base /silverkgallery - change in home page and check other pages and main router to change it back to base '/'
 Hours: 330;
-https://silverkgallery.com.au/rock-n-roll-photography/wp-content/uploads/2011/10/Pensive_slider1.jpg - for main home page image

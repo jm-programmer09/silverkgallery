@@ -229,9 +229,9 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
                   delay: 0
                 }}
               >
-                <h4>Set up shop (1970)</h4>
+                <h4>Set up shop (1980)</h4>
                 
-                <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                <p>Silver K Gallery was created to present art in Australia that had never been previously seen in this country</p>
 
               </motion.li>
 
@@ -245,9 +245,9 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
                 }}
 
               ref={historyRef}>
-                <h4>Set up shop (1970)</h4>
+                <h4>6 Galleries Across Australia (1995)</h4>
                 
-                <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                <p>At the peak of the companies expansion, we had a gallery in every capital, and one in the US</p>
 
               </motion.li>
 
@@ -261,9 +261,9 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
                 }}
 
               >
-                <h4>Set up shop (1970)</h4>
+                <h4>Today</h4>
                 
-                <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                <p>We have our original gallery in  <a href="https://www.google.com/maps/place/Silver+K+Gallery/@-37.8559802,145.023579,655m/data=!3m2!1e3!4b1!4m6!3m5!1s0x6ad669de9a472a79:0x4d8a0c22ab0f2f3b!8m2!3d-37.8559802!4d145.023579!16s%2Fg%2F1v9gvm0b?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D">High St, Armadale</a>, specialising in animation art and rock n' roll photography</p>
 
               </motion.li>
             </ul>

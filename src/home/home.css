@@ -438,7 +438,6 @@ section.history figcaption > a:hover {
 /* For the text on the right */
 section.history > .info {
   display: flex;
-  --gapping: 20px;
   flex-direction: column;
 }
 section.history > .info h2 {
@@ -488,7 +487,16 @@ section.history li > p {
   color: var(--p);
   margin: 0;
   max-width: 500px;
+  display: inline-block;
 }
+section.history li > p > a {
+  color: var(--primary);
+  text-decoration: none;
+}
+section.history li > p > a:hover {
+  text-decoration: underline;
+}
+
 
 
 
@@ -611,6 +619,21 @@ section.history ol > li.order::before {
     width: 100%;
   }
 }
+
+/* For the histpry part */
+@media only screen and (max-width: 1250px) {
+  section.history {
+    gap: 0px;
+  }
+
+  section.history figure {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+}
+
+
 @media only screen and (max-width: 1120px) {
   section.main figcaption > h1 > span {
     font-size: 60px;
@@ -624,15 +647,46 @@ section.history ol > li.order::before {
     margin: 0;
     margin-right: 15px;
   }
-  @media screen and (max-width: 1200px) {
-    section.cards > .card-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
+  
+  /* history section */
+  section.history {
+    justify-content: space-between;
   }
-  
-  
+  section.history .info {
+    margin-right: 40px;
+  }
 }
 
+/* Getting rid of the col image */
+@media only screen and (max-width: 1050px) {
+  section.history figure {
+    display: none;
+  }
+  section.history {
+    justify-content: center;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  section.history ol {
+    gap: 110px;
+  }
+  section.history ol > li.order::before {
+    height: 110px;
+  }
+  section.history .info > h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+} 
+
+
+@media screen and (max-width: 1200px) {
+  section.cards > .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 /* Going to mobile size and adding in the menu icon */
 @media only screen and (max-width: 970px) {

@@ -52,7 +52,7 @@ header {
   position: relative;
   top: 0;
   left: 0;
-  width: calc(100vw - 30px);
+  width: calc(100% - 30px);
   display: flex;
   flex-direction: row;
   z-index: 100;
@@ -63,7 +63,6 @@ header {
   align-items: center;
   border-bottom: 1px solid var(--grey);
 }
-
 /* Logo */
 header > a {
   display: flex;

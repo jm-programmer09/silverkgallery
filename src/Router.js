@@ -9,6 +9,7 @@ import Header from "./global/Header";
 import Footer from "./global/Footer";
 import OurCollection from "./collection/Collection";
 import NotFound from "./global/NotFound";
+import { ScrollButton } from "./global/modules";
 
 
 export default function Router () {
@@ -33,6 +34,9 @@ export default function Router () {
       </Routes>
 
       <Footer />
+
+      {/* For the scroll button when the user has scrolled down too far (accessibility) */}
+      <ScrollButton />
     </BrowserRouter>
   );
 }

@@ -2,7 +2,7 @@ import "./card.css";
 import { Link } from "react-router-dom";
 import data from "../products.json";
 import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 // For the search icon
 export function SearchIcon ({ classname, size = 24, onClick=null }) {
@@ -89,4 +89,37 @@ export function Card ({ id}) {
     </Link>
     </motion.div>
   );
+}
+
+
+// This is for the button if the user has scrolled down far 
+export function ScrollButton () {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  // checking the scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.pageYOffset;
+      setScrollPosition(position);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
+  // make it come in on a motion animation
+
+  return (
+    <>
+      <div onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }) }}  className="scroll-button" style={{ display: scrollPosition > 2000 ? "flex" : "none"}} >
+        <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none">
+          <path d="M12 5V19M12 5L6 11M12 5L18 11" stroke="#003399" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      </div>
+    </>
+  )
 }

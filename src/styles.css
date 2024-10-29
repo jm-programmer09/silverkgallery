@@ -361,6 +361,39 @@ footer {
 
 /* end of the footer */
 
+/* Start of the Scroll button styling */
+.scroll-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  box-shadow: 1px 3px 11px 0px rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: fixed;
+  z-index: 1000;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid rgb(180, 180, 180);
+  transition: all ease-out 150ms;
+}
+.scroll-button:hover {
+  transition: all ease-out 150ms;
+  transform: translateY(-5px);
+}
+
+.scroll-button > svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--primary);
+}
+
+
+/* End of the scroll button styling */
+
+
+
 /* Media for the header */
 @media only screen and (max-width: 1030px) {
   header nav.pc {

@@ -62,8 +62,6 @@ export function Card ({ id}) {
   // For adding the cool animation
   const cardRef = useRef(null);
   const cardInView = useInView(cardRef, { once: true });
-
-
   const element = data[id.split("/")[0]][id.split("/")[1]][id.split("/")[2]];
   
   return (
@@ -95,11 +93,14 @@ export function Card ({ id}) {
 // This is for the button if the user has scrolled down far 
 export function ScrollButton () {
   const [scrollPosition, setScrollPosition] = useState(0);
+  const scrollButtonRef = useRef(null);
+  const buttonInView = useInView(scrollButtonRef, { once: false });
 
   // checking the scroll
   useEffect(() => {
     const handleScroll = () => {
       const position = window.pageYOffset;
+      console.log(position);
       setScrollPosition(position);
     };
 
@@ -115,11 +116,18 @@ export function ScrollButton () {
 
   return (
     <>
-      <div onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }) }}  className="scroll-button" style={{ display: scrollPosition > 2000 ? "flex" : "none"}} >
+      <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      animate={buttonInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30}}
+      transition={{
+        duration: 0.5,
+        ease: [0.16, 1, 0.3, 1]
+      }}
+      ref={scrollButtonRef} onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }) }}  className="scroll-button" style={{ display: scrollPosition > 1000 ? "flex" : "none"}} >
         <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none">
           <path d="M12 5V19M12 5L6 11M12 5L18 11" stroke="#003399" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
-      </div>
+      </motion.div>
     </>
   )
 }

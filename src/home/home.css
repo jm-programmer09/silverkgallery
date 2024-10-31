@@ -671,7 +671,7 @@ section.history ol > li.order::before {
   }
 }
 
-@media only screen and (max-width: 615px) {
+@media only screen and (max-width: 700px) {
   section.history ol {
     gap: 110px;
   }
@@ -683,6 +683,17 @@ section.history ol > li.order::before {
     font-size: 50px;
   }
 } 
+
+@media only screen and (max-width: 550px) {
+  section.history {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  section.history > .info {
+    margin: 0;
+  }
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -742,6 +753,27 @@ section.history ol > li.order::before {
   }
   section.cards .mobile-theme-row > a > img.disney {
     transform: scale(5);
+  }
+  section.history .info > h2 {
+    font-size: 40px;
+  }
+  section.history li > h4 {
+    font-size: 18px;
+  }
+  section.history ol {
+    gap: 130px;
+  }
+  section.history ol > li.order::before {
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  section.history  ol {
+    gap: 153px;
+  }
+  section.history ol > li.order::before {
+    height: 153px;
   }
 }
 

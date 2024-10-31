@@ -547,6 +547,91 @@ section.history ol > li.order::before {
 
 /* END OF OUR HISTORY */
 
+/* The quote at the top */
+section.quote {
+  display: flex;
+  justify-content: center;
+}
+section.quote > h2 {
+  margin:  0;
+  color:var(--subtext);
+  padding: 0;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  font-style: italic;
+  max-width: 700px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  text-shadow: 4px 2px 4px rgb(200, 200, 200);
+}
+section.quote  i {
+  font-style: italic;
+  font-weight: 600;
+  font-family: "Playfair display", sans-serif;
+  color: black;
+}
+section.quote span {
+  position: relative;
+  color: var(--primary);
+  letter-spacing: 2px;
+  font-size: 35px;
+}
+
+/* For the quotation marks */
+section.quote h2 > svg.first {
+  width: 40px;
+  height: fit-content;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+section.quote h2 > svg.last {
+  width: 40px;
+  position: absolute;
+  height: fit-content;
+  transform: rotate(180deg);
+}
+
+section.quote h2 > div.first::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: var(--primary);
+  width: 80px;
+  height: 2.5px;
+}
+section.quote h2 > div.first::after {
+  content: "";
+  position: absolute;
+  background-color: var(--primary);
+  width: 2.5px;
+  height: 30px;
+  left: 10px;
+  top: -10px;
+}
+
+section.quote h2 > div.last::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+  background-color: var(--primary);
+  width: 80px;
+  height: 2.5px;
+}
+section.quote h2 > div.last::after {
+  content: "";
+  position: absolute;
+  background-color: var(--primary);
+  width: 2px;
+  height: 30px;
+  right: 10px;
+  bottom: -10px;
+}
+/* End of the quote at the top */
+
 
 
 

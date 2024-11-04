@@ -4,6 +4,8 @@ import data from "../products.json";
 import { motion } from 'framer-motion';
 import { SearchIcon } from "../global/modules";
 import { useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
+import Fuse from "fuse.js";
+import { Card } from "../global/modules";
 
 // WARNING, we should make a URL check for the __featured__ variable at the start of the MenuIttems function, as if the user manually changes the url, it could cause errors
 
@@ -25,7 +27,6 @@ function MenuItems ( { title, categories, themes }) {
   // for featured, the searchParams will be used
 
   // use filter to do it
-
   function addordelete(theme, themes, title) {
     let foundTheme = false;
   
@@ -51,7 +52,6 @@ function MenuItems ( { title, categories, themes }) {
     // Navigate regardless of whether we added or removed
     navigate(`/collection/${categories.join("+")}/${themes.join("+")}`);
   }
-
   function checkAll_Query (title) {
     // to check if the All should be checked or not, we are looking for whether the category is there and whether it has any of its sub themes
     if (categories === undefined || !categories.includes(title)) return false; // for if there is no category or the category is not the title
@@ -74,7 +74,6 @@ function MenuItems ( { title, categories, themes }) {
 
     return true; // if it is to be selected
   }
-
   // this is the function for when the all button is clicked, whether it make it all or not, so if it is already currently all, then make it not all
   // and when making it not all, just delete the category title
   // and when making it all, add the category in and delete all the themes 
@@ -173,9 +172,6 @@ function MenuItems ( { title, categories, themes }) {
   );
 }
 
-
-
-
 // Main function
 export default function OurCollection () {
   // For getting the /:categories/:themes
@@ -198,6 +194,45 @@ export default function OurCollection () {
   const [animationMenuOpen, setAnimationMenuOpen] = useState(categories !== undefined ? (categories.split("+").includes("animation") ? true : false ) : false);
   const [photographyMenu, setPhotographyMenu] = useState(<></>);
   const [photographyMenuOpen, setPhotographyMenuOpen] = useState(categories !== undefined ? (categories.split("+").includes("photography") ? true : false) : false);
+
+
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const [filteredProducts, setFilteredProducts] = useState([]);
+
+  // Initialize Fuse for search
+  const fuse = new Fuse(Object.entries(data).flatMap(([category, subcategories]) => 
+    Object.entries(subcategories).flatMap(([subcategory, items]) => 
+      Object.entries(items).map(([id, item]) => ({
+        id: `${category}/${subcategory}/${id}`,
+        ...item,
+        category,
+        subcategory
+      }))
+    )
+  ), {
+    keys: ['title', 'type', 'tags'],
+    threshold: 0.3,
+  });
+
+  useEffect(() => {
+    // Filter and search products
+    const results = searchQuery
+      ? fuse.search(searchQuery).map(result => result.item)
+      : Object.entries(data).flatMap(([category, subcategories]) => 
+          Object.entries(subcategories).flatMap(([subcategory, items]) => 
+            Object.entries(items).map(([id, item]) => ({
+              id: `${category}/${subcategory}/${id}`,
+              ...item,
+              category,
+              subcategory
+            }))
+          )
+        );
+
+    setFilteredProducts(results);
+  }, [searchQuery]);
+
 
   // Contains the inside part of the menu
   useEffect(() => {
@@ -348,32 +383,37 @@ export default function OurCollection () {
         <section className="result_parent">
           {/* Searchbar */}
           <section className="searchbar">
-            {/* We will have to update this H2 based on the search */}
-            <h2>
-              <span className="title">Gallery</span>
-              <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" fill="rgb(130, 130, 130)" version="1.1" width="8px" height="8px" viewBox="0 0 103.536 103.536" >
-              <g>
-                <g>
-                  <path d="M0.65,91.928c1.221,2.701,3.881,4.3,6.665,4.3c1.006,0,2.029-0.209,3.006-0.65l88.917-40.195    c2.688-1.216,4.381-3.925,4.295-6.873c-0.085-2.948-1.934-5.554-4.687-6.609L9.929,7.794C6.17,6.352,1.933,8.23,0.489,12.001    c-1.447,3.769,0.438,7.995,4.207,9.44l72.569,27.834L4.299,82.255C0.62,83.92-1.012,88.249,0.65,91.928z"/>
-                </g>
-              </g>
-              </svg>
-              <span className="result">{"Results__HERE"}</span>
-            </h2>
-
             {/* The search bar */}
             <form>
               <button type="submit"><SearchIcon size={24} classname={"searchicon"}/> </button>
 
-              <input required="" spellCheck="false" type="text" className="search" name="search" autoComplete="off" placeholder="Search..."/>
+              <input value={searchQuery} onChange={(event) => { setSearchQuery(event.target.value);  }  } spellCheck="false" type="text" className="search" name="search" autoComplete="off" placeholder="Search..."/>
 
             </form>
+
+            <h2>
+              <span className="title">Silver K Gallery</span>
+              <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" fill="rgb(130, 130, 130)" version="1.1" width="8px" height="8px" viewBox="0 0 103.536 103.536" >
+                <g>
+                  <g>
+                    <path d="M0.65,91.928c1.221,2.701,3.881,4.3,6.665,4.3c1.006,0,2.029-0.209,3.006-0.65l88.917-40.195    c2.688-1.216,4.381-3.925,4.295-6.873c-0.085-2.948-1.934-5.554-4.687-6.609L9.929,7.794C6.17,6.352,1.933,8.23,0.489,12.001    c-1.447,3.769,0.438,7.995,4.207,9.44l72.569,27.834L4.299,82.255C0.62,83.92-1.012,88.249,0.65,91.928z"/>
+                  </g>
+                </g>
+              </svg>
+              <span className="result">{categories !== undefined && (categories.includes("animation") && categories.includes("photography") ? "Animation + Photography" : ( categories.includes("animation") ? "Animation" : (categories.includes("photography") && "Photography"  ) ) ) } </span>
+            </h2>
           </section>
 
 
           {/* These are the cards here */}
           <section className="results_child">
-
+          {filteredProducts.length > 0 ? (
+            filteredProducts.map(product => (
+              <Card key={product.id} id={product.id} />
+            ))
+          ) : (
+            <p>No results found. Maybe you will like our featured works.</p>
+          )}
             {/* For if there are no results, make it say "We're Sorry. We couldn't find any matches. And then say: "maybe you will like our featured animation works" */}
           </section>
 

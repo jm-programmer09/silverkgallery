@@ -10,6 +10,7 @@ import Footer from "./global/Footer";
 import OurCollection from "./collection/Collection";
 import NotFound from "./global/NotFound";
 import { ScrollButton } from "./global/modules";
+import Item from "./collection/Item";
 
 
 export default function Router () {
@@ -27,10 +28,8 @@ export default function Router () {
 
         {/* For if the page is not found */}
         <Route path="*" element={<NotFound />} />
-        {/* Beneath is so that the user can be redirected to not found */}
-        <Route path="/error/page-not-found" element={ <NotFound />} />
 
-
+        <Route path="/collection/:categories?/:themes?/:id" element={ <Item /> } />
       </Routes>
 
       <Footer />

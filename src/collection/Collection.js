@@ -4,10 +4,58 @@ import data from "../products.json";
 import { motion } from 'framer-motion';
 import { SearchIcon } from "../global/modules";
 import { useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
-import Fuse from "fuse.js";
-import { Card } from "../global/modules";
+import {Item,  shuffleArray } from "./Item";
 
-// WARNING, we should make a URL check for the __featured__ variable at the start of the MenuIttems function, as if the user manually changes the url, it could cause errors
+// END OF IMPORTS
+// we need to add a featured section to the searchJSON
+
+
+// functions for the searching 
+function searchJSON(obj, searchTerm, checks) {
+  const results = [];
+  const lowercaseSearchTerm = searchTerm.toLowerCase();
+
+  function searchItem(item, path) {
+    if (item.title && item.tags) {
+      if (item.title.toLowerCase().includes(lowercaseSearchTerm) ||
+          item.tags.some(tag => tag.toLowerCase().includes(lowercaseSearchTerm))) {
+            
+        results.push(path);
+      }
+    }
+  }
+
+  function traverseObject(obj, currentPath = []) {
+    for (const [key, value] of Object.entries(obj)) {
+      const newPath = [...currentPath, key];
+      if (typeof value === 'object' && value !== null) {
+        if (value.title && value.tags) {
+          searchItem(value, newPath.join('.'));
+        } else {
+          traverseObject(value, newPath);
+        }
+      }
+    }
+  }
+
+  for (const [category, categoryChecks] of Object.entries(checks)) {
+    if (obj[category]) {
+      if (categoryChecks.all) {
+        traverseObject(obj[category], [category]);
+      } else {
+        for (const [theme, isChecked] of Object.entries(categoryChecks)) {
+          if (isChecked && theme !== 'all' && obj[category][theme]) {
+            traverseObject(obj[category][theme], [category, theme]);
+          }
+        }
+      }
+    }
+  }
+
+  return results;
+}
+
+
 
 // in the menuOpener function all we need is a function that shows the inputs that are highlighted or not
 function MenuItems ( { title, categories, themes }) {
@@ -166,8 +214,6 @@ function MenuItems ( { title, categories, themes }) {
           </li>
         )
       })}
-
-
     </>
   );
 }
@@ -195,45 +241,20 @@ export default function OurCollection () {
   const [photographyMenu, setPhotographyMenu] = useState(<></>);
   const [photographyMenuOpen, setPhotographyMenuOpen] = useState(categories !== undefined ? (categories.split("+").includes("photography") ? true : false) : false);
 
-
+  // we have to do the url search
+  // The search request by the user
   const [searchQuery, setSearchQuery] = useState("");
-
-  const [filteredProducts, setFilteredProducts] = useState([]);
-
-  // Initialize Fuse for search
-  const fuse = new Fuse(Object.entries(data).flatMap(([category, subcategories]) => 
-    Object.entries(subcategories).flatMap(([subcategory, items]) => 
-      Object.entries(items).map(([id, item]) => ({
-        id: `${category}/${subcategory}/${id}`,
-        ...item,
-        category,
-        subcategory
-      }))
-    )
-  ), {
-    keys: ['title', 'type', 'tags'],
-    threshold: 0.3,
+  const [products, setProducts] = useState([]);
+  const [check, setCheck] = useState({
+    animation: {
+      all: false,
+    },
+    photography: {
+      all: false,
+    }
   });
 
-  useEffect(() => {
-    // Filter and search products
-    const results = searchQuery
-      ? fuse.search(searchQuery).map(result => result.item)
-      : Object.entries(data).flatMap(([category, subcategories]) => 
-          Object.entries(subcategories).flatMap(([subcategory, items]) => 
-            Object.entries(items).map(([id, item]) => ({
-              id: `${category}/${subcategory}/${id}`,
-              ...item,
-              category,
-              subcategory
-            }))
-          )
-        );
-
-    setFilteredProducts(results);
-  }, [searchQuery]);
-
-
+  // this is for the pure location.pathname changes
   // Contains the inside part of the menu
   useEffect(() => {
     // Everytime the url changes, the menu will update with it
@@ -252,8 +273,8 @@ export default function OurCollection () {
 
       // To not waste time,
       if (parsedCategories.length === 0) {
-        setAnimationMenu(<MenuItems title={"animation"} categories={parsedCategories} themes={parseThemes} />);
-        setPhotographyMenu(<MenuItems title={"photography"} categories={parsedCategories} themes={parseThemes} />);
+        setAnimationMenu(<MenuItems title={"animation"} categories={parsedCategories} themes={parseThemes} check={check} changeCheck={setCheck} />);
+        setPhotographyMenu(<MenuItems title={"photography"} categories={parsedCategories} themes={parseThemes} check={check} changeCheck={setCheck}/>);
 
         navigate("/collection");
         return;
@@ -262,8 +283,8 @@ export default function OurCollection () {
 
       // Just add the categories in
       if (themes === undefined) { 
-        setAnimationMenu(<MenuItems title={"animation"} categories={parsedCategories} themes={parseThemes} />);
-        setPhotographyMenu(<MenuItems title={"photography"} categories={parsedCategories} themes={parseThemes} />);
+        setAnimationMenu(<MenuItems title={"animation"} categories={parsedCategories} themes={parseThemes} check={check} changeCheck={setCheck}/>);
+        setPhotographyMenu(<MenuItems title={"photography"} categories={parsedCategories} themes={parseThemes} check={check} changeCheck={setCheck}/>);
 
         navigate(`/collection/${parsedCategories.join("+")}`);
         return;
@@ -288,8 +309,8 @@ export default function OurCollection () {
         }
       });
 
-    setAnimationMenu(<MenuItems title={"animation"} categories={parsedCategories} themes={parseThemes} />);
-    setPhotographyMenu(<MenuItems title={"photography"} categories={parsedCategories} themes={parseThemes} />);
+    setAnimationMenu(<MenuItems title={"animation"} categories={parsedCategories} themes={parseThemes} check={check} changeCheck={setCheck}/>);
+    setPhotographyMenu(<MenuItems title={"photography"} categories={parsedCategories} themes={parseThemes} check={check} changeCheck={setCheck}/>);
 
     if (categories.split("+").length === parsedCategories.length && parseThemes.length === themes.split("+").length) return; // no rerender
 
@@ -298,11 +319,68 @@ export default function OurCollection () {
     } 
 
     // This is for changing the menus
-    setAnimationMenu(<MenuItems title={"animation"} categories={parsedCategories} themes={parseThemes} />);
-    setPhotographyMenu(<MenuItems title={"photography"} categories={parsedCategories} themes={parseThemes} />);
-
-
+    setAnimationMenu(<MenuItems title={"animation"} categories={parsedCategories} themes={parseThemes} check={check} changeCheck={setCheck}/>);
+    setPhotographyMenu(<MenuItems title={"photography"} categories={parsedCategories} themes={parseThemes} check={check} changeCheck={setCheck}/>);
   }, [location.pathname]);
+
+  // FOr changing the check when the user puts in a search or when the location is change
+  // this is also for searching for elements
+  useEffect(() => {
+    // Adding in all of the themes and checking which ones to make true or false
+    // For both of the animation and photography
+    const newCheck = { ...check };
+    for (const category of Object.keys(data)) {
+      const themes_of_category = Object.keys(data[category]);
+
+      // if there are no themes, but there are categories
+      if (themes === undefined && categories) {
+        newCheck[category].all = categories.includes(category);
+
+        // setting all the themes to false, but the all is true
+        themes_of_category.forEach(theme => {
+          newCheck[category][theme] = false;
+        })
+      } else if (themes) { // if there are themes that are found
+        // if a theme from the category is found, then make the .all = false, otherwise make it true
+        let theme_from_category_found = false;
+
+        themes_of_category.forEach(theme => {
+          if (!theme_from_category_found && themes.includes(theme)) {
+            theme_from_category_found = true;
+          } 
+
+          // then changing the newCheck
+          newCheck[category][theme] = themes.includes(theme);
+        });
+
+        // now for the all part
+        if (theme_from_category_found) {
+          newCheck[category].all = false;
+        } else {
+          newCheck[category].all = true;
+        }
+      } else if (categories !== undefined && !categories.includes(category)) {
+        // make everything false from this category
+        newCheck[category].all = false;
+        themes_of_category.forEach(theme => {
+          newCheck[category][theme] = false;
+        });
+      } else { // if there are no categories and no themes
+        newCheck[category].all = true;
+        themes_of_category.forEach(theme => {
+          newCheck[category][theme] = false;
+        });
+      }
+    }
+
+    setCheck(newCheck);
+
+    // for adding in the results
+    const results = shuffleArray(searchJSON(data, searchQuery, check));
+    setProducts(results);
+
+
+  }, [location.pathname, searchQuery])
 
 
   return (
@@ -406,10 +484,10 @@ export default function OurCollection () {
 
 
           {/* These are the cards here */}
-          <section className="results_child">
-          {filteredProducts.length > 0 ? (
-            filteredProducts.map(product => (
-              <Card key={product.id} id={product.id} />
+          <section className="results_child" >
+          {products.length > 0 ? (
+            products.map(productID => (
+              <Item key={productID} id={productID} />
             ))
           ) : (
             <p>No results found. Maybe you will like our featured works.</p>

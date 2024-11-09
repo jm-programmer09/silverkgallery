@@ -10,8 +10,7 @@ import Footer from "./global/Footer";
 import OurCollection from "./collection/Collection";
 import NotFound from "./global/NotFound";
 import { ScrollButton } from "./global/modules";
-import Item from "./collection/Item";
-
+import Product from "./collection/selector/Product";
 
 export default function Router () {
   return (
@@ -29,7 +28,7 @@ export default function Router () {
         {/* For if the page is not found */}
         <Route path="*" element={<NotFound />} />
 
-        <Route path="/collection/:categories?/:themes?/:id" element={ <Item /> } />
+        <Route path="/collection/:categories?/:themes?/:id" element={ <Product /> } />
       </Routes>
 
       <Footer />

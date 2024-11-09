@@ -6,4 +6,4 @@
 - ```npm run deploy``` for uploading to gh-pages
 
 ## WARNING, to host on github, this is running on base /silverkgallery - change in home page and check other pages and main router to change it back to base '/'
-Hours: 365;
+Hours: 385;

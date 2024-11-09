@@ -1,14 +1,26 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { motion, useInView } from "framer-motion";
 
 // Modules
 import { SearchIcon } from "./modules";
 import { useEffect, useRef, useState } from "react";
 
+// For submitting the search request
+function searchSubmit(navigate, request) {
+  if (request && request.trim() !== "") {
+    navigate(`/collection/?search=${encodeURIComponent(request.trim())}`);
+  }
+}
 export default function Header () {
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchBarOpen, setSearchBarOpen] = useState(false);
+
+
+  // for the search bar reference
+  const searchRef = useRef(null);
+  const navigate = useNavigate();
+
 
   // For making sure the menu disappears if the page is resized
   useEffect(() => {
@@ -98,11 +110,15 @@ export default function Header () {
         transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1]}}
         className="searchbar"
         style={{ display: searchBarOpen ? "flex" : "none"}}
+        onSubmit={(e) => {
+          e.preventDefault(); // Prevent default form submission
+          searchSubmit(navigate, searchRef.current.value);
+        }}
       >
         <div className="formsec">
           <button type="submit"><SearchIcon classname="icon" size={24} /></button>
 
-          <input placeholder="Search..." name="search" autoComplete="off" />
+          <input placeholder="Search..." name="search" autoComplete="off" ref={searchRef} />
 
           <button type="button" onClick={() => { setSearchBarOpen(false)}} className="close"></button>
         </div>

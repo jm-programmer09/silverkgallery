@@ -1,15 +1,12 @@
 - have a row element on the "the engine of imagination"
 - have a button under the paragraph for the piece of the week of the button saying 'find more from walt disney'
-- have an arrow come out of the explore our collection button
-- then have a list in the collections, where featured animation and featured photography is a selector
-- have an arrow that appears to take you back to the top of the page if the user scrolls far enough
 - change the first thing you see on the home page to just be one big image when it is on the mobile device and then potentially on the desktop i can have it so the big image flicks in and out with different images
 - we have to do the NotFound page
 - track it so that when people first come onto the site, check whether people even make it to the explore page on their first go
-
-- have quotes like "Best animation and rock and roll art"
-- have a "Showcasing the best in animation and rock and roll photography" above the two featured .cards sections
 - add animations to the mobile version of the home page
+
+
+- need to make it so that if the user searches up like 'marvel' that it works, and also make it so that for the ?search thing inputs that into the search bar
 
 ### IMPORTANT
 - update the piece of the week 

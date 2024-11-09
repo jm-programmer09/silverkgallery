@@ -551,6 +551,8 @@ section.history ol > li.order::before {
 section.quote {
   display: flex;
   justify-content: center;
+  margin-top: 40px;
+
 }
 section.quote > h2 {
   margin:  0;

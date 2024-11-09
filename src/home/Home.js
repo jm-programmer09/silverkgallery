@@ -83,19 +83,6 @@ export default function Home () {
 
       </section>
 
-      <section class="quote">
-        <h2>
-          
-          <div className="first"></div>
-          <div className="firstB"></div>
-          
-          Showing the best in <i>Animation</i> and <i>Rock and Roll Photography</i><span>...</span>
-       
-          <div className="last"></div>
-          <div className="lastB"></div>
-          </h2>
-      </section>
-
       {/* The cards for the themes */}
       {/* Animatiin */}
       <section className="cards" style={{ paddingBottom: "10px"}}>
@@ -197,6 +184,7 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
         </figure>
       </section>
 
+
       {/* Have an our history part on the history of silver k gallery */}
       <section className="history">
         
@@ -286,6 +274,21 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
 
       </section>
 
+
+      <section className="quote">
+        <h2>
+          
+          <div className="first"></div>
+          <div className="firstB"></div>
+          
+          Showing the best in <i>Animation</i> and <i>Rock and Roll Photography</i><span>...</span>
+       
+          <div className="last"></div>
+          <div className="lastB"></div>
+          </h2>
+      </section>
+
+      
       {/* For the featured items of each */}
       <section className="cards">
         <h3>Featured Animation Artwork</h3>

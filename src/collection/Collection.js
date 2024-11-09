@@ -235,6 +235,12 @@ export default function OurCollection () {
   // For redirecting the user
   const navigate = useNavigate();
 
+  // getting the search results if a search was inputted
+  const [searchParams] = useSearchParams();
+  const initSearchRequest = searchParams.get("search");
+
+  console.log(initSearchRequest);
+
   // For rendering the menu
   const [animationMenu, setAnimationMenu] = useState(<></>);
   const [animationMenuOpen, setAnimationMenuOpen] = useState(categories !== undefined ? (categories.split("+").includes("animation") ? true : false ) : false);
@@ -243,7 +249,7 @@ export default function OurCollection () {
 
   // we have to do the url search
   // The search request by the user
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery, setSearchQuery] = useState(initSearchRequest ? initSearchRequest : "");
   const [products, setProducts] = useState([]);
   const [check, setCheck] = useState({
     animation: {

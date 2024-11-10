@@ -84,7 +84,6 @@ header > nav.pc {
   flex-direction: row;
   gap: 30px;
   align-items: center;
-  margin-right: 20px;
 }
 header > nav.pc * {
   cursor: pointer;

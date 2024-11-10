@@ -7,6 +7,7 @@ section.collection {
   gap: 50px;
   padding-top: 0;
   padding-top: 10px;
+  padding-right: 0px;
 }
 
 /* This is the css for the results part */
@@ -198,11 +199,65 @@ section.collection ul.theme-list input[type="checkbox"] {
 section.results_child {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  margin: 0;
-  gap: 0px;
-  padding-top: 0px;
-  padding-left: 0;
+  gap: 35px;
+  padding: 15px 0 0 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: 15px;
+  box-sizing: border-box;
 }
 
+/* For the change in size for the collections card */
+section.results_child a.collections-card {
+  width: 250px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 1200px) {
+  section.collection {
+    padding-right: 40px; /* Add right padding when nav is hidden */
+  }
+  
+  section.collection > nav {
+    display: none;
+  }
+  
+  section.collection section.result_parent {
+    max-width: 100%;
+  }
+}
+
+/* Additional media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  section.results_child > div {
+    transform: scale(0.9);
+  }
+  section.results_child {
+    gap: 0;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    margin-left: -10px;
+    grid-row-gap: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  section.results_child > div {
+    width: 180px;
+    height: 330px;
+  }
+  section.results_child {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  section.collection {
+    padding-left: 20px;
+  }
+  section.results_child {
+    justify-content: center;
+    gap: 10px;
+  }
+}
 
 /* End of the results */

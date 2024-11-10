@@ -239,8 +239,6 @@ export default function OurCollection () {
   const [searchParams] = useSearchParams();
   const initSearchRequest = searchParams.get("search");
 
-  console.log(initSearchRequest);
-
   // For rendering the menu
   const [animationMenu, setAnimationMenu] = useState(<></>);
   const [animationMenuOpen, setAnimationMenuOpen] = useState(categories !== undefined ? (categories.split("+").includes("animation") ? true : false ) : false);

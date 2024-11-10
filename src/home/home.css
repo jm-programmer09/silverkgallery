@@ -565,7 +565,6 @@ section.quote > h2 {
   max-width: 700px;
   font-family: "Montserrat", sans-serif;
   position: relative;
-  text-shadow: 4px 2px 4px rgb(200, 200, 200);
 }
 section.quote  i {
   font-style: italic;
@@ -627,7 +626,7 @@ section.quote h2 > div.last::after {
   content: "";
   position: absolute;
   background-color: var(--primary);
-  width: 2px;
+  width: 2.5px;
   height: 30px;
   right: 10px;
   bottom: -10px;

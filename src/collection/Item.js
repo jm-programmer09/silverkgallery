@@ -34,8 +34,9 @@ export function Item (  {  id  } ) {
         ease: [0.16, 1, 0.3, 1],
         delay: Math.random() * 0.1
       }}
+      style={{ width: "fit-content"}}
     >
-    <Link to={"/collection/" + id} className="global-card" style={{ transform: "scale(0.9)"}}>
+    <Link to={"/collection/" + id} className="global-card collections-card">
       <div className="imgP"       ref={cardRef}>
         <img src={process.env.PUBLIC_URL + "/img/" + (id.split(".")[0] + "/" + id.split(".")[1]) + element.image} alt={id.split(".")[2]}  />
       </div>

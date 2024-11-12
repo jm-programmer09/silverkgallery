@@ -389,7 +389,7 @@ export default function OurCollection () {
 
   return (
     <>
-      <section className="collection">
+      <section className="collection" >
         {/* This is for the searching */}
         <nav>
           <h3>

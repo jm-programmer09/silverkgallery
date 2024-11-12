@@ -11,6 +11,7 @@ import OurCollection from "./collection/Collection";
 import NotFound from "./global/NotFound";
 import { ScrollButton } from "./global/modules";
 import Product from "./collection/selector/Product";
+import ContactUs from "./contact/ContactUs";
 
 export default function Router () {
   return (
@@ -27,6 +28,9 @@ export default function Router () {
 
         {/* For if the page is not found */}
         <Route path="*" element={<NotFound />} />
+
+        {/* For contact us */}
+        <Route path="/contactus" element={<ContactUs />} />
 
         <Route path="/collection/:categories?/:themes?/:id" element={ <Product /> } />
       </Routes>

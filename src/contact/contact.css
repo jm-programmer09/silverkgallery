@@ -127,7 +127,7 @@ div.contact_us .images > img.bottom {
 
 
 /* For the text */
-div.contact_us .panel > p.text {
+div.contact_us .panel > div.text {
   position: absolute;
   top: 0;
   left: 0;
@@ -146,18 +146,18 @@ div.contact_us .panel > p.text {
 }
 
 /* For the individual text styling */
-.panel > p.text > h2 {
+.panel > div.text > h2 {
   font-size: 65px;
   margin: 0;
   margin-top: -30px;
   margin-bottom: 40px;
 }
-.panel > p.text > small {
+.panel > div.text > small {
   font-size: 17px;
   margin-bottom: 20px;
 }
 
-.panel > p.text > a {
+.panel > div.text > a {
   outline: 1px solid white;
   width: fit-content;
   background-color: transparent;
@@ -167,7 +167,7 @@ div.contact_us .panel > p.text {
   padding: 20px;
 }
 
-.panel > p.text > .link-row {
+.panel > div.text > .link-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -177,7 +177,7 @@ div.contact_us .panel > p.text {
 }
 
 /* The buttons */
-p.text > .link-row > a {
+div.text > .link-row > a {
   width: 40%;
   text-decoration: none;
   padding: 15px;
@@ -193,11 +193,11 @@ p.text > .link-row > a {
   overflow: hidden;
 }
 
-p.text > .link-row > a:hover {
+div.text > .link-row > a:hover {
   background-color: rgba(0, 0, 0, 0.5);
   transition: all 250ms;
 }
-p.text > .link-row > a:focus {
+div.text > .link-row > a:focus {
   outline: 0.5px solid white;
 }
 

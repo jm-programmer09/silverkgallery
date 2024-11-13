@@ -77,7 +77,7 @@ export default function ContactUs () {
           
           className="link" style={{ marginTop: "50px"}}>
             <svg xmlns="http://www.w3.org/2000/svg" fill="#000000"  viewBox="0 0 1920 1920">
-                <path d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z" fill-rule="evenodd"/>
+                <path d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z" fillRule="evenodd"/>
             </svg>
 
             <a  href="mailto:colin@silverkgallery.com.au">colin@silverkgallery.com.au</a>
@@ -122,7 +122,7 @@ export default function ContactUs () {
           <div className="panel">
 
             {/* The text that goes over the images */}
-            <p className="text">
+            <div className="text">
               <h2>Let's talk.</h2>
 
               <small>Share your excitement with us.</small>
@@ -134,16 +134,16 @@ export default function ContactUs () {
                 <a href="tel:(03)95095577">Call</a>
               </div>
 
-            </p>
+            </div>
 
             {/* The parent of the images being held */}
             <div className="images">
               <div className="top-row">
-                <img loading="eager" fetchPriority="high" alt="Wandering Jedi panel"  src={process.env.PUBLIC_URL + "/img/contact/wanderjedi.png"} />
-                <img loading="eager" fetchPriority="high" alt="The flintstones panel" src={process.env.PUBLIC_URL + "/img/contact/fred-harp.gif"} />
+                <img loading="eager" fetchpriority="high" alt="Wandering Jedi panel"  src={process.env.PUBLIC_URL + "/img/contact/wanderjedi.png"} />
+                <img loading="eager" fetchpriority="high" alt="The flintstones panel" src={process.env.PUBLIC_URL + "/img/contact/fred-harp.gif"} />
               </div>
               
-              <img loading="eager" fetchPriority="high" alt="Firefly panel" className="bottom"  src={process.env.PUBLIC_URL + "/img/contact/firefly.png"} />
+              <img loading="eager" fetchpriority="high" alt="Firefly panel" className="bottom"  src={process.env.PUBLIC_URL + "/img/contact/firefly.png"} />
 
             </div>
           </div>

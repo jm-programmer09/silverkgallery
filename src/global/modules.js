@@ -76,7 +76,8 @@ export function Card ({ id}) {
     >
     <Link to={"/collection/" + id} className="global-card">
       <div className="imgP"       ref={cardRef}>
-        <img src={process.env.PUBLIC_URL + "/img/" + (id.split("/")[0] + "/" + id.split("/")[1]) + element.image} alt={id.split("/")[2]}  />
+        <img  decoding="async" loading="lazy"
+ src={process.env.PUBLIC_URL + "/img/" + (id.split("/")[0] + "/" + id.split("/")[1]) + element.image} alt={id.split("/")[2]}  />
       </div>
 
       <div className="text">

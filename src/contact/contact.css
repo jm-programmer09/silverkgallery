@@ -23,6 +23,11 @@ div.contact_us > .left h1 {
   margin-bottom: 50px;
 }
 
+div.contact_us > .left div {
+  font-family: inherit;
+  margin: 0;
+}
+
 div.contact_us > .left h3 {
   text-transform: uppercase;
   font-weight: 700;
@@ -43,8 +48,6 @@ div.contact_us > .left svg {
   width: 26px;
 }
 
-
-
 div.contact_us > .left a {
   font-size: 18px;
   font-weight: 600;
@@ -62,7 +65,7 @@ div.contact_us > .left a::after {
   width: 0;
   background-color: black;
   position: absolute;
-  bottom: -4px;
+  bottom: -3.5px;
   left: 0;
   transition: all var(--slider-timing) 300ms;
 }
@@ -94,7 +97,6 @@ div.contact_us .panel {
   width: fit-content;
   position: relative;
   max-height: 488.69px;
-  background-color: red;
 }
 div.contact_us .images {
   display: flex;
@@ -110,7 +112,6 @@ div.contact_us .images > .top-row {
   gap: 0px;
   max-height: 220px;
   max-width: 400px;
-  background-color: red;
 }
 div.contact_us .top-row > img {
   width: fit-content;

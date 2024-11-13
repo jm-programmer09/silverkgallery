@@ -26,7 +26,7 @@ const SpecialCard = ({ url, src, logosrc, fromleft, styling = {}, delay = 0, log
       href={initialLINK + "/collection" + url}
     >
       <figure>
-        <img src={process.env.PUBLIC_URL + `/img` + src} alt="Theme" style={styling}/>
+        <img loading="eager" fetchPriority="high" src={process.env.PUBLIC_URL + `/img` + src} alt="Theme" style={styling}/>
       </figure>
 
       <figcaption>
@@ -52,7 +52,7 @@ export default function Home () {
     <>
       <section className="main">
         <figure>
-          <img src={process.env.PUBLIC_URL + "/img/home_image.jpg"} alt="Ronnie Woods Art" draggable={false}/>
+          <img loading="eager" fetchPriority="high" src={process.env.PUBLIC_URL + "/img/home_image.jpg"} alt="Ronnie Woods Art" draggable={false}/>
           
           {/* For the text on the right */}
           <figcaption>
@@ -64,11 +64,14 @@ export default function Home () {
         </figure>
       </section>
 
+
+      {/* We need to fix the mobile main bit */}
+
       <section className="mobile-main">
 
         <h1>Celebrating <big>40</big> years of artistic innovation...</h1>
 
-        <img src={process.env.PUBLIC_URL + "/img/ronniewoods.jpg"} alt="Ronnie Woods Art" draggable={false}/>
+        <img src={process.env.PUBLIC_URL + "/img/home_image.jpg"} alt="Ronnie Woods Art" draggable={false}/>
 
         <div className="row">
           <h2>
@@ -98,10 +101,10 @@ export default function Home () {
         
         {/* Mobile theme row */}
         <div className="mobile-theme-row">
-          <Link to={"/collection/animation/marvel"}><img src={process.env.PUBLIC_URL + "/img/animation/marvel/marvelogo.png"} alt="Marvel" title="Marvel"/></Link>
-          <Link to={"/collection/animation/simpsons"}><img src={process.env.PUBLIC_URL + "/img/animation/simpsons/simpsonslogo.png"} alt="Simpsons" title="Simpsons"/></Link>
-          <Link to={"/collection/animation/star-wars"}><img src={process.env.PUBLIC_URL + "/img/animation/star-wars/swlogo.png"} alt="Star Wars" title="Star Wars" /></Link>
-          <Link to={"/collection/animation/disney"}><img style={{ marginTop: "10px"}} className="disney" title="disney" src={process.env.PUBLIC_URL + "/img/animation/disney/dislogoblack.svg"} alt="Disney"/></Link>
+          <Link to={"/collection/animation/marvel"}><img loading="eager" fetchPriority="high" src={process.env.PUBLIC_URL + "/img/animation/marvel/marvelogo.png"} alt="Marvel" title="Marvel"/></Link>
+          <Link to={"/collection/animation/simpsons"}><img loading="eager" fetchPriority="high" src={process.env.PUBLIC_URL + "/img/animation/simpsons/simpsonslogo.png"} alt="Simpsons" title="Simpsons"/></Link>
+          <Link to={"/collection/animation/star-wars"}><img loading="eager" fetchPriority="high" src={process.env.PUBLIC_URL + "/img/animation/star-wars/swlogo.png"} alt="Star Wars" title="Star Wars" /></Link>
+          <Link to={"/collection/animation/disney"}><img loading="eager" fetchPriority="high" style={{ marginTop: "10px"}} className="disney" title="disney" src={process.env.PUBLIC_URL + "/img/animation/disney/dislogoblack.svg"} alt="Disney"/></Link>
         </div>
 
         <Link className="featured" to={"/collection/animation/?featured=1+0"}>See the featured items...</Link>
@@ -122,17 +125,17 @@ export default function Home () {
         {/* Mobile version of above */}
         <div className="mobile-theme-row">
           <Link to={"/collection/photography/the-beatles"}>
-            <img src={process.env.PUBLIC_URL + "/img/photography/the-beatles/beatles-mobile.png"} alt="The Beatles" title="The Beatles" />
+            <img loading="eager" fetchPriority="high" src={process.env.PUBLIC_URL + "/img/photography/the-beatles/beatles-mobile.png"} alt="The Beatles" title="The Beatles" />
           </Link>
 
           <Link to={"/collection/photography/marylin-monroe"}>
-            <img style={{ transform: "scale(1.2)"}} src={process.env.PUBLIC_URL + "/img/photography/marylin-monroe/logo-mobile.png"} alt="Marylin Monroe" title="Marylin Monroe" />
+            <img loading="eager" fetchPriority="high" style={{ transform: "scale(1.2)"}} src={process.env.PUBLIC_URL + "/img/photography/marylin-monroe/logo-mobile.png"} alt="Marylin Monroe" title="Marylin Monroe" />
           </Link>
           <Link to={"/collection/photography/rolling-stones"}>
-            <img src={process.env.PUBLIC_URL + "/img/photography/rolling-stones/logo-red.png"} alt="Rolling Stones" title="Rolling Stones" />
+            <img loading="eager" fetchPriority="high" src={process.env.PUBLIC_URL + "/img/photography/rolling-stones/logo-red.png"} alt="Rolling Stones" title="Rolling Stones" />
           </Link>
           <Link to={"/collection/photography/ronnie-woods"}>
-            <img style={{ transform: "scale(0.9)"}} src={process.env.PUBLIC_URL + "/img/photography/ronnie-woods/logo.avif"} alt="Ronnie Woods" title="Ronnie Woods" />
+            <img loading="eager" fetchPriority="high" style={{ transform: "scale(0.9)"}} src={process.env.PUBLIC_URL + "/img/photography/ronnie-woods/logo.avif"} alt="Ronnie Woods" title="Ronnie Woods" />
           </Link>
         </div>
 
@@ -180,6 +183,8 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
               duration: 1, 
               ease: [0.16, 1, 0.3, 1], // cubic-bezier
             }}
+            decoding="async"
+            loading="lazy"
            src={process.env.PUBLIC_URL + "/img/engineofimagination.jpg"} alt="Piece of the week" />
         </figure>
       </section>
@@ -197,6 +202,7 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
                 ease: [0.16, 1, 0.3, 1], // cubic-bezier
                 delay: 0
           }}
+          decoding="async" loading="lazy"
           src={process.env.PUBLIC_URL + "/img/col_sitting.jpg"} draggable={false} />
           <figcaption>Silver K Gallery's Owner: 
 

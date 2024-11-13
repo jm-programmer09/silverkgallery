@@ -69,8 +69,8 @@ export default function Header () {
         <Link to="/events" className={location.pathname === "/events" ? "selected" : ""}>Our News</Link>
         <Link to="/contactus" className={location.pathname === "/contactus" ? "selected" : ""} >Contact Us</Link>
 
-        {!location.pathname.includes("collection") && <SearchIcon classname="header-search-icon" size={24} onClick={() => { searchBarOpen ? setSearchBarOpen(false) : setSearchBarOpen(true) }}/> }
-        <button onClick={() => {mobileMenuOpen ? setMobileMenuOpen(false) : setMobileMenuOpen(true)}}><div className={mobileMenuOpen ? "open" : undefined}></div></button>
+        <SearchIcon classname="header-search-icon" size={24} onClick={() => { searchBarOpen ? setSearchBarOpen(false) : setSearchBarOpen(true) }}/> 
+        <button title="Menu" tabIndex={0} aria-label="Menu button" onClick={() => {mobileMenuOpen ? setMobileMenuOpen(false) : setMobileMenuOpen(true)}}><div role="button" className={mobileMenuOpen ? "open" : undefined}></div></button>
       </nav>
 
       {/* The mobile menu */}

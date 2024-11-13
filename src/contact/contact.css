@@ -28,7 +28,7 @@ div.contact_us > .left div {
   margin: 0;
 }
 
-div.contact_us > .left h3 {
+div.contact_us > .left h2 {
   text-transform: uppercase;
   font-weight: 700;
   color: var(--p);
@@ -202,3 +202,71 @@ div.text > .link-row > a:focus {
 }
 
 /* For the text styling */
+
+
+/* For resize */
+@media only screen and (max-width: 1150px) {
+  div.contact_us > .right {
+    padding: 0;
+  }
+  div.contact_us {
+    gap: 0;
+  }
+  div.contact_us > .left {
+    padding-right: 10px !important;
+  }
+}
+
+/* For full column down */
+@media only screen and (max-width: 1000px) {
+  div.contact_us {
+    flex-direction: column;
+    max-height: fit-content;
+    height: fit-content !important;
+  }
+  
+
+  /* This is for now making the bottom fill the whole part */
+  div.contact_us > .left {
+    height: calc(100vh - var(--header-height));
+  }
+
+
+  div.contact_us > .right {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.contact_us > .left {
+    padding-left: 30px;
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  div.contact_us > .left h1 {
+    font-size: 60px;
+  }
+  div.contact_us > .left h2 {
+    font-size: 18px;
+  }
+  div.contact_us > .left a {
+    font-size: 17px;
+  }
+  div.contact_us > .left svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  div.contact_us > .right {
+    padding: 0;
+  }
+  div.contact_us > .left {
+    padding-left: 15px;
+  }
+}

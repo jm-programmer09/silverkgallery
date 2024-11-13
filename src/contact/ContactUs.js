@@ -5,13 +5,13 @@ import { motion, useInView } from 'framer-motion';
 
 export default function ContactUs () {
   const motionReference = useRef(null);
-  const isTextInView = useInView(motionReference, { once: false});
+  const isTextInView = useInView(motionReference, { once: true });
 
   return (
     <>
       {/* Have line boxes around the text of the images */}
-      <div className="contact_us">
-        <div className="left" ref={motionReference}>
+      <div className="contact_us" ref={motionReference}>
+        <div className="left">
           <h1>
             <motion.div 
             ref={motionReference}
@@ -38,7 +38,7 @@ export default function ContactUs () {
           </h1>
 
 
-          <motion.h3
+          <motion.h2
           ref={motionReference}
             initial={{ opacity: 0, y: 100 }}
               animate={isTextInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
@@ -48,9 +48,9 @@ export default function ContactUs () {
                 delay: 0.2
               }}
           
-          >find the right answer to your question easily.</motion.h3>
+          >find the right answer to your question easily.</motion.h2>
 
-          <motion.h3
+          <motion.h2
           ref={motionReference}
             initial={{ opacity: 0, y: 100 }}
               animate={isTextInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
@@ -60,7 +60,7 @@ export default function ContactUs () {
                 delay: 0.3
               }}
           
-          >Just give us a ring!</motion.h3>
+          >Just give us a ring!</motion.h2>
 
 
           {/* Add icons before these links */}
@@ -76,7 +76,7 @@ export default function ContactUs () {
               }}
           
           className="link" style={{ marginTop: "50px"}}>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="#000000"  viewBox="0 0 1920 1920">
+            <svg style={{ marginBottom: "-3px"}} xmlns="http://www.w3.org/2000/svg" fill="#000000"  viewBox="0 0 1920 1920">
                 <path d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z" fillRule="evenodd"/>
             </svg>
 

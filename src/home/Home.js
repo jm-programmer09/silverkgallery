@@ -190,8 +190,8 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
         
         <figure>
           <motion.img 
-          initial={ { opacity: 0, x: -200 } }
-          animate={isHistoryInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -200 }}
+          initial={ { opacity: 0, x: -200, display: "none" } }
+          animate={isHistoryInView ? { opacity: 1, x: 0, display: "flex" } : { opacity: 0, x: -200, display: "none" }}
               transition={{ 
                 duration: 0.5, 
                 ease: [0.16, 1, 0.3, 1], // cubic-bezier

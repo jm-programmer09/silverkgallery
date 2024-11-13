@@ -1,4 +1,6 @@
 ## Silver K Gallery
+# Questions for col
+- Does he want a form where people can submit queries?
 
 # Note
 - For the BrowserRouter basename, change it depending on which site it is being hosted at
@@ -6,4 +8,5 @@
 - ```npm run deploy``` for uploading to gh-pages
 
 ## WARNING, to host on github, this is running on base /silverkgallery - change in home page and check other pages and main router to change it back to base '/'
-Hours: 385;
+Hours: 395;
+

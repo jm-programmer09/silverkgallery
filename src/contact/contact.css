@@ -10,16 +10,84 @@ div.contact_us {
 /* For the left side content */
 div.contact_us > .left {
   flex-grow: 1;
+  padding: 50px;
+  padding-top: 30px;
 }
+
+/* For the left side text */
+div.contact_us > .left h1 {
+  font-family: "Playfair display", sans-serif;
+  text-transform: uppercase;
+  font-size: 75px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+div.contact_us > .left h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--p);
+}
+
+
+/* For the links */
+div.contact_us > .left .link {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 15px;
+
+}
+div.contact_us > .left svg {
+  height: 26px;
+  width: 26px;
+}
+
+
+
+div.contact_us > .left a {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--gradientTo);
+  text-decoration: none;
+  display: block;
+  position: relative;
+  width: fit-content;
+}
+
+div.contact_us > .left a::after {
+  content: "";
+  height: 1px;
+  /* width: calc(100% + 10px); */
+  width: 0;
+  background-color: black;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  transition: all var(--slider-timing) 300ms;
+}
+
+div.contact_us > .left a:hover::after {
+  width: 100%;
+  transition: all var(--slider-timing) 300ms;
+}
+
+
+/* End of the left side text */
+
+
 
 /* For the right side content */
 div.contact_us > .right {
   width: fit-content;
-  margin-right: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: var(--grey);
+  height: 100%;
 }
 /* For the panel of images */
 div.contact_us .panel {
@@ -63,11 +131,11 @@ div.contact_us .panel > p.text {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-color: rgb(0, 0, 0, 0.7);
+  height: calc(100% + 0.5px);
   margin: 0;
   padding: 0;
   z-index: 10;
+  background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: column;
   padding-left: 60px;
@@ -109,22 +177,27 @@ div.contact_us .panel > p.text {
 
 /* The buttons */
 p.text > .link-row > a {
-  width: 120px;
+  width: 40%;
   text-decoration: none;
   padding: 15px;
   font-size: 17px;
   font-weight: 300;
   text-align: center;
-  background-color: transparent;
   outline: 1px solid white;
   color: white;
-  transition: all 150ms;
-  background-color: rgb(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 250ms;
+  display: inline-block;
+  overflow: hidden;
 }
 
 p.text > .link-row > a:hover {
-  transform: scale(1.05);
-  transition: all var(--slider-timing) 250ms;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 250ms;
+}
+p.text > .link-row > a:focus {
+  outline: 0.5px solid white;
 }
 
 /* For the text styling */

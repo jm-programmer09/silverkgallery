@@ -868,7 +868,7 @@ section.quote h2 > div.last::after {
     display: none;
   }
   section.cards h2.mobile {
-    display: none;
+    display: block;
   }
 }
 

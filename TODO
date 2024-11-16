@@ -6,7 +6,6 @@
 - add animations to the mobile version of the home page
 
 
-- need to make it so that if the user searches up like 'marvel' that it works, and also make it so that for the ?search thing inputs that into the search bar
 - big project is making everything mobile-compatible
 - add a bit in the hompage where it includes the location and tells people where to go
 - underneath have a contact us bit
@@ -14,6 +13,7 @@
 - we need to make the collections page resizebale
 
 - for the search bar just have a black background like the mobile menu with the search bar in it and then give results
+- have a mobile search as well
 
 
 ### IMPORTANT

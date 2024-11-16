@@ -112,7 +112,8 @@ export default function Home () {
 
       {/* Photography */}
       <section className="cards" style={{ paddingTop: "0px", paddingBottom: "0px"}}>
-        <h2>Rock N' Roll Photography</h2>
+        <h2 className="desktop">Rock N' Roll Photography</h2>
+        <h2 className="mobile">Photography</h2>
 
         {/* Row of the special cards */}
         <div className="theme-row">
@@ -202,7 +203,7 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
                 ease: [0.16, 1, 0.3, 1], // cubic-bezier
                 delay: 0
           }}
-          decoding="async" loading="lazy"
+          loading="eager"
           src={process.env.PUBLIC_URL + "/img/col_sitting.jpg"} draggable={false} />
           <figcaption>Silver K Gallery's Owner: 
 
@@ -228,8 +229,8 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
             <ul>
               {/* Start of history */}
               <motion.li
-                initial={{ opacity: 0, x: 100}}
-                animate={isHistoryInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 100}}
+                initial={{ opacity: 0, y: 100}}
+                animate={isHistoryInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100}}
                 transition={{
                   duration: 0.5,
                   ease: [0.16, 1, 0.3, 1],
@@ -243,12 +244,12 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
               </motion.li>
 
               <motion.li 
-                initial={{ opacity: 0, x: 100}}
-                animate={isHistoryInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 100}}
+                initial={{ opacity: 0, y: 100}}
+                animate={isHistoryInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100}}
                 transition={{
                   duration: 0.5,
                   ease: [0.16, 1, 0.3, 1],
-                  delay: 0.2
+                  delay: 0.15
                 }}
 
               ref={historyRef}>
@@ -259,12 +260,12 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
               </motion.li>
 
               <motion.li 
-                initial={{ opacity: 0, x: 100}}
-                animate={isHistoryInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 100}}
+                initial={{ opacity: 0, y: 100}}
+                animate={isHistoryInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100}}
                 transition={{
                   duration: 0.5,
                   ease: [0.16, 1, 0.3, 1],
-                  delay: 0.4
+                  delay: 0.3
                 }}
 
               >

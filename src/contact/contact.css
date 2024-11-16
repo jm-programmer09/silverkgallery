@@ -236,6 +236,7 @@ div.text > .link-row > a:focus {
     width: 100%;
     box-sizing: border-box;
     padding: 60px;
+    overflow-x: hidden;
   }
 }
 

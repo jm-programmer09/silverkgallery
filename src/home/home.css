@@ -279,6 +279,14 @@ section.cards h2 {
   text-transform: capitalize;
   font-weight: 500;
 }
+/* For the mobile version */
+section.cards h2.desktop {
+  display: block;
+}
+section.cards h2.mobile {
+  display: none;
+}
+
 section.cards h3 {
   text-align: center;
 }
@@ -408,6 +416,7 @@ section.history {
   max-width: 100%;
   box-sizing: border-box;
   user-select: auto;
+  overflow-y: hidden;
 }
 /* Cols image on the left */
 section.history figure {
@@ -852,6 +861,15 @@ section.quote h2 > div.last::after {
   section.history ol > li.order::before {
     height: 130px;
   }
+
+
+  /* Changing the rock and roll title */
+  section.cards h2.desktop {
+    display: none;
+  }
+  section.cards h2.mobile {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 415px) {
@@ -860,6 +878,12 @@ section.quote h2 > div.last::after {
   }
   section.history ol > li.order::before {
     height: 153px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  section.history ul > li:nth-last-child(-n + 1) {
+    margin-top: -23px;
   }
 }
 

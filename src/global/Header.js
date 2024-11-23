@@ -105,8 +105,8 @@ export default function Header () {
       {/* The search bar menu */}
       <motion.form
         ref={searchBarRef}
-        initial={{opacity: 0, left: -150}}
-        animate={isSearchBarInView ? {opacity: 1, left: 0} : { opacity: 0, left: -150}}
+        initial={{opacity: 0}}
+        animate={isSearchBarInView ? {opacity: 1} : { opacity: 0}}
         transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1]}}
         className="searchbar"
         style={{ display: searchBarOpen ? "flex" : "none"}}
@@ -115,13 +115,17 @@ export default function Header () {
           searchSubmit(navigate, searchRef.current.value);
         }}
       >
-        <div className="formsec">
-          <button type="submit"><SearchIcon classname="icon" size={24} /></button>
+        <div className="input">
+          <SearchIcon classname={"icon"} size={22} />
 
-          <input placeholder="Search..." name="search" autoComplete="off" ref={searchRef} />
+          <input ref={searchRef} placeholder="Search..." name="search" autoComplete="off" autoCapitalize="off" autoFocus="true" />
 
-          <button type="button" onClick={() => { setSearchBarOpen(false)}} className="close"></button>
+          <button type="button" onClick={() => { setSearchBarOpen(false) }} className="close"></button>
+
+
         </div>
+
+        {/* Have a thing next to the input of a row list of dropdown things of themes */}
       
       </motion.form>
     </header>

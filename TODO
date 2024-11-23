@@ -12,8 +12,12 @@
 - add arrows in to the home page link and the two links of the contact page
 - we need to make the collections page resizebale
 
-- for the search bar just have a black background like the mobile menu with the search bar in it and then give results
 - have a mobile search as well
+
+- make it so that when the search button on the header is pressed it turns into an X so it is less confusing oon the search bar
+
+- add a dropdown bit to the search bar
+- also make the searchbar give live results, and make the mobile search bit cover the whole page
 
 
 ### IMPORTANT

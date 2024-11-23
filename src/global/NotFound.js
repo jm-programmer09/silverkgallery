@@ -59,7 +59,7 @@ export default function NotFound () {
             duration: 1, 
             ease: [0.16, 1, 0.3, 1], // cubic-bezier
           }}
-          
+          draggable="false"
           width={500} loading="eager" src={process.env.PUBLIC_URL + "/img/notfound_image.gif"} />
           {/* You even have bugs bunny bamboozled */}
         

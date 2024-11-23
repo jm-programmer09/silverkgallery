@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/silverkgallery/static/css/main.a6eed36e.css",
-    "main.js": "/silverkgallery/static/js/main.2dc8f7f0.js",
+    "main.css": "/silverkgallery/static/css/main.d9df0c68.css",
+    "main.js": "/silverkgallery/static/js/main.dea121b1.js",
     "static/js/453.46bc7989.chunk.js": "/silverkgallery/static/js/453.46bc7989.chunk.js",
     "index.html": "/silverkgallery/index.html",
     "static/media/arrow.svg": "/silverkgallery/static/media/arrow.5a19880742fa6fbe610d.svg",
-    "main.a6eed36e.css.map": "/silverkgallery/static/css/main.a6eed36e.css.map",
-    "main.2dc8f7f0.js.map": "/silverkgallery/static/js/main.2dc8f7f0.js.map",
+    "main.d9df0c68.css.map": "/silverkgallery/static/css/main.d9df0c68.css.map",
+    "main.dea121b1.js.map": "/silverkgallery/static/js/main.dea121b1.js.map",
     "453.46bc7989.chunk.js.map": "/silverkgallery/static/js/453.46bc7989.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6eed36e.css",
-    "static/js/main.2dc8f7f0.js"
+    "static/css/main.d9df0c68.css",
+    "static/js/main.dea121b1.js"
   ]
 }

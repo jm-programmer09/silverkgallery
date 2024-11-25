@@ -1,6 +1,7 @@
 import "./contact.css";
 import React, { useRef } from "react";
 import { motion, useInView } from 'framer-motion';
+import { Link } from "react-router-dom";
 
 
 export default function ContactUs () {
@@ -126,14 +127,13 @@ export default function ContactUs () {
             <div className="text">
               <h2>Let's talk.</h2>
 
-              <small>Share your excitement with us.</small>
+              <small>We'd love to hear from you!</small>
 
-
-              {/* Add an arrow in here for the links */}
-              <div className="link-row">
-                <a href="mailto:colin@silverkgallery.com.au">Email</a>
-                <a href="tel:(03)95095577">Call</a>
-              </div>
+              <form>
+                <input name="email" type="email" className="email" placeholder="Your email..." autoComplete="false" autoCapitalize="false" />
+                <textarea name="message" placeholder="Your message..."></textarea>
+                <button type="submit">Send Message</button>
+              </form>
 
             </div>
 
@@ -152,7 +152,26 @@ export default function ContactUs () {
         </motion.div>
 
       </div>
+      
+      {/* Includes the map and then the title and info on the right */}
+      <div className="contactlocation">
+        <div className="left">
+          {/* the map will go here */}
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.752703695991!2d145.02140925924053!3d-37.855978293385235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad669de9a472a79%3A0x4d8a0c22ab0f2f3b!2sSilver%20K%20Gallery!5e1!3m2!1sen!2sau!4v1732527434433!5m2!1sen!2sau" width="500" height="350" style={{ border: 0}} allowfullscreen="false" loading="eager" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
+        <div className="right">
+          {/* Text here */}
+          <h2>Where to find us...</h2>
+
+          <p>Silver K Gallery is located at <a href="">1092 High St, Armadale</a> where the finest animation and photography artwork lie. </p>
+          
+          <Link to="/collection">Explore Our Collection</Link>
+
+        </div>
+
+
+      </div>
     </>
   );
 }

@@ -133,6 +133,8 @@ div.contact_us .panel > div.text {
   left: 0;
   width: 100%;
   height: calc(100% + 0.5px);
+  max-height: calc(100% + 0.5px);
+  overflow: hidden;
   margin: 0;
   padding: 0;
   z-index: 10;
@@ -142,66 +144,116 @@ div.contact_us .panel > div.text {
   padding-left: 60px;
   box-sizing: border-box;
   color: white;
-  justify-content: center;
 }
 
 /* For the individual text styling */
 .panel > div.text > h2 {
   font-size: 65px;
   margin: 0;
-  margin-top: -30px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 .panel > div.text > small {
   font-size: 17px;
   margin-bottom: 20px;
 }
 
-.panel > div.text > a {
+.panel > div.text form {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-grow: 1;
+  justify-content: end;
+  padding-bottom: 55px;
+}
+.panel form > input {
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  outline: 2px solid var(--grey);
+  border: none;
+  transition: all 250ms;
+}
+.panel form > textarea {
+  height: 110px;
+  margin-bottom: 15px;
+  resize: none;
+  box-sizing: border-box;
+  padding: 10px;
+  outline: 2px solid var(--grey);
+  border: none;
+  transition: all 250ms;
+}
+
+.panel form > input:focus, .panel form > textarea:focus {
+  outline: 2px solid var(--primary);
+  transition: all 250ms;
+}
+
+/* the submit button */
+.panel form > button[type="submit"] {
   outline: 1px solid white;
-  width: fit-content;
-  background-color: transparent;
   font-size: 17px;
   color: white;
   text-decoration: none;
-  padding: 20px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 250ms;
+}
+.panel form > button[type="submit"]:hover, .panel form > button[type="submit"]:focus {
+  background-color: rgb(0, 0, 0, 0.5);
+  transition: all 250ms;
 }
 
-.panel > div.text > .link-row {
+/* For the bit underneath the main contact us part */
+div.contactlocation {
+  padding: 20px;
+  box-sizing: border-box;
+  width: calc(100vw - 17px);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-right: 40px;
-  margin-top: 30px;
-  background-color: transparent;
+  background-color: var(--grey);
 }
 
-/* The buttons */
-div.text > .link-row > a {
-  width: 40%;
-  text-decoration: none;
-  padding: 15px;
-  font-size: 17px;
-  font-weight: 300;
-  text-align: center;
-  outline: 1px solid white;
-  color: white;
+/* For the right side */
+div.contactlocation > .right {
+  width: 530px;
+  margin-right: 10px;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.3);
-  transition: all 250ms;
-  display: inline-block;
-  overflow: hidden;
+}
+div.contactlocation .right > h2 {
+  font-family: "playfair display", sans-serif;
+  font-size: 50px;
+  margin: 0;
+}
+div.contactlocation .right > p {
+  color: var(--p);
+  margin-bottom: 90px;
+}
+div.contactlocation .right > p > a {
+  color: var(--primary);
 }
 
-div.text > .link-row > a:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: all 250ms;
+/* For the explore our collection button */
+div.contactlocation .right > a {
+  color: white;
+  background-color: var(--b-primary);
+  outline: 2px solid var(--b-primary);
+  transition: all var(--slider-timing) 0.4s;
+  cursor: pointer;
+  padding: 20px;
+  text-decoration: none;
 }
-div.text > .link-row > a:focus {
-  outline: 0.5px solid white;
+div.contactlocation .right > a:hover {
+  outline: 2px solid black;
+  background-color: transparent;
+  color: black;
+  transition: all var(--slider-timing) 0.4s;
 }
-
-/* For the text styling */
 
 
 /* For resize */
@@ -238,6 +290,16 @@ div.text > .link-row > a:focus {
     padding: 60px;
     overflow-x: hidden;
   }
+
+
+  /* Now for the below location part */
+  div.contactlocation {
+    gap: 20px;
+  }
+  div.contactlocation iframe {
+    width: 250px;
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -270,4 +332,61 @@ div.text > .link-row > a:focus {
   div.contact_us > .left {
     padding-left: 15px;
   }
+}
+
+@media only screen and (max-width: 1100px) {
+  .contactlocation iframe {
+    width: 400px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  div.contactlocation {
+    flex-direction: column;
+  }
+  div.contactlocation .left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  div.contactlocation iframe {
+    width: 90%;
+    margin-right: 20px;
+  }
+
+  div.contactlocation .right {
+    height: 250px;
+    width: 100%;
+  }
+  div.contactlocation .right > p {
+    margin-bottom: 70px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  div.contactlocation .right >  h2 {
+    font-size: 40px;
+  }
+  div.contactlocation .right > p {
+    font-size: 15px;
+    max-width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  div.contactlocation .right > a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  div.contactlocation .right > h2 {
+    font-size: 32px;
+  }
+  div.contactlocation .right > p {
+    font-size: 14px;
+  }
+}
+
+body {
+  overflow-x: visible;
 }

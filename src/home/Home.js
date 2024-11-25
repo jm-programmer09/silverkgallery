@@ -315,6 +315,11 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
       {/* Photography */}
       <section className="cards" style={{ paddingTop: "0px"}}>
         <h3>Featured Rock N' Roll Photography</h3>
+        
+        {/* Need to add the cards in here */}
+        <div className="card-grid">
+
+        </div>
       </section>
     </>
   );

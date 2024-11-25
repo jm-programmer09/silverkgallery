@@ -127,40 +127,25 @@ export default function Header () {
         <div className="seperatelinks">
           <details>
             <summary>Animation</summary>
-            
             <ul>
-              {/* Then put out every theme name there is for animation */}
-              {Object.keys(data.animation).map((theme) => {
-                return (
-                  <>
-                    <li>
-                      <Link to={`/collection/animation/${theme}`}>{theme.replace("-", " ")}</Link>
-                    </li>
-                  </>
-                );
-              })}
+              {Object.keys(data.animation).map((theme, index) => (
+                <li key={index}>
+                  <Link to={`/collection/animation/${theme}`}>{theme.replace("-", " ")}</Link>
+                </li>
+              ))}
             </ul>
-
-
           </details>
 
           <details>
             <summary>Photography</summary>
-
             <ul>
-              {/* Then put out every theme name there is for animation */}
-              {Object.keys(data.photography).map((theme) => {
-                return (
-                  <>
-                    <li>
-                      <Link to={`/collection/photography/${theme}`}>{theme.replace("-", " ")}</Link>
-                    </li>
-                  </>
-                );
-              })}
+              {Object.keys(data.photography).map((theme, index) => (
+                <li key={index}>
+                  <Link to={`/collection/photography/${theme}`}>{theme.replace("-", " ")}</Link>
+                </li>
+              ))}
             </ul>
           </details>
-
         </div>
 
         {/* Have a thing next to the input of a row list of dropdown things of themes */}

@@ -375,9 +375,6 @@ header .seperatelinks {
   align-items: center;
 }
 /* For the details and summary */
-header .seperatelinks > summary {
-  color: white;
-}
 header .seperatelinks > details {
   color: white;
   text-decoration: none;
@@ -385,8 +382,8 @@ header .seperatelinks > details {
   font-size: 16.5px;
   font-weight: 400;
   position: relative;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 10px;
+  padding-right: 26px;
 }
 /* For the links now */
 header .seperatelinks ul {
@@ -442,6 +439,20 @@ details[open]::details-content {
   block-size: auto;
 }
 
+/* For changing the styling of the arrow */
+header .seperatelinks details > summary {
+  list-style-type: "";
+  position: relative;
+  cursor: pointer;
+}
+
+header .seperatelinks details > summary::after {
+  content: url("./global/arrow.svg");
+  position: absolute;
+  right: -24px;
+  transform: rotate(90deg);
+  top: -5px;
+}
 
 /* END OF THE HEADER */
 
@@ -506,3 +517,9 @@ footer {
   }
 }
 
+/* For getting rid of the seperate links */
+@media only screen and (max-width: 700px) {
+  header .seperatelinks {
+    display: none;
+  }
+}

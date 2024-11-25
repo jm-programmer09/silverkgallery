@@ -4,6 +4,7 @@ import { motion, useInView } from "framer-motion";
 // Modules
 import { SearchIcon } from "./modules";
 import { useEffect, useRef, useState } from "react";
+import data from "../products.json";
 
 // For submitting the search request
 function searchSubmit(navigate, request) {
@@ -16,11 +17,9 @@ export default function Header () {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchBarOpen, setSearchBarOpen] = useState(false);
 
-
   // for the search bar reference
   const searchRef = useRef(null);
   const navigate = useNavigate();
-
 
   // For making sure the menu disappears if the page is resized
   useEffect(() => {
@@ -56,7 +55,6 @@ export default function Header () {
     once: false,
     amount: 0.5
   });
-
 
   return (
     <header>
@@ -118,10 +116,50 @@ export default function Header () {
         <div className="input">
           <SearchIcon classname={"icon"} size={22} />
 
-          <input ref={searchRef} placeholder="Search..." name="search" autoComplete="off" autoCapitalize="off" autoFocus="true" />
+          <input ref={searchRef} placeholder="Search..." name="search" autoComplete="off" autoCapitalize="off" />
 
           <button type="button" onClick={() => { setSearchBarOpen(false) }} className="close"></button>
 
+
+        </div>
+
+        {/* only will be shown on desktop mode cos it will be too big for on mobile */}
+        <div className="seperatelinks">
+          <details>
+            <summary>Animation</summary>
+            
+            <ul>
+              {/* Then put out every theme name there is for animation */}
+              {Object.keys(data.animation).map((theme) => {
+                return (
+                  <>
+                    <li>
+                      <Link to={`/collection/animation/${theme}`}>{theme.replace("-", " ")}</Link>
+                    </li>
+                  </>
+                );
+              })}
+            </ul>
+
+
+          </details>
+
+          <details>
+            <summary>Photography</summary>
+
+            <ul>
+              {/* Then put out every theme name there is for animation */}
+              {Object.keys(data.photography).map((theme) => {
+                return (
+                  <>
+                    <li>
+                      <Link to={`/collection/photography/${theme}`}>{theme.replace("-", " ")}</Link>
+                    </li>
+                  </>
+                );
+              })}
+            </ul>
+          </details>
 
         </div>
 

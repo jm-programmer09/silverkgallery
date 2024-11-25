@@ -7,6 +7,7 @@ export default function ContactUs () {
   const motionReference = useRef(null);
   const isTextInView = useInView(motionReference, { once: true });
 
+
   return (
     <>
       {/* Have line boxes around the text of the images */}

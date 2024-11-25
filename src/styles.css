@@ -250,7 +250,7 @@ header > form {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 5px;
+  gap: 40px;
   padding: 20px;
   background-color: black;
 }
@@ -364,6 +364,82 @@ header .input > .close::after {
 
 header .input > .close:hover::after, header .input > .close:hover::before {
   background-color: black;
+}
+
+/* this is for the search bar and then all of the theme links */
+/* The styling i want is the same black background, blue slice scrollbar, and have the max height of the dropdwon around 300px */
+header .seperatelinks {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+/* For the details and summary */
+header .seperatelinks > summary {
+  color: white;
+}
+header .seperatelinks > details {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16.5px;
+  font-weight: 400;
+  position: relative;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+/* For the links now */
+header .seperatelinks ul {
+  position: absolute;
+  background-color: black;
+  top: 100%;
+  width: 100%;
+  left:  0;
+  list-style-type: none;
+  margin: 0;
+  gap: 10px;
+  padding: 0;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+header .seperatelinks li {
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  box-sizing: border-box;
+}
+header .seperatelinks li > a {
+  color: rgb(210, 210, 210);
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+}
+header .seperatelinks li:hover {
+  background-color: #111;
+}
+header .seperatelinks li:hover a {
+  color: white;
+}
+header .seperatelinks ul:last-child {
+  padding-bottom: 10px;
+}
+
+/* Details opening animation */
+details::details-content {
+  opacity: 0;
+  block-size: 0;
+  overflow-y: clip;
+  transition: content-visibility 0.4s allow-discrete,
+              opacity 0.4s var(--slider-timing),
+              block-size 0.4s var(--slider-timing);
+}
+details[open]::details-content {
+  opacity: 1;
+  block-size: auto;
 }
 
 

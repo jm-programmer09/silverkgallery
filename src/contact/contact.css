@@ -350,6 +350,7 @@ div.contactlocation .right > a:hover {
 @media only screen and (max-width: 740px) {
   div.contactlocation {
     flex-direction: column;
+    width: 100vw;
   }
   div.contactlocation .left {
     width: 100%;

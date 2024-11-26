@@ -157,14 +157,14 @@ export default function ContactUs () {
       <div className="contactlocation">
         <div className="left">
           {/* the map will go here */}
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.752703695991!2d145.02140925924053!3d-37.855978293385235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad669de9a472a79%3A0x4d8a0c22ab0f2f3b!2sSilver%20K%20Gallery!5e1!3m2!1sen!2sau!4v1732527434433!5m2!1sen!2sau" width="500" height="350" style={{ border: 0}} allowFullScreen={false} loading="eager" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe title="Silver K Gallery Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2850.752703695991!2d145.02140925924053!3d-37.855978293385235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad669de9a472a79%3A0x4d8a0c22ab0f2f3b!2sSilver%20K%20Gallery!5e1!3m2!1sen!2sau!4v1732527434433!5m2!1sen!2sau" width="500" height="350" style={{ border: 0}} allowFullScreen={false} loading="eager" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <div className="right">
           {/* Text here */}
           <h2>Where to find us...</h2>
 
-          <p>Silver K Gallery is located at <a href="">1092 High St, Armadale</a> where the finest animation and photography artwork lie. </p>
+          <p>Silver K Gallery is located at <a href="https://www.google.com/maps/place/Silver+K+Gallery/@-37.8559802,145.023579,15z/data=!4m2!3m1!1s0x0:0x4d8a0c22ab0f2f3b?sa=X&ved=1t:2428&ictx=111">1092 High St, Armadale</a> where the finest animation and photography artwork lie. </p>
           
           <Link to="/collection">Explore Our Collection</Link>
 

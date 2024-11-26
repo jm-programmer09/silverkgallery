@@ -91,6 +91,7 @@ div.contact_us > .right {
   justify-content: center;
   background-color: var(--grey);
   height: 100%;
+  overflow: hidden;
 }
 /* For the panel of images */
 div.contact_us .panel {
@@ -174,10 +175,12 @@ div.contact_us .panel > div.text {
   outline: 2px solid var(--grey);
   border: none;
   transition: all 250ms;
+  border-radius: 0px;
 }
 .panel form > textarea {
   height: 110px;
   margin-bottom: 15px;
+  border-radius: 0px;
   resize: none;
   box-sizing: border-box;
   padding: 10px;
@@ -236,6 +239,10 @@ div.contactlocation .right > p {
 }
 div.contactlocation .right > p > a {
   color: var(--primary);
+  text-decoration: none;
+}
+div.contactlocation .right > p > a:hover {
+  text-decoration: underline;
 }
 
 /* For the explore our collection button */
@@ -384,5 +391,48 @@ div.contactlocation .right > a:hover {
   }
   div.contactlocation .right > p {
     font-size: 14px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  div.contact_us .left > h1 {
+    font-size: 54px;
+    margin-top: 20px;
+  }
+  div.contact_us .left > h2 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  div.contact_us .left > h1 {
+    font-size: 48px;
+  }
+
+  /* For changing the sizing of the panel form of the contact page */
+  .panel {
+    width: 100vw !important;
+    box-sizing: border-box;
+  }
+  div.contact_us .panel > .text {
+    margin: 0 !important;
+    padding: 0 !important;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .panel div.text > h2 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  div.contact_us .left > h1 {
+    font-size: 45px;
+  }
+  div.contact_us .left > h2 {
+    font-size: 16px;
+  }
+  div.contact_us .left > .link {
+    font-size: 16px;
   }
 }

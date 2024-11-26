@@ -1,0 +1,122 @@
+footer {
+  background-color: #111;
+  min-height: 300px;
+  box-sizing: border-box;
+  padding: 50px;
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+}
+/* For the top text part */
+footer .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+footer .top > .left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .top > .left h3 {
+  margin: 0;
+  text-transform: uppercase;
+  color: rgb(180, 180, 180);
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+/* For the link-rows */
+footer .left > .link-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+/* For the first link row */
+footer .left > .link-row a.loc {
+  color: rgb(220, 220, 220);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none; 
+}
+footer .left > .link-row a.loc:hover {
+  text-decoration: underline;
+}
+/* For the second link row */
+footer .left > .link-row a.lin {
+  color: var(--gradientTo);
+  text-decoration: none;
+  display: flex;
+  text-transform: uppercase;
+  flex-direction: row;
+  gap: 0px;
+  font-size: 16px;
+  position: relative;
+  align-items: center;
+  margin-right: 25px;
+}
+footer .left > .link-row > a.lin svg {
+  position: absolute;
+  left: calc(100% - 1px);
+  transition: all var(--slider-timing) 0.5s;
+}
+footer .left > .link-row > a.lin:hover svg {
+  left: calc(100% + 2px);
+  transition: all var(--slider-timing) 0.5s;
+}
+
+/* This is now the right side of the top text part */
+footer .right {
+  /* Test */
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 300px;
+  padding-left: 30px;
+}
+/* For the dividing bar */
+footer .right::before {
+  position: absolute;
+  left: -1px;
+  top: -5%;
+  height: 110%;
+  background-color: rgba(180, 180, 180, 0.3);
+  width: 1px;
+  content: "";
+  border-radius: 10px;
+}
+
+/* For the link columns */
+footer .right > ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  list-style: none;
+}
+/* For the title */
+footer .right > ul h4 {
+  margin: 0;
+  color: rgb(230, 230, 230);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+/* For the linking parts */
+footer .right > ul a {
+  text-decoration: none;
+  color: rgb(180, 180, 180);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+footer .right > ul a:hover {
+  color: rgb(210, 210, 210);
+}

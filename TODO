@@ -1,25 +1,25 @@
 - have a row element on the "the engine of imagination"
 - have a button under the paragraph for the piece of the week of the button saying 'find more from walt disney'
 - change the first thing you see on the home page to just be one big image when it is on the mobile device and then potentially on the desktop i can have it so the big image flicks in and out with different images
-- we have to do the NotFound page
 - track it so that when people first come onto the site, check whether people even make it to the explore page on their first go
 - add animations to the mobile version of the home page
 
 
-- big project is making everything mobile-compatible
 - add a bit in the hompage where it includes the location and tells people where to go
 - underneath have a contact us bit
-- add arrows in to the home page link and the two links of the contact page
 - we need to make the collections page resizebale
-
-- add a maps to the contact us page
-- so underneath have a "WHere to find us" on the right, and then on the left have a big map of where silver K gallery is
-
-
-- have a mobile search as well
+- need to make it so that when the search bar closes we also close all of the open details things
 
 - also make the searchbar give live results, and make the mobile search bit cover the whole page
 - make it so that if one of the theme thingos in the search bar are already open and the user opens another, shut the preevious one
+- collectors editions - for disney stuff - the images from limited edition
+- do the footer
+- on the home page and then on the contact us page include the opening hours 
+- try adding the respective logos of each name on the mobile menu
+- have the search bar able to search for limited editions and all of that
+
+For the footer:
+- have to write a privacy policy
 
 ### IMPORTANT
 - update the piece of the week 

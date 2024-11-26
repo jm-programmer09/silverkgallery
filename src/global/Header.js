@@ -64,7 +64,7 @@ export default function Header () {
       <nav className="pc">
         <Link to="/" className={location.pathname === "/" ? "selected" : ""}>Home</Link>
         <Link to="/collection" className={location.pathname.includes("/collection") ? "selected" : ""}>Our Collection</Link>
-        <Link to="/events" className={location.pathname === "/events" ? "selected" : ""}>Our News</Link>
+        <Link to="/events" className={location.pathname === "/events" ? "selected" : ""}>Events</Link>
         <Link to="/contactus" className={location.pathname === "/contactus" ? "selected" : ""} >Contact Us</Link>
 
         <SearchIcon classname="header-search-icon" size={24} onClick={() => { searchBarOpen ? setSearchBarOpen(false) : setSearchBarOpen(true) }}/> 

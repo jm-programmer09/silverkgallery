@@ -17,7 +17,7 @@ const Footer = () => {
 
           {/* The row of the lcoation and the phone number with the icons */}
             <div className='link-row'>
-              <a href='/' className='loc'>
+              <a href='https://www.google.com/maps/place/Silver+K+Gallery/@-37.8559802,145.023579,15z/data=!4m2!3m1!1s0x0:0x4d8a0c22ab0f2f3b?sa=X&ved=1t:2428&ictx=111' className='loc'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none">
                   <path d="M12 21C15.5 17.4 19 14.1764 19 10.2C19 6.22355 15.866 3 12 3C8.13401 3 5 6.22355 5 10.2C5 14.1764 8.5 17.4 12 21Z" stroke="rgb(150, 150, 150)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M12 12C13.1046 12 14 11.1046 14 10C14 8.89543 13.1046 8 12 8C10.8954 8 10 8.89543 10 10C10 11.1046 10.8954 12 12 12Z" stroke="rgb(150, 150, 150)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -26,7 +26,7 @@ const Footer = () => {
                 1092 High St, Armadale
               </a>
 
-              <a href='/' className='loc'>
+              <a href='tel:(03)95095577' className='loc'>
                 <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
                   <path d="M2.00589 4.54166C1.905 3.11236 3.11531 2 4.54522 2H7.60606C8.34006 2 9.00207 2.44226 9.28438 3.1212L10.5643 6.19946C10.8761 6.94932 10.6548 7.81544 10.0218 8.32292L9.22394 8.96254C8.86788 9.24798 8.74683 9.74018 8.95794 10.1448C10.0429 12.2241 11.6464 13.9888 13.5964 15.2667C14.008 15.5364 14.5517 15.4291 14.8588 15.0445L15.6902 14.003C16.1966 13.3687 17.0609 13.147 17.8092 13.4594L20.8811 14.742C21.5587 15.0249 22 15.6883 22 16.4238V19.5C22 20.9329 20.8489 22.0955 19.4226 21.9941C10.3021 21.3452 2.65247 13.7017 2.00589 4.54166Z" fill="rgb(120, 120, 120)"/>
                 </svg>

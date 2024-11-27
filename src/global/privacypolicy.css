@@ -1,0 +1,48 @@
+section.policy {
+  box-sizing: border-box;
+  min-height: calc(100vh - var(--header-height));
+  padding: 40px;
+  padding-top: 30px;
+}
+section.policy > h1 {
+  margin-top: 0;
+  font-weight: 650;
+  font-size: 36px;
+}
+section.policy > h2 {
+  font-weight: 550;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+section.policy > p {
+  color: var(--p);
+  font-weight: 400;
+  font-size: 17px;
+}
+section.policy > p > span {
+  color: var(--primary);
+  font-weight: 500;
+}
+section.policy > p > a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 400;
+}
+section.policy > p > a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  section.policy {
+    padding-right: 20px;
+  }
+  section.policy > h1 {
+    font-size: 32px;
+  }
+  section.policy > h2 {
+    font-size: 20px;
+  }
+  section.policy > p {
+    font-size: 15px;
+  }
+}

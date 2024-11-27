@@ -3,7 +3,8 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal; 
-  user-select: none;
+  /* user-select: none; */
+  scroll-behavior: smooth;
 }
 
 /* Variables */

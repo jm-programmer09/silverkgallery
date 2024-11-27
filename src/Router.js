@@ -12,6 +12,7 @@ import NotFound from "./global/NotFound";
 import { ScrollButton } from "./global/modules";
 import Product from "./collection/selector/Product";
 import ContactUs from "./contact/ContactUs";
+import PrivacyPolicy from "./global/privacypolicy";
 
 export default function Router () {
   return (
@@ -35,6 +36,9 @@ export default function Router () {
 
         {/* For contact us */}
         <Route path="/contactus" element={<ContactUs />} />
+
+        {/* For the privacy policy */}
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
         <Route path="/collection/:categories?/:themes?/:id" element={ <Product /> } />
       </Routes>

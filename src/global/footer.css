@@ -6,6 +6,7 @@ footer {
   padding-left: 70px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 /* For the top text part */
 footer .top {
@@ -77,7 +78,7 @@ footer .right {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  width: 300px;
+  width: fit-content;
   padding-left: 30px;
 }
 /* For the dividing bar */
@@ -118,5 +119,60 @@ footer .right > ul a {
   text-transform: uppercase;
 }
 footer .right > ul a:hover {
+  color: rgb(210, 210, 210);
+}
+
+/* This is now for the timings beneath everything */
+footer > ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+/* For the title */
+footer > ul > h4 {
+  color: rgb(180, 180, 180);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* For teh list of things */
+footer > ul > li {
+  margin-bottom: 7px;
+  font-weight: 400;
+  color: rgb(180, 180, 180);
+  font-size: 18px;
+}
+footer > ul > li > span {
+  color: rgb(210, 210, 210);
+}
+
+
+
+/* For the legal part right at the bottom */
+footer > div.legal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  margin-top: 70px;
+}
+footer div.legal > .copyright {
+  color: rgb(180, 180, 180);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+footer div.legal > a {
+  color: rgb(180, 180, 180);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+footer div.legal > a:hover {
   color: rgb(210, 210, 210);
 }

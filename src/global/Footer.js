@@ -64,13 +64,6 @@ const Footer = () => {
               
               </Link>
             </div>
-
-            {/* Timings */}
-            <div className='timings'>
-              {/* Add in the opening times here */}
-
-            </div>
-
           </div>
 
           <div className='right'>
@@ -89,17 +82,48 @@ const Footer = () => {
                   })}
                 </ul>
               );
-            })}
+            })}          
 
           </div>
 
         </div>
 
+        {/* Timings underneath here */}
+        <ul>
+          <h4>Opening Hours</h4>
+
+          <li>
+            <span>Monday-Tuesday</span> &ensp;Closed
+          </li>
+
+          <li>
+            <span>Wednesday-Friday</span> &ensp;10am - 5.30pm
+          </li>
+
+          <li>
+            <span>Saturday</span> &ensp;10.30am - 5.30pm
+          </li>
+
+          <li>
+            <span>Sunday</span> &ensp;11.30am - 5.30pm
+          </li>
+
+        </ul>
+
 
         {/* Then have a divider and then on the right and on this side list all of the themes of each category  */}
 
         {/* underneath all of above have another divider and then have the privacy policy link, the copyright mention, and then anyting other legal info */}
+        
 
+        {/* For the legal stuff with privacy policy link and then the copyright mention */}
+        <div className='legal'>
+          <div className='copyright'>
+            COPYRIGHT 1997-2025 © silver k fine art 
+          </div>
+          
+          <Link to={"/privacy-policy"}>privacy policy</Link>
+        </div>
 
 
     </footer>

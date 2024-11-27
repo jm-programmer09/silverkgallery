@@ -223,3 +223,12 @@ footer div.legal > a:hover {
     flex-wrap: wrap;
   }
 }
+@media only screen and (max-width: 415px) {
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  footer .top > .right {
+    gap: 10px;
+  }
+}

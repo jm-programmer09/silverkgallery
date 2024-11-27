@@ -350,7 +350,8 @@ div.contactlocation .right > a:hover {
 @media only screen and (max-width: 740px) {
   div.contactlocation {
     flex-direction: column;
-    width: 100vw;
+    max-width: 100%;
+    box-sizing: border-box;
   }
   div.contactlocation .left {
     width: 100%;
@@ -404,7 +405,7 @@ div.contactlocation .right > a:hover {
   }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 375px) {
   div.contact_us .left > h1 {
     font-size: 48px;
   }

@@ -18,6 +18,7 @@ footer .top {
 footer .top > .left {
   display: flex;
   flex-direction: column;
+  position: relative;
   gap: 20px;
 }
 footer .top > .left h3 {
@@ -175,4 +176,50 @@ footer div.legal > a {
 }
 footer div.legal > a:hover {
   color: rgb(210, 210, 210);
+}
+
+@media only screen and (max-width: 950px) {
+  footer {
+    align-items: center;
+    padding: 40px;
+  }
+  footer > .top {
+    flex-direction: column;
+    gap: 50px;
+    width: fit-content;
+    align-items: center;
+  }
+  footer .top > .right::before {
+    display: none;
+  }
+  footer .top > .right {
+    padding: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    justify-content: center;
+    gap: 60px;
+    /* justify-content: space-between; */
+  }
+  footer > ul > h4 {
+    color: rgb(230, 230, 230);
+  }
+}
+
+/* Now or more phone devices */
+@media only screen and (max-width: 570px) {
+  footer .top > .left .loc > svg {
+    width: 20px;
+    height: 20px;
+  }
+  footer .top > .left .loc {
+    font-size: 16px;
+  }
+  footer .top > .left .lin {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (max-width: 520px) {
+  footer .top > .left .link-row {
+    flex-wrap: wrap;
+  }
 }

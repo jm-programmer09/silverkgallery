@@ -109,13 +109,7 @@ const Footer = () => {
           </li>
 
         </ul>
-
-
-        {/* Then have a divider and then on the right and on this side list all of the themes of each category  */}
-
-        {/* underneath all of above have another divider and then have the privacy policy link, the copyright mention, and then anyting other legal info */}
         
-
         {/* For the legal stuff with privacy policy link and then the copyright mention */}
         <div className='legal'>
           <div className='copyright'>

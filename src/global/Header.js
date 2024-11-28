@@ -64,7 +64,7 @@ export default function Header () {
       <nav className="pc">
         <Link to="/" className={location.pathname === "/" ? "selected" : ""}>Home</Link>
         <Link to="/collection" className={location.pathname.includes("/collection") ? "selected" : ""}>Our Collection</Link>
-        <Link to="/events" className={location.pathname === "/events" ? "selected" : ""}>Events</Link>
+        <Link to="/exhibitions" className={location.pathname === "/events" ? "selected" : ""}>Exhibitions</Link>
         <Link to="/contactus" className={location.pathname === "/contactus" ? "selected" : ""} >Contact Us</Link>
 
         <SearchIcon classname="header-search-icon" size={24} onClick={() => { searchBarOpen ? setSearchBarOpen(false) : setSearchBarOpen(true) }}/> 
@@ -92,7 +92,7 @@ export default function Header () {
         initial={{ opacity: 0, x: -100 }}
         animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
         transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.2}}
-        ><Link to="/events" onClick={() => { setMobileMenuOpen(false); }}>Events</Link></motion.div>
+        ><Link to="/exhibitions" onClick={() => { setMobileMenuOpen(false); }}>Exhibitions</Link></motion.div>
         <motion.div
         initial={{ opacity: 0, x: -100 }}
         animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
@@ -147,8 +147,6 @@ export default function Header () {
             </ul>
           </details>
         </div>
-
-        {/* Have a thing next to the input of a row list of dropdown things of themes */}
       
       </motion.form>
     </header>

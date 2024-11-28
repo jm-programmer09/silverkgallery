@@ -553,6 +553,9 @@ section.history ol > li.order::before {
   top: 50px;
   background-color: rgb(240, 240, 240);
 }
+section.history ol > li.order:last-child::before {
+  height: 50px;
+}
 
 /* END OF OUR HISTORY */
 
@@ -872,7 +875,7 @@ section.quote h2 > div.last::after {
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 425px) {
   section.history  ol {
     gap: 153px;
   }
@@ -885,8 +888,40 @@ section.quote h2 > div.last::after {
   section.history ul > li:nth-last-child(-n + 1) {
     margin-top: -23px;
   }
+  section.history ol > li:nth-last-child(2)::before {
+    height: 150px;
+  } 
+  section.history ol > li:nth-last-child(-n + 1) {
+    margin-top: -21px;
+  } 
 }
 
+@media only screen and (max-width: 388px) {
+  section.history ol > li:nth-last-child(-n + 1) {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  section.history ol {
+    gap: 175px;
+  }
+  section.history ol > li.order::before {
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  section.history ol {
+    gap: 218px;
+  }
+  section.history ol > li.order::before {
+    height: 225px;
+  }
+  section.history ol > li:nth-last-child(-n + 1) {
+    margin-top: -39px;
+  }
+}
 
 /* Animations */
 @keyframes appear {

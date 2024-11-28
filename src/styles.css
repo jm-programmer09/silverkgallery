@@ -445,6 +445,7 @@ header .seperatelinks details > summary {
   list-style-type: "";
   position: relative;
   cursor: pointer;
+  user-select: none;
 }
 
 header .seperatelinks details > summary::after {
@@ -453,6 +454,13 @@ header .seperatelinks details > summary::after {
   right: -24px;
   transform: rotate(90deg);
   top: -5px;
+  transition: all var(--slider-timing) 250ms;
+}
+header .seperatelinks details[open] > summary::after {
+  transform: rotate(-90deg);
+  top: -2px;
+  right: -28px;
+  transition: all var(--slider-timing) 250ms;
 }
 
 /* END OF THE HEADER */

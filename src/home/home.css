@@ -644,7 +644,9 @@ section.quote h2 > div.last::after {
   bottom: -10px;
 }
 /* End of the quote at the top */
-
+section.beneath {
+  padding-top: 0px;
+}
 
 
 
@@ -656,7 +658,23 @@ section.quote h2 > div.last::after {
     display: none;
   }
   section.cards {
-    padding-bottom: 40px !important;
+    position: relative;
+    padding-bottom: 20px !important;
+  }
+  section.cards::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    height: 1.5px;
+    background-color: rgba(0, 0, 0, 0.321);
+    width: 80%;
+    border-radius: 10px;
+  } 
+  section.nottop::after {
+    display: none;
+  }
+  section.beneath {
+    padding-top: 20px !important;
   }
   section.cards .mobile-theme-row {
     display: grid;

@@ -111,7 +111,7 @@ export default function Home () {
       </section>
 
       {/* Photography */}
-      <section className="cards" style={{ paddingTop: "0px", paddingBottom: "0px"}}>
+      <section className="cards beneath" style={{ paddingTop: "0px", paddingBottom: "0px"}}>
         <h2 className="desktop">Rock N' Roll Photography</h2>
         <h2 className="mobile">Photography</h2>
 

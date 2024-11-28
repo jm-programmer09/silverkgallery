@@ -229,5 +229,6 @@ footer div.legal > a:hover {
   }
   footer .top > .right {
     gap: 20px;
+    justify-content: space-between;
   }
 }

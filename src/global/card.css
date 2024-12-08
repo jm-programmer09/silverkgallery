@@ -31,6 +31,8 @@
   font-weight: 600;
   font-size: 17px;
   color: var(--subtext);
+  background-color: white;
+  z-index: 10;
 }
 .global-card .text > small {
    margin-top: 5px;

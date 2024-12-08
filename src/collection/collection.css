@@ -4,10 +4,14 @@ section.collection {
   flex-direction: row;
   margin: 0;
   padding: 40px;
-  gap: 50px;
+  gap: 0px;
   padding-top: 0;
   padding-top: 10px;
+  box-sizing: border-box;
   padding-right: 0px;
+  margin-right: 0px;
+  width: 100%;
+  min-height: calc(100% - var(--header-height));
 }
 
 /* This is the css for the results part */
@@ -19,7 +23,9 @@ section.collection section.result_parent {
   gap: 10px;
   margin: 0;
   padding: 0;
-  max-width: calc(100% - 300px);
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 20px;
   overflow-x: hidden;
 }
 
@@ -32,6 +38,8 @@ section.searchbar {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
   padding-top: 10px;
 }
 
@@ -62,7 +70,6 @@ section.searchbar > form {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  margin-right: 50px;
   align-items: center;
   margin-bottom: 5px;
   padding-bottom: 5px;
@@ -99,7 +106,7 @@ section.searchbar form::after {
   bottom: -6px;
   height: 0.5px;
   background-color: rgb(170, 170, 170);
-  width: calc(100% - 50px);
+  width: 100%;
   transition: all 200ms;
 }
 section.searchbar form:focus-within::after {
@@ -113,6 +120,7 @@ section.searchbar form:focus-within::after {
 section.collection nav {
   max-width: 200px;
   min-width: 200px;
+  margin-right: 50px;
   user-select: none;
   padding-top: 10px;
   background-color: white;
@@ -204,7 +212,6 @@ section.results_child {
   padding: 15px 0 0 0;
   width: 100%;
   max-width: 100%;
-  padding-right: 15px;
   box-sizing: border-box;
 }
 
@@ -214,11 +221,21 @@ section.results_child a.collections-card {
   height: 400px;
 }
 
-@media only screen and (max-width: 1200px) {
-  section.collection {
-    padding-right: 40px; /* Add right padding when nav is hidden */
+@media only screen and (max-width: 1180px) {
+  section.results_child {
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   }
-  
+  section.results_child a.collections-card {
+    width: 220px;
+    height: 370px !important;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  section.collection {
+    padding-left: 25px;
+  }
   section.collection > nav {
     display: none;
   }
@@ -228,37 +245,9 @@ section.results_child a.collections-card {
   }
 }
 
-/* Additional media query for smaller screens */
-@media only screen and (max-width: 600px) {
-  section.results_child > div {
-    transform: scale(0.9);
-  }
-  section.results_child {
-    gap: 0;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    margin-left: -10px;
-    grid-row-gap: 0px !important;
-  }
-}
-
-@media only screen and (max-width: 505px) {
-  section.results_child > div {
-    width: 180px;
-    height: 330px;
-  }
-  section.results_child {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  section.collection {
-    padding-left: 20px;
-  }
-  section.results_child {
-    justify-content: center;
-    gap: 10px;
-  }
-}
 
 /* End of the results */
+
+body {
+  overflow: auto;
+}

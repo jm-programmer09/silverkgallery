@@ -64,7 +64,7 @@ export default function Header () {
       <nav className="pc">
         <Link to="/" className={location.pathname === "/" ? "selected" : ""}>Home</Link>
         <Link to="/collection" className={location.pathname.includes("/collection") ? "selected" : ""}>Our Collection</Link>
-        <Link to="/exhibitions" className={location.pathname === "/events" ? "selected" : ""}>Exhibitions</Link>
+        <Link to="/exhibitions" className={location.pathname === "/exhibitions" ? "selected" : ""}>Exhibitions</Link>
         <Link to="/contactus" className={location.pathname === "/contactus" ? "selected" : ""} >Contact Us</Link>
 
         <SearchIcon classname="header-search-icon" size={24} onClick={() => { searchBarOpen ? setSearchBarOpen(false) : setSearchBarOpen(true) }}/> 
@@ -114,7 +114,7 @@ export default function Header () {
         }}
       >
         <div className="input">
-          <SearchIcon classname={"icon"} size={22} />
+          <SearchIcon classname={"icon"} size={22} onClick={() => {navigate(`/collection?search=${searchRef.current.value.trim()}`); setSearchBarOpen(false); }} />
 
           <input ref={searchRef} placeholder="Search..." name="search" autoComplete="off" autoCapitalize="off" />
 

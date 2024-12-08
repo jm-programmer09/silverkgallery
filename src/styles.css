@@ -57,6 +57,7 @@ header {
   left: 0;
   width: calc(100% - 30px);
   display: flex;
+  user-select: none;
   flex-direction: row;
   z-index: 100;
   justify-content: space-between;

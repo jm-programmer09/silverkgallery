@@ -7,6 +7,7 @@
         "type": "Glicee on canvas",
         "dimensions": [[17, 26], 95],
         "special": [true],
+        "featured": true,
         "tags": ["spider", "red", "medium", "hero"]
       },
       "amazingspiderman": {
@@ -30,6 +31,7 @@
         "title": "the truth is",
         "type": "Giclee on canvas",
         "special": [true],
+        "featured": true,
         "dimensions": [[16, 24]],
         "tags": ["iron", "man", "robot", "tech", "hero"]
       },
@@ -78,6 +80,7 @@
         "title": "direct flight",
         "type": "Glicee on canvas",
         "special": [true],
+        "featured": true,
         "dimensions": [[20, 26], 95],
         "tags": ["ironman", "fight", "flight"]
       },
@@ -113,6 +116,7 @@
         "title": "the devil and homer",
         "type": "Hand painted",
         "dimensions": [0, 50],
+        "featured": true,
         "tags": ["episode"]
       },
       "gardenofspringfield": {
@@ -127,6 +131,7 @@
         "title": "heatwave",
         "type": "Hand painted",
         "dimensions": [0, 50],
+        "featured": true,
         "tags": ["hot", "family"]
       },
       "homerandmargepersona": {
@@ -143,6 +148,7 @@
         "title": "what remains",
         "type": "Glicee on canvas",
         "dimensions": [[18, 24], 0, 250],
+        "featured": true,
         "tags": ["darth", "vader", "jedi", "sith"]
       },
       "usurper": {
@@ -156,12 +162,14 @@
         "image": "/waysoftheforce.jpg",
         "title": "the ways of the force",
         "type": "Glicee on canvas",
+        "featured": true,
         "dimensions": [[18, 24], 0, 24],
         "tags": ["attack", "war", "fight"]
       },
       "youweremybrother": {
         "image": "/youweremybrother.jpg",
         "title": "you were my brother",
+        "featured": true,
         "type": "Glicee on canvas",
         "dimensions": [[12, 16], 0, 0, 395],
         "tags": ["battle", "sith"]

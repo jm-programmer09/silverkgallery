@@ -7,19 +7,60 @@ import { useLocation, useNavigate, useParams, useSearchParams } from "react-rout
 import {Item,  shuffleArray } from "./Item";
 
 // END OF IMPORTS
-// we need to add a featured section to the searchJSON
 
+function checkForFeatured (data, searchTerm, checks) {
+  // if it finds that only featured are checked then it will only return the featured
+  // For if the check is only the featured
+  const featuredResults = [];
 
+  for (const categories of ["animation", "photography"]) {
+    if (checks[categories].featured !== true) continue; // to continue to the other category
+
+    // now for the category that is selected (or can be both)
+    for (const themes of Object.keys(data[categories])) {
+      // This iterates through the products in the current-category iteration and checks if it is feature
+      for (const products of Object.keys(data[categories][themes])) {
+        const product = data[categories][themes][products];
+
+        // IF it is featured
+        if (product.featured) {
+          // Then check if the title is included in the search
+          // checking the title and then the tags
+          if (searchTerm !== "") { // if it is not empty
+            if (product.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
+                product.tags.some(tag => tag.toLowerCase().includes(searchTerm))) {
+                  featuredResults.push(`${categories}.${themes}.${products}`);
+
+                } 
+          } else {
+            featuredResults.push(`${categories}.${themes}.${products}`);
+          }
+        }
+
+      }
+    }
+
+  }
+
+  // have the ... for when doign the push
+  return featuredResults;
+  // for the search item just search through the things found with the checks
+}
 // functions for the searching 
-function searchJSON(obj, searchTerm, checks) {
+function searchJSON(obj, searchTerm, checks, runFeaturedCheck = true) {
   const results = [];
   const lowercaseSearchTerm = searchTerm.toLowerCase();
+
+  // For checking to return featured items
+  if (runFeaturedCheck && (checks["animation"].featured === true || checks["photography"].featured === true )) {
+    // have the ... for when doign the push
+    results.push(... checkForFeatured(data, searchTerm, checks));
+  }
 
   function searchItem(item, path) {
     if (item.title && item.tags) {
       if (item.title.toLowerCase().includes(lowercaseSearchTerm) ||
           item.tags.some(tag => tag.toLowerCase().includes(lowercaseSearchTerm))) {
-            
         results.push(path);
       }
     }
@@ -52,10 +93,8 @@ function searchJSON(obj, searchTerm, checks) {
     }
   }
 
-  return results;
+  return results.filter((item, index) => results.indexOf(item) === index);
 }
-
-
 
 // in the menuOpener function all we need is a function that shows the inputs that are highlighted or not
 function MenuItems ( { title, categories, themes }) {
@@ -68,7 +107,7 @@ function MenuItems ( { title, categories, themes }) {
   // just used featured as we can make it all when it is just animation, or just photogrpahy, or both
   const featured = searchParams.get("featured") === null ? [0, 0] : searchParams.get("featured").split(" "); // this will be equal to 0/1+0/1 
   // featured is euqal to null if the .get is empty
-  // left is animation and 1 is on and 0 is off 
+  // left is animation and 1 is on and 0 is off --- IMPORTANT
 
 
   // to check that the 'all' is selected, check for whether the themes contains any specific themes, and if it doesnt, then all has been selected
@@ -222,6 +261,8 @@ function MenuItems ( { title, categories, themes }) {
 export default function OurCollection () {
   // For getting the /:categories/:themes
   const { categories, themes } = useParams();
+  // Search params
+  const [mainSearchParams] = useSearchParams();
   
   // For getting the real values
   // Combining the themes of animation and photography together
@@ -357,11 +398,8 @@ export default function OurCollection () {
           newCheck[category][theme] = themes.includes(theme);
         });
 
-        // now for the all part
-        if (theme_from_category_found) {
+        if (!theme_from_category_found) {
           newCheck[category].all = false;
-        } else {
-          newCheck[category].all = true;
         }
       } else if (categories !== undefined && !categories.includes(category)) {
         // make everything false from this category
@@ -377,6 +415,13 @@ export default function OurCollection () {
       }
     }
 
+    // Add in the new check for featured items or not
+    const featured = mainSearchParams.get("featured") === null ? [0, 0] : mainSearchParams.get("featured");
+
+    // left is the animation and right is photography, where 1 is on and 0 is off
+    newCheck["animation"]["featured"] = featured[0] === '1' ? true : false;
+    newCheck["photography"]["featured"] = featured[2] === '1' ? true : false;
+    
     setCheck(newCheck);
 
     // for adding in the results

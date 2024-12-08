@@ -5,13 +5,12 @@ section.collection {
   margin: 0;
   padding: 40px;
   gap: 0px;
-  padding-top: 0;
   padding-top: 10px;
   box-sizing: border-box;
   padding-right: 0px;
   margin-right: 0px;
   width: 100%;
-  min-height: calc(100% - var(--header-height));
+  min-height: calc(100% - var(--header-height) - 40px);
 }
 
 /* This is the css for the results part */
@@ -225,10 +224,11 @@ section.results_child a.collections-card {
   section.results_child {
     gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-row-gap: 20px;
   }
   section.results_child a.collections-card {
     width: 220px;
-    height: 370px !important;
+    height: 370px;
   }
 }
 
@@ -245,6 +245,67 @@ section.results_child a.collections-card {
   }
 }
 
+@media only screen and (max-width: 520px) {
+  section.results_child a.collections-card {
+    width: 200px !important;
+  }
+  section.results_child {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  section.collection {
+    padding-left: 10px;
+  }
+  section.collection > section.result_parent {
+    padding-right: 10px;
+  }
+  section.collection > section.result_parent .searchbar {
+    margin-left: 15px;
+    width: calc(100% - 30px);
+  }
+  .collections-card .text {
+    gap: 0;
+  }
+  .collections-card .text > h4 {
+    font-size: 15px;
+  }
+  .collections-card .text > small {
+    font-size: 10px;
+    margin: 0;
+  }
+  .collections-card .text > p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  section.results_child a.collections-card {
+    width: 180px !important;
+    height: 350px;
+  }
+  section.results_child {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  section.results_child a.collections-card {
+    width: 150px !important;
+    height: 320px;
+  }
+  section.results_child {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+  .collections-card .text > h4 {
+    font-size: 13.5px;
+  }
+  .collections-card .text > small {
+    font-size: 9px;
+    margin: 0;
+  }
+  .collections-card .text > p {
+    font-size: 12.5px;
+  }
+}
 
 /* End of the results */
 

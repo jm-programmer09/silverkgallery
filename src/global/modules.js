@@ -58,12 +58,16 @@ export function sizeParser (dimensions) { // dimensions === data.__item__.dimens
 }
 
 // The card design
-export function Card ({ id}) {
+export function Card ({ id, styles={}}) {
   // For adding the cool animation
   const cardRef = useRef(null);
   const cardInView = useInView(cardRef, { once: true });
   const element = data[id.split("/")[0]][id.split("/")[1]][id.split("/")[2]];
   
+  if (element === undefined) {
+    console.log(id);
+  }
+
   return (
     <motion.div 
       initial={{ opacity: 0.1 }}
@@ -75,7 +79,7 @@ export function Card ({ id}) {
       }}
     >
     <Link to={"/collection/" + id} className="global-card">
-      <div className="imgP"       ref={cardRef}>
+      <div className="imgP"  style={styles}     ref={cardRef}>
         <img  decoding="async" loading="lazy"
  src={process.env.PUBLIC_URL + "/img/" + (id.split("/")[0] + "/" + id.split("/")[1]) + element.image} alt={id.split("/")[2]}  />
       </div>

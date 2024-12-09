@@ -53,7 +53,7 @@ function searchJSON(obj, searchTerm, checks, runFeaturedCheck = true) {
 
   // Check the search term for any categories/theme
   for (const category of Object.keys(obj)) {
-    if (searchTerm.toLowerCase().includes(category.toLowerCase())) {  
+    if (searchTerm.toLowerCase().includes(category.replace("-", " ").toLowerCase())) {  
       Object.keys(data[category]).forEach((theme) => {
         Object.keys(data[category][theme]).forEach((product_id) => {
           results.push(`${category}.${theme}.${product_id}`);

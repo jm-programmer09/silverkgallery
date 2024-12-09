@@ -206,16 +206,61 @@
       }
     },
     "rolling-stones": {
-
+      "rollinstones": {
+        "image": "/rollinstones.jpg",
+        "title": "Rollin Stones",
+        "type": "Photography",
+        "dimensions": [0],
+        "tags": ["band", "guitar", "sing"]
+      }
     },
     "marilyn-monroe": {
-
+      "outthewindow": {
+        "image": "/outthewindow.jpg",
+        "title": "out the window",
+        "type": "Photography",
+        "author": "Sam Shaw",
+        "dimensions": [0],
+        "tags": ["Sam", "shaw", "mary", "monroe", "girl", "woman"]
+      },
+      "flowinmouth": {
+        "image": "/flowinmouth.jpg",
+        "title": "Flower In Mouth",
+        "type": "Photography",
+        "author": "Sam Shaw",
+        "dimensions": [0],
+        "tags": ["girl", "woman", "dress", "outside", "mary", "monroe"]
+      }
     },
     "elvis": {
 
     },
     "ronnie-woods": {
-      
+      "conversation11": {
+        "image": "/conversation11.jpg",
+        "title": "Converssation ||",
+        "type": "Photography",
+        "author": "Ronnie Woods",
+        "dimensions": [0],
+        "tags": ["ronnie", "woods", "convo", "band", "guitar"]
+      },
+      "slideonthis": {
+        "image": "/slideonthis.gif",
+        "title": "slide on this",
+        "type": "Photography",
+        "author": "Ronnie Woods",
+        "dimensions": [0],
+        "tags": ["guitar", "woods", "ronnie"]
+      }
+    },
+    "misc": {
+      "thegoodclinteastwood": {
+        "image": "/thegoodclinteastwood.jpg",
+        "title": "The Good - Clint Eastwood",
+        "type": "Photography",
+       "dimensions": [0],
+        "tags": ["clint", "eastwood", "cowboy", "outback"]
+      }
     }
   }
 }

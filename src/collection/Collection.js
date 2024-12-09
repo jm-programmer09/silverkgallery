@@ -51,6 +51,30 @@ function searchJSON(obj, searchTerm, checks, runFeaturedCheck = true) {
   const results = [];
   const lowercaseSearchTerm = searchTerm.toLowerCase();
 
+  // Check the search term for any categories/theme
+  for (const category of Object.keys(obj)) {
+    if (searchTerm.toLowerCase().includes(category.toLowerCase())) {  
+      Object.keys(data[category]).forEach((theme) => {
+        Object.keys(data[category][theme]).forEach((product_id) => {
+          results.push(`${category}.${theme}.${product_id}`);
+        });
+      });  
+      continue;
+    }
+
+    // Else checking for the themes inside of each category 
+    // Iterate through all of the themes
+    Object.keys(data[category]).forEach((theme) => {
+      if (searchTerm.toLowerCase().includes(theme.toLowerCase())) {
+        Object.keys(data[category][theme]).forEach((product_id) => {
+          results.push(`${category}.${theme}.${product_id}`);
+        });
+      }
+    });
+
+    // results.push(...themeResults);
+  }
+
   // For checking to return featured items
   if (runFeaturedCheck && (checks["animation"].featured === true || checks["photography"].featured === true )) {
     // have the ... for when doign the push

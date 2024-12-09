@@ -543,7 +543,7 @@ export default function OurCollection () {
             </form>
 
             <h2>
-              <span className="title">Silver K Gallery</span>
+              <span className="title" style={{ userSelect: "none"}}>Silver K Gallery</span>
               <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" fill="rgb(130, 130, 130)" version="1.1" width="8px" height="8px" viewBox="0 0 103.536 103.536" >
                 <g>
                   <g>
@@ -551,7 +551,7 @@ export default function OurCollection () {
                   </g>
                 </g>
               </svg>
-              <span className="result">{categories !== undefined && (categories.includes("animation") && categories.includes("photography") ? "Animation + Photography" : ( categories.includes("animation") ? "Animation" : (categories.includes("photography") && "Photography"  ) ) ) } </span>
+              <span className="result">{searchQuery !== "" && <>Results for '{searchQuery}'</>}</span>
             </h2>
           </section>
 

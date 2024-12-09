@@ -68,21 +68,25 @@ export default function Home () {
       {/* We need to fix the mobile main bit */}
 
       <section className="mobile-main">
-
-        {/* <h1>Celebrating <big>40</big> years of artistic innovation...</h1>
-
         <img src={process.env.PUBLIC_URL + "/img/home_image.jpg"} alt="Ronnie Woods Art" draggable={false}/>
 
-        <div className="row">
-          <h2>
-            <span>Discover</span>
-            <span>Timeless</span>
-            <span>Artwork</span>
-          </h2>
+        <div className="text">
+          <h1>
+            Discover
+          </h1>
+          <h1>
+            Timeless
+          </h1>
+          <h1>
+            Artwork
+          </h1>
 
+
+          <p>Silver K Gallery - Celebrating 40 years of Artistic Innovation</p>
+        
           <Link to={"/collection"}>Explore our collection</Link>
-
-        </div> */}
+        
+        </div>
 
       </section>
 

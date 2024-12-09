@@ -177,6 +177,24 @@ footer div.legal > a:hover {
   color: rgb(210, 210, 210);
 }
 
+/* Made by jack mellett part */
+footer > div.author {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: rgb(180, 180, 180);
+  gap: 7px;
+}
+footer > div.author a {
+  color: var(--gradientTo);
+  text-decoration: none;
+}
+footer > div.author a:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 950px) {
   footer {
     align-items: center;

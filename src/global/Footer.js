@@ -119,6 +119,10 @@ const Footer = () => {
           <Link to={"/privacy-policy"}>privacy policy</Link>
         </div>
 
+        <div className='author'>
+          Website by <a href='mailto:jackmellett2009@gmail.com'>Jack Mellett</a>
+        </div>
+
 
     </footer>
   );

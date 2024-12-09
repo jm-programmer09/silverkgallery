@@ -47,6 +47,8 @@ export default function Home () {
   const isTextInView = useInView(figcaptionRef, { once: true });
   const historyRef = useRef(null);
   const isHistoryInView = useInView(historyRef, {once: true }); 
+  const mobileMainRef = useRef(null);
+  const isMobileMainInView = useInView(mobileMainRef, { once: true });
 
   return (
     <>
@@ -67,25 +69,70 @@ export default function Home () {
 
       {/* We need to fix the mobile main bit */}
 
-      <section className="mobile-main">
+      <section className="mobile-main" ref={mobileMainRef}>
         <img src={process.env.PUBLIC_URL + "/img/home_image.jpg"} alt="Ronnie Woods Art" draggable={false}/>
 
         <div className="text">
-          <h1>
+          <motion.h1
+            initial={{ opacity: 0, x: -100 }}
+              animate={isMobileMainInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
+              transition={{ 
+                duration: 0.5, 
+                ease: [0.16, 1, 0.3, 1], // cubic-bezier
+                delay: 0 // 0.2 second delay
+              }}
+          
+          >
             Discover
-          </h1>
-          <h1>
+          </motion.h1>
+          <motion.h1
+            initial={{ opacity: 0, x: -100 }}
+              animate={isMobileMainInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
+              transition={{ 
+                duration: 0.5, 
+                ease: [0.16, 1, 0.3, 1], // cubic-bezier
+                delay: 0.1 // 0.2 second delay
+              }}
+          
+          >
             Timeless
-          </h1>
-          <h1>
+          </motion.h1>
+          <motion.h1
+            initial={{ opacity: 0, x: -100 }}
+              animate={isMobileMainInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
+              transition={{ 
+                duration: 0.5, 
+                ease: [0.16, 1, 0.3, 1], // cubic-bezier
+                delay: 0.2 // 0.2 second delay
+              }}
+          
+          >
             Artwork
-          </h1>
+          </motion.h1>
 
 
-          <p>Silver K Gallery - Celebrating 40 years of Artistic Innovation</p>
+          <motion.p
+             initial={{ opacity: 0, x: -100 }}
+             animate={isMobileMainInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }}
+             transition={{ 
+               duration: 0.5, 
+               ease: [0.16, 1, 0.3, 1], // cubic-bezier
+               delay: 0.3 // 0.2 second delay
+             }}
+          >Silver K Gallery - Celebrating 40 years of Artistic Innovation</motion.p>
         
-          <Link to={"/collection"}>Explore our collection</Link>
-        
+          <motion.div 
+           initial={{ opacity: 0, y: 100 }}
+           animate={isMobileMainInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+           transition={{ 
+             duration: 0.5, 
+             ease: [0.16, 1, 0.3, 1], // cubic-bezier
+             delay: 0.35 // 0.2 second delay
+           }}
+           style={{ marginTop: "70px"}}
+           >
+              <Link to={"/collection"}>Explore our collection</Link>
+           </motion.div>
         </div>
 
       </section>
@@ -301,7 +348,7 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
 
       
       {/* For the featured items of each */}
-      <section className="cards">
+      <section className="cards bottom-cards">
         <h3>Featured Animation Artwork</h3>
 
         <div className="card-grid">
@@ -317,7 +364,7 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
       </section>
 
       {/* Photography */}
-      <section className="cards" style={{ paddingTop: "0px"}}>
+      <section className="cards bottom-cards" style={{ paddingTop: "0px"}}>
         <h3>Featured Rock N' Roll Photography</h3>
         
         {/* Need to add the cards in here */}

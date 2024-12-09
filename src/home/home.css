@@ -566,7 +566,12 @@ section.quote {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  box-sizing: border-box;
+  width: 100%;
+}
 
+body {
+  overflow: auto;
 }
 section.quote > h2 {
   margin:  0;
@@ -663,6 +668,9 @@ section.beneath {
     position: relative;
     padding-bottom: 20px !important;
   }
+  section.bottom-cards {
+    display: none;
+  }
   section.cards::after {
     content: '';
     position: absolute;
@@ -728,10 +736,6 @@ section.beneath {
   section.quote {
     display: none;
   }
-  /* section.mobile-main img {
-    width: 100%;
-    border-radius: 20px !important;
-  } */
 }
 
 

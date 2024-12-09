@@ -69,7 +69,7 @@ export default function Home () {
 
       <section className="mobile-main">
 
-        <h1>Celebrating <big>40</big> years of artistic innovation...</h1>
+        {/* <h1>Celebrating <big>40</big> years of artistic innovation...</h1>
 
         <img src={process.env.PUBLIC_URL + "/img/home_image.jpg"} alt="Ronnie Woods Art" draggable={false}/>
 
@@ -82,7 +82,7 @@ export default function Home () {
 
           <Link to={"/collection"}>Explore our collection</Link>
 
-        </div>
+        </div> */}
 
       </section>
 

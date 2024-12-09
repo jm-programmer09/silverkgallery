@@ -18,6 +18,12 @@ section.main figure {
 
 /* For the mobile section.mobile-main */
 section.mobile-main {
+  height: calc(100vh - var(--header-height));
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--grey);
+}
+/* section.mobile-main {
   background-color: var(--grey);
   height: calc(100vh - var(--header-height) - 40px);
   display: none;
@@ -49,7 +55,7 @@ section.mobile-main img {
   width: fit-content;
 }
 
-/* For the text underneath the image */
+/* For the text underneath the image 
 section.mobile-main div.row {
   display: flex;
   flex-direction: row;
@@ -88,7 +94,7 @@ section.mobile-main div.row > a:hover {
   transition: all 250ms;
   border: 2px solid black;
   color: black;
-}
+} */
 
 
 /* Main image */

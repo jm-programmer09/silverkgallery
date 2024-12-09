@@ -361,6 +361,9 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
           <Card id={"animation/marvel/directflight"} />
           <Card id={"animation/star-wars/waysoftheforce"} />
         </div>
+
+        <Link className="visible" to={"/collection/animation/?featured=1+0"}>See more featured animation...</Link>
+
       </section>
 
       {/* Photography */}
@@ -378,6 +381,9 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
           <Card id={"photography/the-beatles/paulmccartney"} />
           <Card id={"photography/the-beatles/johnglasses"} />
         </div>
+
+        <Link className="visible" to={"/collection/photography/?featured=0+1"}>See more featured photography...</Link>
+
       </section>
     </>
   );

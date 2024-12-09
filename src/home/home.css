@@ -394,6 +394,15 @@ section.cards > a.featured:hover {
   text-decoration: underline;
 }
 
+section.cards > a.visible {
+  color: var(--primary);
+  margin-top: 10px;
+  text-decoration: none;
+}
+section.cards > a.visible:hover {
+  text-decoration: underline;
+}
+
 /* For the cards when it is not mobile */
 section.cards > .card-grid {
   display: grid;

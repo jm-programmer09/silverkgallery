@@ -1,8 +1,3 @@
-- have a row element on the "the engine of imagination"
-- have a button under the paragraph for the piece of the week of the button saying 'find more from walt disney'
-- change the first thing you see on the home page to just be one big image when it is on the mobile device and then potentially on the desktop i can have it so the big image flicks in and out with different images
-
-
 - add a bit in the hompage where it includes the location and tells people where to go
 - underneath have a contact us bit
 - need to make it so that when the search bar closes we also close all of the open details things
@@ -14,6 +9,9 @@
 - add another bit to the contact us page where it is a form that sends a thing for users to get emails sent to them regularly
 - have a see all featured items link underneath the laptop featured items 
 - make the collections clicking bit easier on the menu
+- add a max loading limit
+
+- the our collections selector part is no longer working, we have to fix that
 
 ### IMPORTANT
 - update the piece of the week 

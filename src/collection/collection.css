@@ -10,7 +10,7 @@ section.collection {
   padding-right: 0px;
   margin-right: 0px;
   width: 100%;
-  min-height: calc(100% - var(--header-height) - 40px);
+  min-height: calc(100vh - var(--header-height));
 }
 
 /* This is the css for the results part */
@@ -50,6 +50,8 @@ section.searchbar > h2 {
   margin: 0;
   padding: 0;
   align-items: center;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 /* For the stuff inside of the h2 */
@@ -214,6 +216,30 @@ section.results_child {
   box-sizing: border-box;
 }
 
+section.noresults {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+section.noresults > h3 {
+  color: var(--subtitle);
+  margin-bottom: 0;
+  font-size: 24px;
+}
+section.noresults > p {
+  color: var(--p);
+  font-size: 17px;
+}
+section.noresults > p a {
+  color: var(--primary);
+}
+section.noresults > p  a:hover {
+  color: var(--b-primary);
+}
+
+
 /* For the change in size for the collections card */
 section.results_child a.collections-card {
   width: 250px;
@@ -275,6 +301,9 @@ section.results_child a.collections-card {
   .collections-card .text > p {
     font-size: 14px;
   }
+  section.noresults {
+    padding-left: 15px !important;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -304,6 +333,15 @@ section.results_child a.collections-card {
   }
   .collections-card .text > p {
     font-size: 12.5px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  section.searchbar h2 > span.title {
+    display: none;
+  }
+  section.searchbar h2 svg {
+    display: none;
   }
 }
 

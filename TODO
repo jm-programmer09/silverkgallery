@@ -1,13 +1,10 @@
 - have a row element on the "the engine of imagination"
 - have a button under the paragraph for the piece of the week of the button saying 'find more from walt disney'
 - change the first thing you see on the home page to just be one big image when it is on the mobile device and then potentially on the desktop i can have it so the big image flicks in and out with different images
-- track it so that when people first come onto the site, check whether people even make it to the explore page on their first go
-- add animations to the mobile version of the home page
 
 
 - add a bit in the hompage where it includes the location and tells people where to go
 - underneath have a contact us bit
-- we need to make the collections page resizebale
 - need to make it so that when the search bar closes we also close all of the open details things
 
 - make it so that if one of the theme thingos in the search bar are already open and the user opens another, shut the preevious one
@@ -19,7 +16,6 @@
 - have a see all featured items link underneath the laptop featured items 
 - make the collections clicking bit easier on the menu
 - change the no-results found for the collectons page
-- make it so that the ">" bit actually has live updates on the collections page
 
 ### IMPORTANT
 - update the piece of the week 

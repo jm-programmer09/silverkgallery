@@ -557,13 +557,16 @@ export default function OurCollection () {
 
 
           {/* These are the cards here */}
-          <section className="results_child" >
+          <section className={products.length > 0 ? "results_child" : "noresults"}>
           {products.length > 0 ? (
             products.map(productID => (
               <Item key={productID} id={productID} />
             ))
           ) : (
-            <p>No results found. Maybe you will like our featured works.</p>
+            <>
+              <h3>No results found.</h3>
+              <p>Maybe you will like our <a href="/collection/?featured=1+1">featured works</a>.</p>
+            </>
           )}
             {/* For if there are no results, make it say "We're Sorry. We couldn't find any matches. And then say: "maybe you will like our featured animation works" */}
           </section>
@@ -573,6 +576,3 @@ export default function OurCollection () {
     </>
   );
 }
-
-// When the nav bar has to go mobile, change it so that it becomes a button called 'filters' and that button then opens the same nav menu up but covering the whole screen
-// when we move to using the url's of the page, change it so that the listopener has another parameter for whether it shows the menu or not

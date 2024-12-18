@@ -44,7 +44,7 @@ export default function Router () {
         {/* For the exhibitions page */}
         <Route path="/exhibitions" element={<Exhibition />} />
 
-        <Route path="/collection/:categories?/:themes?/:id" element={ <Product /> } />
+        <Route path="/collection/:categories/:themes/:id" element={ <Product /> } />
       </Routes>
 
       <Footer />

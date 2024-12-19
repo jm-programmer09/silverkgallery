@@ -93,10 +93,10 @@ export default function Product () {
             {/* Have a tag row underneath saying 'featured' - yellow or 'limited edition' - #003399 */}
 
             {product.author ? 
-              <h4 style={{ color: "black", marginBottom: "20px"}}> <span>{product.type} by </span>{product.author.replace(/^(.)|\s+(.)/g, c => c.toUpperCase())}</h4>
+              <h4 style={{ color: "black", marginBottom: "20px"}}> <span>{product.type} by </span>{product.author.replace(/^(.)|\s+(.)/g, c => c.toUpperCase()).replace("-", " ")}</h4>
               :
               <>
-                {categories.toLowerCase() === "animation" && <h4 style={{ color: "black", marginBottom: "20px"}}><span>by </span>{themes.replace(/^(.)|\s+(.)/g, c => c.toUpperCase())}</h4>}
+                {categories.toLowerCase() === "animation" && <h4 style={{ color: "black", marginBottom: "20px"}}><span>by </span>{themes.replace(/^(.)|\s+(.)/g, c => c.toUpperCase()).replace("-", " ")}</h4>}
               </>
             }
             
@@ -122,7 +122,18 @@ export default function Product () {
                 )}
               </li>
 
-               {/* For the notes */}
+              {product.dimensions[1] !== 0 && product.dimensions[1] && (
+                <li>Edition Size: {product.dimensions[1]}</li>         )}
+              {product.dimensions[2] !== 0 && product.dimensions[2] && (
+                <li>Paper Edition Size: {product.dimensions[2]}</li>               )}
+              {product.dimensions[3] !== 0 && product.dimensions[3] && (
+                <li>Giclée Edition Size: {product.dimensions[3]}</li> 
+              )}
+              {product.dimensions[4] !== 0 && product.dimensions[4] && (
+                <li>Canvas Edition Size: {product.dimensions[4]}</li> 
+              )}
+
+              {/* For the notes */}
                { product.note && 
                 <li> {product.note} </li>
               }
@@ -137,14 +148,7 @@ export default function Product () {
 
                 Call us</a>
               <Link className="right" to={`/collection/${categories}/${themes}`}>See more like this...</Link>
-            </div>
-
-            {/* Need to add in the buttons to contact and stuff next  */}
-            {/* have them both the same shape as the tags but isntead have it so that oone has their background filled in and the otehr one is the border version of it */}
-
-            {/* { product.type && categories !== "photography" && <p> { product.special ? <>Limited edition {product.type.toLowerCase()}</> : <>{String(product.type).charAt(0).toUpperCase() + String(product.type).slice(1)}</> } </p>} */}
-            
-          
+            </div>          
           
           </div>
 
@@ -154,12 +158,3 @@ export default function Product () {
     </>
   );
 }
-
-// For this page:
-// Make it look like acme
-// have a button at the top left for returning to the collections page and then also have that hierarchy list link thing
-// then below that have the image,
-// on the right then have the information on the product
-// make it so that if the product is featured it gets a yellow start next to the title
-
-// make the right textbox thing a card so it look neat

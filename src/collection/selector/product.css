@@ -46,10 +46,16 @@ section.products .left > .img {
   overflow: hidden;
   max-width: 500px;
   width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 section.products .left img {
   height: 100%;
   min-width: 330px;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* For the right side including the title and stuff */

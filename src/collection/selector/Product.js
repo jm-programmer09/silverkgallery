@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import "./product.css";
 import data from "../../products.json";
 import NotFound from "../../global/NotFound";
+import { Fragment } from "react";
 
 export default function Product () {
   const { categories, themes, id } = useParams();
@@ -11,6 +12,19 @@ export default function Product () {
   // If the product is not found (aka undefined)
   if (product === undefined) {
     return <NotFound />;
+  }
+
+  // Parse the dimensions
+  let display_base_dimensions = "No specific size";
+
+  // If there are dimensions (dimensions are only found for items in animation)
+  if (product.dimensions !== 0) {
+    // If there are multiple dimensions
+    if (typeof product.dimensions[0][0] === 'object') {
+      display_base_dimensions = product.dimensions[0];
+    } else if (product.dimensions[0] !== 0) {
+      display_base_dimensions = `${product.dimensions[0][0]}" x ${product.dimensions[0][1]}"`;
+    }
   }
 
   return (
@@ -87,8 +101,48 @@ export default function Product () {
             }
             
             <h2>Details:</h2>
+            
+            {/* List of details */}
+            <ul>
+              { product.type && categories !== "photography" &&
+                <li>{ product.special ? <>Limited edition {product.type.toLowerCase()}</> : <>{String(product.type).charAt(0).toUpperCase() + String(product.type).slice(1)}</> }</li>
+              }
 
-            { product.type && categories !== "photography" && <p> { product.special ? <>Limited edition {product.type.toLowerCase()}</> : <>{String(product.type).charAt(0).toUpperCase() + String(product.type).slice(1)}</> } </p>}
+              {/* For the sizing  */}
+              <li>
+                {display_base_dimensions instanceof Array ? (
+                      display_base_dimensions.map((value, index) => (
+                        <Fragment key={index}>
+                          {`${value[0]}" x ${value[1]}"`}
+                          {index !== display_base_dimensions.length - 1 && <>&ensp;or&ensp;</>}
+                        </Fragment>
+                      ))
+                    ) : (
+                      display_base_dimensions
+                )}
+              </li>
+
+               {/* For the notes */}
+               { product.note && 
+                <li> {product.note} </li>
+              }
+
+            </ul>
+            
+            <p>Interested in this piece?</p>
+            <div className="button-row">
+              <a style={{ paddingLeft: "23px"}} href="tel:(03)9509-5577">
+              <svg xmlns="http://www.w3.org/2000/svg" width={18} height={18} viewBox="0 0 24 24" fill="none"><path d="M2.00589 4.54166C1.905 3.11236 3.11531 2 4.54522 2H7.60606C8.34006 2 9.00207 2.44226 9.28438 3.1212L10.5643 6.19946C10.8761 6.94932 10.6548 7.81544 10.0218 8.32292L9.22394 8.96254C8.86788 9.24798 8.74683 9.74018 8.95794 10.1448C10.0429 12.2241 11.6464 13.9888 13.5964 15.2667C14.008 15.5364 14.5517 15.4291 14.8588 15.0445L15.6902 14.003C16.1966 13.3687 17.0609 13.147 17.8092 13.4594L20.8811 14.742C21.5587 15.0249 22 15.6883 22 16.4238V19.5C22 20.9329 20.8489 22.0955 19.4226 21.9941C10.3021 21.3452 2.65247 13.7017 2.00589 4.54166Z" fill="white"></path></svg>
+
+
+                Call us</a>
+              <Link className="right" to={`/collection/${categories}/${themes}`}>See more like this...</Link>
+            </div>
+
+            {/* Need to add in the buttons to contact and stuff next  */}
+            {/* have them both the same shape as the tags but isntead have it so that oone has their background filled in and the otehr one is the border version of it */}
+
+            {/* { product.type && categories !== "photography" && <p> { product.special ? <>Limited edition {product.type.toLowerCase()}</> : <>{String(product.type).charAt(0).toUpperCase() + String(product.type).slice(1)}</> } </p>} */}
             
           
           

@@ -35,16 +35,65 @@ export default function Product () {
 
             </div>
             <div className="img">
-              <img alt={product.title} loading="eager" src={process.env.PUBLIC_URL + `/img/${categories}/${themes}/${product.image}`} />
+              <img draggable={false} style={{ userSelect: "none"}} title={product.title.replace(/^\w/, (c) => c.toUpperCase())} alt={product.title} loading="eager" src={process.env.PUBLIC_URL + `/img/${categories}/${themes}/${product.image}`} />
             </div>
           </div>
 
           <div className="right">
+            <h3>Officially Licensed Artwork</h3>
 
+            <h1>
+              {product.title.replace("-", " ")}
+            </h1>
 
+            {/* For the featured and limited edition tag */}
+            <div className="tag-row" style={{ display: product.featured || product.special ? "flex" : "none" }}> 
+              { product.featured && <div className="tag" style={{ backgroundColor: "#ffce31", color: "black"}}>featured</div> }
+              
+              { product.special && 
+                <>
+                  {product.special[0] && <div className="tag" style={{ backgroundColor: "#003399"}}>limited edition</div> }
+                  
+                  {product.special.length > 2 && (
+                    <>
+                    { product.special[2] && 
 
+                      <div className="tag" style={{ backgroundColor: "#0055ff"}}>Signed</div>
+                    }
+                    </>
+                  )}
+                  
+                  {product.special.length > 1 && <> 
+                  
+                    { product.special[1] && 
+                      <div className="tag" style={{ backgroundColor: "rgb(180, 180, 180)", color: "white"}}>Original Cel</div>
+                    } 
+                    
+                  </> }
+                
+                </>
+              }
+              
+            </div>
 
+            {/* Have a tag row underneath saying 'featured' - yellow or 'limited edition' - #003399 */}
+
+            {product.author ? 
+              <h4 style={{ color: "black", marginBottom: "20px"}}> <span>{product.type} by </span>{product.author.replace(/^(.)|\s+(.)/g, c => c.toUpperCase())}</h4>
+              :
+              <>
+                {categories.toLowerCase() === "animation" && <h4 style={{ color: "black", marginBottom: "20px"}}><span>by </span>{themes.replace(/^(.)|\s+(.)/g, c => c.toUpperCase())}</h4>}
+              </>
+            }
+            
+            <h2>Details:</h2>
+
+            { product.type && categories !== "photography" && <p> { product.special ? <>Limited edition {product.type.toLowerCase()}</> : <>{String(product.type).charAt(0).toUpperCase() + String(product.type).slice(1)}</> } </p>}
+            
+          
+          
           </div>
+
 
       </section>
 
@@ -57,3 +106,6 @@ export default function Product () {
 // have a button at the top left for returning to the collections page and then also have that hierarchy list link thing
 // then below that have the image,
 // on the right then have the information on the product
+// make it so that if the product is featured it gets a yellow start next to the title
+
+// make the right textbox thing a card so it look neat

@@ -2,7 +2,7 @@
 # QUICK NOTES
 - The keys for the end product format the path of the image in /public/img
 eg: "animation" : {"marvel" : { __product__ }} this hence means that the path for the image will be /public/img/animation(__category__key__)/marvel(__theme__key__)/__product.image__(the final image source)
-- The __product.title__ is "stylesheet" : { text-transform: capitalize; }
+- The __product.title__ needs "stylesheet" : { text-transform: capitalize; }
 # dimensions
 If no dimensions start with:
 - [0, ...edition_sizes]
@@ -19,10 +19,12 @@ After first space of the array (array.atIndex(0)):
 - If you dont want any tags to be displayed, have the first two as ""
 
 # special
-- this is for tagging if it is limited edition or an original etc
-NOTE: (ALL are boolean)
-- [__limited_edition__, __author__(Only enter an author if it is hand signed)]
-IF NO AUTHOR JUST ENTER A BOOLEAN 
+- this tag is for noting if it is limited edition or original
+- [__limited_edition__, __original__, __signed__]
+
+# note
+- Say who it is signed by here
+- this is for special noting as a paragraph on the side
 
 # author
 - no capitals required, done by the display mechanism

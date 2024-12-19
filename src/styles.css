@@ -475,7 +475,7 @@ header .seperatelinks details[open] > summary::after {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  box-shadow: 1px 3px 11px 0px rgb(50, 50, 50);
+  box-shadow: 0px 0px 30px rgba(0,0,0,.1),0px 2px 8px rgba(0,0,0,.15),0px 4px 8px rgba(0,0,0,.05);
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -484,13 +484,7 @@ header .seperatelinks details[open] > summary::after {
   bottom: 20px;
   right: 20px;
   padding: 0;
-  background-color: white;
-  border: 1px solid rgb(180, 180, 180);
-  transition: all ease-out 150ms;
-}
-.scroll-button:hover {
-  transition: all ease-out 150ms;
-  transform: translateY(-5px) !important;
+  background-color: #fff;
 }
 
 .scroll-button > svg {

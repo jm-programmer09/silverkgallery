@@ -129,7 +129,7 @@ export function ScrollButton () {
       }}
       ref={scrollButtonRef} onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }) }}  className="scroll-button" style={{ display: scrollPosition > 2000 ? "flex" : "none"}} >
         <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none">
-          <path d="M12 5V19M12 5L6 11M12 5L18 11" stroke="rgb(130, 130, 130)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M12 5V19M12 5L6 11M12 5L18 11" stroke="rgb(120, 120, 120)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       </motion.div>
     </>

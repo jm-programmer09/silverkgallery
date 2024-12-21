@@ -259,7 +259,3 @@ section.products > .right .button-row > a:hover path {
     font-size: 16px;
   }
 }
-
-body {
-  overflow: auto;
-}

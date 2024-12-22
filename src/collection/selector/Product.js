@@ -2,12 +2,14 @@ import { Link, useParams } from "react-router-dom";
 import "./product.css";
 import data from "../../products.json";
 import NotFound from "../../global/NotFound";
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 
 export default function Product () {
   const { categories, themes, id } = useParams();
 
   const product = data[categories][themes][id];
+
+  const [imageWidth, setImageWidth] = useState(0);
 
   // If the product is not found (aka undefined)
   if (product === undefined) {
@@ -26,6 +28,15 @@ export default function Product () {
       display_base_dimensions = `${product.dimensions[0][0]}" x ${product.dimensions[0][1]}"`;
     }
   }
+
+  // for if the image is wider than 500px, it is then fit for its width and not height
+  const checkSizing = (event) => {
+    const { naturalWidth, naturalHeight } = event.target;
+
+    if (naturalWidth > naturalHeight) {
+      setImageWidth(naturalWidth);
+    }
+  };
 
   return (
     <>
@@ -48,8 +59,8 @@ export default function Product () {
               </div>
 
             </div>
-            <div className="img">
-              <img draggable={false} style={{ userSelect: "none"}} title={product.title.replace(/^\w/, (c) => c.toUpperCase())} alt={product.title} loading="eager" src={process.env.PUBLIC_URL + `/img/${categories}/${themes}/${product.image}`} />
+            <div className={ imageWidth > 500 ? "img parentwide" : "img"} >
+              <img className={ imageWidth > 500 && "wideimg"} onLoad={checkSizing} draggable={false} style={{ userSelect: "none"}} title={product.title.replace(/^\w/, (c) => c.toUpperCase())} alt={product.title} loading="eager" src={process.env.PUBLIC_URL + `/img/${categories}/${themes}/${product.image}`} />
             </div>
           </div>
 

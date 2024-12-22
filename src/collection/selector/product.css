@@ -40,15 +40,26 @@ section.products .top > .hierarchyrow > a {
 
 /* Now for the image below */
 section.products .left > .img {
-  flex-grow: 1;
+  flex-grow: 1 1 auto;
   box-sizing: border-box;
   padding-left: 20px;
   overflow: hidden;
   max-width: 500px;
   width: 500px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+section.products .left > .parentwide {
+  max-width: none !important;
+  width: 100%;
+}
+
+section.products .left  .wideimg {
+  height: auto !important;
+  width: 100% !important;
+  margin-bottom: 50px;
 }
 
 section.products .left img {
@@ -63,6 +74,7 @@ section.products > .right {
   display: flex;
   flex-direction: column;
   width: 500px;
+  min-width: 500px;
   gap: 8px;
   box-sizing: border-box;
 }
@@ -192,13 +204,13 @@ section.products > .right .button-row > a:hover {
   color: black;
 }
 section.products > .right .button-row > a.right {
-  outline: 2px solid black;
-  background-color: transparent;
-  color: var(--p);
-}
-section.products > .right .button-row > a.right:hover {
+  outline: 2px solid #111;
   background-color: #111;
   color: white;
+}
+section.products > .right .button-row > a.right:hover {
+  background-color: transparent;
+  color: #111;
   transition: all var(--slider-timing) 300ms;
   outline: 2px solid #111;
 }
@@ -226,6 +238,7 @@ section.products > .right .button-row > a:hover path {
     gap: 15px;
   }
 }
+/* When it becomes a column */
 @media only screen and (max-width: 820px) {
   section.products {
     flex-direction: column;
@@ -243,12 +256,17 @@ section.products > .right .button-row > a:hover path {
     justify-content: center;
     box-sizing: border-box;
     width: 100%;
+    flex-grow: 1;
     max-width: none;
+  }
+  section.products .left  .wideimg {
+    margin-bottom: 0px;
   }
   section.products > .left img {
     max-height: 80vh;
   }
   section.products > .right {
+    min-width: 0px;
     width: fit-content;
     padding-bottom: 30px;
   }

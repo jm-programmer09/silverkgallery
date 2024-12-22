@@ -97,15 +97,15 @@ const Footer = () => {
           </li>
 
           <li>
-            <span>Wednesday-Friday</span> &ensp;10am - 5.30pm
+            <span>Wednesday-Friday</span> &ensp;12am - 5.30pm
           </li>
 
           <li>
-            <span>Saturday</span> &ensp;10.30am - 5.30pm
+            <span>Saturday</span> &ensp;12am - 5.30pm
           </li>
 
           <li>
-            <span>Sunday</span> &ensp;11.30am - 5.30pm
+            <span>Sunday</span> &ensp;12am - 5.30pm
           </li>
 
         </ul>

@@ -32,7 +32,8 @@
         "type": "Giclée on canvas",
         "special": [true],
         "featured": true,
-        "dimensions": [[16, 24]],
+        "dimensions": [[[16, 24, 16, 34]], 195],
+        "note": "20 artist proofs.",
         "tags": ["iron", "man", "robot", "tech", "hero"]
       },
       "thunderbolts": {
@@ -109,8 +110,118 @@
         "special": [false, true, true],
         "note": "Hand signed by Stan Lee",
         "tags": ["rare", "", "save"]
+      },
+      "deadpoolandwolverine": {
+        "image": "/deadpoolandwolverine.jpg",
+        "title": "deadpool and wolverine",
+        "type": "Giclée on canvas",
+        "dimensions": [[15, 23], 0, 100, 0, 25],
+        "tags": ["wolf", "teddy", "signed"],
+        "special": [true, false, true]
+      },
+      "deadpoolbadderblood": {
+        "image": "/deadpoolbadderblood.jpg",
+        "title": "deadpool badder blood",
+        "type": "Giclée on canvas",
+        "dimensions": [[15, 23], 0, 100, 0, 25],
+        "tags": ["guns", "wolf", "action"],
+        "special": [true, false, true]
+      },
+      "avengers60th": {
+        "image": "/avengers60th.jpg",
+        "title": "Avengers 60th",
+        "type": "Giclée on canvas",
+        "dimensions": [[[19, 47], [18, 40]], 75],
+        "note": "Had 25 artist and printers proofs. Smaller size is in digital print paper.",
+        "tags": ["avengers", "team"],
+        "special": [true]
+      },
+      "marvelknights2": {
+        "image": "/marvelknights2.jpg",
+        "title": "Marvel Knights 2",
+        "type": "Digital Print Paper",
+        "dimensions": [[18, 24], 75],
+        "note": "15 artist and printers proofs.",
+        "tags": ["fight", "action", "city"],
+        "special": [true]
+      },
+      "tributeamazingfantasy": {
+        "image": "/tributeamazingfantasy.jpg",
+        "title": "Tribute Amazing Fantasy",
+        "type": "Giclée on canvas",
+        "dimensions": [[16, 24], 75],
+        "note": "15 artist and printers proofs.",
+        "tags": ["fight", "action", "city"],
+        "special": [true]
+      },
+      "legends": {
+        "image": "/legends.gif",
+        "title": "Legends",
+        "type": "Canvas",
+        "dimensions": [0, 25],
+        "note": "Exclusive to Silver K and hand signed by Stan Lee.",
+        "tags": ["signed", "action", "fight", "avengers", "end"],
+        "special": [true, true, true]
+      },
+      "x-men1": {
+        "image": "/x-men1.jpg",
+        "title": "X-Men #1",
+        "type": "Giclée on canvas",
+        "dimensions": [[15, 37], 45],
+        "tags": ["x-men", "fight", "action"],
+        "special": [true]
+      },
+      "endoftheline": {
+        "image": "/endoftheline.jpg",
+        "title": "end of the line",
+        "type": "Lithograph on paper",
+        "dimensions": [[16, 24], 195],
+        "tags": ["action", "fight", "winter", "soldier"],
+        "special": [true]
+      },
+      "spidersense": {
+        "image": "/spidersense.jpg",
+        "title": "Spider Sense",
+        "type": "Lithograph on paper",
+        "dimensions": [[12, 24], 350],
+        "tags": ["venom", "spider"],
+        "special": [true]
+      },
+      "trio": {
+        "image": "/trio.jpg",
+        "title": "Trio",
+        "type": "",
+        "dimensions": [0],
+        "tags": ["captain", "america", "black panther"],
+        "special": [true]
+      },
+      "godsthor": {
+        "image": "/godsthor.jpg",
+        "title": "God's: Thor",
+        "type": "Giclée on canvas",
+        "dimensions": [[14, 34], 50],
+        "note": "15 artist and publicity proofs.",
+        "tags": ["thor"],
+        "special": [true]
+      },
+      "marvelheros1": {
+        "image": "/marvelheros1.jpg",
+        "title": "Marvel Heroes",
+        "type": "Digital print paper",
+        "dimensions": [[27, 37]],
+        "note": "50 artist and publicity proofs.",
+        "tags": ["avengers"],
+        "special": [true]
+      },
+      "moonknightfistofvengeance": {
+        "image": "/moonknightfistofvengeance.jpg",
+        "title": "Moon Knight: Fist of Vengeance",
+        "type": "Giclée on canvas",
+        "dimensions": [[13, 23], 50],
+        "note": "15 artist and publicity proofs.",
+        "tags": ["white"],
+        "special": [true]
       }
-
     },
     "simpsons": {
       "devilandhomer": {

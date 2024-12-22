@@ -103,6 +103,24 @@ export default function ContactUs () {
             <a href="tel:(03)95095577">(03) 9509-5577</a>
 
           </motion.div>
+
+          <motion.div
+          ref={motionReference}
+            initial={{ opacity: 0 }}
+              animate={isTextInView ? { opacity: 1 } : { opacity: 0 }}
+              transition={{ 
+                duration: 1, 
+                ease: [0.16, 1, 0.3, 1], // cubic-bezier
+                delay: 0.5
+              }}
+          
+          className="link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 16 16" fill="none">
+              <path fillRule="evenodd" clipRule="evenodd" d="M8 0L0 6V8H1V15H4V10H7V15H15V8H16V6L14 4.5V1H11V2.25L8 0ZM9 10H12V13H9V10Z" fill="#000000"/>
+            </svg>
+            
+            <a href="https://www.google.com/maps/place/Silver+K+Gallery/@-37.8559802,145.023579,15z/data=!4m2!3m1!1s0x0:0x4d8a0c22ab0f2f3b?sa=X&ved=1t:2428&ictx=111">1092 High St, Armadale</a>
+          </motion.div>
         </div>
 
 

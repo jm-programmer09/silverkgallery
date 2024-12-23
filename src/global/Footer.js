@@ -64,6 +64,14 @@ const Footer = () => {
               
               </Link>
             </div>
+
+            <h4>Subscribe to our newsletter</h4>
+            {/* Signup to the newsletter */}
+            <form className='newsletter'>
+              <input name='email' type='email' id='email' placeholder='Your email...' autoCapitalize='false' autoComplete='off' required/>
+              <button type='submit'>Subscribe</button>
+            </form>
+
           </div>
 
           <div className='right'>

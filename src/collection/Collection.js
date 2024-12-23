@@ -78,7 +78,7 @@ function searchJSON(obj, searchTerm, checks, runFeaturedCheck = true) {
   // For checking to return featured items
   if (runFeaturedCheck && (checks["animation"].featured === true || checks["photography"].featured === true )) {
     // have the ... for when doign the push
-    results.push(... checkForFeatured(data, searchTerm, checks));
+    results.push(...checkForFeatured(data, searchTerm, checks));
   }
 
   function searchItem(item, path) {

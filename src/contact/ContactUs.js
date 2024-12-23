@@ -1,13 +1,46 @@
 import "./contact.css";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { motion, useInView } from 'framer-motion';
 import { Link } from "react-router-dom";
+import emailjs from "@emailjs/browser";
+
+const SERVICEID = "service_9crolap";
+const PUBLIC_KEY = "79hCc_OXJpaLOgpGc";
+const TEMPLATE_ID = "template_de84te8";
 
 
 export default function ContactUs () {
   const motionReference = useRef(null);
   const isTextInView = useInView(motionReference, { once: true });
+  const [formButtonText, setFormButtonText] = useState("Send Message");
 
+  // this is for sending the email to col (in practice but for testing will be sent to developer)
+  const sendMessage = (event) => {
+    event.preventDefault();
+
+    // For sending the data with it
+    const templateParams = {
+      email: event.target.email.value,
+      message: event.target.message.value
+    };
+
+    emailjs.send(SERVICEID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
+      .then((result) => {
+        document.getElementById("name").value = "";
+        document.getElementById("message").value = "";
+        // If it runs here that means it has worked
+        setFormButtonText("Message Sent!");
+
+        // For changing the button text back
+        const messageWaitInterval = setInterval(() => {
+          setFormButtonText("Send Message");
+          clearInterval(messageWaitInterval);
+        }, 2000);
+
+      }, (error) => {
+        setFormButtonText("Retry Message Send");
+      });
+  }
 
   return (
     <>
@@ -147,10 +180,10 @@ export default function ContactUs () {
 
               <small>We'd love to hear from you!</small>
 
-              <form>
-                <input name="email" type="email" className="email" placeholder="Your email..." autoComplete="false" autoCapitalize="false" />
-                <textarea name="message" placeholder="Your message..."></textarea>
-                <button type="submit">Send Message</button>
+              <form onSubmit={sendMessage}>
+                <input name="email" type="email" className="email" id="name" placeholder="Your email..." autoComplete="off" autoCapitalize="false" required/>
+                <textarea name="message" placeholder="Your message..." id="message" autoComplete="off" required></textarea>
+                <button type="submit">{formButtonText}</button>
               </form>
 
             </div>

@@ -4,6 +4,7 @@ import { motion, useInView } from 'framer-motion';
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
+// for email js
 const SERVICEID = "service_9crolap";
 const PUBLIC_KEY = "79hCc_OXJpaLOgpGc";
 const TEMPLATE_ID = "template_de84te8";

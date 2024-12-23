@@ -1,9 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './footer.css';
 import { Link } from 'react-router-dom';
 import data from '../products.json';
+import emailsjs from "@emailjs/browser";
+
+// for emailjs
+const SERVICEID = "service_9crolap";
+const PUBLIC_KEY = "79hCc_OXJpaLOgpGc";
+const TEMPLATE_ID = "template_7rsvkbc"; // this has a differnet template ID to contactus as it is a different form
 
 const Footer = () => {
+  const [footerNewsletterText, setNewsletterText] = useState("Subscribe");
+
+  // function for submitting people who want to be added to the mailing list
+  const newsLetterSubmit = (event) => {
+    event.preventDefault();
+
+    const templateParams = {
+      email: event.target.email.value
+    };
+
+    emailsjs.send(SERVICEID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
+      .then((result) => {
+        document.getElementById("email").value = "";
+
+        setNewsletterText("Subscribed");
+
+        const messageWaitInterval = setInterval(() => {
+          setNewsletterText("Subscribe");
+          clearInterval(messageWaitInterval);
+        }, 2000);
+      });
+  }
+
+
   return (
     <footer className="footer">
         {/* Have the silver k gallery name */}
@@ -67,9 +97,9 @@ const Footer = () => {
 
             <h4>Subscribe to our newsletter</h4>
             {/* Signup to the newsletter */}
-            <form className='newsletter'>
+            <form className='newsletter' onSubmit={newsLetterSubmit}>
               <input name='email' type='email' id='email' placeholder='Your email...' autoCapitalize='false' autoComplete='off' required/>
-              <button type='submit'>Subscribe</button>
+              <button type='submit'>{footerNewsletterText}</button>
             </form>
 
           </div>

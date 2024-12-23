@@ -94,9 +94,9 @@ footer .left > form > input {
   padding: 10px;
   box-sizing: border-box;
   border-radius: 0px;
+  flex-grow: 1;
   border: none;
   background-color: rgb(230, 230, 230);
-  width: 300px;
   outline: 2px solid rgb(230, 230, 230);
 }
 footer .left > form > input:focus {

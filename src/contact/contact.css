@@ -158,7 +158,21 @@ div.contact_us .panel > div.text {
   font-size: 17px;
   margin-bottom: 20px;
 }
-
+.panel form > label {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  user-select: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding-left: 3px;
+}
+.panel form > label > input {
+  accent-color: var(--gradientTo);
+}
 .panel > div.text form {
   width: 85%;
   display: flex;
@@ -179,7 +193,6 @@ div.contact_us .panel > div.text {
 }
 .panel form > textarea {
   height: 110px;
-  margin-bottom: 15px;
   border-radius: 0px;
   resize: none;
   box-sizing: border-box;

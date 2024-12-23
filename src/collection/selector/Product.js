@@ -60,7 +60,7 @@ export default function Product () {
 
             </div>
             <div className={ imageWidth > 500 ? "img parentwide" : "img"} >
-              <img className={ imageWidth > 500 && "wideimg"} onLoad={checkSizing} draggable={false} style={{ userSelect: "none"}} title={product.title.replace(/^\w/, (c) => c.toUpperCase())} alt={product.title} loading="eager" src={process.env.PUBLIC_URL + `/img/${categories}/${themes}/${product.image}`} />
+              <img className={ imageWidth > 500 && "wideimg"} onLoad={checkSizing} draggable={false} style={{ userSelect: "none"}} title={product.title.replace(/^\w/, (c) => c.toUpperCase())} alt={product.title} loading="eager" fetchPriority="high" src={process.env.PUBLIC_URL + `/img/${categories}/${themes}/${product.image}`} />
             </div>
           </div>
 

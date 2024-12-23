@@ -21,13 +21,15 @@ export default function ContactUs () {
     // For sending the data with it
     const templateParams = {
       email: event.target.email.value,
-      message: event.target.message.value
+      message: event.target.message.value,
+      newsletter: event.target.newsletter.checked
     };
 
     emailjs.send(SERVICEID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
       .then((result) => {
         document.getElementById("name").value = "";
         document.getElementById("message").value = "";
+        document.getElementById("newsletter").checked = false;
         // If it runs here that means it has worked
         setFormButtonText("Message Sent!");
 
@@ -183,6 +185,7 @@ export default function ContactUs () {
               <form onSubmit={sendMessage}>
                 <input name="email" type="email" className="email" id="name" placeholder="Your email..." autoComplete="off" autoCapitalize="false" required/>
                 <textarea name="message" placeholder="Your message..." id="message" autoComplete="off" required></textarea>
+                <label><input type="checkbox" name="newsletter" />Signup to our weekly newsletter</label>
                 <button type="submit">{formButtonText}</button>
               </form>
 

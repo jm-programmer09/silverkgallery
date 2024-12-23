@@ -32,7 +32,7 @@
         "type": "Giclée on canvas",
         "special": [true],
         "featured": true,
-        "dimensions": [[[16, 24, 16, 34]], 195],
+        "dimensions": [[[16, 24], [16, 34]], 195],
         "note": "20 artist proofs.",
         "tags": ["iron", "man", "robot", "tech", "hero"]
       },

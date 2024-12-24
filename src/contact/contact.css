@@ -215,6 +215,7 @@ div.contact_us .panel > div.text {
   text-decoration: none;
   padding: 10px;
   border: none;
+  font-weight: 400;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.3);
   transition: all 250ms;

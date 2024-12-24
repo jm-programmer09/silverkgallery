@@ -293,6 +293,287 @@
         "type": "Giclée on canvas",
         "dimensions": [[[11, 12], [16, 33]], 0, 0, 0, 95],
         "tags": ["yoda"]
+      },
+      "iwilldestroyyou": {
+        "image": "/iwilldestroyyou.webp",
+        "title": "...i will destroy you",
+        "type": "Lithograph on paper",
+        "dimensions": [[24, 18], 250, 0, 0, 0],
+        "tags": ["sith", "jedi", "fight", "battle", "duel"]
+      },
+      "74-zspeederbike": {
+        "image": "/74-zspeederbike.webp",
+        "title": "74-Z Speeder Bike",
+        "type": "Lithograph on paper",
+        "dimensions": [[24, 16], 395, 0, 0, 0],
+        "tags": ["speeder", "bike", "forest", "jungle"]
+      },
+      "adyadintheforce": {
+        "image": "/adyadintheforce.webp",
+        "title": "A Dyad in the Force",
+        "type": "Lithograph on paper",
+        "dimensions": [[16, 20], 250, 0, 0, 0],
+        "tags": ["rey", "kylo", "ren", "force", "battle"]
+      },
+      "afoundlinginyourcare": {
+        "image": "/afoundlinginyourcare.webp",
+        "title": "A Foundling in Your Care",
+        "type": "Lithograph on paper",
+        "dimensions": [[12, 24], 395, 0, 0, 0],
+        "tags": ["mandalorian", "baby", "yoda", "grogu", "force"]
+      },
+      "agalaxydivided": {
+        "image": "/agalaxydivided.webp",
+        "title": "A Galaxy Divided",
+        "type": "Lithograph on paper",
+        "dimensions": [[18, 24], 295, 0, 0, 0],
+        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"]
+      },
+      "alegionofbrothers": {
+        "image": "/alegionofbrothers.webp",
+        "title": "A Legion of Brothers",
+        "type": "Lithograph on paper",
+        "dimensions": [[18, 24], 295, 0, 0, 0],
+        "tags": ["clones", "troopers", "battle", "duel"]
+      },
+      "aloomingpresence": {
+        "image": "/aloomingpresence.webp",
+        "title": "A Looming Presence",
+        "type": "Giclée on paper",
+        "dimensions": [[[19, 13], [18, 10.1]], 95, 0, 0, 0],
+        "tags": ["darth", "vader", "sith", "jedi", "battle", "duel"],
+        "note": "Can also come in glicee on canvas 13.5\" x 19\""
+      },
+      "anewcrimelord": {
+        "image": "/anewcrimelord.webp",
+        "title": "A New Crime Lord",
+        "type": "Lithograph on paper",
+        "dimensions": [[24, 18], 250, 0, 0, 0],
+        "tags": ["jabba", "hutt", "crime", "lord"]
+      },
+      "aroguehope": {
+        "image": "/aroguehope.webp",
+        "title": "A Rogue Hope",
+        "type": "Lithograph on paper",
+        "dimensions": [[16, 24], 295, 0, 0, 0],
+        "tags": ["rogue", "one", "hope", "battle", "duel"]
+      },
+      "acrossthestars": {
+        "image": "/acrossthestars.webp",
+        "title": "Across the Stars",
+        "type": "Lithograph on paper",
+        "dimensions": [[18, 24], 250, 0, 0, 0],
+        "tags": ["anakin", "padme", "love", "rom", "battle", "duel"]
+      },
+      "adorableasset": {
+        "image": "/adorableasset.webp",
+        "title": "Adorable Asset",
+        "type": "Giclée on paper",
+        "dimensions": [[[11, 14], [10, 13]], 150, 0, 0, 0],
+        "tags": ["mandalorian", "baby", "yoda", "grogu", "force"],
+        "note": "Second size is image size not giclee on paper."
+      },
+      "agressivenegotiations": {
+        "image": "/agressivenegotiations.webp",
+        "title": "Aggressive Negotiations",
+        "type": "Giclée on paper",
+        "dimensions": [[[13, 19], [11, 17]], 195, 0, 0, 0],
+        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
+        "note": "Second size is image size not giclee on paper."
+      },
+      "aheadoftheodds": {
+        "image": "/aheadoftheodds.webp",
+        "title": "Ahead of the Odds",
+        "type": "Giclée on paper",
+        "dimensions": [[20, 30], 150, 0, 0, 0],
+        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
+        "special": [false, false, true]
+      },
+      "ahsokaandgrogu": {
+        "image": "/ahsokaandgrogu.webp",
+        "title": "Ahsoka and Grogu",
+        "type": "Lithograph on paper",
+        "dimensions": [[[18, 24], [15.5, 22]], 195, 0, 0, 0],
+        "tags": ["ahsoka", "tano", "baby", "yoda", "grogu", "force"],
+        "note": "Second size is image size not giclee on paper."   
+      },
+      "ahsokaandtheraxshir": {
+        "image": "/ahsokaandtheraxshir.webp",
+        "title": "Ahsoka and the Raxshir",
+        "type": "Giclée on paper",
+        "dimensions": [[19, 13], 150, 0, 0, 0],
+        "tags": ["ahsoka", "tano", "raxshir", "force"]
+      },
+      "ahsokathewarrior": {
+        "image": "/ahsokathewarrior.webp",
+        "title": "Ahsoka the Warrior",
+        "type": "Giclée on canvas",
+        "dimensions": [[18, 26], 95, 0, 0, 0],
+        "tags": ["ahsoka", "tano", "warrior", "force"]
+      },
+      "ahsoka'schoice": {
+        "image": "/ahsoka'schoice.webp",
+        "title": "Ahsoka's Choice",
+        "type": "Lithograph on paper",
+        "dimensions": [[24, 18], 250, 0, 0, 0],
+        "tags": ["ahsoka", "tano", "choice", "force"]
+      },
+      "ahsoka'snarrowescape": {
+        "image": "/ahsoka'snarrowescape.webp",
+        "title": "Ahsoka's Narrow Escape",
+        "type": "Lithograph on paper",
+        "dimensions": [[24, 18], 250, 0, 0, 0],
+        "tags": ["ahsoka", "tano", "escape", "force"]
+      },
+      "ahsoka'sremorse": {
+        "image": "/ahsoka'sremorse.webp",
+        "title": "Ahsoka's Remorse",
+        "type": "Giclée on canvas",
+        "dimensions": [[21, 26.4], 125, 0, 0, 0],
+        "tags": ["ahsoka", "tano", "remorse", "force"],
+        "special": [false, false, true]
+      },
+      "ahsoka'straining": {
+        "image": "/ahsoka'straining.webp",
+        "title": "Ahsoka's Training",
+        "type": "Lithograph on paper",
+        "dimensions": [[16, 24], 250, 0, 0, 0],
+        "tags": ["ahsoka", "tano", "training", "force"]
+      },
+      "ahsoka'stroops": {
+        "image": "/ahsoka'stroops.webp",
+        "title": "Ahsoka's Troops",
+        "type": "Lithograph on paper",
+        "dimensions": [[18, 24], 295, 0, 0, 0],
+        "tags": ["ahsoka", "tano", "troops", "force"]
+      },
+      "allegiancetothedarkside": {
+        "image": "/allegiancetothedarkside.webp",
+        "title": "Allegiance to the Dark Side",
+        "type": "Giclée on paper",
+        "dimensions": [[23.5, 13], 175, 0, 0, 0],
+        "tags": ["sith", "dark", "side", "force"],
+        "special": [false, false, true]
+      },
+      "allies": {
+        "image": "/allies.webp",
+        "title": "Allies",
+        "type": "Giclée on paper",
+        "dimensions": [[16, 24], 250, 0, 0, 0],
+        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
+        "note": "Printed on photo paper with a metallic high-gloss finish"
+      },
+      "aloneistand": {
+        "image": "/aloneistand.webp",
+        "title": "Alone I Stand",
+        "type": "Giclée on canvas",
+        "dimensions": [[[19, 26], [18, 24]], 250, 0, 95, 0],
+        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
+        "note": "Second size is lithograph on paper"
+      },
+      "anunderstanding": {
+        "image": "/anunderstanding.webp",
+        "title": "An Understanding",
+        "type": "Lithograph on paper",
+        "dimensions": [[18, 24], 250, 0, 0, 0],
+        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"]
+      },
+      "anunlikelyfriend": {
+        "image": "/anunlikelyfriend.webp",
+        "title": "An Unlikely Friend",
+        "type": "Giclée on canvas",
+        "dimensions": [[22, 16.5], 95, 0, 0, 0],
+        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
+        "special": [false, false, true]
+      },
+      "apprenticenomore": {
+        "image": "/apprenticenomore.webp",
+        "title": "Apprentice No More",
+        "type": "Lithograph on paper",
+        "dimensions": [[12, 24], 250, 0, 0, 0],
+        "tags": ["darth", "vader", "ahsoka", "tano", "battle", "duel"]
+      },
+      "arcade1978": {
+        "image": "/arcade1978.webp",
+        "title": "Arcade 1978",
+        "type": "Giclée on paper",
+        "dimensions": [[[19, 13], [13.7, 10.8]], 50, 0, 0, 0],
+        "tags": ["arcade", "game", "star", "wars", "retro"]
+      },
+      "arcade1979": {
+        "image": "/arcade1979.webp",
+        "title": "Arcade 1979",
+        "type": "Giclée on paper",
+        "dimensions": [[[19, 13], [13.7, 10.8]], 50, 0, 0, 0],
+        "tags": ["arcade", "game", "star", "wars", "retro"]
+      },
+      "arcade1981": {
+        "image": "/arcade1981.webp",
+        "title": "Arcade 1981",
+        "type": "Giclée on paper",
+        "dimensions": [[[19, 13], [13.7, 10.8]], 50, 0, 0, 0],
+        "tags": ["arcade", "game", "star", "wars", "retro"]
+      },
+      "artoo": {
+        "image": "/artoo.webp",
+        "title": "Artoo",
+        "type": "Giclée on paper",
+        "dimensions": [[12, 16], 0, 0, 200, 0],
+        "tags": ["r2-d2", "droid", "robot", "star", "wars"]
+      },
+      "arvala-7": {
+        "image": "/arvala-7.webp",
+        "title": "Arvala-7",
+        "type": "Giclée on paper",
+        "dimensions": [[13, 19], 0, 0, 95, 0],
+        "tags": ["arvala", "7", "planet", "star", "wars"]
+      },
+      "assaultonechobase": {
+        "image": "/assaultonechobase.webp",
+        "title": "Assault on Echo Base",
+        "type": "Giclée on canvas",
+        "dimensions": [[19, 17], 150, 0, 0, 0],
+        "tags": ["assault", "echo", "base", "star", "wars"],
+        "special": [false, false, true]
+      },
+      "atlastwewillhaverevenge": {
+        "image": "/atlastwewillhaverevenge.webp",
+        "title": "At Last We Will Have Revenge",
+        "type": "Lithograph on paper",
+        "dimensions": [[16, 24], 295, 0, 0, 0],
+        "tags": ["revenge", "sith", "jedi", "battle", "duel"],
+        "note": "Printed on pearlescent paper"
+      },
+      "at-atattacks": {
+        "image": "/at-atattacks.webp",
+        "title": "AT-AT Attacks",
+        "type": "Giclée on paper",
+        "dimensions": [[16, 12], 250, 0, 0, 0],
+        "tags": ["at-at", "attack", "star", "wars"]
+      },
+      "at-atdriver": {
+        "image": "/at-atdriver.webp",
+        "title": "AT-AT Driver",
+        "type": "Giclée on canvas",
+        "dimensions": [[22, 27.5],125, 0, 0, 0],
+        "tags": ["at-at", "driver", "star", "wars"],
+        "special": [false, false, true]
+      },
+      "at-atpilot": {
+        "image": "/at-atpilot.webp",
+        "title": "AT-AT Pilot",
+        "type": "Giclée on canvas",
+        "dimensions": [[16, 24], 95, 0, 0, 0],
+        "tags": ["at-at", "pilot", "star", "wars"],
+        "special": [false, false, true]
+      },
+      "attackonechobase": {
+        "image": "/attackonechobase.webp",
+        "title": "Attack on Echo Base",
+        "type": "Giclée on canvas",
+        "dimensions": [[20, 26], 50, 0, 0, 0],
+        "tags": ["attack", "echo", "base", "star", "wars"],
+        "special": [false, false, true]
       }
     },
     "disney": {

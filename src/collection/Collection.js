@@ -10,21 +10,24 @@ import { Item, shuffleArray } from "./Item";
 
 // function for searching through data.json for suitable results
 // this is a linear search function
-function searchJSON(data, searchTerm, selectorMap, featured, categories, themes) {
-  // Once there are more than 50 results then we will have a button to load more
+function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNumber) {
+  // Once there are more than 52 results then we will have a button to load more
   const searchterm = searchTerm.toLowerCase(); 
   const results = [];
 
-
   // see whether the .some function works well
   (categories.length === 0 ? Object.keys(data) : categories).forEach(category => {
+    if (resultMaxNumber <= results.length) return; // if the results are more than the max number then return;
+
     // Check if it is featured in here as well
     (themes.length === 0 ? Object.keys(data[category]) : themes).forEach(theme => {
       // this is looping through the themes
       // the themes.length === 0 blah is so that if the function is on 'all' mode, it then checks through all themes - this goes the same for the categories 
-      
+      if (resultMaxNumber <= results.length) return; // if the results are more than the max number then return;
+
       // Now iterating through the for loop
       Object.entries(data[category][theme]).forEach(([productID, product]) => {
+        if (resultMaxNumber <= results.length) return; // if the results are more than the max number then return;
         // if it is featured
         if (featured.includes(1)) {
           if (product.featured && (featured[category === "animation" ? 0 : 1] === 1) ) results.push(`${category}.${theme}.${productID}`);
@@ -135,6 +138,9 @@ function MenuCheckBoxes ( { category, selectorMap, featured, setSearchParams, th
 
 // MAIN
 export default function OurCollection () {
+  const [resultMaxNumber, setResultMaxNumber] = useState(52); // the maximum number of results that can be shown - make sure it is a multiply of 4
+  // set the resultMaxNumber back to 52 on any change of the url
+
   // Setting up hooks
   const { categories, themes } = useParams();
   // For getting the ?featured= and ?search= from the url
@@ -156,6 +162,10 @@ export default function OurCollection () {
 
   // for the retunred products
   const [products, setProducts] = useState([]);
+
+  // for the generating more button
+  const [shouldScroll, setShouldScroll] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   // Creating a map of which products are selected or not for the search
   // the selectorMap will be changed when things are selected from the menu
@@ -186,6 +196,8 @@ export default function OurCollection () {
   // this si where we update the selectorMap to highlight themes that are true or false
   // have it so that when the searchbar changes its input it just adds it to the searchbar
   useEffect(() => {
+    setResultMaxNumber(52); // setting the resultMaxNumber back to 52 on any change of the url
+
     const listedCategories = categories !== undefined ? categories.split("+") : []; // puts it into an array
     const listedThemes = themes !== undefined ? themes.split("+") : [];    
 
@@ -211,12 +223,20 @@ export default function OurCollection () {
     });
 
     // setting the products
-    setProducts(shuffleArray(searchJSON(data, searchQuery, selectorMap, featured, listedCategories, listedThemes))); // this is for the products that are shown
+    setProducts(shuffleArray(searchJSON(data, searchQuery, featured, listedCategories, listedThemes, resultMaxNumber))); // this is for the products that are shown
 
     // every time the url changes, the menuProducts needs to be updated, and include the new selectorMap as part of the dependencies
     setAnimationMenu(<MenuCheckBoxes search={searchQuery} category={"animation"} selectorMap={selectorMap} categories={listedCategories} featured={featured} setSearchParams={setSearchParams} themes={listedThemes} navigate={navigate} />);
     setPhotographyMenu(<MenuCheckBoxes search={searchQuery} category={"photography"} selectorMap={selectorMap} categories={listedCategories} featured={featured} setSearchParams={setSearchParams} themes={listedThemes} navigate={navigate} />);  
   }, [window.location.href]);
+
+  useEffect(() => {
+    if (shouldScroll) {
+      window.scrollTo({ top: scrollPosition, behavior: "instant" });
+      setShouldScroll(false);
+    }
+  }, [products, shouldScroll, scrollPosition]);
+
 
   return (
     <>
@@ -328,6 +348,14 @@ export default function OurCollection () {
             )}
             {/* For if there are no results, make it say "We're Sorry. We couldn't find any matches. And then say: "maybe you will like our featured animation works" */}
           </section>
+
+          { products.length >= resultMaxNumber && ( <section className="extrabutton"> <button className="button" onClick={() => {
+          const howFarTheUserIsDown = window.pageYOffset;
+          setScrollPosition(howFarTheUserIsDown);
+          setShouldScroll(true);
+          setResultMaxNumber(resultMaxNumber + 52);
+          setProducts(shuffleArray(searchJSON(data, searchQuery, featured, categories !== undefined ? categories.split("+") : [], themes !== undefined ? themes.split("+") : [], resultMaxNumber + 52)));
+        }}>Click to see more...</button> </section>)}
 
         </section>
       </section>

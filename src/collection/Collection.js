@@ -10,10 +10,10 @@ import { Item, shuffleArray } from "./Item";
 
 // function for searching through data.json for suitable results
 // this is a linear search function
-function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNumber) {
+function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNumber, startingResults = []) {
   // Once there are more than 52 results then we will have a button to load more
   const searchterm = searchTerm.toLowerCase(); 
-  const results = [];
+  const results = startingResults;
 
   // see whether the .some function works well
   (categories.length === 0 ? Object.keys(data) : categories).forEach(category => {
@@ -28,6 +28,10 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
       // Now iterating through the for loop
       Object.entries(data[category][theme]).forEach(([productID, product]) => {
         if (resultMaxNumber <= results.length) return; // if the results are more than the max number then return;
+
+        // Checking for if it is already in the list
+        if (results.includes(`${category}.${theme}.${productID}`)) return;
+
         // if it is featured
         if (featured.includes(1)) {
           if (product.featured && (featured[category === "animation" ? 0 : 1] === 1) ) results.push(`${category}.${theme}.${productID}`);
@@ -354,7 +358,7 @@ export default function OurCollection () {
           setScrollPosition(howFarTheUserIsDown);
           setShouldScroll(true);
           setResultMaxNumber(resultMaxNumber + 52);
-          setProducts(shuffleArray(searchJSON(data, searchQuery, featured, categories !== undefined ? categories.split("+") : [], themes !== undefined ? themes.split("+") : [], resultMaxNumber + 52)));
+          setProducts(searchJSON(data, searchQuery, featured, categories !== undefined ? categories.split("+") : [], themes !== undefined ? themes.split("+") : [], resultMaxNumber + 52, products));
         }}>Click to see more...</button> </section>)}
 
         </section>

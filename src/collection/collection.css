@@ -190,7 +190,7 @@ section.collection  ul.theme-list {
   list-style-type: none;
   padding-left: 20px;
 }
-section.collection ul.theme-list > li {
+section.collection ul.theme-list li {
   margin-top: 5px;
   text-transform: capitalize;
   display: flex;

@@ -3,6 +3,8 @@
 - The keys for the end product format the path of the image in /public/img
 eg: "animation" : {"marvel" : { __product__ }} this hence means that the path for the image will be /public/img/animation(__category__key__)/marvel(__theme__key__)/__product.image__(the final image source)
 - The __product.title__ needs "stylesheet" : { text-transform: capitalize; }
+- for creating a subcategory underneath the themes, use "subcategories" 
+
 # dimensions
 If no dimensions start with:
 - [0, ...edition_sizes]
@@ -31,3 +33,4 @@ After first space of the array (array.atIndex(0)):
 
 # date 
 - Format: "__month__/__year__" (e.g 8/1980)
+

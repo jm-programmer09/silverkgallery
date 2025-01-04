@@ -577,7 +577,21 @@
       }
     },
     "disney": {
-      
+      "subcategories": {
+        "jack-and-sally": {
+          "whitethingsintheair": {
+            "image": "/whitethingsintheair.jpg",
+            "title": "white things in the air",
+            "type": "Giclée on canvas",
+            "dimensions": [[15, 36], 195],
+            "tags": ["jack", "sally", "nightmare", "before", "christmas"]
+          }
+
+
+        }
+
+        
+      }
     }
   },
   "photography": {

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, Fragment } from "react";
 import "./collection.css";
 import data from "../products.json";
 import { motion } from "framer-motion";
@@ -10,7 +10,7 @@ import { Item, shuffleArray } from "./Item";
 
 // function for searching through data.json for suitable results
 // this is a linear search function
-function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNumber, startingResults = []) {
+function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNumber, startingResults = [], searchParams= new URLSearchParams()) {
   // Once there are more than 52 results then we will have a button to load more
   const searchterm = searchTerm.toLowerCase(); 
   const results = startingResults;
@@ -29,21 +29,35 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
       Object.entries(data[category][theme]).forEach(([productID, product]) => {
         if (resultMaxNumber <= results.length) return; // if the results are more than the max number then return;
 
+        // Cheking if the productID is the subcategory
+        if (productID === "subcategories") {
+          // Now filtering through the subcategories
+          // this will be based off of the ?=disney blah blah cos the subcategories picked are like if disney is selected an a subcategory is picked then: ?subdisney=blah
+
+          // now that the url is working we just have to search for the item
+          Object.keys(data[category][theme].subcategories).forEach(subcategory => {
+            // Now going through all of the items inside of the subcategories
+            if (searchParams.get(`sub${theme}`) === null || searchParams.get(`sub${theme}`).split("+").length < 1 || searchParams.get(`sub${theme}`).split("+").includes(subcategory)) {
+              Object.entries(data[category][theme].subcategories[subcategory]).forEach(([subproductID, subproduct]) => { // now going through all fo the products
+                if (featured.includes(1)) {
+                  if (subproduct.featured && (featured[category === "animation" ? 0 : 1] === 1) && ( subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
+                } else if (( subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
+              });
+            }
+          });
+
+
+
+          return;
+        }
+
         // Checking for if it is already in the list
         if (results.includes(`${category}.${theme}.${productID}`)) return;
 
         // if it is featured
         if (featured.includes(1)) {
-          if (product.featured && (featured[category === "animation" ? 0 : 1] === 1) ) results.push(`${category}.${theme}.${productID}`);
-
-        } else {
-          // this is for if it is not featured
-          // use the some for goign through the tags
-          if (product.title.toLowerCase().includes(searchterm)) results.push(`${category}.${theme}.${productID}`)
-          else if (product.type.toLowerCase().includes(searchterm)) results.push(`${category}.${theme}.${productID}`)
-          else if (product.tags.includes(searchTerm)) results.push(`${category}.${theme}.${productID}`);
-        }
-
+          if (product.featured && (featured[category === "animation" ? 0 : 1] === 1) && ( product.title.toLowerCase().includes(searchTerm) || product.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || product.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.${productID}`);
+        } else if (( product.title.toLowerCase().includes(searchTerm) || product.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || product.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.${productID}`);
       });
     });
 
@@ -65,36 +79,49 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
  * @returns {JSX.Element} // returns the JSX element for the menu
  */
 // this function when having boxes checked only changes the url, does not do anything else
-function MenuCheckBoxes ( { category, selectorMap, featured, setSearchParams, themes, navigate, categories, search } ) {  
+function MenuCheckBoxes ( { category, selectorMap, featured, themes, navigate, categories, search } ) {  
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const updateOneParam = (paramName, newValue) => {
+    const newSearchParams = new URLSearchParams(searchParams);
+    newSearchParams.set(paramName, newValue);
+    setSearchParams(newSearchParams);
+  };
+
+  // feautured and search are already defined in the parent function and accessible as paramters, the rest for the subcategory will be defined later
+  
   // the function for if the all button is checked on/off
-  function allClicked (category) {
-    // If there are no themes then just delete/add the category
-    // if there are no themes then it is just a matter of deleting or adding the category 
-    const endCategoryList = categories.includes(category) ? categories.filter(cat => cat !== category).join("+") : categories.concat(category).join("+");      
-    let endThemeList = "";
+function allClicked(category) {
+  const endCategoryList = themes.length < 1 ? categories.includes(category) ? categories.filter(cat => cat !== category).join("+") : categories.concat(category).join("+") : categories.join("+");      
+  
+  let endThemeList = "";
 
-    if (themes.length > 0) {
-      // this is for if there are themes
-      // we have to check fi the themes are in the categories list of themes, and if they are then we have to remove them, else just addd or delete the category from the category list
+  if (themes.length > 0) {
+    let updatedThemes = [...themes];
+    Object.keys(data[category]).forEach(categoryTheme => {
+      updatedThemes = updatedThemes.filter(theme => theme !== categoryTheme);
+    });
+    endThemeList = updatedThemes.join("+");
+  }
 
-      Object.keys(data[category]).forEach(categoryThemes => {
-        themes = themes.filter(theme => theme !== categoryThemes);
-      });
+  // Remove 'sub' parameters for the themes of the clicked category
+  const newSearchParams = new URLSearchParams(searchParams);
+  Object.keys(data[category]).forEach(theme => {
+    newSearchParams.delete(`sub${theme}`);
+  });
 
-      endThemeList = themes.join("+");
-    }
+  // Changing the URL now
+  navigate(`/collection/${endCategoryList}/${endThemeList}/?${newSearchParams.toString()}`);
+}
 
-    // changing the url now
-    navigate(`/collection/${endCategoryList}/${endThemeList}/${search.length > 0 ? `?search=${search}` : ""}?featured=${featured.join("%2B")}`);
-  } 
   
   // the function for featured
   // featured works
   function featuredClicked () {
     if (category === "animation") {
-      setSearchParams({ featured: `${featured[0] === 1 ? "0" : "1"}+${featured[1]}` });
+      updateOneParam("featured", `${featured[0] === 1 ? "0" : "1"}+${featured[1]}`);
     } else {
-      setSearchParams({ featured: `${featured[0]}+${featured[1] === 1 ? "0" : "1"}` });
+      updateOneParam("featured", `${featured[0]}+${featured[1] === 1 ? "0" : "1"}`);
     }
   }
 
@@ -104,14 +131,32 @@ function MenuCheckBoxes ( { category, selectorMap, featured, setSearchParams, th
     // if the theme is not selected, then we want to add it to the url
     const endThemeList = themes.includes(currentTheme) ? themes.filter(theme => theme !== currentTheme).join("+") : themes.concat(currentTheme).join("+");
     const endCategoryList = categories.includes(category) ? categories.join("+") : categories.concat(category).join("+");
-
-    console.log(endCategoryList);
     
+    const newSearchParams = new URLSearchParams(searchParams);
+    if (newSearchParams.get(`sub${currentTheme}`) !== null) {
+      newSearchParams.delete(`sub${currentTheme}`);
+    }
+
     // changing the url now
-    navigate(`/collection/${endCategoryList}/${endThemeList}/${search.length > 0 ? `?search=${search}` : ""}?featured=${featured.join("%2B")}`);
+    navigate(`/collection/${endCategoryList}/${endThemeList}/?${newSearchParams.toString()}`);
   }
 
-  
+  // For clicking on the subcategories
+  function subCategoryClicked (parent_theme, subcategory) {
+    // if the subcategory is already selected, then we want to remove it from the url
+    // if the subcategory is not selected, then we want to add it to the url
+    // if there is no sub${theme} in the url then we want to add it to the url
+
+    if (searchParams.get(`sub${parent_theme}`) === null) {
+      // if there is no sub${theme} in the url then we want to add it to the url
+      updateOneParam(`sub${parent_theme}`, subcategory);
+    } else {
+      // check if their is the theme in or not
+      searchParams.get(`sub${parent_theme}`).split("+").includes(subcategory) ? updateOneParam(`sub${parent_theme}`, searchParams.get(`sub${parent_theme}`).split("+").filter(sub => sub !== subcategory).join("+")) : updateOneParam(`sub${parent_theme}`, `${searchParams.get(`sub${parent_theme}`)}+${subcategory}`);
+    }
+  }
+
+
   return (
     <>
       {/* All */}
@@ -127,14 +172,43 @@ function MenuCheckBoxes ( { category, selectorMap, featured, setSearchParams, th
       </li>
 
       {/* The rest of the themes */}
-      {Object.keys(data[category]).map((theme, index) => {
-        return (
-          <li key={index}>
-            <input type="checkbox" id={`${category}-${theme}-${index}`} checked={selectorMap[category][theme]} onChange={() => {themeClicked(theme)}} />
-            <label htmlFor={`${category}-${theme}-${index}`}>{theme.replace("-", " ")}</label>
+      {Object.keys(data[category]).map((theme, index) => (
+        <Fragment key={`${category}-${theme}-${index}`}>
+          <li>
+            <input
+              type="checkbox"
+              id={`${category}-${theme}-${index}`}
+              checked={selectorMap[category][theme]}
+              onChange={() => themeClicked(theme)}
+            />
+            <label htmlFor={`${category}-${theme}-${index}`}>{theme.replace(/-/g, " ")}</label>
           </li>
-        )
-      })}
+
+          {/* These are for the subcategories */}
+
+          <motion.ul 
+          initial={{ opacity: 0, height: "0px" }}
+          animate={selectorMap[category][theme] ? { opacity:1, height: "auto" } : { opacity:0, height: "0px" }}
+          transition={{ duration: .2, ease: [0.16,1,0.3,1] }}
+          className="theme-list" style={{display: selectorMap[category][theme] ? "block" : "none"}}>
+            {/* This is for the actual subcategories and not just searching for limited editions etc */}
+           {Object.keys(data[category][theme].subcategories || {}).map((subcategoryKey, subIndex) => (
+            <li key={`${category}-${theme}-${subIndex}-subcat`}>
+              <input
+                type="checkbox"
+                id={`subcategory-${category}-${theme}-${subIndex}`}
+                checked={searchParams.get(`sub${theme}`) === null ? false : searchParams.get(`sub${theme}`).split("+").includes(subcategoryKey)}
+                onChange={() => subCategoryClicked(theme, subcategoryKey)}
+              />
+              <label htmlFor={`subcategory-${category}-${theme}-${subIndex}`}>
+               {subcategoryKey.replace(/-/g, " ")}
+              </label>
+            </li>
+          ))}
+          </motion.ul>
+        </Fragment>
+      ))}
+
     </>
   )
 } 
@@ -227,11 +301,11 @@ export default function OurCollection () {
     });
 
     // setting the products
-    setProducts(shuffleArray(searchJSON(data, searchQuery, featured, listedCategories, listedThemes, resultMaxNumber))); // this is for the products that are shown
+    setProducts(shuffleArray(searchJSON(data, searchQuery, featured, listedCategories, listedThemes, resultMaxNumber, [], searchParams))); // this is for the products that are shown
 
     // every time the url changes, the menuProducts needs to be updated, and include the new selectorMap as part of the dependencies
-    setAnimationMenu(<MenuCheckBoxes search={searchQuery} category={"animation"} selectorMap={selectorMap} categories={listedCategories} featured={featured} setSearchParams={setSearchParams} themes={listedThemes} navigate={navigate} />);
-    setPhotographyMenu(<MenuCheckBoxes search={searchQuery} category={"photography"} selectorMap={selectorMap} categories={listedCategories} featured={featured} setSearchParams={setSearchParams} themes={listedThemes} navigate={navigate} />);  
+    setAnimationMenu(<MenuCheckBoxes search={searchQuery} category={"animation"} selectorMap={selectorMap} categories={listedCategories} featured={featured} themes={listedThemes} navigate={navigate} />);
+    setPhotographyMenu(<MenuCheckBoxes search={searchQuery} category={"photography"} selectorMap={selectorMap} categories={listedCategories} featured={featured} themes={listedThemes} navigate={navigate} />);  
   }, [window.location.href]);
 
   useEffect(() => {
@@ -358,7 +432,7 @@ export default function OurCollection () {
           setScrollPosition(howFarTheUserIsDown);
           setShouldScroll(true);
           setResultMaxNumber(resultMaxNumber + 52);
-          setProducts(searchJSON(data, searchQuery, featured, categories !== undefined ? categories.split("+") : [], themes !== undefined ? themes.split("+") : [], resultMaxNumber + 52, products));
+          setProducts(searchJSON(data, searchQuery, featured, categories !== undefined ? categories.split("+") : [], themes !== undefined ? themes.split("+") : [], resultMaxNumber + 52, products, searchParams));
         }}>Click to see more...</button> </section>)}
 
         </section>

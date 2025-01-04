@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { sizeParser } from "../global/modules";
 import data from "../products.json";
 
+
 export function shuffleArray(array) {
   // Create a copy of the original array
   const shuffled = [...array];
@@ -23,7 +24,11 @@ export function shuffleArray(array) {
 export function Item (  {  id  } ) {
   const cardRef = useRef(null);
   const cardInView = useInView(cardRef, { once: true });
-  const element = data[id.split(".")[0]][id.split(".")[1]][id.split(".")[2]];
+
+  // we will now have to check here for subcategories
+
+
+  const element = id.split(".").length > 3 ? data[id.split(".")[0]][id.split(".")[1]][id.split(".")[2]][id.split(".")[3]][id.split(".")[4]] : data[id.split(".")[0]][id.split(".")[1]][id.split(".")[2]];
 
   // For error handling
   if (element === undefined) {

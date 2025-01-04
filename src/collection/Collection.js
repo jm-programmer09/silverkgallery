@@ -12,7 +12,6 @@ import { Item, shuffleArray } from "./Item";
 // this is a linear search function
 function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNumber, startingResults = [], searchParams= new URLSearchParams()) {
   // Once there are more than 52 results then we will have a button to load more
-  const searchterm = searchTerm.toLowerCase(); 
   const results = startingResults;
 
   // see whether the .some function works well
@@ -45,8 +44,6 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
               });
             }
           });
-
-
 
           return;
         }

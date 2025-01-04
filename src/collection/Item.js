@@ -47,7 +47,7 @@ export function Item (  {  id  } ) {
       }}
       style={{ width: "fit-content"}}
     >
-    <Link to={`/collection/${id.split(".")[0]}/${id.split(".")[1]}/${id.split(".")[2]}`} className="global-card collections-card">
+    <Link to={id.split(".").length > 3 ? `/collection/${id.split(".")[0]}/${id.split(".")[1]}/${id.split(".")[3]}/${id.split(".")[4]}`      :  `/collection/${id.split(".")[0]}/${id.split(".")[1]}/${id.split(".")[2]}`} className="global-card collections-card">
       <div className="imgP"       ref={cardRef}>
         <img draggable="false" style={{ userSelect: "none"}} src={element.image !== undefined && process.env.PUBLIC_URL + "/img/" + (id.split(".")[0] + "/" + id.split(".")[1]) + element.image} alt={id.split(".")[2]}  />
       </div>

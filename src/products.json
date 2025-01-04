@@ -584,13 +584,54 @@
             "title": "white things in the air",
             "type": "Giclée on canvas",
             "dimensions": [[15, 36], 195],
+            "special": [true],
+            "tags": ["jack", "sally", "nightmare", "before", "christmas"]
+          },
+          "twasthenightmarebeforechristmas": {
+            "image": "/twasthenightmarebeforechristmas.jpg",
+            "title": "twas the night before christmas",
+            "type": "Giclée on canvas",
+            "special": [true],
+            "dimensions": [[[12, 36], [8, 24]], 195],
+            "tags": ["jack", "sally", "nightmare", "before", "christmas"]
+          },
+          "forevermore": {
+            "image": "/forevermore.jpg",
+            "title": "forever more",
+            "special": [true],
+            "type": "Giclée on canvas",
+            "dimensions": [[[20, 24], [12, 15]], 195],
+            "tags": ["jack", "sally", "nightmare", "before", "christmas"]
+          },
+          "jackandsally": {
+            "image": "/jackandsally.jpg",
+            "title": "jack and sally",
+            "type": "Giclée on canvas",
+            "special": [true],
+            "dimensions": [[24, 36], 195],
+            "tags": ["jack", "sally", "nightmare", "before", "christmas"]
+          },
+          "snakeeyes": {
+            "image": "/snakeeyes.jpg",
+            "title": "snake eyes",
+            "special": [true],
+            "type": "Giclée on canvas",
+            "dimensions": [[[18, 24], [12, 16]], 195],
+            "tags": ["jack", "sally", "nightmare", "before", "christmas"]
+          },
+          "meanttobe": {
+            "image": "/meanttobe.jpg",
+            "title": "meant to be",
+            "type": "Giclée on canvas",
+            "special": [true],
+            "dimensions": [[22, 30], 95],
             "tags": ["jack", "sally", "nightmare", "before", "christmas"]
           }
 
 
         }
 
-        
+
       }
     }
   },

@@ -368,7 +368,3 @@ section.extrabutton > button.button:hover {
 }
 
 /* End of the results */
-
-body {
-  overflow: auto;
-}

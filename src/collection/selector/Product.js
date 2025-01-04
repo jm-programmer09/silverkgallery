@@ -5,9 +5,9 @@ import NotFound from "../../global/NotFound";
 import { Fragment, useState } from "react";
 
 export default function Product () {
-  const { categories, themes, id } = useParams();
+  const { categories, themes, id, subid } = useParams();
 
-  const product = data[categories][themes][id];
+  const product = subid !== undefined ? data[categories][themes].subcategories[id][subid] : data[categories][themes][id];
 
   const [imageWidth, setImageWidth] = useState(0);
 
@@ -60,7 +60,7 @@ export default function Product () {
 
             </div>
             <div className={ imageWidth > 500 ? "img parentwide" : "img"} >
-              <img className={ imageWidth > 500 && "wideimg"} onLoad={checkSizing} draggable={false} style={{ userSelect: "none"}} title={product.title.replace(/^\w/, (c) => c.toUpperCase())} alt={product.title} loading="eager" fetchPriority="high" src={process.env.PUBLIC_URL + `/img/${categories}/${themes}/${product.image}`} />
+              <img className={ imageWidth > 500 ? "wideimg" : ""} onLoad={checkSizing} draggable={false} style={{ userSelect: "none"}} title={product.title.replace(/^\w/, (c) => c.toUpperCase())} alt={product.title} loading="eager" fetchpriority="high" src={process.env.PUBLIC_URL + `/img/${categories}/${themes}/${product.image}`} />
             </div>
           </div>
 

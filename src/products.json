@@ -578,7 +578,7 @@
     },
     "disney": {
       "subcategories": {
-        "jack-and-sally": {
+        "assorted-characters": {
           "whitethingsintheair": {
             "image": "/whitethingsintheair.jpg",
             "title": "white things in the air",
@@ -626,8 +626,1009 @@
             "special": [true],
             "dimensions": [[22, 30], 95],
             "tags": ["jack", "sally", "nightmare", "before", "christmas"]
+          },
+          "90yearsofdonald": {
+            "image": "/90yearsofdonald.jpg",
+            "title": "90 years of donald",
+            "type": "Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[[22, 36], [20, 30], [12, 18]], 195],
+            "note": "The 12\" x 18\" has an edition size of 1500. All are signed.",
+            "tags": ["donald", "duck", "90", "years"]
+          },
+          "itonlytakesamoment": {
+            "image": "/itonlytakesamoment.png",
+            "title": "it only takes a moment",
+            "type": "Giclée on canvas",
+            "special": [true],
+            "dimensions": [[18, 36], 195],
+            "tags": ["lady", "tramp", "love"]
+          },
+          "asmileyoucantrust": {
+            "image": "/asmileyoucantrust.png",
+            "title": "a smile you can trust",
+            "type": "Giclée on canvas",
+            "special": [true],
+            "dimensions": [[[20, 30], [12, 16]], 195],
+            "note": "Second size has an edition size of 1500",
+            "tags": ["lady", "tramp", "love"]
+          },
+          "sleepingbeauty": {
+            "image": "/sleepingbeauty.jpg",
+            "title": "sleeping beauty",
+            "type": "Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[8, 25], 1500],
+            "tags": ["sleeping", "beauty"]
+          },
+          "cinderella1": {
+            "image": "/cinderella1.png",
+            "title": "cinderella",
+            "type": "Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[8, 25], 1500],
+            "tags": ["cinderella"]
+          },
+          "tangled1": {
+            "image": "/tangled1.png",
+            "title": "tangled",
+            "type": "Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[8, 25], 1500],
+            "tags": ["tangled"]
+          },
+          "fallinginlove": {
+            "image": "/fallinginlove.png",
+            "title": "falling in love",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[[24, 32], [12, 16]], 195],
+            "tags": ["princess", "man", "romance"]
+          },
+          "dancinginthemoonlight": {
+            "image": "/dancinginthemoonlight.png",
+            "title": "dancing in the moonlight",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[[24, 32], [12, 16]], 195],
+            "tags": ["princess", "romance", "castle"]
+          },
+          "snowwhitessanctuary": {
+            "image": "/snowwhitessanctuary.jpg",
+            "title": "Snow White's Sanctuary",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["princess"]
+          },
+          "ajourneytoneverland2": {
+            "image": "/ajourneytoneverland2.jpg",
+            "title": "a journey to neverland",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[16, 36], 195],
+            "tags": ["fairy"]
+          },
+          "tangledtree1": {
+            "image": "/tangledtree1.jpg",
+            "title": "tangled tree",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["princess", "romance"]
+          },
+          "tangledtree2": {
+            "image": "/tangledtree2.jpg",
+            "title": "tangled tree",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[36, 48], 30],
+            "tags": ["wizard", "bird", "snake"]
+          },
+          "allsevenonthebacknine": {
+            "image": "/allsevenonthebacknine.jpg",
+            "title": "all seven on the back nine",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["gnomes"]
+          },
+          "welcometothefamily": {
+            "image": "/welcometothefamily.jpg",
+            "title": "welcome to the family",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[10, 20], 1500],
+            "tags": []
+          },
+          "aworldofadventure": {
+            "image": "/aworldofadventure.jpg",
+            "title": "a world of adventure",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[[15, 36], [9, 22]], 195],
+            "tags": [],
+            "note": "Second size has an edition size of 1500"
+          },
+          "denizensofnottingham": {
+            "image": "/denizensofnottingham.jpg",
+            "title": "denizens of nottingham",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[8, 24], 1500],
+            "tags": []
+          },
+          "pixiepose": {
+            "image": "/pixiepose.jpg",
+            "title": "pixie pose",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[12, 16], 1500],
+            "tags": ["fairy"]
+          },
+          "happilyeverafter": {
+            "image": "/happilyeverafter.jpg",
+            "title": "happily ever after",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[12, 16], 1500],
+            "tags": ["princess", "romance"]
+          },
+          "hakunamatata1": {
+            "image": "/hakunamatata1.jpg",
+            "title": "hakuna matata",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[[20, 25], [12, 15]], 195],
+            "note": "Second size has an edition size of 1500",
+            "tags": ["lion", "king"]
+          },
+          "atropicalidea1": {
+            "image": "/atropicalidea1.jpg",
+            "title": "a tropical idea",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[24, 18], 195],
+            "tags": ["stitch", "land"]
+          },
+          "awholenewworld": {
+            "image": "/awholenewworld.jpg",
+            "title": "a whole new world",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[24, 32], 195],
+            "tags": ["aladdin", "genie"]
+          },
+          "brightlightsofmanhattan": {
+            "image": "/brightlightsofmanhattan.jpg",
+            "title": "bright lights of manhattan",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[24, 30], 195],
+            "tags": ["city"]
+          },
+          "cherrytreelane": {
+            "image": "/cherrytreelane.jpg",
+            "title": "cherry tree lane",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[12, 16], 195],
+            "tags": ["tree", "forest", "nature"]
+          },
+          "cinderella'scastle": {
+            "image": "/cinderella'scastle.jpg",
+            "title": "cinderella's castle",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[28, 7.5], 195],
+            "tags": ["castle", "fairy", "tale", "princess"]
+          },
+          "friendsofafeather": {
+            "image": "/friendsofafeather.jpg",
+            "title": "friends of a feather",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[24, 30], 195],
+            "tags": ["stitch", "forest"]
+          },
+          "lilo&stitchshareasunset": {
+            "image": "/lilo&stitchshareasunset.jpg",
+            "title": "lilo & stitch share a sunset",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[17.5, 42], 195],
+            "tags": ["nature", "ocean"]
+          },
+          "paintinglights": {
+            "image": "/paintinglights.jpg",
+            "title": "painting lights",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["princess", "painting"]
+          },
+          "thelittlemermaid": {
+            "image": "/thelittlemermaid.jpg",
+            "title": "the little mermaid",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[30, 20], 195],
+            "tags": ["princess", "mermaid"]
+          },
+          "thesultansdaughter": {
+            "image": "/thesultansdaughter.gif",
+            "title": "the sultan's daughter",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[16, 36], 195],
+            "tags": ["princess", "tiger"]
+          },
+          "color'sofevil": {
+            "image": "/color'sofevil.gif",
+            "title": "Color's of evil",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[15, 48], 195],
+            "tags": ["group"]
+          },
+          "teaforthree1": {
+            "image": "/teaforthree1.gif",
+            "title": "tea for three",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[15, 36], 195],
+            "tags": ["princess"]
+          },
+          "climbinfordiamonds": {
+            "image": "/climbinfordiamonds.gif",
+            "title": "climbin for diamonds",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[12, 48], 195],
+            "tags": ["gnomes"]
+          },
+          "togetheratlast": {
+            "image": "/togetheratlast.gif",
+            "title": "together at last",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[24, 30], 195],
+            "tags": ["elephant"]
+          },
+          "thestorm1": {
+            "image": "/thestorm1.gif",
+            "title": "the storm",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 36], 195],
+            "tags": ["pig", "flying", "animals"]
+          },
+          "curioser": {
+            "image": "/curioser.gif",
+            "title": "curioser",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[24, 32], 195],
+            "tags": ["princess", "night", "dark"]
+          },
+          "waitingfortheshiptocomein": {
+            "image": "/waitingfortheshiptocomein.gif",
+            "title": "waiting for the ship to come in",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 24], 195],
+            "tags": ["mermaid", "ocean"]
+          },
+          "malificientstransformation": {
+            "image": "/malificientstransformation.gif",
+            "title": "malificient's transformation",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[12, 36], 195],
+            "tags": []
+          },
+          "masterofthelamp": {
+            "image": "/masterofthelamp.gif",
+            "title": "master of the lamp",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 36], 195],
+            "tags": ["genie", "wish", "aladdin"]
+          },
+          "truelovestale": {
+            "image": "/truelovestale.gif",
+            "title": "true love's tale",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 36], 195],
+            "tags": ["princess", "romantic", "romance", "rom"]
+          },
+          "incrediblestotherescue": {
+            "image": "/incrediblestotherescue.gif",
+            "title": "incredibles to the rescure",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[12, 36], 195],
+            "tags": ["incredibles", "super", "hero"]
+          },
+          "homeinthejungle": {
+            "image": "/homeinthejungle.gif",
+            "title": "home in the jungle",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 36], 195],
+            "tags": ["forest", "monkey", "tarzan"]
+          },
+          "cheerupdude": {
+            "image": "/cheerupdude.gif",
+            "title": "Cheer up, Dude",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[15, 36], 195],
+            "tags": ["turtle", "fish", "finding", "nemo"]
+          },
+          "castleonthehorizon": {
+            "image": "/castleonthehorizon.gif",
+            "title": "castle on the horizon",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[16, 24], 195],
+            "tags": ["gnomes", "castle"]
+          },
+          "afteraharddayswork": {
+            "image": "/afteraharddayswork.gif",
+            "title": "after a hard day's work",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 24], 195],
+            "tags": ["gnomes", "mine", "gems"]
+          },
+          "donaldduck": {
+            "image": "/donaldduck.gif",
+            "title": "donald duck",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["duck"]
+          },
+          "tinkerbell2": {
+            "image": "/tinkerbell2.gif",
+            "title": "tinker bell",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["fairy", "tale", "peter", "pan"]
+          },
+          "collectionofvillains": {
+            "image": "/collectionofvillains.gif",
+            "title": "collection of villains",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 36], 195],
+            "tags": ["villains"]
+          },
+          "theoriginaltoys": {
+            "image": "/theoriginaltoys.gif",
+            "title": "the original toys",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[15, 30], 195],
+            "tags": ["toy", "story", "flight"]
+          },
+          "journeytoparadisefalls": {
+            "image": "/journeytoparadisefalls.gif",
+            "title": "journey to paradise falls",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[12, 36], 195],
+            "tags": ["forest", "up"]
+          },
+          "weknowtheway": {
+            "image": "/weknowtheway.gif",
+            "title": "we know the way",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 36], 195],
+            "tags": ["ocean", "forest", "moana"]
+          },
+          "oncetherewasaprincess": {
+            "image": "/oncetherewasaprincess.gif",
+            "title": "once there was a princess",
+            "type":"Lithograph on paper",
+            "special": [true, true],
+            "dimensions": [[19, 28], 250],
+            "tags": ["princess", "gnomes"]
+          },
+          "labelleetlabete": {
+            "image": "/labelleetlabete.gif",
+            "title": "la belle et la bete",
+            "type":"Lithograph on paper",
+            "special": [true, true],
+            "dimensions": [[14, 26], 250],
+            "tags": ["princess", "romance", "beast", "beauty"]
+          },
+          "theressomethingsweet": {
+            "image": "/theressomethingsweet.gif",
+            "title": "there's something sweet",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[15, 30], 195],
+            "tags": ["beauty", "beast", "princess", "romance"]
+          },
+          "amarytune": {
+            "image": "/amarytune.gif",
+            "title": "a mary tune",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[24, 18], 195],
+            "tags": ["nanny"]
+          },
+          "theflowerypath": {
+            "image": "/theflowerypath.gif",
+            "title": "the flowery path",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[12, 21], 25],
+            "note": "Signed by Paige O'Hara and Robert Benson.",
+            "tags": ["princess", "cottage"]
+          },
+          "belle1": {
+            "image": "/belle1.gif",
+            "title": "Belle",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[15, 24], 95],
+            "note": "Signed by Paige O'Hara and Robert Benson.",
+            "tags": ["beauty", "beast", "princess"]
+          },
+          "lovebloomsinwinter": {
+            "image": "/lovebloomsinwinter.gif",
+            "title": "love blooms in winter",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[15, 30], 95],
+            "note": "Signed by Paige O'Hara and Robert Benson.",
+            "tags": ["beauty", "beast", "princess", "snow"]
+          },
+          "bringbackherheart": {
+            "image": "/bringbackherheart.gif",
+            "title": "bring back her heart",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "note": "Comes with a gold leaf",
+            "dimensions": [[16, 20], 50],
+            "tags": ["snow", "white", "evil"]
+          },
+          "gardenofbeauty": {
+            "image": "/gardenofbeauty.gif",
+            "title": "garden of beauty",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 36], 50],
+            "tags": ["forest", "princess"]
+          },
+          "ourpawstogether": {
+            "image": "/ourpawstogether.gif",
+            "title": "our paws together",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[24, 36], 95],
+            "tags": ["dog", "love", "romance"]
+          },
+          "fallingforaladdin": {
+            "image": "/fallingforaladdin.gif",
+            "title": "falling for aladdin",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[18, 24], 95],
+            "tags": ["aladdin", "romance", "prince", "princess", "ali"]
+          },
+          "theshineofamillongems": {
+            "image": "/theshineofamillongems.gif",
+            "title": "the shine of a million gems",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[18, 34], 95],
+            "tags": ["gems", "gnomes", "mine"]
+          },
+          "certainasthesunwillrise": {
+            "image": "/certainasthesunwillrise.gif",
+            "title": "certain as the sun will rise",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[12, 36], 95],
+            "tags": ["beauty", "beast", "princess", "romance"]
+          },
+          "whereartthoughsnowwhite": {
+            "image": "/whereartthoughsnowwhite.gif",
+            "title": "where art though snow white",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[15, 30], 95],
+            "tags": ["princess", "snow", "white"]
+          },
+          "jasminesfierceprotector": {
+            "image": "/jasminesfierceprotector.gif",
+            "title": "jasmines fierce protector",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[15, 30], 50],
+            "tags": ["princess", "tiger", "aladdin"]
+          },
+          "drawntotheshore": {
+            "image": "/drawntotheshore.gif",
+            "title": "drawn to the shore",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["ocean", "mermaid"]
+          },
+          "freeaftertenthousandyears": {
+            "image": "/freeaftertenthousandyears.gif",
+            "title": "free after ten thousand years",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[14, 26], 195],
+            "tags": ["aladdin", "genie"]
+          },
+          "neverlandlagoon": {
+            "image": "/neverlandlagoon.gif",
+            "title": "neverland lagoon",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[12, 48], 95],
+            "tags": ["ocean", "ship", "pe", "pan"]
+          },
+          "newfoundfriendintheforest": {
+            "image": "/newfoundfriendintheforest.gif",
+            "title": "new found friend in the forest",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[16, 20], 95],
+            "tags": ["forest", "dog"]
+          },
+          "sailingintothemoon": {
+            "image": "/sailingintothemoon.gif",
+            "title": "sailing into the moon",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["pe", "pa", "ship"]
+          },
+          "asthesunwillrise": {
+            "image": "/asthesunwillrise.gif",
+            "title": "as the sun will rise",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 36], 95],
+            "tags": ["castle", "forest", "beast"]
+          },
+          "adreamcomingtrue": {
+            "image": "/adreamcomingtrue.gif",
+            "title": "a dream coming true",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[118, 36], 95],
+            "tags": ["castle"]
+          },
+          "joyofflight": {
+            "image": "/joyofflight.gif",
+            "title": "joy of flight",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[15, 30], 95],
+            "tags": ["elephant"]
+          },
+          "joyfultidings": {
+            "image": "/joyfultidings.gif",
+            "title": "joyful tidings",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[20, 24], 50],
+            "tags": ["duck", "mick"]
+          },
+          "marchingintohistory": {
+            "image": "/marchingintohistory.gif",
+            "title": "marching into history",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[15, 30], 95],
+            "tags": ["gnomes", "black", "white"]
+          },
+          "bella-notte": {
+            "image": "/bella-notte.gif",
+            "title": "belle notte",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 24], 195],
+            "tags": ["sheet", "music"]
+          },
+          "bibbidibobbidiboo": {
+            "image": "/bibbidibobbidiboo.gif",
+            "title": "Bibbidi bobbidi boo",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 24], 195],
+            "tags": ["princess", "sheet", "music"]
+          },
+          "anotherkissfordopey": {
+            "image": "/anotherkissfordopey.gif",
+            "title": "another kiss for dopey",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[12, 36], 95],
+            "tags": ["dopey"]
+          },
+          "waitingfordopey": {
+            "image": "/waitingfordopey.gif",
+            "title": "waiting for dopey",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 24], 195],
+            "tags": ["dopey", "forest", "princess", "gnomes"]
+          },
+          "snowwhitesdiscovery": {
+            "image": "/snowwhitesdiscovery.gif",
+            "title": "Snow whites discovery",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[16, 24], 195],
+            "tags": ["forest", "animals", "snow", "white"]
+          },
+          "rememberwhoyouare": {
+            "image": "/rememberwhoyouare.gif",
+            "title": "remember who you are",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[22, 30], 195],
+            "tags": ["tiger", "sun", "clouds", "king"]
+          },
+          "serenadeoftheheart": {
+            "image": "/serenadeoftheheart.gif",
+            "title": "serenade of the heart",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[20, 30], 95],
+            "tags": ["romance", "dog"]
+          },
+          "fitforaball": {
+            "image": "/fitforaball.gif",
+            "title": "fit for a ball",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[18, 30], 95],
+            "tags": ["princess", "cinderella", "fairy"]
+          },
+          "maleficent-and-diablo": {
+            "image": "/maleficent-and-diablo.gif",
+            "title": "maleficent and diablo",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[16, 24], 95],
+            "tags": ["villain"]
+          },
+          "afairytalelife": {
+            "image": "/afairytalelife.gif",
+            "title": "a fairy tale life",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "note": "Hand embellished",
+            "dimensions": [[15, 30], 95],
+            "tags": ["princess"]
+          },
+          "gardenwaltz": {
+            "image": "/gardenwaltz.gif",
+            "title": "gardenn waltz",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[[30, 30], [24, 24]], 30],
+            "note": "Second size has an edition size of 90",
+            "tags": ["beast", "beauty", "forest", "rom"]
+          },
+          "dreaming": {
+            "image": "/dreaming.gif",
+            "title": "dreaming",
+            "type":"Giclée",
+            "special": [true, true, true],
+            "dimensions": [[30, 22], 95],
+            "tags": ["forest", "princess"]
+          },
+          "bravetruthfulandunselfish": {
+            "image": "/bravetruthfulandunselfish.gif",
+            "title": "brave truthful and unselfish",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[12, 20], 195],
+            "tags": ["princess", "liar", "pinocchio"]
+          },
+          "amadteaparty": {
+            "image": "/amadteaparty.gif",
+            "title": "a mad tea party",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[7, 28], 1500],
+            "tags": ["table", "dinner"]
+          },
+          "anightwithalady": {
+            "image": "/anightwithalady.gif",
+            "title": "a night with a lady",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[18, 36], 195],
+            "tags": ["dog"]
+          },
+          "thepalaceawaits": {
+            "image": "/thepalaceawaits.gif",
+            "title": "the palace awaits",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "note": "Hand embellished",
+            "dimensions": [[36, 22], 195],
+            "tags": ["city", "cinderella"]
+          },
+          "noworries": {
+            "image": "/noworries.gif",
+            "title": "no worries",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["lion", "king"]
+          },
+          "thebeautyoflife": {
+            "image": "/thebeautyoflife.gif",
+            "title": "the beauty of life",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["animal", "forest"]
+          },
+          "treasuretrove": {
+            "image": "/treasuretrove.gif",
+            "title": "treasure trove",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[24, 18], 95],
+            "tags": ["princess", "mermaid", "ocean"]
+          },
+          "hakunamatata2": {
+            "image": "/hakunamatata2.gif",
+            "title": "hakuna matata",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[15, 30], 195],
+            "tags": ["lion", "king", "forest"]
+          },
+          "castleatsunset": {
+            "image": "/castleatsunset.gif",
+            "title": "castle at sunset",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 24], 195],
+            "tags": ["castle", "sun"]
+          },
+          "thearrivalofprinceali": {
+            "image": "/thearrivalofprinceali.gif",
+            "title": "the arrival of prince ali",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[30, 20], 195],
+            "tags": ["prince", "ali", "princess"]
+          },
+          "thelifeshedreamsof": {
+            "image": "/thelifeshedreamsof.gif",
+            "title": "the life she dreams of",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[30, 20], 195],
+            "tags": ["princess", "animals", "castle"]
+          },
+          "choosingherpath": {
+            "image": "/choosingherpath.gif",
+            "title": "choosing her path",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[16, 20], 195],
+            "tags": ["princess", "alone"]
+          },
+          "fatherandson": {
+            "image": "/fatherandson.gif",
+            "title": "father and son",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[16, 28], 195],
+            "tags": ["lion", "king"]
+          },
+          "disneydogs": {
+            "image": "/disneydogs.gif",
+            "title": "disney dogs",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[30, 24], 195],
+            "tags": ["dog"]
+          },
+          "draweroftinythings": {
+            "image": "/draweroftinythings.gif",
+            "title": "drawer of tiny things",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[20, 16], 195],
+            "tags": ["fairy", "tale", "pix"]
+          },
+          "firststeps": {
+            "image": "/firststeps.gif",
+            "title": "First steps",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 14.5], 295],
+            "tags": ["lilo", "stitch", "duck"]
+          },
+          "flightoveragrabah": {
+            "image": "/flightoveragrabah.gif",
+            "title": "flight over agrabah",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["prince", "ali"]
+          },
+          "ourroyalkingdom": {
+            "image": "/ourroyalkingdom.gif",
+            "title": "our royal kingdom",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[20, 30], 95],
+            "tags": ["prin", "prin", "romance"]
+          },
+          "duckswirl": {
+            "image": "/duckswirl.gif",
+            "title": "duck swirl",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[21, 25], 195],
+            "tags": ["duck", "daffy"]
+          },
+          "daydreams": {
+            "image": "/daydreams.gif",
+            "title": "daydreams",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[18, 24], 95],
+            "tags": ["princess", "snow", "white"]
+          },
+          "littletown": {
+            "image": "/littletown.gif",
+            "title": "little town",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 24], 95],
+            "tags": ["princess" ,"snow", "white", "forest", "cot"]
+          },
+          "thecatonlygrinned": {
+            "image": "/thecatonlygrinned.gif",
+            "title": "the cat only grinned",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[12, 16], 195],
+            "tags": ["cat", "princess"]
+          },
+          "snowwhite": {
+            "image": "/snowwhite.gif",
+            "title": "snow white",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[11, 14], 95],
+            "tags": ["snow", "white", "princesss"]
+          },
+          "pixieinthegarden": {
+            "image": "/pixieinthegarden.gif",
+            "title": "pixie in the garden",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[[16, 20], [17, 22]], 150],
+            "tags": ["pixie", "garden", "pan"]
+          },
+          "fairestfairy": {
+            "image": "/fairestfairy.gif",
+            "title": "fairest fairy",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[12.5, 16], 195],
+            "tags": ["pixie", "pan", "fairy"]
+          },
+          "reflection": {
+            "image": "/reflection.gif",
+            "title": "reflection",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[14, 18], 150],
+            "tags": ["deer"]
+          },
+          "withawinkandasmile": {
+            "image": "/withawinkandasmile.gif",
+            "title": "with a wink and a smile",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[[19, 24], [17, 22]], 195],
+            "tags": ["dog"]
+          },
+          "threeforthedance": {
+            "image": "/threeforthedance.gif",
+            "title": "three for the dance",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[24, 32], 95],
+            "tags": ["princess", "snow", "white", "gnomes"]
+          },
+          "spaceadventure": {
+            "image": "/spaceadventure.gif",
+            "title": "space adventure",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[16, 24], 95],
+            "tags": ["stitch", "lilo"]
+          },
+          "stitch'sstorytime": {
+            "image": "/stitch'sstorytime.gif",
+            "title": "stich's storytime",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[16, 20], 295],
+            "tags": ["stitch", "lilo", "duck"]
+          },
+          "goodmorningpooh": {
+            "image": "/goodmorningpooh.gif",
+            "title": "good morning pooh",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[24, 18], 95],
+            "tags": ["winnie", "pooh", "forest"]
           }
+        },
 
+        "mickey-mouse": {
+          "sweptupinthemagic": {
+            "image": "/sweptupinthemagic.jpg",
+            "title": "swept up in the magic",
+            "type": "Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[[28, 36], [22, 28], [12, 15]], 195],
+            "note": "The 12\" x 15\" has an edition size of 1500.",
+            "tags": ["mickey", "mouse", "magic"]
+          },
+          "aspelltostoptheflood": {
+            "image": "/aspelltostoptheflood.gif",
+            "title": "A spell to stop the flood",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[24, 18], 195],
+            "tags": ["water", "mick"]
+          },
+          "theperfectbirthday": {
+            "image": "/theperfectbirthday.gif",
+            "title": "the perfect birthday",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 21], 95],
+            "tags": ["mick", "min"]
+          },
+          "candystore1": {
+            "image": "/candystore1.gif",
+            "title": "candy store",
+            "type":"Giclée on canvas",
+            "special": [true, true],
+            "dimensions": [[18, 36], 195],
+            "tags": ["duck", "goofy", "minnie"]
+          },
+          "anightatthetheatre": {
+            "image": "/anightatthetheatre.gif",
+            "title": "a night at the theatre",
+            "type":"Giclée on canvas",
+            "special": [true, true, true],
+            "dimensions": [[12, 36], 195],
+            "tags": ["duck", "minnie", "goofy"]
+          }
+        },
+
+        "original-production": {
 
         }
 

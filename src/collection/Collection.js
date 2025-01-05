@@ -38,9 +38,14 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
             // Now going through all of the items inside of the subcategories
             if (searchParams.get(`sub${theme}`) === null || searchParams.get(`sub${theme}`).split("+").length < 1 || searchParams.get(`sub${theme}`).split("+").includes(subcategory)) {
               Object.entries(data[category][theme].subcategories[subcategory]).forEach(([subproductID, subproduct]) => { // now going through all fo the products
+                if (resultMaxNumber <= results.length || results.includes(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`)) {
+                  return;
+                }
+
                 if (featured.includes(1)) {
                   if (subproduct.featured && (featured[category === "animation" ? 0 : 1] === 1) && ( subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
                 } else if (( subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
+                
               });
             }
           });
@@ -144,12 +149,23 @@ function allClicked(category) {
     // if the subcategory is not selected, then we want to add it to the url
     // if there is no sub${theme} in the url then we want to add it to the url
 
+    const no_more_parent_sub = new URLSearchParams(searchParams);
+    no_more_parent_sub.delete(`sub${parent_theme}`);
+
     if (searchParams.get(`sub${parent_theme}`) === null) {
       // if there is no sub${theme} in the url then we want to add it to the url
       updateOneParam(`sub${parent_theme}`, subcategory);
     } else {
-      // check if their is the theme in or not
-      searchParams.get(`sub${parent_theme}`).split("+").includes(subcategory) ? updateOneParam(`sub${parent_theme}`, searchParams.get(`sub${parent_theme}`).split("+").filter(sub => sub !== subcategory).join("+")) : updateOneParam(`sub${parent_theme}`, `${searchParams.get(`sub${parent_theme}`)}+${subcategory}`);
+      // check if their is the subcategory in or not
+      searchParams.get(`sub${parent_theme}`).split("+").includes(subcategory) ? (
+      
+      searchParams.get(`sub${parent_theme}`).split("+").length === 1 ? 
+        setSearchParams(no_more_parent_sub)
+      :
+
+      updateOneParam(`sub${parent_theme}`, searchParams.get(`sub${parent_theme}`).split("+").filter(sub => sub !== subcategory).join("+")) 
+      
+    ) : updateOneParam(`sub${parent_theme}`, `${searchParams.get(`sub${parent_theme}`)}+${subcategory}`);
     }
   }
 
@@ -197,7 +213,7 @@ function allClicked(category) {
                 checked={searchParams.get(`sub${theme}`) === null ? false : searchParams.get(`sub${theme}`).split("+").includes(subcategoryKey)}
                 onChange={() => subCategoryClicked(theme, subcategoryKey)}
               />
-              <label htmlFor={`subcategory-${category}-${theme}-${subIndex}`}>
+              <label htmlFor={`subcategory-${category}-${theme}-${subIndex}`} style={{ fontSize: "16px", marginBottom: "1px"}}>
                {subcategoryKey.replace(/-/g, " ")}
               </label>
             </li>
@@ -426,6 +442,7 @@ export default function OurCollection () {
 
           { products.length >= resultMaxNumber && ( <section className="extrabutton"> <button className="button" onClick={() => {
           const howFarTheUserIsDown = window.pageYOffset;
+          console.log(products.length);
           setScrollPosition(howFarTheUserIsDown);
           setShouldScroll(true);
           setResultMaxNumber(resultMaxNumber + 52);

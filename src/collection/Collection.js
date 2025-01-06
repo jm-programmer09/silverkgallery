@@ -11,8 +11,10 @@ import { Item, shuffleArray } from "./Item";
 // function for searching through data.json for suitable results
 // this is a linear search function
 function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNumber, startingResults = [], searchParams= new URLSearchParams()) {
+  searchTerm = searchTerm.toLowerCase();
   // Once there are more than 52 results then we will have a button to load more
   const results = startingResults;
+
 
   // see whether the .some function works well
   (categories.length === 0 ? Object.keys(data) : categories).forEach(category => {
@@ -33,6 +35,7 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
           // Now filtering through the subcategories
           // this will be based off of the ?=disney blah blah cos the subcategories picked are like if disney is selected an a subcategory is picked then: ?subdisney=blah
 
+
           // now that the url is working we just have to search for the item
           Object.keys(data[category][theme].subcategories).forEach(subcategory => {
             // Now going through all of the items inside of the subcategories
@@ -44,7 +47,16 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
 
                 if (featured.includes(1)) {
                   if (subproduct.featured && (featured[category === "animation" ? 0 : 1] === 1) && ( subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
-                } else if (( subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
+                } else if (( 
+                  subcategory.includes(searchTerm.replace(" ", "-")) ||
+                  searchTerm.replace(" ", "-").includes(subcategory) ||
+                  theme.includes(searchTerm) ||
+                  searchTerm.includes(theme) ||
+                  theme.includes(searchTerm.replace(" ", "-")) ||
+                  searchTerm.replace(" ", "-").includes(theme) ||
+                  
+                  
+                  subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
                 
               });
             }
@@ -56,14 +68,32 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
         // Checking for if it is already in the list
         if (results.includes(`${category}.${theme}.${productID}`)) return;
 
+
         // if it is featured
         if (featured.includes(1)) {
           if (product.featured && (featured[category === "animation" ? 0 : 1] === 1) && ( product.title.toLowerCase().includes(searchTerm) || product.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || product.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.${productID}`);
-        } else if (( product.title.toLowerCase().includes(searchTerm) || product.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || product.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.${productID}`);
+        } else if ((
+          product.title.toLowerCase().includes(searchTerm) || 
+          
+          product.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || product.tags.includes(searchTerm)  
+          ||
+          // For the searching the categories
+          category.includes(searchTerm) ||
+          searchTerm.includes(category) ||
+
+          // for searching for themes
+          theme.includes(searchTerm) ||
+          searchTerm.includes(theme) ||
+          theme.includes(searchTerm.replace(" ", "-")) ||
+          searchTerm.replace(" ", "-").includes(theme) 
+
+
+        )) results.push(`${category}.${theme}.${productID}`);
       });
     });
 
   });
+
 
   return results;
 }
@@ -442,7 +472,6 @@ export default function OurCollection () {
 
           { products.length >= resultMaxNumber && ( <section className="extrabutton"> <button className="button" onClick={() => {
           const howFarTheUserIsDown = window.pageYOffset;
-          console.log(products.length);
           setScrollPosition(howFarTheUserIsDown);
           setShouldScroll(true);
           setResultMaxNumber(resultMaxNumber + 52);

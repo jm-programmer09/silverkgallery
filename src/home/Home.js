@@ -353,13 +353,13 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
 
         <div className="card-grid">
           <Card id={"animation/marvel/spidermen"} />
-          <Card id={"animation/star-wars/whatremains"} />
+          <Card id={"animation/star-wars/feature-films/whatremains"} />
           <Card id={"animation/marvel/thetruthis"} />
-          <Card id={"animation/star-wars/youweremybrother"} />
+          <Card id={"animation/star-wars/feature-films/youweremybrother"} />
           <Card id={"animation/simpsons/devilandhomer"} />
           <Card id={"animation/simpsons/heatwave"} />
           <Card id={"animation/marvel/directflight"} />
-          <Card id={"animation/star-wars/waysoftheforce"} />
+          <Card id={"animation/star-wars/feature-films/waysoftheforce"} />
         </div>
 
         <Link className="visible" to={"/collection/animation/?featured=1+0"}>See more featured animation...</Link>

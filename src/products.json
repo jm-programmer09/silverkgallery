@@ -256,324 +256,328 @@
       }
     },
     "star-wars": {
-      "whatremains": {
-        "image": "/whatremains.jpg",
-        "title": "what remains",
-        "type": "Giclée on canvas",
-        "dimensions": [[18, 24], 0, 250],
-        "featured": true,
-        "tags": ["darth", "vader", "jedi", "sith"]
-      },
-      "usurper": {
-        "image": "/usurper.jpg",
-        "title": "usurper",
-        "type": "Giclée on canvas",
-        "dimensions": [[18, 24], 0, 250],
-        "tags": ["devil", "evil", "sith"]
-      },
-      "waysoftheforce": {
-        "image": "/waysoftheforce.jpg",
-        "title": "the ways of the force",
-        "type": "Giclée on canvas",
-        "featured": true,
-        "dimensions": [[18, 24], 0, 24],
-        "tags": ["attack", "war", "fight"]
-      },
-      "youweremybrother": {
-        "image": "/youweremybrother.jpg",
-        "title": "you were my brother",
-        "featured": true,
-        "type": "Giclée on canvas",
-        "dimensions": [[12, 16], 0, 0, 395],
-        "tags": ["battle", "sith"]
-      },
-      "onewiththelight": {
-        "image": "/onewiththelight.jpg",
-        "title": "one with the light",
-        "type": "Giclée on canvas",
-        "dimensions": [[[11, 12], [16, 33]], 0, 0, 0, 95],
-        "tags": ["yoda"]
-      },
-      "iwilldestroyyou": {
-        "image": "/iwilldestroyyou.webp",
-        "title": "...i will destroy you",
-        "type": "Lithograph on paper",
-        "dimensions": [[24, 18], 250, 0, 0, 0],
-        "tags": ["sith", "jedi", "fight", "battle", "duel"]
-      },
-      "74-zspeederbike": {
-        "image": "/74-zspeederbike.webp",
-        "title": "74-Z Speeder Bike",
-        "type": "Lithograph on paper",
-        "dimensions": [[24, 16], 395, 0, 0, 0],
-        "tags": ["speeder", "bike", "forest", "jungle"]
-      },
-      "adyadintheforce": {
-        "image": "/adyadintheforce.webp",
-        "title": "A Dyad in the Force",
-        "type": "Lithograph on paper",
-        "dimensions": [[16, 20], 250, 0, 0, 0],
-        "tags": ["rey", "kylo", "ren", "force", "battle"]
-      },
-      "afoundlinginyourcare": {
-        "image": "/afoundlinginyourcare.webp",
-        "title": "A Foundling in Your Care",
-        "type": "Lithograph on paper",
-        "dimensions": [[12, 24], 395, 0, 0, 0],
-        "tags": ["mandalorian", "baby", "yoda", "grogu", "force"]
-      },
-      "agalaxydivided": {
-        "image": "/agalaxydivided.webp",
-        "title": "A Galaxy Divided",
-        "type": "Lithograph on paper",
-        "dimensions": [[18, 24], 295, 0, 0, 0],
-        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"]
-      },
-      "alegionofbrothers": {
-        "image": "/alegionofbrothers.webp",
-        "title": "A Legion of Brothers",
-        "type": "Lithograph on paper",
-        "dimensions": [[18, 24], 295, 0, 0, 0],
-        "tags": ["clones", "troopers", "battle", "duel"]
-      },
-      "aloomingpresence": {
-        "image": "/aloomingpresence.webp",
-        "title": "A Looming Presence",
-        "type": "Giclée on paper",
-        "dimensions": [[[19, 13], [18, 10.1]], 95, 0, 0, 0],
-        "tags": ["darth", "vader", "sith", "jedi", "battle", "duel"],
-        "note": "Can also come in glicee on canvas 13.5\" x 19\""
-      },
-      "anewcrimelord": {
-        "image": "/anewcrimelord.webp",
-        "title": "A New Crime Lord",
-        "type": "Lithograph on paper",
-        "dimensions": [[24, 18], 250, 0, 0, 0],
-        "tags": ["jabba", "hutt", "crime", "lord"]
-      },
-      "aroguehope": {
-        "image": "/aroguehope.webp",
-        "title": "A Rogue Hope",
-        "type": "Lithograph on paper",
-        "dimensions": [[16, 24], 295, 0, 0, 0],
-        "tags": ["rogue", "one", "hope", "battle", "duel"]
-      },
-      "acrossthestars": {
-        "image": "/acrossthestars.webp",
-        "title": "Across the Stars",
-        "type": "Lithograph on paper",
-        "dimensions": [[18, 24], 250, 0, 0, 0],
-        "tags": ["anakin", "padme", "love", "rom", "battle", "duel"]
-      },
-      "adorableasset": {
-        "image": "/adorableasset.webp",
-        "title": "Adorable Asset",
-        "type": "Giclée on paper",
-        "dimensions": [[[11, 14], [10, 13]], 150, 0, 0, 0],
-        "tags": ["mandalorian", "baby", "yoda", "grogu", "force"],
-        "note": "Second size is image size not giclee on paper."
-      },
-      "agressivenegotiations": {
-        "image": "/agressivenegotiations.webp",
-        "title": "Aggressive Negotiations",
-        "type": "Giclée on paper",
-        "dimensions": [[[13, 19], [11, 17]], 195, 0, 0, 0],
-        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
-        "note": "Second size is image size not giclee on paper."
-      },
-      "aheadoftheodds": {
-        "image": "/aheadoftheodds.webp",
-        "title": "Ahead of the Odds",
-        "type": "Giclée on paper",
-        "dimensions": [[20, 30], 150, 0, 0, 0],
-        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
-        "special": [false, false, true]
-      },
-      "ahsokaandgrogu": {
-        "image": "/ahsokaandgrogu.webp",
-        "title": "Ahsoka and Grogu",
-        "type": "Lithograph on paper",
-        "dimensions": [[[18, 24], [15.5, 22]], 195, 0, 0, 0],
-        "tags": ["ahsoka", "tano", "baby", "yoda", "grogu", "force"],
-        "note": "Second size is image size not giclee on paper."   
-      },
-      "ahsokaandtheraxshir": {
-        "image": "/ahsokaandtheraxshir.webp",
-        "title": "Ahsoka and the Raxshir",
-        "type": "Giclée on paper",
-        "dimensions": [[19, 13], 150, 0, 0, 0],
-        "tags": ["ahsoka", "tano", "raxshir", "force"]
-      },
-      "ahsokathewarrior": {
-        "image": "/ahsokathewarrior.webp",
-        "title": "Ahsoka the Warrior",
-        "type": "Giclée on canvas",
-        "dimensions": [[18, 26], 95, 0, 0, 0],
-        "tags": ["ahsoka", "tano", "warrior", "force"]
-      },
-      "ahsoka'schoice": {
-        "image": "/ahsoka'schoice.webp",
-        "title": "Ahsoka's Choice",
-        "type": "Lithograph on paper",
-        "dimensions": [[24, 18], 250, 0, 0, 0],
-        "tags": ["ahsoka", "tano", "choice", "force"]
-      },
-      "ahsoka'snarrowescape": {
-        "image": "/ahsoka'snarrowescape.webp",
-        "title": "Ahsoka's Narrow Escape",
-        "type": "Lithograph on paper",
-        "dimensions": [[24, 18], 250, 0, 0, 0],
-        "tags": ["ahsoka", "tano", "escape", "force"]
-      },
-      "ahsoka'sremorse": {
-        "image": "/ahsoka'sremorse.webp",
-        "title": "Ahsoka's Remorse",
-        "type": "Giclée on canvas",
-        "dimensions": [[21, 26.4], 125, 0, 0, 0],
-        "tags": ["ahsoka", "tano", "remorse", "force"],
-        "special": [false, false, true]
-      },
-      "ahsoka'straining": {
-        "image": "/ahsoka'straining.webp",
-        "title": "Ahsoka's Training",
-        "type": "Lithograph on paper",
-        "dimensions": [[16, 24], 250, 0, 0, 0],
-        "tags": ["ahsoka", "tano", "training", "force"]
-      },
-      "ahsoka'stroops": {
-        "image": "/ahsoka'stroops.webp",
-        "title": "Ahsoka's Troops",
-        "type": "Lithograph on paper",
-        "dimensions": [[18, 24], 295, 0, 0, 0],
-        "tags": ["ahsoka", "tano", "troops", "force"]
-      },
-      "allegiancetothedarkside": {
-        "image": "/allegiancetothedarkside.webp",
-        "title": "Allegiance to the Dark Side",
-        "type": "Giclée on paper",
-        "dimensions": [[23.5, 13], 175, 0, 0, 0],
-        "tags": ["sith", "dark", "side", "force"],
-        "special": [false, false, true]
-      },
-      "allies": {
-        "image": "/allies.webp",
-        "title": "Allies",
-        "type": "Giclée on paper",
-        "dimensions": [[16, 24], 250, 0, 0, 0],
-        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
-        "note": "Printed on photo paper with a metallic high-gloss finish"
-      },
-      "aloneistand": {
-        "image": "/aloneistand.webp",
-        "title": "Alone I Stand",
-        "type": "Giclée on canvas",
-        "dimensions": [[[19, 26], [18, 24]], 250, 0, 95, 0],
-        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
-        "note": "Second size is lithograph on paper"
-      },
-      "anunderstanding": {
-        "image": "/anunderstanding.webp",
-        "title": "An Understanding",
-        "type": "Lithograph on paper",
-        "dimensions": [[18, 24], 250, 0, 0, 0],
-        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"]
-      },
-      "anunlikelyfriend": {
-        "image": "/anunlikelyfriend.webp",
-        "title": "An Unlikely Friend",
-        "type": "Giclée on canvas",
-        "dimensions": [[22, 16.5], 95, 0, 0, 0],
-        "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
-        "special": [false, false, true]
-      },
-      "apprenticenomore": {
-        "image": "/apprenticenomore.webp",
-        "title": "Apprentice No More",
-        "type": "Lithograph on paper",
-        "dimensions": [[12, 24], 250, 0, 0, 0],
-        "tags": ["darth", "vader", "ahsoka", "tano", "battle", "duel"]
-      },
-      "arcade1978": {
-        "image": "/arcade1978.webp",
-        "title": "Arcade 1978",
-        "type": "Giclée on paper",
-        "dimensions": [[[19, 13], [13.7, 10.8]], 50, 0, 0, 0],
-        "tags": ["arcade", "game", "star", "wars", "retro"]
-      },
-      "arcade1979": {
-        "image": "/arcade1979.webp",
-        "title": "Arcade 1979",
-        "type": "Giclée on paper",
-        "dimensions": [[[19, 13], [13.7, 10.8]], 50, 0, 0, 0],
-        "tags": ["arcade", "game", "star", "wars", "retro"]
-      },
-      "arcade1981": {
-        "image": "/arcade1981.webp",
-        "title": "Arcade 1981",
-        "type": "Giclée on paper",
-        "dimensions": [[[19, 13], [13.7, 10.8]], 50, 0, 0, 0],
-        "tags": ["arcade", "game", "star", "wars", "retro"]
-      },
-      "artoo": {
-        "image": "/artoo.webp",
-        "title": "Artoo",
-        "type": "Giclée on paper",
-        "dimensions": [[12, 16], 0, 0, 200, 0],
-        "tags": ["r2-d2", "droid", "robot", "star", "wars"]
-      },
-      "arvala-7": {
-        "image": "/arvala-7.webp",
-        "title": "Arvala-7",
-        "type": "Giclée on paper",
-        "dimensions": [[13, 19], 0, 0, 95, 0],
-        "tags": ["arvala", "7", "planet", "star", "wars"]
-      },
-      "assaultonechobase": {
-        "image": "/assaultonechobase.webp",
-        "title": "Assault on Echo Base",
-        "type": "Giclée on canvas",
-        "dimensions": [[19, 17], 150, 0, 0, 0],
-        "tags": ["assault", "echo", "base", "star", "wars"],
-        "special": [false, false, true]
-      },
-      "atlastwewillhaverevenge": {
-        "image": "/atlastwewillhaverevenge.webp",
-        "title": "At Last We Will Have Revenge",
-        "type": "Lithograph on paper",
-        "dimensions": [[16, 24], 295, 0, 0, 0],
-        "tags": ["revenge", "sith", "jedi", "battle", "duel"],
-        "note": "Printed on pearlescent paper"
-      },
-      "at-atattacks": {
-        "image": "/at-atattacks.webp",
-        "title": "AT-AT Attacks",
-        "type": "Giclée on paper",
-        "dimensions": [[16, 12], 250, 0, 0, 0],
-        "tags": ["at-at", "attack", "star", "wars"]
-      },
-      "at-atdriver": {
-        "image": "/at-atdriver.webp",
-        "title": "AT-AT Driver",
-        "type": "Giclée on canvas",
-        "dimensions": [[22, 27.5],125, 0, 0, 0],
-        "tags": ["at-at", "driver", "star", "wars"],
-        "special": [false, false, true]
-      },
-      "at-atpilot": {
-        "image": "/at-atpilot.webp",
-        "title": "AT-AT Pilot",
-        "type": "Giclée on canvas",
-        "dimensions": [[16, 24], 95, 0, 0, 0],
-        "tags": ["at-at", "pilot", "star", "wars"],
-        "special": [false, false, true]
-      },
-      "attackonechobase": {
-        "image": "/attackonechobase.webp",
-        "title": "Attack on Echo Base",
-        "type": "Giclée on canvas",
-        "dimensions": [[20, 26], 50, 0, 0, 0],
-        "tags": ["attack", "echo", "base", "star", "wars"],
-        "special": [false, false, true]
+      "subcategories": {
+        "feature-films": {
+          "whatremains": {
+            "image": "/whatremains.jpg",
+            "title": "what remains",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 24], 0, 250],
+            "featured": true,
+            "tags": ["darth", "vader", "jedi", "sith"]
+          },
+          "usurper": {
+            "image": "/usurper.jpg",
+            "title": "usurper",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 24], 0, 250],
+            "tags": ["devil", "evil", "sith"]
+          },
+          "waysoftheforce": {
+            "image": "/waysoftheforce.jpg",
+            "title": "the ways of the force",
+            "type": "Giclée on canvas",
+            "featured": true,
+            "dimensions": [[18, 24], 0, 24],
+            "tags": ["attack", "war", "fight"]
+          },
+          "youweremybrother": {
+            "image": "/youweremybrother.jpg",
+            "title": "you were my brother",
+            "featured": true,
+            "type": "Giclée on canvas",
+            "dimensions": [[12, 16], 0, 0, 395],
+            "tags": ["battle", "sith"]
+          },
+          "onewiththelight": {
+            "image": "/onewiththelight.jpg",
+            "title": "one with the light",
+            "type": "Giclée on canvas",
+            "dimensions": [[[11, 12], [16, 33]], 0, 0, 0, 95],
+            "tags": ["yoda"]
+          },
+          "iwilldestroyyou": {
+            "image": "/iwilldestroyyou.webp",
+            "title": "...i will destroy you",
+            "type": "Lithograph on paper",
+            "dimensions": [[24, 18], 250, 0, 0, 0],
+            "tags": ["sith", "jedi", "fight", "battle", "duel"]
+          },
+          "74-zspeederbike": {
+            "image": "/74-zspeederbike.webp",
+            "title": "74-Z Speeder Bike",
+            "type": "Lithograph on paper",
+            "dimensions": [[24, 16], 395, 0, 0, 0],
+            "tags": ["speeder", "bike", "forest", "jungle"]
+          },
+          "adyadintheforce": {
+            "image": "/adyadintheforce.webp",
+            "title": "A Dyad in the Force",
+            "type": "Lithograph on paper",
+            "dimensions": [[16, 20], 250, 0, 0, 0],
+            "tags": ["rey", "kylo", "ren", "force", "battle"]
+          },
+          "afoundlinginyourcare": {
+            "image": "/afoundlinginyourcare.webp",
+            "title": "A Foundling in Your Care",
+            "type": "Lithograph on paper",
+            "dimensions": [[12, 24], 395, 0, 0, 0],
+            "tags": ["mandalorian", "baby", "yoda", "grogu", "force"]
+          },
+          "agalaxydivided": {
+            "image": "/agalaxydivided.webp",
+            "title": "A Galaxy Divided",
+            "type": "Lithograph on paper",
+            "dimensions": [[18, 24], 295, 0, 0, 0],
+            "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"]
+          },
+          "alegionofbrothers": {
+            "image": "/alegionofbrothers.webp",
+            "title": "A Legion of Brothers",
+            "type": "Lithograph on paper",
+            "dimensions": [[18, 24], 295, 0, 0, 0],
+            "tags": ["clones", "troopers", "battle", "duel"]
+          },
+          "aloomingpresence": {
+            "image": "/aloomingpresence.webp",
+            "title": "A Looming Presence",
+            "type": "Giclée on paper",
+            "dimensions": [[[19, 13], [18, 10.1]], 95, 0, 0, 0],
+            "tags": ["darth", "vader", "sith", "jedi", "battle", "duel"],
+            "note": "Can also come in glicee on canvas 13.5\" x 19\""
+          },
+          "anewcrimelord": {
+            "image": "/anewcrimelord.webp",
+            "title": "A New Crime Lord",
+            "type": "Lithograph on paper",
+            "dimensions": [[24, 18], 250, 0, 0, 0],
+            "tags": ["jabba", "hutt", "crime", "lord"]
+          },
+          "aroguehope": {
+            "image": "/aroguehope.webp",
+            "title": "A Rogue Hope",
+            "type": "Lithograph on paper",
+            "dimensions": [[16, 24], 295, 0, 0, 0],
+            "tags": ["rogue", "one", "hope", "battle", "duel"]
+          },
+          "acrossthestars": {
+            "image": "/acrossthestars.webp",
+            "title": "Across the Stars",
+            "type": "Lithograph on paper",
+            "dimensions": [[18, 24], 250, 0, 0, 0],
+            "tags": ["anakin", "padme", "love", "rom", "battle", "duel"]
+          },
+          "adorableasset": {
+            "image": "/adorableasset.webp",
+            "title": "Adorable Asset",
+            "type": "Giclée on paper",
+            "dimensions": [[[11, 14], [10, 13]], 150, 0, 0, 0],
+            "tags": ["mandalorian", "baby", "yoda", "grogu", "force"],
+            "note": "Second size is image size not giclee on paper."
+          },
+          "agressivenegotiations": {
+            "image": "/agressivenegotiations.webp",
+            "title": "Aggressive Negotiations",
+            "type": "Giclée on paper",
+            "dimensions": [[[13, 19], [11, 17]], 195, 0, 0, 0],
+            "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
+            "note": "Second size is image size not giclee on paper."
+          },
+          "aheadoftheodds": {
+            "image": "/aheadoftheodds.webp",
+            "title": "Ahead of the Odds",
+            "type": "Giclée on paper",
+            "dimensions": [[20, 30], 150, 0, 0, 0],
+            "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
+            "special": [false, false, true]
+          },
+          "ahsokaandgrogu": {
+            "image": "/ahsokaandgrogu.webp",
+            "title": "Ahsoka and Grogu",
+            "type": "Lithograph on paper",
+            "dimensions": [[[18, 24], [15.5, 22]], 195, 0, 0, 0],
+            "tags": ["ahsoka", "tano", "baby", "yoda", "grogu", "force"],
+            "note": "Second size is image size not giclee on paper."   
+          },
+          "ahsokaandtheraxshir": {
+            "image": "/ahsokaandtheraxshir.webp",
+            "title": "Ahsoka and the Raxshir",
+            "type": "Giclée on paper",
+            "dimensions": [[19, 13], 150, 0, 0, 0],
+            "tags": ["ahsoka", "tano", "raxshir", "force"]
+          },
+          "ahsokathewarrior": {
+            "image": "/ahsokathewarrior.webp",
+            "title": "Ahsoka the Warrior",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 26], 95, 0, 0, 0],
+            "tags": ["ahsoka", "tano", "warrior", "force"]
+          },
+          "ahsoka'schoice": {
+            "image": "/ahsoka'schoice.webp",
+            "title": "Ahsoka's Choice",
+            "type": "Lithograph on paper",
+            "dimensions": [[24, 18], 250, 0, 0, 0],
+            "tags": ["ahsoka", "tano", "choice", "force"]
+          },
+          "ahsoka'snarrowescape": {
+            "image": "/ahsoka'snarrowescape.webp",
+            "title": "Ahsoka's Narrow Escape",
+            "type": "Lithograph on paper",
+            "dimensions": [[24, 18], 250, 0, 0, 0],
+            "tags": ["ahsoka", "tano", "escape", "force"]
+          },
+          "ahsoka'sremorse": {
+            "image": "/ahsoka'sremorse.webp",
+            "title": "Ahsoka's Remorse",
+            "type": "Giclée on canvas",
+            "dimensions": [[21, 26.4], 125, 0, 0, 0],
+            "tags": ["ahsoka", "tano", "remorse", "force"],
+            "special": [false, false, true]
+          },
+          "ahsoka'straining": {
+            "image": "/ahsoka'straining.webp",
+            "title": "Ahsoka's Training",
+            "type": "Lithograph on paper",
+            "dimensions": [[16, 24], 250, 0, 0, 0],
+            "tags": ["ahsoka", "tano", "training", "force"]
+          },
+          "ahsoka'stroops": {
+            "image": "/ahsoka'stroops.webp",
+            "title": "Ahsoka's Troops",
+            "type": "Lithograph on paper",
+            "dimensions": [[18, 24], 295, 0, 0, 0],
+            "tags": ["ahsoka", "tano", "troops", "force"]
+          },
+          "allegiancetothedarkside": {
+            "image": "/allegiancetothedarkside.webp",
+            "title": "Allegiance to the Dark Side",
+            "type": "Giclée on paper",
+            "dimensions": [[23.5, 13], 175, 0, 0, 0],
+            "tags": ["sith", "dark", "side", "force"],
+            "special": [false, false, true]
+          },
+          "allies": {
+            "image": "/allies.webp",
+            "title": "Allies",
+            "type": "Giclée on paper",
+            "dimensions": [[16, 24], 250, 0, 0, 0],
+            "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
+            "note": "Printed on photo paper with a metallic high-gloss finish"
+          },
+          "aloneistand": {
+            "image": "/aloneistand.webp",
+            "title": "Alone I Stand",
+            "type": "Giclée on canvas",
+            "dimensions": [[[19, 26], [18, 24]], 250, 0, 95, 0],
+            "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
+            "note": "Second size is lithograph on paper"
+          },
+          "anunderstanding": {
+            "image": "/anunderstanding.webp",
+            "title": "An Understanding",
+            "type": "Lithograph on paper",
+            "dimensions": [[18, 24], 250, 0, 0, 0],
+            "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"]
+          },
+          "anunlikelyfriend": {
+            "image": "/anunlikelyfriend.webp",
+            "title": "An Unlikely Friend",
+            "type": "Giclée on canvas",
+            "dimensions": [[22, 16.5], 95, 0, 0, 0],
+            "tags": ["anakin", "obi-wan", "kenobi", "battle", "duel"],
+            "special": [false, false, true]
+          },
+          "apprenticenomore": {
+            "image": "/apprenticenomore.webp",
+            "title": "Apprentice No More",
+            "type": "Lithograph on paper",
+            "dimensions": [[12, 24], 250, 0, 0, 0],
+            "tags": ["darth", "vader", "ahsoka", "tano", "battle", "duel"]
+          },
+          "arcade1978": {
+            "image": "/arcade1978.webp",
+            "title": "Arcade 1978",
+            "type": "Giclée on paper",
+            "dimensions": [[[19, 13], [13.7, 10.8]], 50, 0, 0, 0],
+            "tags": ["arcade", "game", "star", "wars", "retro"]
+          },
+          "arcade1979": {
+            "image": "/arcade1979.webp",
+            "title": "Arcade 1979",
+            "type": "Giclée on paper",
+            "dimensions": [[[19, 13], [13.7, 10.8]], 50, 0, 0, 0],
+            "tags": ["arcade", "game", "star", "wars", "retro"]
+          },
+          "arcade1981": {
+            "image": "/arcade1981.webp",
+            "title": "Arcade 1981",
+            "type": "Giclée on paper",
+            "dimensions": [[[19, 13], [13.7, 10.8]], 50, 0, 0, 0],
+            "tags": ["arcade", "game", "star", "wars", "retro"]
+          },
+          "artoo": {
+            "image": "/artoo.webp",
+            "title": "Artoo",
+            "type": "Giclée on paper",
+            "dimensions": [[12, 16], 0, 0, 200, 0],
+            "tags": ["r2-d2", "droid", "robot", "star", "wars"]
+          },
+          "arvala-7": {
+            "image": "/arvala-7.webp",
+            "title": "Arvala-7",
+            "type": "Giclée on paper",
+            "dimensions": [[13, 19], 0, 0, 95, 0],
+            "tags": ["arvala", "7", "planet", "star", "wars"]
+          },
+          "assaultonechobase": {
+            "image": "/assaultonechobase.webp",
+            "title": "Assault on Echo Base",
+            "type": "Giclée on canvas",
+            "dimensions": [[19, 17], 150, 0, 0, 0],
+            "tags": ["assault", "echo", "base", "star", "wars"],
+            "special": [false, false, true]
+          },
+          "atlastwewillhaverevenge": {
+            "image": "/atlastwewillhaverevenge.webp",
+            "title": "At Last We Will Have Revenge",
+            "type": "Lithograph on paper",
+            "dimensions": [[16, 24], 295, 0, 0, 0],
+            "tags": ["revenge", "sith", "jedi", "battle", "duel"],
+            "note": "Printed on pearlescent paper"
+          },
+          "at-atattacks": {
+            "image": "/at-atattacks.webp",
+            "title": "AT-AT Attacks",
+            "type": "Giclée on paper",
+            "dimensions": [[16, 12], 250, 0, 0, 0],
+            "tags": ["at-at", "attack", "star", "wars"]
+          },
+          "at-atdriver": {
+            "image": "/at-atdriver.webp",
+            "title": "AT-AT Driver",
+            "type": "Giclée on canvas",
+            "dimensions": [[22, 27.5],125, 0, 0, 0],
+            "tags": ["at-at", "driver", "star", "wars"],
+            "special": [false, false, true]
+          },
+          "at-atpilot": {
+            "image": "/at-atpilot.webp",
+            "title": "AT-AT Pilot",
+            "type": "Giclée on canvas",
+            "dimensions": [[16, 24], 95, 0, 0, 0],
+            "tags": ["at-at", "pilot", "star", "wars"],
+            "special": [false, false, true]
+          },
+          "attackonechobase": {
+            "image": "/attackonechobase.webp",
+            "title": "Attack on Echo Base",
+            "type": "Giclée on canvas",
+            "dimensions": [[20, 26], 50, 0, 0, 0],
+            "tags": ["attack", "echo", "base", "star", "wars"],
+            "special": [false, false, true]
+          }
+        }
       }
     },
     "disney": {
@@ -1625,6 +1629,519 @@
             "special": [true, true, true],
             "dimensions": [[12, 36], 195],
             "tags": ["duck", "minnie", "goofy"]
+          },
+          "mickeymouseclubhouse": {
+            "image": "/mickeymouseclubhouse.gif",
+            "title": "mickey mouse clubhouse",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[24, 28], 100],
+            "tags": ["minnie", "duck", "house", "tree"]
+          },
+          "theengineofimagination": {
+            "image": "/theengineofimagination.jpg",
+            "title": "the engine of imagination",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[[20, 30], [12, 16]], 195],
+            "tags": ["minnie", "train", "daffy", "goofy", "duck"]
+          },
+          "dancingacrossparis": {
+            "image": "/dancingacrossparis.jpg",
+            "title": "dancing across paris",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[[20, 30], [12, 18]], 195],
+            "note": "Second size has an edition size of 1500",
+            "tags": ["minnie", "paris", "rom"]
+          },
+          "storyofmusicandmagic": {
+            "image": "/storyofmusicandmagic.jpg",
+            "title": "story of music and magic",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[[24, 36], [28, 42], [12, 18]], 295],
+            "tags": ["minnie", "greek", "ancient"]
+          },
+          "mickeysfirebrigade": {
+            "image": "/mickeysfirebrigade.jpg",
+            "title": "mickey's fire brigade",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [[18, 36], 195],
+            "tags": ["minnie", "train", "daffy", "duck"]
+          },
+          "mickeyscarclub": {
+            "image": "/mickeyscarclub.jpg",
+            "title": "mickey's classic car club",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[24, 30], 195],
+            "tags": ["minnie", "car", "gas", "station"]
+          },
+          "dreamingofsocery": {
+            "image": "/dreamingofsocery.jpg",
+            "title": "dreaming of sorcery",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["minnie", "book", "magic"]
+          },
+          "steamboatwillie": {
+            "image": "/steamboatwillie.jpg",
+            "title": "steamboat willie",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["minnie", "boat", "drive", "old"]
+          },
+          "lesmacarons": {
+            "image": "/lesmacarons.jpg",
+            "title": "les macarons",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [[12,17], 150],
+            "tags": ["minnie", "rom", "date"]
+          },
+          "fallforit": {
+            "image": "/fallforit.gif",
+            "title": "fall for it",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [[20, 24], 150],
+            "tags": ["minnie", "goofy", "tree"]
+          },
+          "celebratethemouse": {
+            "image": "/celebratethemouse.gif",
+            "title": "celebrate the mouse",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[24, 30], 195],
+            "tags": ["minnie", "magic"]
+          },
+          "steamboat": {
+            "image": "/steamboat.gif",
+            "title": "steamboat",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[20, 30], 395],
+            "tags": ["minnie", "boat", "drive"]
+          },
+          "magicalmoment": {
+            "image": "/magicalmoment.gif",
+            "title": "magical moment",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[20, 45], 195],
+            "tags": ["minnie"]
+          },
+          "drawingthemouse": {
+            "image": "/drawingthemouse.gif",
+            "title": "drawing the mouse",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[16, 20], 50],
+            "tags": ["minnie"]
+          },
+          "beautifuldayatthebeach": {
+            "image": "/beautifuldayatthebeach.gif",
+            "title": "beautiful day at the beach",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[16, 32], 195],
+            "tags": ["minnie", "beach", "daffy"]
+          },
+          "mickeysorcerer": {
+            "image": "/mickeysorcerer.gif",
+            "title": "mickey sorcerer",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[20, 30], 195],
+            "tags": ["minnie", "magic"]
+          },
+          "magicalhands": {
+            "image": "/magicalhands.gif",
+            "title": "magical hands",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[12, 36], 195],
+            "tags": ["minnie", "paint"]
+          },
+          "galamickeyandminnie": {
+            "image": "/galamickeyandminnie.gif",
+            "title": "gala mickey and minnie",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[20, 24], 195],
+            "tags": ["minnie", "rom"]
+          },
+          "lifesastage": {
+            "image": "/lifesastage.gif",
+            "title": "life's a stage",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[22, 28], 195],
+            "tags": ["minnie", "rom"]
+          },
+          "mickeykoipond": {
+            "image": "/mickeykoipond.gif",
+            "title": "mickey's koi pond",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[24, 30], 195],
+            "tags": ["minnie", "nature"]
+          },
+          "coloursoflove": {
+            "image": "/coloursoflove.gif",
+            "title": "colours of love",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[18, 24], 95],
+            "tags": ["minnie", "rom", "paint"]
+          },
+          "mickeystrailor": {
+            "image": "/mickeystrailor.gif",
+            "title": "mickey's trailer",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[18, 36], 95],
+            "note": "Hand embellished",
+            "tags": ["minnie", "cara"]
+          },
+          "thedeliveryboys": {
+            "image": "/thedeliveryboys.gif",
+            "title": "the delivery boys",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[16, 20], 50],
+            "note": "Hand embellished",
+            "tags": ["minnie", "piano", "music"]
+          },
+          "thestudiothatmicebuilt": {
+            "image": "/thestudiothatmicebuilt.gif",
+            "title": "the studio that mice built",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[16, 24], 95],
+            "note": "Hand embellished",
+            "tags": ["minnie"]
+          },
+          "mickeyscreativejourney": {
+            "image": "/mickeyscreativejourney.gif",
+            "title": "mickey's creative journey",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[12, 36], 195],
+            "note": "Hand embellished",
+            "tags": ["minnie", "paint", "magic"]
+          },
+          "magicaldance": {
+            "image": "/magicaldance.gif",
+            "title": "magical dance",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[12.5, 10], 95],
+            "tags": ["minnie"]
+          },
+          "anidealpicnic": {
+            "image": "/anidealpicnic.gif",
+            "title": "an ideal picnic",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [[13, 10], 95],
+            "tags": ["minnie", "rom"]
+          },
+          "ouroldfamiliarplace": {
+            "image": "/ouroldfamiliarplace.gif",
+            "title": "our old familiar place",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[20, 40], 150],
+            "tags": ["minnie", "rom", "nature"]
+          },
+          "thegardencottagegift": {
+            "image": "/thegardencottagegift.gif",
+            "title": "the garden cottage gift",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[16, 20], 95],
+            "tags": ["minnie", "nature", "rom"] 
+          },
+          "adayatthebeach": {
+            "image": "/adayatthebeach.gif",
+            "title": "a day at the beach",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[16, 20], 95],
+            "tags": ["minnie", "rom", "daffy"]
+          },
+          "colemansparadise": {
+            "image": "/colemansparadise.gif",
+            "title": "colemans paradise",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[16, 20], 95],
+            "tags": ["minnie", "nature", "garden"]
+          },
+          "gardenpicnic": {
+            "image": "/gardenpicnic.gif",
+            "title": "garden picnic",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [[7, 10], 150],
+            "tags": ["minnie", "garden", "nature", "rom"]
+          },
+          "kissesforbravery": {
+            "image": "/kissesforbravery.gif",
+            "title": "kisses for bravery",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[18, 24], 50],
+            "tags": ["minnie", "rom", "kiss"]
+          },
+          "mickeyandthebeanstalk": {
+            "image": "/mickeyandthebeanstalk.gif",
+            "title": "mickey and the beanstalk",
+            "type":"Giclée on hand-deckled paper",
+            "special": [true, false, true],
+            "dimensions": [[25, 12], 195],
+            "tags": ["minnie"]
+          },
+          "mickeyandminnieatgiverny": {
+            "image": "/mickeyandminnieatgiverny.gif",
+            "title": "mickey and minnie at giverny",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[24, 24], 195],
+            "note": "Hand embellished",
+            "tags": ["minnie", "rom"]
+          },
+          "colesmansparadise": {
+            "image": "/colesmansparadise.gif",
+            "title": "colemans paradise",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[16, 20], 95],
+            "note": "Hand embellished",
+            "tags": ["minnie", "rom"]
+          },
+          "underthearch": {
+            "image": "/underthearch.gif",
+            "title": "under the arch",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[18, 24], 95],
+            "note":"Hand embellished",
+            "tags": ["minnie", "rom"]
+          },
+          "magicalsea": {
+            "image": "/magicalsea.gif",
+            "title": "magical sea",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[30, 20], 195],
+            "tags": ["minnie", "magic" ,"wizard"]
+          },
+          "firemanmickey": {
+            "image": "/firemanmickey.gif",
+            "title": "fireman mickey",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[21.5, 14], 195],
+            "tags": ["minnie", "fire"]
+          },
+          "mickeymerica": {
+            "image": "/mickeymerica.gif",
+            "title": "mickeymerica",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[9.5, 10.5], 50],
+            "tags": ["minnie", "america", "usa"]
+          },
+          "steampunkwillie": {
+            "image": "/steampunkwillie.gif",
+            "title": "steampunk willie",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [[15, 18], 150],
+            "tags": ["minnie", "boat", "steer"]
+          },
+          "hotdogcart": {
+            "image": "/hotdogcart.gif",
+            "title": "hot dog cart",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [[24, 30], 250],
+            "tags": ["minnie", "cart"]
+          },
+          "aparissunset": {
+            "image": "/aparissunset.gif",
+            "title": "a paris sunset",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[15, 22], 195],
+            "tags": ["minnie", "rom", "paris"]
+          },
+          "theflighttofantasy": {
+            "image": "/theflighttofantasy.gif",
+            "title": "the flight to fantasy",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[24, 12], 95],
+            "tags": ["minnie", "magic", "fant"]
+          },
+          "beyondthedoor": {
+            "image": "/beyondthedoor.gif",
+            "title": "beyond the door",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [[12, 16], 195],
+            "tags": ["minnie", "magic", "wizard"]
+          },
+          "fantasiamickey": {
+            "image": "/fantasiamickey.gif",
+            "title": "fantasia mickey",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [[15, 30], 195],
+            "tags": ["minnie", "magic", "wizard"]
+          },
+          "waltsmagicbrush": {
+            "image": "/waltsmagicbrush.gif",
+            "title": "walt's magic brush",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[32, 24], 50],
+            "tags": ["minnie", "duck", "beach"]
+          },
+          "mickeyandminniesromanticday": {
+            "image": "/mickeyandminniesromanticday.gif",
+            "title": "mickey and minnies romantic day",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[18, 24], 50],
+            "tags": ["minnie", "rom", "beach"]
+          },
+          "mickeytheartist": {
+            "image": "/mickeytheartist.gif",
+            "title": "mickey the artist",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[18, 24], 50],
+            "tags": ["minnie", "beach", "paint", "magic", "wizard"]
+          },
+          "wereinlove": {
+            "image": "/wereinlove.gif",
+            "title": "we're in love",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[24, 18], 195],
+            "tags": ["minnie", "rom"]
+          },
+          "perfectfit": {
+            "image": "/perfectfit.gif",
+            "title": "perfect fit",
+            "type":"Giclée on paper",
+            "special": [true, false, true],
+            "dimensions": [0, 195],
+            "tags": ["minnie", "magic", "wizard"]
+          },
+          "sorcery": {
+            "image": "/sorcery.gif",
+            "title": "sorcery",
+            "type":"Giclée on paper",
+            "special": [true],
+            "dimensions": [0, 295],
+            "tags": ["minnie", "magic", "ocean", "water"]
+          },
+          "aroseformickey": {
+            "image": "/aroseformickey.jpg",
+            "title": "a rose for mickey",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [0, 195],
+            "tags": ["minnie", "rom"]
+          },
+          "thesorcerersapprentice": {
+            "image": "/thesorcerersapprentice.gif",
+            "title": "the sorceror's apprentice",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [0, 195],
+            "note": "Hand embellished",
+            "tags": ["minnie", "bucket", "magic"]
+          },
+          "makingmagic": {
+            "image": "/makingmagic.gif",
+            "title": "making magic",
+            "type":"Serigraph on canvas",
+            "special": [true, false, true],
+            "dimensions": [0, 195],
+            "tags": ["minnie", "magic", "wizard"]
+          },
+          "crosscourtmickey": {
+            "image": "/crosscourtmickey.gif",
+            "title": "cross court mickey",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [0, 195],
+            "tags": ["minnie"]
+          },
+          "fore": {
+            "image": "/fore.gif",
+            "title": "fore",
+            "type":"Giclée on paper",
+            "special": [true, false, true],
+            "dimensions": [0, 195],
+            "tags": ["minnie", "golf"]
+          },
+          "mickeysuniverse": {
+            "image": "/mickeysuniverse.gif",
+            "title": "mickey's universe",
+            "type":"Giclée on paper",
+            "special": [true, false, true],
+            "dimensions": [0, 195],
+            "tags": ["minnie", "magic"]
+          },
+          "moonlightinvenice": {
+            "image": "/moonlightinvenice.gif",
+            "title": "moonlight in venice",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [[24, 12], 195],
+            "tags": ["minnie", "rom"]
+          },
+          "romanceontheriveria": {
+            "image": "/romanceontheriveria.gif",
+            "title": "romance on the riviera",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [0, 195],
+            "tags": ["minnie", "rom"]
+          },
+          "sorcerorsymphony": {
+            "image": "/sorcerorsymphony.gif",
+            "title": "sorceror symphony",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [0, 195],
+            "tags": ["minnie", "magic"]
+          },
+          "blacktieaffair": {
+            "image": "/blacktieaffair.gif",
+            "title": "black tie affair",
+            "type":"Giclée on canvas",
+            "special": [true],
+            "dimensions": [0, 295],
+            "tags": ["minnie", "rom"]
+          },
+          "tuscanlove": {
+            "image": "/tuscanlove.gif",
+            "title": "tuscan love",
+            "type":"Giclée on canvas",
+            "special": [true, false, true],
+            "dimensions": [0, 195],
+            "tags": ["minnie"]
           }
         },
 

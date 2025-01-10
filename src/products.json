@@ -258,6 +258,14 @@
     "star-wars": {
       "subcategories": {
         "feature-films": {
+          "luminousbeing": {
+          "image": "/luminousbeing.gif",
+          "title": "Luminous Being",
+          "type": "Giclée on canvas",
+          "special": [true, true, true],
+          "dimensions": [[20, 27], 50],
+          "tags": ["star wars", "force", "spiritual"]
+          },
           "whatremains": {
             "image": "/whatremains.jpg",
             "title": "what remains",
@@ -576,6 +584,1974 @@
             "dimensions": [[20, 26], 50, 0, 0, 0],
             "tags": ["attack", "echo", "base", "star", "wars"],
             "special": [false, false, true]
+          },
+
+
+
+
+
+          
+          "droidsnoir": {
+          "image": "/droidsnoir.jpg",
+          "title": "Droids Noir",
+          "type": "Paper print",
+          "special": [true, false, true],
+          "dimensions": [[12, 17], 295],
+          "tags": ["Star Wars", "Droids", "Noir"]
+          },
+          "thesmuggler": {
+          "image": "/thesmuggler.jpg",
+          "title": "The Smuggler",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[[18, 26], [12, 16]], 150, 95],
+          "tags": ["Star Wars", "Han Solo", "Smuggler"]
+          },
+          "thelackoffaith": {
+          "image": "/thelackoffaith.jpg",
+          "title": "The Lack of Faith",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[[20, 30], [12, 17]], 150, 95],
+          "tags": ["Star Wars", "Empire", "Faith"]
+          },
+          "themandalorianadventures": {
+          "image": "/themandalorianadventures.jpg",
+          "title": "The Mandalorian Adventures",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[18, 24], 250],
+          "tags": ["Star Wars", "Mandalorian", "Adventure"]
+          },
+          "unexpectedhero": {
+          "image": "/unexpectedhero.jpg",
+          "title": "Unexpected Hero",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[24, 12], 295],
+          "tags": ["Star Wars", "Hero", "Surprise"]
+          },
+          "wanderingjedi": {
+          "image": "/wanderingjedi.jpg",
+          "title": "Wandering Jedi",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[13, 19], 150],
+          "tags": ["Star Wars", "Jedi", "Wanderer"]
+          },
+          "protectingthehope": {
+          "image": "/protectingthehope.jpg",
+          "title": "Protecting The Hope",
+          "type": "Lithograph",
+          "special": [true, false, true],
+          "dimensions": [[18, 24], 250],
+          "tags": ["Star Wars", "Hope", "Protection"]
+          },
+          "awakeningofajedi": {
+          "image": "/awakeningofajedi.jpg",
+          "title": "Awakening Of A Jedi",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[13, 19], 150],
+          "tags": ["Star Wars", "Jedi", "Awakening"]
+          },
+          "lastlookback": {
+          "image": "/lastlookback.jpg",
+          "title": "Last Look Back",
+          "type": "Canvas and paper",
+          "special": [true, false, false],
+          "dimensions": [[[17, 24], [16, 22]], 95, 150],
+          "tags": ["Star Wars", "Farewell", "Reflection"]
+          },
+          "silentguardian": {
+          "image": "/silentguardian.jpg",
+          "title": "Silent Guardian",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[16, 24], [12, 16]], 95, 495],
+          "tags": ["Star Wars", "Guardian", "Protector"]
+          },
+          "thereisnoescape": {
+          "image": "/thereisnoescape.jpg",
+          "title": "There Is No Escape",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[30, 15], [24, 12]], 95, 395],
+          "tags": ["Star Wars", "Escape", "Trapped"]
+          },
+          "thedestinyofajedi": {
+          "image": "/thedestinyofajedi.jpg",
+          "title": "The Destiny Of A Jedi",
+          "type": "Canvas and Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[[18, 36], [13, 19]], 95, 150],
+          "tags": ["Star Wars", "Jedi", "Destiny"]
+          },
+          "checkpoint": {
+          "image": "/checkpoint.jpg",
+          "title": "Checkpoint",
+          "type": "Canvas and Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[[15, 30], [18, 10]], 95, 150],
+          "tags": ["Star Wars", "Checkpoint", "Security"]
+          },
+          "jabbasbountyhunter": {
+          "image": "/jabbasbountyhunter.jpg",
+          "title": "Jabba's Bounty Hunter",
+          "type": "Canvas and Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[[15, 30], [12, 24]], 95, 395],
+          "tags": ["Star Wars", "Jabba", "Bounty Hunter"]
+          },
+          "jabbaspalace": {
+          "image": "/jabbaspalace.jpg",
+          "title": "Jabba's Palace",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[12, 36], 395],
+          "tags": ["Star Wars", "Jabba", "Palace"]
+          },
+          "thecloneoffett": {
+          "image": "/thecloneoffett.jpg",
+          "title": "The Clone Of Fett",
+          "type": "Canvas and Paper print",
+          "special": [true, false, false],
+          "dimensions": [[[16, 20], [16, 20]], 195, 20],
+          "tags": ["Star Wars", "Boba Fett", "Clone"]
+          },
+          "apracticalman": {
+          "image": "/apracticalman.jpg",
+          "title": "A Practical Man",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[20, 20], 250],
+          "tags": ["Star Wars", "Practical", "Character"]
+          },
+          "yahoo": {
+          "image": "/yahoo.jpg",
+          "title": "Yahoo",
+          "type": "Canvas Giclee and Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[[15, 31], [12, 24]], 95, 250],
+          "tags": ["Star Wars", "Yahoo", "Celebration"]
+          },
+          "scoundrels": {
+          "image": "/scoundrels.jpg",
+          "title": "Scoundrels",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[16, 24], 250],
+          "tags": ["Star Wars", "Scoundrels", "Characters"]
+          },
+          "sensemuchfearinyou": {
+          "image": "/sensemuchfearinyou.jpg",
+          "title": "Sense Much Fear In You",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[12, 24], [12, 24]], 195, 20],
+          "tags": ["Star Wars", "Fear", "Jedi"]
+          },
+          "madefrombeskar": {
+          "image": "/madefrombeskar.jpg",
+          "title": "Made From Beskar",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[12, 24], [12, 26]], 195, 20],
+          "tags": ["Star Wars", "Beskar", "Mandalorian"]
+          },
+          "together": {
+          "image": "/together.jpg",
+          "title": "Together",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[18, 24], 395],
+          "tags": ["Star Wars", "Together", "Unity"]
+          },
+          "ourmostdesperatehour": {
+          "image": "/ourmostdesperatehour.jpg",
+          "title": "Our Most Desperate Hour",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[18, 24], 395],
+          "tags": ["Star Wars", "Desperate", "Rebellion"]
+          },
+          "dontbeafraid": {
+          "image": "/dontbeafraid.jpg",
+          "title": "Don't Be Afraid",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[16, 20], [11, 14]], 95, 150],
+          "tags": ["Star Wars", "Courage", "Comfort"]
+          },
+          "thedelivery": {
+          "image": "/thedelivery.jpg",
+          "title": "The Delivery",
+          "type": "Canvas and Lithograph",
+          "special": [true, false, true],
+          "dimensions": [[[16, 20], [12, 24]], 195, 395],
+          "tags": ["Star Wars", "Delivery", "Mission"]
+          },
+          "journey": {
+          "image": "/journey.jpg",
+          "title": "Journey",
+          "type": "Paper print",
+          "special": [true, false, true],
+          "dimensions": [[12, 24], 95],
+          "tags": ["Star Wars", "Journey", "Adventure"]
+          },
+          "grogu": {
+          "image": "/grogu.jpg",
+          "title": "Grogu",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[12, 24], 295],
+          "tags": ["Star Wars", "Grogu", "The Child"]
+          },
+          "helmetonheartgone": {
+          "image": "/helmetonheartgone.jpg",
+          "title": "Helmet On, Heart Gone",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[16, 24], 295],
+          "tags": ["Star Wars", "Mandalorian", "Emotion"]
+          },
+          "gimmie": {
+          "image": "/gimmie.jpg",
+          "title": "Gimmie",
+          "type": "Paper print",
+          "special": [true, false, false],
+          "dimensions": [[11, 15], 150],
+          "tags": ["Star Wars", "Demand", "Humor"]
+          },
+          "copilot": {
+          "image": "/copilot.jpg",
+          "title": "Copilot",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[11, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Copilot", "Teamwork"]
+          },
+          "finalmoments": {
+          "image": "/finalmoments.jpg",
+          "title": "Final Moments",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[11, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Climax", "Tension"]
+          },
+          "iamyourfather": {
+          "image": "/iamyourfather.jpg",
+          "title": "I am Your Father",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[11, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Darth Vader", "Luke Skywalker"]
+          },
+          "imperialchase": {
+          "image": "/imperialchase.jpg",
+          "title": "Imperial Chase",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[11, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Empire", "Pursuit"]
+          },
+          "palaceinsight": {
+          "image": "/palaceinsight.jpg",
+          "title": "Palace in Sight",
+          "type": "Paper print",
+          "special": [true, false, true],
+          "dimensions": [[13, 19], 125],
+          "tags": ["Star Wars", "Palace", "Anticipation"]
+          },
+          "rebelfleetarrives": {
+          "image": "/rebelfleetarrives.jpg",
+          "title": "Rebel Fleet Arrives",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[11, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Rebellion", "Space Battle"]
+          },
+          "searchingforbounty": {
+          "image": "/searchingforbounty.jpg",
+          "title": "Searching For Bounty",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[11, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Bounty Hunter", "Search"]
+          },
+          "takeheraway": {
+          "image": "/takeheraway.jpg",
+          "title": "Take Her Away",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[11, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Capture", "Empire"]
+          },
+          "thebounty": {
+          "image": "/thebounty.jpg",
+          "title": "The Bounty",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[11, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "hun", "Target"]
+          },
+          "thechildrg": {
+          "image": "/thechildrg.jpg",
+          "title": "The Child - RG",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[11, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "The Child", "Grogu"]
+          },
+          "thefirstapprentice": {
+          "image": "/thefirstapprentice.jpg",
+          "title": "The First Apprentice",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[11, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Apprentice", "Jedi"]
+          },
+          "drawnin": {
+          "image": "/drawnin.gif",
+          "title": "Drawn In",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[11, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Attraction", "Mystery"]
+          },
+          "searching": {
+          "image": "/searching.gif",
+          "title": "Searching",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[11, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Quest", "Discovery"]
+          },
+          "fixingtherazorcrest": {
+          "image": "/fixingtherazorcrest.gif",
+          "title": "Fixing The Razor Crest",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[11, 24], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Mandalorian", "Spaceship"]
+          },
+          "newduo": {
+          "image": "/newduo.gif",
+          "title": "New Duo",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[11, 27], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Partnership", "Characters"]
+          },
+          "mandaloriansalute": {
+          "image": "/mandaloriansalute.gif",
+          "title": "Mandalorian Salute",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[14, 23], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Mandalorian", "Respect"]
+          },
+          "thebeginning": {
+          "image": "/thebeginning.gif",
+          "title": "The Beginning",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[11, 26], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Origin", "Start"]
+          },
+          "donotselfdestruc": {
+          "image": "/donotselfdestruc.gif",
+          "title": "Do Not Self Destruct",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[11, 26], [13, 19]], 95, 125],
+          "tags": ["Star Wars", "Droid", "Humor"]
+          },
+          "hunterandprey": {
+          "image": "/hunterandprey.gif",
+          "title": "Hunter and Prey",
+          "type": "Lithograph",
+          "special": [true, false, true],
+          "dimensions": [[16, 24], 250],
+          "tags": ["Star Wars", "Pursuit", "Conflict"]
+          },
+          "reachingout": {
+          "image": "/reachingout.gif",
+          "title": "Reaching Out",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[20, 25], [12, 15]], 95, 150],
+          "tags": ["Star Wars", "Connection", "Force"]
+          },
+          "joyride": {
+          "image": "/joyride.gif",
+          "title": "Joyride",
+          "type": "Lithograph and Glicee",
+          "special": [true, false, true],
+          "dimensions": [[[15, 24], [16, 24]], 395, 95],
+          "tags": ["Star Wars", "Adventure", "Fun"]
+          },
+          "chaptertwothechi": {
+          "image": "/chaptertwothechi.gif",
+          "title": "Chapter Two: The Child",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[16, 24], 295],
+          "tags": ["Star Wars", "The Child", "Mandalorian"]
+          },
+          "galacticchild": {
+          "image": "/galacticchild.gif",
+          "title": "Galactic Child",
+          "type": "Lithograph",
+          "special": [true, false, true],
+          "dimensions": [[18, 24], 395],
+          "tags": ["Star Wars", "The Child", "Galaxy"]
+          },
+          "legacy": {
+          "image": "/legacy.gif",
+          "title": "Legacy",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[18, 24], [12, 16]], 95, 150],
+          "tags": ["star wars", "legacy", "heritage"]
+          },
+          "mando": {
+          "image": "/mando.gif",
+          "title": "Mando",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[20, 25], [17, 22]], 95, 150],
+          "tags": ["star wars", "mandalorian", "bounty hunter"]
+          },
+          "goinin": {
+          "image": "/goinin.gif",
+          "title": "Goin In",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[14, 20], [12, 16]], 95, 150],
+          "tags": ["star wars", "action", "battle"]
+          },
+          "takethebait": {
+          "image": "/takethebait.gif",
+          "title": "Take The Bait",
+          "type": "Lithograph and Glicee",
+          "special": [true, false, true],
+          "dimensions": [[[17, 24], [19, 27]], 395, 25],
+          "tags": ["star wars", "trap", "strategy"]
+          },
+          "theduel": {
+          "image": "/theduel.gif",
+          "title": "The Duel",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[17, 24], [12, 17]], 95, 150],
+          "tags": ["star wars", "lightsaber", "combat"]
+          },
+          "craitshowdown": {
+          "image": "/craitshowdown.gif",
+          "title": "Crait Showdown",
+          "type": "Giclee on Canvas",
+          "special": [true, false, false],
+          "dimensions": [[[7, 29], [7, 27]], 195, 295],
+          "tags": ["star wars", "battle", "crait"]
+          },
+          "thecircleisnowcomplete": {
+          "image": "/thecircleisnowcomplete.gif",
+          "title": "The Circle Is Now Complete",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[14, 24], 395],
+          "tags": ["star wars", "destiny", "completion"]
+          },
+          "ceasetoexist": {
+          "image": "/ceasetoexist.gif",
+          "title": "Cease To Exist",
+          "type": "Lithograph",
+          "special": [true, false, true],
+          "dimensions": [[[14, 24], [16, 24]], 395, 250],
+          "tags": ["star wars", "destruction", "end"]
+          },
+          "whowillrise": {
+          "image": "/whowillrise.gif",
+          "title": "Who Will Rise",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[[14, 24], [16, 24]], 395, 250],
+          "tags": ["star wars", "challenge", "hero"]
+          },
+          "awakeningsoon": {
+          "image": "/awakeningsoon.gif",
+          "title": "Awakening Soon",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[[14, 24], [16, 24]], 395, 250],
+          "tags": ["star wars", "force", "awakening"]
+          },
+          "nolovefortheempire": {
+          "image": "/nolovefortheempire.gif",
+          "title": "No Love For The Empire",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[22, 27], [13, 19]], 125, 150],
+          "tags": ["star wars", "rebellion", "resistance"]
+          },
+          "itsacomplicatedprofession": {
+          "image": "/itsacomplicatedprofession.gif",
+          "title": "It's A Complicated Profession",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[16, 24], [13, 19]], 95, 150],
+          "tags": ["star wars", "bounty hunter", "profession"]
+          },
+          "thelostjedispath": {
+          "image": "/thelostjedispath.gif",
+          "title": "The Lost Jedi's Path",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[18, 24], 250],
+          "tags": ["star wars", "jedi", "journey"]
+          },
+          "princessofrebels": {
+          "image": "/princessofrebels.gif",
+          "title": "Princess Of Rebels",
+          "type": "Lithograph on paper",
+          "special": [true, false, false],
+          "dimensions": [[18, 24], 250],
+          "tags": ["star wars", "leia", "rebellion"]
+          },
+          "lastonestanding": {
+          "image": "/lastonestanding.gif",
+          "title": "Last One Standing",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[16, 32], [13, 19]], 125, 125],
+          "tags": ["star wars", "survival", "endurance"]
+          },
+          "thedarkside": {
+          "image": "/thedarkside.gif",
+          "title": "The Dark Side",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[18, 24], 250],
+          "tags": ["star wars", "dark side", "sith"]
+          },
+          "atatdriver": {
+          "image": "/atatdriver.gif",
+          "title": "AT-AT-Driver",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[22, 27], [13, 19]], 125, 50],
+          "tags": ["star wars", "at-at", "imperial"]
+          },
+          "dangerousnegotiations": {
+          "image": "/dangerousnegotiations.gif",
+          "title": "Dangerous Negotiations",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[22, 27], [13, 19]], 125, 150],
+          "tags": ["star wars", "negotiations", "conflict"]
+          },
+          "lordvader": {
+          "image": "/lordvader.gif",
+          "title": "Lord Vader",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[23, 30], [13, 19]], 125, 150],
+          "tags": ["star wars", "darth vader", "sith"]
+          },
+          "facethedarkside": {
+          "image": "/facethedarkside.gif",
+          "title": "Face The Dark Side",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[11, 30], [13, 19]], 95, 150],
+          "tags": ["star wars", "dark side", "confrontation"]
+          },
+          "dawnathoth": {
+          "image": "/dawnathoth.gif",
+          "title": "Dawn At Hoth",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[16, 32], [13, 19]], 95, 150],
+          "tags": ["star wars", "hoth", "battle"]
+          },
+          "patrollingtheendormoon": {
+          "image": "/patrollingtheendormoon.gif",
+          "title": "Patrolling The Endor Moon",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[16, 32], [13, 19]], 95, 150],
+          "tags": ["star wars", "endor", "patrol"]
+          },
+          "hesallyoursbountyhunter": {
+          "image": "/hesallyoursbountyhunter.gif",
+          "title": "He's All Yours, Bounty Hunter",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[36, 78], [13, 19]], 95, 50],
+          "tags": ["star wars", "bounty hunter", "capture"]
+          },
+          "starwarsattackoftheclones": {
+          "image": "/starwarsattackoftheclones.gif",
+          "title": "Star Wars: Attack Of The Clones",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[16, 24], 250],
+          "tags": ["star wars", "attack of the clones", "prequel"]
+          },
+          "starwarsthephantommenace": {
+          "image": "/starwarsthephantommenace.gif",
+          "title": "Star Wars: The Phantom Menace",
+          "type": "Lithograph",
+          "special": [true, false, true],
+          "dimensions": [[16, 24], 250],
+          "tags": ["star wars", "phantom menace", "prequel"]
+          },
+          "starwarsrevengeofthesith": {
+          "image": "/starwarsrevengeofthesith.gif",
+          "title": "Star Wars: Revenge of the Sith",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[16, 24], 250],
+          "tags": ["star wars", "revenge of the sith", "prequel"]
+          },
+          "starwarsprequeltrilogy": {
+          "image": "/starwarsprequeltrilogy.gif",
+          "title": "Star Wars: Prequel Trilogy",
+          "type": "Lithograph",
+          "special": [true, false, true],
+          "dimensions": [[16, 24], 250],
+          "tags": ["star wars", "prequel trilogy", "collection"]
+          },
+          "darkgalaxy": {
+          "image": "/darkgalaxy.gif",
+          "title": "Dark Galaxy",
+          "type": "Paper print",
+          "special": [true, false, false],
+          "dimensions": [[13, 19], 150],
+          "tags": ["star wars", "galaxy", "darkness"]
+          },
+          "yourenotactuallygoing": {
+          "image": "/yourenotactuallygoing.gif",
+          "title": "You're Not Actually Going",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[20, 30], [13, 19]], 25, 95],
+          "tags": ["star wars", "doubt", "decision"]
+          },
+          "bobafettevolution": {
+          "image": "/bobafettevolution.gif",
+          "title": "Boba Fett Evolution",
+          "type": "Paper print",
+          "special": [true, false, false],
+          "dimensions": [[13, 19], 150],
+          "tags": ["star wars", "boba fett", "character development"]
+          },
+          "inquisitor": {
+          "image": "/inquisitor.gif",
+          "title": "Inquisitor",
+          "type": "Lithograph",
+          "special": [true, false, true],
+          "dimensions": [[18, 24], 395],
+          "tags": ["star wars", "villain", "empire"]
+          },
+          "pinneddown": {
+          "image": "/pinneddown.gif",
+          "title": "Pinned Down",
+          "type": "Giclée on paper",
+          "special": [true, false, false],
+          "dimensions": [[14, 28], 0 , 150],
+          "tags": ["star wars", "battle", "action"]
+          },
+          "holdfast": {
+          "image": "/holdfast.gif",
+          "title": "Hold Fast",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[20, 30], [14, 21]], 95, 150],
+          "tags": ["star wars", "determination", "resistance"]
+          },
+          "helpinghands": {
+          "image": "/helpinghands.gif",
+          "title": "Helping Hands",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[19, 26], [14, 20]], 95, 150],
+          "tags": ["star wars", "assistance", "teamwork"]
+          },
+          "youcanspeak": {
+          "image": "/youcanspeak.gif",
+          "title": "You Can Speak Bocce",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[12, 28], [9, 21]], 95, 150],
+          "tags": ["star wars", "droids", "communication"]
+          },
+          "powerinnumbers": {
+          "image": "/powerinnumbers.gif",
+          "title": "Power In Numbers",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[20, 30], [13, 23]], 150, 150],
+          "tags": ["star wars", "unity", "strength"]
+          },
+          "battleofscarif": {
+          "image": "/battleofscarif.gif",
+          "title": "Battle Of Scarif",
+          "type": "Giclée on canvas",
+          "note": "20 artist proofs",
+          "special": [true, false, false],
+          "dimensions": [[[24, 48], [25, 48]], 20, 195],
+          "tags": ["star wars", "rogue one", "battle"]
+          },
+          "landosbetrayal": {
+          "image": "/landosbetrayal.gif",
+          "title": "Lando's Betrayal",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "note": "20 artist proofs",
+          "dimensions": [[15, 30], 20, 195],
+          "tags": ["star wars", "lando", "betrayal"]
+          },
+          "becomingvader": {
+          "image": "/becomingvader.gif",
+          "title": "Becoming Vader",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "note":"20 artist proofs",
+          "dimensions": [[15, 30], 20, 195],
+          "tags": ["star wars", "darth vader", "transformation"]
+          },
+          "duelwithpraetoriangu": {
+          "image": "/duelwithpraetoriangu.gif",
+          "title": "Duel With Praetorian Guard",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "note": "20 artist proofs",
+          "dimensions": [[20, 30], 20, 195],
+          "tags": ["star wars", "lightsaber", "combat"]
+          },
+          "excessiveforce": {
+          "image": "/excessiveforce.gif",
+          "title": "Excessive Force",
+          "type": "Giclée on canvas",
+          "note": "20 artist proofs",
+          "special": [true, false, true],
+          "dimensions": [[10, 30], 20, 195],
+          "tags": ["star wars", "empire", "violence"]
+          },
+          "scantheshipi": {
+          "image": "/scantheshipi.gif",
+          "title": "Scan The Ship",
+          "type": "Giclée on canvas",
+          "note": "20 artist proofs",
+          "special": [true, false, true],
+          "dimensions": [[15, 30], 20, 195],
+          "tags": ["star wars", "search", "empire"]
+          },
+          "atstattacks": {
+          "image": "/atstattacks.gif",
+          "title": "AT-ST Attacks",
+          "type": "Image",
+          "note": "20 artist proofs",
+          "special": [true, false, true],
+          "dimensions": [[16, 20], 20],
+          "tags": ["star wars", "at-st", "battle"]
+          },
+          "unexpectedguest": {
+          "image": "/unexpectedguest.gif",
+          "title": "Unexpected Guest",
+          "type": "Giclée on canvas",
+          "note": "20 artist proofs",
+          "special": [true, false, true],
+          "dimensions": [[18, 36], 20, 195],
+          "tags": ["star wars", "surprise", "visitor"]
+          },
+          "hanandchewie": {
+          "image": "/hanandchewie.gif",
+          "title": "Han and Chewie",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[20, 25], [12, 15]], 95, 150],
+          "tags": ["star wars", "han solo", "chewbacca"]
+          },
+          "theimpossible": {
+          "image": "/theimpossible.gif",
+          "title": "The Impossible",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[22, 28], [11, 14]], 95, 150],
+          "tags": ["star wars", "challenge", "odds"]
+          },
+          "theempireawaits": {
+          "image": "/theempireawaits.gif",
+          "title": "The Empire Awaits",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[18, 24], 250],
+          "tags": ["star wars", "empire", "anticipation"]
+          },
+          "cloudcitygambit": {
+          "image": "/cloudcitygambit.gif",
+          "title": "Cloud City Gambit",
+          "type": "Lithograph",
+          "special": [true, false, true],
+          "dimensions": [[14, 24], 295],
+          "tags": ["star wars", "cloud city", "strategy"]
+          },
+          "falconsunset": {
+          "image": "/falconsunset.gif",
+          "title": "Falcon Sunset",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[16, 20], [11, 14]], 95, 150],
+          "tags": ["star wars", "millennium falcon", "sunset"]
+          },
+          "red5": {
+          "image": "/red5.gif",
+          "title": "Red 5",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[16, 36], [11, 24]], 95, 150],
+          "tags": ["star wars", "x-wing", "luke skywalker"]
+          },
+          "lightspeed": {
+          "image": "/lightspeed.gif",
+          "title": "Lightspeed",
+          "type": "Giclee on canvas",
+          "special": [true, false, true],
+          "note": "20 artist proofs",
+          "dimensions": [[18, 36], 195, 20],
+          "tags": ["star wars", "hyperspace", "travel"]
+          },
+          "uselesstoresist": {
+          "image": "/uselesstoresist.gif",
+          "title": "Useless To Resist",
+          "type": "Giclee on canvas",
+          "special": [true, false, false],
+          "dimensions": [[20, 30], 195, 20],
+          "tags": ["star wars", "dark side", "power"]
+          },
+          "usetheforce": {
+          "image": "/usetheforce.gif",
+          "title": "Use The Force",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[12, 24], 195, 20],
+          "tags": ["star wars", "force", "jedi"]
+          },
+          "attheendyourrule": {
+          "image": "/attheendyourrule.gif",
+          "title": "At The End Your Rule",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[12, 24], 195, 20],
+          "tags": ["star wars", "empire", "defeat"]
+          },
+          "nightmustfall": {
+          "image": "/nightmustfall.gif",
+          "title": "Night Must Fall",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[18, 36], 195, 20],
+          "tags": ["star wars", "darkness", "ominous"]
+          },
+          "battleoftheforestmoon": {
+          "image": "/battleoftheforestmoon.gif",
+          "title": "Battle of the Forest Moon",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[20, 48], 195, 20],
+          "tags": ["star wars", "endor", "battle"]
+          },
+          "interceptingtherebels": {
+          "image": "/interceptingtherebels.gif",
+          "title": "Intercepting the Rebels",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[12, 24], 195, 20],
+          "note": "20 artist proofs",
+          "tags": ["star wars", "rebels", "interception"]
+          },
+          "flyingsolo": {
+          "image": "/flyingsolo.gif",
+          "title": "Flying Solo",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[16, 28], 495],
+          "tags": ["star wars", "han solo", "pilot"]
+          },
+          "findingabalance": {
+          "image": "/findingabalance.gif",
+          "title": "Finding A Balance",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[16, 28], 495],
+          "tags": ["star wars", "force", "balance"]
+          },
+          "sunsset": {
+          "image": "/sunsset.gif",
+          "title": "Suns Set",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[27, 18], 95],
+          "tags": ["star wars", "tatooine", "sunset"]
+          },
+          "theoffering": {
+          "image": "/theoffering.gif",
+          "title": "The Offering",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[18, 24], 95],
+          "tags": ["star wars", "offering", "ceremony"]
+          },
+          "searchingthelight": {
+          "image": "/searchingthelight.gif",
+          "title": "Searching The Light",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[17, 33], 95],
+          "tags": ["star wars", "light", "search"]
+          },
+          "porgsatplay": {
+          "image": "/porgsatplay.gif",
+          "title": "Porgs At Play",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[24, 16], 95],
+          "tags": ["star wars", "porgs", "playful"]
+          },
+          "localresidents": {
+          "image": "/localresidents.gif",
+          "title": "Local Residents",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[21, 14], 95],
+          "tags": ["star wars", "aliens", "inhabitants"]
+          },
+          "messageofhope": {
+          "image": "/messageofhope.gif",
+          "title": "Message Of Hope",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[21, 14], 95],
+          "tags": ["star wars", "hope", "communication"]
+          },
+          "masteryoda": {
+          "image": "/masteryoda.gif",
+          "title": "Master Yoda",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[21, 28], [11, 15]], 150, 95],
+          "tags": ["star wars", "yoda", "jedi master"]
+          },
+          "snowbunnypadme": {
+          "image": "/snowbunnypadme.gif",
+          "title": "Snow Bunny Padme",
+          "type": "Canvas print",
+          "special": [true, false, false],
+          "dimensions": [[11, 14], 95],
+          "tags": ["star wars", "padme", "snow"]
+          },
+          "theprincess": {
+          "image": "/theprincess.gif",
+          "title": "The Princess",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[23, 25], [16, 17]], 95, 165],
+          "tags": ["star wars", "princess leia", "royalty"]
+          },
+          "conqueringshadow": {
+          "image": "/conqueringshadow.gif",
+          "title": "Conquering Shadow",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[15, 30], [10, 21]], 150, 150],
+          "tags": ["star wars", "victory", "darkness"]
+          },
+          "streetsofjeda": {
+          "image": "/streetsofjeda.gif",
+          "title": "Streets Of Jeda",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[18, 26], [12, 16]], 95, 150],
+          "tags": ["star wars", "jeda", "cityscape"]
+          },
+          "learningtheforce": {
+          "image": "/learningtheforce.gif",
+          "title": "Learning The Force",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[13, 19], [9, 18]], 95, 125],
+          "tags": ["star wars", "force", "training"]
+          },
+          "watchingtheexperiment": {
+          "image": "/watchingtheexperiment.gif",
+          "title": "Watching The Experiment",
+          "type": "Canvas print",
+          "special": [true, false, true],
+          "dimensions": [[16, 20], 195],
+          "tags": ["star wars", "experiment", "observation"]
+          },
+          "battleofyavin": {
+          "image": "/battleofyavin.gif",
+          "title": "Battle Of Yavin",
+          "type": "Canvas print",
+          "special": [true, false, true],
+          "dimensions": [[18, 24], 195],
+          "tags": ["star wars", "battle", "yavin"]
+          },
+          "confrontingvader": {
+          "image": "/confrontingvader.gif",
+          "title": "Confronting Vader",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[41, 84], [11, 21]], 77, 150],
+          "tags": ["star wars", "darth vader", "confrontation"]
+          },
+          "rebelstarfighter": {
+          "image": "/rebelstarfighter.gif",
+          "title": "Rebel Starfighter",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[14, 36], [13, 19]], 175, 195],
+          "tags": ["star wars", "rebel", "starfighter"]
+          },
+          "waitingatthesouthentrance": {
+          "image": "/waitingatthesouthentrance.gif",
+          "title": "Waiting At The South Entrance",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[18, 25], [13, 19]], 175, 195],
+          "tags": ["star wars", "waiting", "entrance"]
+          },
+          "scarifstryker": {
+          "image": "/scarifstryker.gif",
+          "title": "Scarif Stryker",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[18, 32], [13, 19]], 175, 195],
+          "tags": ["star wars", "scarif", "battle"]
+          },
+          "tiefighterpilots": {
+          "image": "/tiefighterpilots.gif",
+          "title": "TIE Fighter Pilots",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[13, 19], [17, 22]], 125, 150],
+          "tags": ["star wars", "tie fighter", "pilots"]
+          },
+          "thephasmacommand": {
+          "image": "/thephasmacommand.gif",
+          "title": "The Phasma Command",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[29, 16], [18, 10]], 95, 125],
+          "tags": ["star wars", "captain phasma", "command"]
+          },
+          "dealgonebad": {
+          "image": "/dealgonebad.gif",
+          "title": "Deal Gone Bad",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[16, 29], [10, 18]], 95, 125],
+          "tags": ["star wars", "deal", "conflict"]
+          },
+          "ambush": {
+          "image": "/ambush.gif",
+          "title": "Ambush",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[18, 36], [11, 21]], 95, 150],
+          "tags": ["star wars", "surprise attack", "battle"]
+          },
+          "somebodyhastosaveourskins": {
+          "image": "/somebodyhastosaveourskins.gif",
+          "title": "Somebody Has To Save Our Skins",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[30, 40], [15, 20]], 25, 150],
+          "tags": ["star wars", "rescue", "heroism"]
+          },
+          "dogfight": {
+          "image": "/dogfight.gif",
+          "title": "Dogfight",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[14, 21], [14, 21]], 95, 150],
+          "tags": ["star wars", "space battle", "starfighters"]
+          },
+          "theescape": {
+          "image": "/theescape.gif",
+          "title": "The Escape",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[20, 36], [13, 19]], 250, 125],
+          "tags": ["star wars", "escape", "action"]
+          },
+          "dangeraroundthecorner": {
+          "image": "/dangeraroundthecorner.gif",
+          "title": "Danger Around The Corner",
+          "type": "Canvas print",
+          "special": [true, false, false],
+          "dimensions": [[18, 22], 95],
+          "tags": ["star wars", "suspense", "threat"]
+          },
+          "fromtheshadows": {
+          "image": "/fromtheshadows.gif",
+          "title": "From The Shadows",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[22, 30], [11, 14]], 50, 495],
+          "tags": ["star wars", "stealth", "mystery"]
+          },
+          "planetesimals": {
+          "image": "/planetesimals.gif",
+          "title": "Planetesimals",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[17, 22], [15, 30]], 95, 150],
+          "tags": ["star wars", "space", "planets"]
+          },
+          "yourenotactuallygoingintoanasteroidfield": {
+          "image": "/yourenotactuallygoingintoanasteroidfield.gif",
+          "title": "You're Not Actually Going In To An Asteroid Field",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[16, 20], [12, 18]], 95, 125],
+          "tags": ["star wars", "asteroid field", "risk"]
+          },
+          "vengefulpursuit": {
+          "image": "/vengefulpursuit.gif",
+          "title": "Vengeful Pursuit",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[20, 30], 95],
+          "tags": ["star wars", "chase", "revenge"]
+          },
+          "youllhavetosellyo": {
+          "image": "/youllhavetosellyo.gif",
+          "title": "You'll Have To Sell Your Speeder",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[14, 21], [13, 19]], 250, 125],
+          "tags": ["star wars", "speeder", "sacrifice"]
+          },
+          "hostileextraction": {
+          "image": "/hostileextraction.gif",
+          "title": "Hostile Extraction",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[19, 33], [13, 19]], 95, 125],
+          "tags": ["star wars", "extraction", "danger"]
+          },
+          "notajediyet": {
+          "image": "/notajediyet.gif",
+          "title": "Not A Jedi Yet",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[15, 30], [13, 19]], 95, 150],
+          "tags": ["star wars", "jedi", "training"]
+          },
+          "leavingbespin": {
+          "image": "/leavingbespin.gif",
+          "title": "Leaving Bespin",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[20, 30], [17, 22]], 95, 150],
+          "tags": ["star wars", "bespin", "escape"]
+          },
+          "jedhasdoom": {
+          "image": "/jedhasdoom.gif",
+          "title": "Jedha's Doom",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[22, 28], [16, 20]], 95, 95],
+          "tags": ["star wars", "jedha", "destruction"]
+          },
+          "forgedindarkness": {
+          "image": "/forgedindarkness.gif",
+          "title": "Forged In Darkness",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[[18, 36], [15, 30]], 50, 150],
+          "tags": ["star wars", "darkness", "creation"]
+          },
+          "missingpieceofthepuzzle": {
+          "image": "/missingpieceofthepuzzle.gif",
+          "title": "Missing Piece Of The Puzzle",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[20, 30], 95],
+          "tags": ["star wars", "mystery", "puzzle"]
+          },
+          "flylow": {
+          "image": "/flylow.gif",
+          "title": "Fly Low",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[18, 36], 95],
+          "tags": ["star wars", "flying", "stealth"]
+          },
+          "thumbsup": {
+          "image": "/thumbsup.gif",
+          "title": "Thumbs Up",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[14, 21], 95],
+          "tags": ["star wars", "approval", "gesture"]
+          },
+          "ghostinthewind": {
+          "image": "/ghostinthewind.gif",
+          "title": "Ghost In The Wind",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[11, 21], 150],
+          "tags": ["star wars", "ghost", "mystery"]
+          },
+          "weregoingin": {
+          "image": "/weregoingin.gif",
+          "title": "We're Going In",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[14, 21], 95],
+          "tags": ["star wars", "action", "determination"]
+          },
+          "rey": {
+          "image": "/rey.gif",
+          "title": "Rey",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[14, 21], 95],
+          "tags": ["star wars", "rey", "character"]
+          },
+          "tiefightersunset": {
+          "image": "/tiefightersunset.gif",
+          "title": "Tie Fighter Sunset",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[12, 24], 95],
+          "tags": ["star wars", "tie fighter", "sunset"]
+          },
+          "xwingsofresistance": {
+          "image": "/xwingsofresistance.gif",
+          "title": "X-Wings Of Resistance",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[16, 32], 95],
+          "tags": ["star wars", "x-wing", "resistance"]
+          },
+          "milleniumfalconinhyperspace": {
+          "image": "/milleniumfalconinhyperspace.gif",
+          "title": "Millenium Falcon In Hyperspace",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[16, 32], 95],
+          "tags": ["star wars", "millennium falcon", "hyperspace"]
+          },
+          "atatpilot": {
+          "image": "/atatpilot.gif",
+          "title": "AT-At Pilot",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[16, 32], 95],
+          "tags": ["star wars", "at-at", "pilot"]
+          },
+          "finalpreparations": {
+          "image": "/finalpreparations.gif",
+          "title": "Final Preparations",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[20, 30], 195],
+          "tags": ["star wars", "preparation", "mission"]
+          },
+          "gamblersrush": {
+          "image": "/gamblersrush.gif",
+          "title": "Gambler's Rush",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[20, 30], [13, 20]], 150, 150],
+          "tags": ["star wars", "gambling", "risk"]
+          },
+          "thepilot": {
+          "image": "/thepilot.gif",
+          "title": "The Pilot",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[14, 35], 95],
+          "tags": ["star wars", "pilot", "flying"]
+          },
+          "ivealwayswantedto": {
+          "image": "/ivealwayswantedto.gif",
+          "title": "I've Always Wanted To",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[12, 24], 95],
+          "tags": ["star wars", "desire", "ambition"]
+          },
+          "bb8": {
+          "image": "/bb8.gif",
+          "title": "BB-8",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[12, 16], 195],
+          "tags": ["star wars", "bb-8", "droid"]
+          },
+          "longwalk": {
+          "image": "/longwalk.gif",
+          "title": "Long Walk",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[12, 24], 195],
+          "tags": ["star wars", "journey", "endurance"]
+          },
+          "energysurroundsus": {
+          "image": "/energysurroundsus.gif",
+          "title": "Energy Surrounds Us",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[14, 28], 95],
+          "tags": ["star wars", "force", "energy"]
+          },
+          "firstorderren": {
+          "image": "/firstorderren.gif",
+          "title": "First Order Ren",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[18, 26], [14, 21]], 95, 125],
+          "tags": ["star wars", "kylo ren", "first order"]
+          },
+          "fn2187": {
+          "image": "/fn2187.gif",
+          "title": "FN-2187",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[22, 28], 95],
+          "tags": ["star wars", "finn", "stormtrooper"]
+          },
+          "sunsetvigil": {
+          "image": "/sunsetvigil.gif",
+          "title": "Sunset Vigil",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[21, 28], [15, 20]], 150, 150],
+          "tags": ["star wars", "sunset", "watch"]
+          },
+          "poespride": {
+          "image": "/poesride.gif",
+          "title": "Poe's Pride",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[18, 30], [11, 18]], 95, 95],
+          "tags": ["star wars", "poe dameron", "x-wing"]
+          },
+          "tiefighterdown": {
+          "image": "/tiefighterdown.gif",
+          "title": "TIE Fighter Down",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[20, 30], 295],
+          "tags": ["star wars", "tie fighter", "crash"]
+          },
+          "thescavenger": {
+          "image": "/thescavenger.gif",
+          "title": "The Scavenger",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[14, 35], [7, 18]], 95, 95],
+          "tags": ["star wars", "rey", "jakku"]
+          },
+          "machinesofdominion": {
+          "image": "/machinesofdominion.gif",
+          "title": "Machines Of Dominion",
+          "type": "Lithograph",
+          "special": [true, false, false],
+          "dimensions": [[18, 36], 395],
+          "tags": ["star wars", "empire", "machines"]
+          },
+          "thescavengersride": {
+          "image": "/thescavengersride.gif",
+          "title": "The Scavenger's Ride",
+          "type": "Giclee on photo paper",
+          "special": [true, false, true],
+          "dimensions": [[8, 16], 50],
+          "tags": ["star wars", "rey", "speeder"]
+          },
+          "speederwhip": {
+          "image": "/speederwhip.gif",
+          "title": "Speeder Whip",
+          "type": "Image",
+          "special": [true, false, false],
+          "dimensions": [[12, 30], 295],
+          "tags": ["star wars", "speeder", "action"]
+          },
+          "darkwarriorkylo": {
+          "image": "/darkwarriorkylo.gif",
+          "title": "Dark Warrior Kylo Ren",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[16, 22], 95],
+          "tags": ["star wars", "kylo ren", "dark side"]
+          },
+          "hauntingtheclouds": {
+          "image": "/hauntingtheclouds.gif",
+          "title": "Haunting The Clouds",
+          "type": "Canvas and Paper",
+          "special": [true, false, true],
+          "dimensions": [[[20, 30], [17, 22]], 150, 150],
+          "tags": ["star wars", "clouds", "ominous"]
+          },
+          "wheretheresdarknessthereislight": {
+          "image": "/wheretheresdarknessthereislight.gif",
+          "title": "Where There Is Darkness There Is Light",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[20, 30], [12, 16]], 95, 95],
+          "tags": ["star wars", "light", "darkness"]
+          },
+          "bloodline": {
+          "image": "/bloodline.gif",
+          "title": "Bloodline",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[24, 24], [16, 16]], 95, 95],
+          "tags": ["star wars", "family", "legacy"]
+          },
+          "fallenjedi": {
+          "image": "/fallenjedi.gif",
+          "title": "Fallen Jedi",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[18, 36], 195],
+          "tags": ["star wars", "jedi", "fall"]
+          },
+          "jobwelldone": {
+          "image": "/jobwelldone.gif",
+          "title": "Job Well Done",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[15, 30], 195],
+          "tags": ["star wars", "accomplishment", "success"]
+          },
+          "firstordertroopertheforceawakens": {
+          "image": "/firstordertroopertheforceawakens.gif",
+          "title": "First Order Trooper (The Force Awakens)",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[20, 26], 95],
+          "tags": ["star wars", "first order", "stormtrooper"]
+          },
+          "heknew": {
+          "image": "/heknew.gif",
+          "title": "He Knew",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[18, 20], [10, 18]], 95, 95],
+          "tags": ["star wars", "knowledge", "revelation"]
+          },
+          "ewokvillage": {
+          "image": "/ewokvillage.gif",
+          "title": "Ewok Village",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[36, 12], 195],
+          "tags": ["star wars", "ewok", "endor"]
+          },
+          "baptismbyfire": {
+          "image": "/baptismbyfire.gif",
+          "title": "Baptism by Fire",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[16, 24], [13, 20]], 95, 150],
+          "tags": ["star wars", "battle", "initiation"]
+          },
+          "ihaveyounow": {
+          "image": "/ihaveyounow.gif",
+          "title": "I HAVE YOU NOW!",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[14, 26], [17, 9]], 95, 95],
+          "tags": ["star wars", "confrontation", "victory"]
+          },
+          "sithlord": {
+          "image": "/sithlord.gif",
+          "title": "Sith Lord",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[21, 16], [14, 11]], 95, 50],
+          "tags": ["star wars", "sith", "dark side"]
+          },
+          "searchyourfeelings": {
+          "image": "/searchyourfeelings.gif",
+          "title": "Search Your Feelings",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[12, 24], 95],
+          "tags": ["star wars", "force", "introspection"]
+          },
+          "enroute": {
+          "image": "/enroute.gif",
+          "title": "En Route",
+          "type": "Paper print",
+          "special": [true, false, false],
+          "dimensions": [[8, 16], 50],
+          "tags": ["star wars", "journey", "travel"]
+          },
+          "theroadtojabbaspalace": {
+          "image": "/theroadtojabbaspalace.gif",
+          "title": "The Road To Jabbas Palace",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[15, 30], [17, 22]], 150, 150],
+          "tags": ["star wars", "tatooine", "jabba"]
+          },
+          "bb8astromechdroid": {
+          "image": "/bb8astromechdroid.gif",
+          "title": "BB-8 Astromech Droid",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[24, 35], [19, 26], [14, 21]], 50, 95, 50],
+          "tags": ["star wars", "bb-8", "droid"]
+          },
+          "thereisnotry": {
+          "image": "/thereisnotry.gif",
+          "title": "There Is No Try",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[19, 30], 295],
+          "tags": ["star wars", "yoda", "wisdom"]
+          },
+          "trailblazer": {
+          "image": "/trailblazer.gif",
+          "title": "Trailblazer",
+          "type": "Canvas and Paper print",
+          "special": [true, false, false],
+          "dimensions": [[[15, 30], [12, 20]], 150, 150],
+          "tags": ["star wars", "pioneer", "exploration"]
+          },
+          "bobafettwithslave1": {
+          "image": "/bobafettwithslave1.gif",
+          "title": "Boba Fett With Slave 1",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[16, 24], 95],
+          "tags": ["star wars", "boba fett", "slave 1"]
+          },
+          "darthmaul": {
+          "image": "/darthmaul.gif",
+          "title": "Darth Maul",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[12, 16], 195],
+          "tags": ["star wars", "darth maul", "sith"]
+          },
+          "captainphasma": {
+          "image": "/captainphasma.gif",
+          "title": "Captain Phasma",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[20, 30], 195],
+          "tags": ["star wars", "captain phasma", "first order"]
+          },
+          "throughthewreckage": {
+          "image": "/throughthewreckage.gif",
+          "title": "Through The Wreckage",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[14, 33], 295],
+          "tags": ["star wars", "destruction", "survival"]
+          },
+          "leiastudy": {
+          "image": "/leiastudy.gif",
+          "title": "Leia Study",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[16, 24], 95],
+          "tags": ["star wars", "leia", "portrait"]
+          },
+          "thefinalstrike": {
+          "image": "/thefinalstrike.gif",
+          "title": "The Final Strike",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[20, 30], [13, 20]], 395, 150],
+          "tags": ["star wars", "battle", "climax"]
+          },
+          "perseusskywalker": {
+          "image": "/perseusskywalker.gif",
+          "title": "Perseus Skywalker",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[16, 21], 95],
+          "tags": ["star wars", "skywalker", "mythology"]
+          },
+          "marchingorders": {
+          "image": "/marchingorders.gif",
+          "title": "Marching Orders",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[17, 25], [14, 20]], 95, 95],
+          "tags": ["star wars", "empire", "command"]
+          },
+          "sandtroopers": {
+          "image": "/sandtroopers.gif",
+          "title": "Sandtroopers",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[25, 35], 95],
+          "tags": ["star wars", "stormtroopers", "tatooine"]
+          },
+          "liftingthexwing": {
+          "image": "/liftingthexwing.gif",
+          "title": "Lifting The X-Wing",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[15, 30], 95],
+          "tags": ["star wars", "yoda", "force"]
+          },
+          "boardingthefalcon": {
+          "image": "/boardingthefalcon.gif",
+          "title": "Boarding The Falcon",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[10, 30], 95],
+          "tags": ["star wars", "millennium falcon", "boarding"]
+          },
+          "escapefromcloudcity": {
+          "image": "/escapefromcloudcity.gif",
+          "title": "Escape From Cloud City",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[15, 30], 95],
+          "tags": ["star wars", "cloud city", "escape"]
+          },
+          "singlehanded": {
+          "image": "/singlehanded.gif",
+          "title": "Single Handed",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[12, 36], 95],
+          "tags": ["star wars", "solo", "action"]
+          },
+          "speedchase": {
+          "image": "/speedchase.gif",
+          "title": "Speed Chase",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[12, 24], 95],
+          "tags": ["star wars", "chase", "speed"]
+          },
+          "trenchrun": {
+          "image": "/trenchrun.gif",
+          "title": "Trench Run",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[10, 30], 95],
+          "tags": ["star wars", "death star", "battle"]
+          },
+          "battleofplanethoth": {
+          "image": "/battleofplanethoth.gif",
+          "title": "Battle Of Planet Hoth",
+          "type": "Giclée on canvas",
+          "special": [true, false, true],
+          "dimensions": [[[15, 36], [20, 48]], 95, 25],
+          "tags": ["star wars", "hoth", "battle"]
+          },
+          "battleofendor": {
+          "image": "/battleofendor.gif",
+          "title": "Battle Of Endor",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[[15, 36], [20, 48]], 95, 25],
+          "tags": ["star wars", "endor", "battle"]
+          },
+          "gonehunting": {
+          "image": "/gonehunting.gif",
+          "title": "Gone Hunting",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[16, 20], [12, 16]], 95, 125],
+          "tags": ["star wars", "hunting", "bounty hunter"]
+          },
+          "provoked": {
+          "image": "/provoked.gif",
+          "title": "Provoked",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[16.5, 24], 50],
+          "tags": ["star wars", "provocation", "conflict"]
+          },
+          "donefornowyo": {
+          "image": "/donefornowyo.gif",
+          "title": "Done For Now You Are",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[16, 29], [13, 19]], 95, 125],
+          "tags": ["star wars", "yoda", "defeat"]
+          },
+          "rescuemission": {
+          "image": "/rescuemission.gif",
+          "title": "Rescue Mission",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[15, 30], [17, 22]], 150, 150],
+          "tags": ["star wars", "rescue", "mission"]
+          },
+          "searchanddestroy": {
+          "image": "/searchanddestroy.gif",
+          "title": "Search and Destroy",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[14, 28], [13, 19]], 95, 95],
+          "tags": ["star wars", "search", "destroy"]
+          },
+          "contraband": {
+          "image": "/contraband.gif",
+          "title": "Contraband",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[18, 24], [15, 20]], 95, 95],
+          "tags": ["star wars", "smuggling", "illegal goods"]
+          },
+          "cloudcitydeparture": {
+          "image": "/cloudcitydeparture.gif",
+          "title": "Cloud City Departure",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[15, 26], 95],
+          "tags": ["star wars", "cloud city", "departure"]
+          },
+          "throughthefire": {
+          "image": "/throughthefire.gif",
+          "title": "Through The Fire",
+          "type": "Paper print",
+          "special": [true, false, false],
+          "dimensions": [[13, 20], 150],
+          "tags": ["star wars", "fire", "survival"]
+          },
+          "merciless": {
+          "image": "/merciless.gif",
+          "title": "Merciless",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[14, 28], [9, 18]], 95, 95],
+          "tags": ["star wars", "ruthless", "villain"]
+          },
+          "relentless": {
+          "image": "/relentless.gif",
+          "title": "Relentless",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[14, 28], [9, 18]], 95, 95],
+          "tags": ["star wars", "persistence", "pursuit"]
+          },
+          "ridethelightning": {
+          "image": "/ridethelightning.gif",
+          "title": "Ride The Lightning",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[12, 12], 83],
+          "tags": ["star wars", "force lightning", "power"]
+          },
+          "thepuppetmaster": {
+          "image": "/thepuppetmaster.gif",
+          "title": "The Puppet Master",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[13, 26.5], [8.5, 16.5]], 95, 95],
+          "tags": ["star wars", "manipulation", "control"]
+          },
+          "bobashunt": {
+          "image": "/bobashunt.gif",
+          "title": "Boba's Hunt",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[18, 24], [12, 16]], 95, 50],
+          "tags": ["star wars", "boba fett", "bounty hunting"]
+          },
+          "agooddaytodie": {
+          "image": "/agooddaytodie.gif",
+          "title": "A Good Day To Die",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[13, 16], [8.5, 16.5]], 77, 50],
+          "tags": ["star wars", "battle", "heroism"]
+          },
+          "thegreatchewbacca": {
+          "image": "/thegreatchewbacca.gif",
+          "title": "The Great Chewbacca",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[13, 26], [8.25, 16.25]], 77, 50],
+          "tags": ["star wars", "chewbacca", "wookiee"]
+          },
+          "starwars1": {
+          "image": "/starwars1.jpg",
+          "title": "Star Wars #1",
+          "type": "Canvas and Paper",
+          "special": [true, false, false],
+          "dimensions": [[[17, 26], [17, 22]], 50, 77],
+          "tags": ["star wars", "comic", "cover"]
+          },
+          "starwars2": {
+          "image": "/starwars2.jpg",
+          "title": "Star Wars #2",
+          "type": "Paper print",
+          "special": [true, false, false],
+          "dimensions": [[17, 22], 77],
+          "tags": ["star wars", "comic", "cover"]
+          },
+          "starwars3": {
+          "image": "/starwars3.gif",
+          "title": "Star Wars #3",
+          "type": "Paper print",
+          "special": [true, false, false],
+          "dimensions": [[17, 22], 77],
+          "tags": ["star wars", "comic", "cover"]
+          },
+          "starwars4": {
+          "image": "/starwars4.jpg",
+          "title": "Star Wars #4",
+          "type": "Paper print",
+          "special": [true, false, false],
+          "dimensions": [[17, 22], 77],
+          "tags": ["star wars", "comic", "cover"]
+          },
+          "spacebattle":{
+          "image":"/spacebattle.gif",
+          "title":"Space Battle",
+          "type":"Giclée on canvas",
+          "special":[true,false,false],
+          "dimensions":[[11,36],95],
+          "tags":["star wars","space battle","action"]
+          },
+          "firestorm":{
+          "image":"/firestorm.gif",
+          "title":"Firestorm",
+          "type":"Giclée on canvas",
+          "special":[true,false,false],
+          "dimensions":[[[18,24],[15,20]],95,125],
+          "tags":["star wars","fire","battle"]
+          },
+          "whiteout":{
+          "image":"/whiteout.gif",
+          "title":"Whiteout",
+          "type":"Giclée on canvas",
+          "special":[true,false,false],
+          "dimensions":[[[18,24],[17,22]],150,150],
+          "tags":["star wars","snow","battle"]
+          },
+          "blackheart":{
+          "image":"/blackheart.gif",
+          "title":"Black Heart",
+          "type":"Giclée on canvas",
+          "special":[true,false,false],
+          "dimensions":[[[18,24],[17,22]],150,150],
+          "tags":["star wars","darkness","emotion"]
+          },
+          "jedislayer":{
+          "image":"/jedislayer.gif",
+          "title":"Jedi Slayer",
+          "type":"Giclée on canvas",
+          "special":[true,false,false],
+          "dimensions":[[[24,18],[13,19]],125,125],
+          "tags":["star wars","jedi","sith"]
+          },
+          "desertvigil": {
+          "image": "/desertvigil.gif",
+          "title": "Desert Vigil",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[[18, 24], [17, 22]], 150, 150],
+          "tags": ["star wars", "desert", "vigil"]
+          },
+          "smugglershideaway": {
+          "image": "/smugglershideaway.gif",
+          "title": "Smuggler's Hideaway",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[[18, 24], [17, 22]], 150, 150],
+          "tags": ["star wars", "smuggler", "hiding"]
+          },
+          "obiwankenobi": {
+          "image": "/obiwankenobi.gif",
+          "title": "Obi-Wan Kenobi",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[[20, 30], [13, 19]], 95, 150],
+          "tags": ["star wars", "obi-wan", "jedi"]
+          },
+          "starwarsmovieposter1": {
+          "image": "/starwarsmovieposter1.gif",
+          "title": "Star Wars Movie Poster 1",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[13, 19], 400],
+          "tags": ["star wars", "movie poster", "#1"]
+          },
+          "starwarsmovieposter2": {
+          "image": "/starwarsmovieposter2.gif",
+          "title": "Star Wars Movie Poster 2",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[13, 19], 400],
+          "tags": ["star wars", "movie poster", "#2"]
+          },
+          "planofattack": {
+          "image": "/planofattack.gif",
+          "title": "Plan Of Attack",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[[18, 40], [11, 24]], 25, 125],
+          "tags": ["star wars", "strategy", "planning"]
+          },
+          "scourgeofthegalaxy":{
+          "image":"/scourgeofthegalaxy.gif",
+          "title":"Scourge Of The Galaxy",
+          "type":"Giclée on canvas",
+          "special":[true,false,false],
+          "dimensions":[[17,22],195],
+          "tags":["star wars","galaxy","scourge"]
+          },
+          "wretchedhive":{
+          "image":"/wretchedhive.gif",
+          "title":"Wretched Hive",
+          "type":"Giclée on canvas",
+          "special":[true,false,false],
+          "dimensions":[[17,22],100],
+          "tags":["star wars","hive","wretched"]
+          },
+          "greedo":{
+          "image":"/greedo.gif",
+          "title":"Greedo",
+          "type":"Giclee on canvas",
+          "special":[true,false,false],
+          "dimensions":[[[20,40],[14,28]],25,195],
+          "tags":["star wars","greedo","character"]
+          },
+          "regrets": {
+          "image": "/regrets.gif",
+          "title": "Regrets",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[[20, 30], [17, 22]], 195, 150],
+          "tags": ["star wars", "regret", "emotion"]
+          },
+          "itisuselesstoresist" : {
+            "image": "/itisuselesstoresist.gif",
+            "title": "it is useless to resist",
+            "type": "Canvas and Paper",
+            "special": [true, true],
+            "dimensions": [[15, 30], [12, 24], 95, 150],
+            "tags": ["vader", "darth"]
+          },
+          "meditationchamber": {
+          "image": "/meditationchamber.gif",
+          "title": "Meditation Chamber",
+          "type": "Giclée on canvas",
+          "special": [true, false, false],
+          "dimensions": [[17, 26], 150],
+          "tags": ["star wars", "meditation", "chamber"]
           }
         }
       }

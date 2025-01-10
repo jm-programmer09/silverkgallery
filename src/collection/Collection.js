@@ -56,7 +56,7 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
                   searchTerm.replace(" ", "-").includes(theme) ||
                   
                   
-                  subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
+                  subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.some((tag) => tag.toLowerCase().includes(searchTerm) || searchTerm.includes(tag.toLowerCase()))  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
                 
               });
             }
@@ -75,7 +75,7 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
         } else if ((
           product.title.toLowerCase().includes(searchTerm) || 
           
-          product.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || product.tags.includes(searchTerm)  
+          product.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || product.tags.some((tag) => tag.toLowerCase().includes(searchTerm) || searchTerm.includes(tag.toLowerCase()))
           ||
           // For the searching the categories
           category.includes(searchTerm) ||

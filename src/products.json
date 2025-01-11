@@ -63,7 +63,7 @@
       "shield": {
         "image": "/shield.jpg",
         "title": "Shield",
-        "type": "",
+        "type": "Image",
         "special": [true],
         "dimensions": [0],
         "tags": ["shield", "team"]
@@ -71,7 +71,7 @@
       "hailhydra2": {
         "image": "/hailhydra2.jpg",
         "title": "hail hydra II",
-        "type": "",
+        "type": "Image",
         "dimensions": [0],
         "special": [true],
         "tags": ["avengers", "team", "ironman", "thor"]
@@ -109,7 +109,7 @@
         "dimensions": [0],
         "special": [false, true, true],
         "note": "Hand signed by Stan Lee",
-        "tags": ["rare", "", "save"]
+        "tags": ["rare", "save"]
       },
       "deadpoolandwolverine": {
         "image": "/deadpoolandwolverine.jpg",
@@ -190,7 +190,7 @@
       "trio": {
         "image": "/trio.jpg",
         "title": "Trio",
-        "type": "",
+        "type": "Image",
         "dimensions": [0],
         "tags": ["captain", "america", "black panther"],
         "special": [true]
@@ -237,7 +237,7 @@
         "title": "the garden of springfield",
         "type": "Hand painted",
         "dimensions": [0, 50],
-        "tags": ["", "", "garden", "springfield"]
+        "tags": ["garden", "springfield"]
       },
       "heatwave": {
         "image": "/heatwave.gif",

@@ -21,7 +21,7 @@ export function sizeParser (dimensions) { // dimensions === data.__item__.dimens
       // For if there are multiple dimensions
       (typeof dimensions[0][0] === "object" ?
         dimensions[0].map((dimension, index) => (
-          <span key={index}>{dimension[0]}" x {dimension[1]}"&ensp;</span>
+          <span key={index}>{dimension[0]}" x {dimension[1]}" {index < dimensions[0].length-1 && <>or </>}</span>
         )) 
         : <span>{dimensions[0][0]}" x {dimensions[0][1]}"</span> 
       )

@@ -12,5 +12,5 @@
 - Ensure to add loading="lazy" for things that are not in the initial viewport, and loading="eager" for things that are as well as fetchPriority="high", and then have decoding="async" for things outside the viewport as well
 
 ## WARNING, to host on github, this is running on base /silverkgallery - change in home page and check other pages and main router to change it back to base '/'
-Hours: 550;
+Hours: 556;
 

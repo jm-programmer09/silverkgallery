@@ -224,7 +224,7 @@ function allClicked(category) {
               checked={selectorMap[category][theme]}
               onChange={() => themeClicked(theme)}
             />
-            <label htmlFor={`${category}-${theme}-${index}`}>{theme.replace(/-/g, " ")}</label>
+            <label htmlFor={`${category}-${theme}-${index}`}>{theme === "dc-comics" ? "DC Comics" : theme.replace(/-/g, " ")}</label>
           </li>
 
           {/* These are for the subcategories */}

@@ -26,10 +26,11 @@ After first space of the array (array.atIndex(0)):
 
 # note
 - Say who it is signed by here
+- include things like how many artist proofs it has "aka: Artist Proofs: 20", then the note would be "20 artist proofs"
 - this is for special noting as a paragraph on the side
 
 # author
-- no capitals required, done by the display mechanism
+- no capitals required, done by the display mechanism, do not include authors for animation products
 
 # date 
 - Format: "__month__/__year__" (e.g 8/1980)

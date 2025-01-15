@@ -5018,6 +5018,116 @@
           "tags": ["Justice League", "DC", "Paper", "Giclée"],
           "special": [true, false, false]
           }
+        },
+        "hand-painted": {
+          "classic-harley-quinn": {
+            "image": "/classic-harley-quinn.gif",
+            "title": "classic harley quinn",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [0, 500],
+            "tags": ["quinn", "harley", "joker", "puppet", "villain"],
+            "note": "Hand painted"
+          },
+          "classicjoker": {
+            "image": "/classicjoker.gif",
+            "title": "classic joker",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [0, 500],
+            "tags": ["joker", "clas", "warner", "bros", "villain"],
+            "note": "Hand painted"
+          },
+          "classicbatman": {
+            "image": "/classicbatman.gif",
+            "title": "classic batman",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [0, 500],
+            "tags": ["batman", "hero", "batsignal", "warner", "bros"],
+            "note": "Hand painted"
+          },
+          "classicsuperman": {
+            "image": "/classicsuperman.gif",
+            "title": "classic superman",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [0, 500],
+            "tags": ["super", "man", "hero", "warner", "bro"],
+            "note": "Hand painted"
+          },
+          "worldsfinest": {
+            "image": "/worldsfinest.gif",
+            "title": "world's finest",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [0, 500],
+            "tags": ["hero", "bat", "man", "super"],
+            "note": "Hand painted"
+          },
+          "gothamsdynamicduo": {
+            "image": "/gothamsdynamicduo.gif",
+            "title": "gothams dynamic duo",
+            "type": "Cel",
+            "special": [true, false, false],
+            "dimensions": [0, 500],
+            "tags": ["bat", "man", "robin"],
+            "note": "Hand painted"
+          },
+          "andvengeancebegins": {
+            "image": "/andvengeancebegins.gif",
+            "title": "and vengeance begins",
+            "type": "Cel",
+            "special": [true, false, false],
+            "dimensions": [0, 500],
+            "tags": ["bat", "man", "warner", "bros"],
+            "note": "Hand painted"
+          },
+          "thepowerofseven": {
+            "image": "/thepowerofseven.gif",
+            "title": "the power of seven",
+            "type": "Cel",
+            "special": [true, false, false],
+            "dimensions": [0, 500],
+            "tags": ["bat", "super", "girl", "man", "flash", "green", "lantern"],
+            "note": "Hand painted"
+          },
+          "arkhamasylum": {
+            "image": "/arkhamasylum.gif",
+            "title": "arkham asylum",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [0, 500],
+            "tags": ["bat", "man", "villain", "hero"],  
+            "note": "Hand painted"
+          },
+          "legendsofthedarkknight": {
+            "image": "/legendsofthedarkknight.webp",
+            "title": "legends of the dark knight",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [[13.5, 16.5], 250],
+            "tags": ["bat", "man", "hero", "villain"],
+            "note": "Hand painted and signed by Bruce Timm"
+          },
+          "girlsfinest": {
+            "image": "/girlsfinest.webp",
+            "title": "girl's finest",
+            "type": "Cel",
+            "special": [true, false, false],
+            "dimensions": [[13.5, 16.5], 350],
+            "tags": ["villain", "joker", "dc", "harley quinn"],
+            "note": "Hand painted"
+          },
+          "batmanandbeyond": {
+            "image": "/batmanandbeyond.webp",
+            "title": "batman and beyond",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [[12, 20], 100],
+            "tags": ["batman", "batgirl"],
+            "note": "Hand painted and signed by Bruce Timm"
+          }
         }
       }
     }

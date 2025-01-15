@@ -55,7 +55,7 @@ export function Item (  {  id  } ) {
       <div className="text">
         <h4>{element.title}</h4>
         <small>{sizeParser(element.dimensions)}</small>
-        <p>{element.type}</p>
+        <p>{element.type === "Giclée on canvas and paper" ? "Giclée on canvas/paper" : element.type}</p>
       </div>
     </Link>
     </motion.div>

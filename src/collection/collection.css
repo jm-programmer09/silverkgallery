@@ -126,7 +126,7 @@ section.collection nav {
   user-select: none;
   padding-top: 10px;
   background-color: white;
-  height: calc(100vh - var(--header-height) - 72.8px);
+  min-height: calc(100vh - var(--header-height) - 72.8px);
 }
 
 /* The nav bar is for the elements */

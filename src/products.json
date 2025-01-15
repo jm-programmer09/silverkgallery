@@ -372,7 +372,7 @@
       "note": "AP, PP, EP Edition Size: 25"
       },
       "marvelcity_captain_america": {
-      "title": "Marvelcity:Captain America",
+      "title": "Marvelcity: Captain America",
       "image": "/marvelcity_captain_america.gif",
       "special": [true],
       "type": "Giclee on Canvas",
@@ -381,7 +381,7 @@
       "note": "AP, PP, EP Edition Size: 25"
       },
       "marvelcity_doctor_strange": {
-      "title": "Marvelcity:Doctor Strange",
+      "title": "Marvelcity: Doctor Strange",
       "image": "/marvelcity_doctor_strange.gif",
       "type": "Giclee on Canvas",
       "special": [true],
@@ -390,7 +390,7 @@
       "note": "AP, PP, EP Edition Size: 25"
       },
       "marvelcity_iron_man": {
-      "title": "Marvelcity:Iron Man",
+      "title": "Marvelcity: Iron Man",
       "image": "/marvelcity_iron_man.gif",
       "special": [true],
       "type": "Giclée on Canvas",
@@ -399,7 +399,7 @@
       "note": "AP, PP, EP Edition Size: 25"
       },
       "marvelcity_spiderman": {
-      "title": "Marvelcity:Spiderman",
+      "title": "Marvelcity: Spiderman",
       "image": "/marvelcity_spiderman.gif",
       "type": "Giclée on Canvas",
       "special": [true],
@@ -625,10 +625,153 @@
 
       "subcategories": {
         "limited-editions": {
-
+          "vivathesimpsons": {
+            "image": "/vivathesimpsons.webp",
+            "title": "viva the simpsons",
+            "type": "Sericel",
+            "dimensions": [[16.5, 13.5], 2500],
+            "special": [true, false, false],
+            "tags": ["simpson", "family", "circus"]
+          },
+          "homerdescending": {
+            "image": "/homerdescending.webp",
+            "title": "homer descending",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 30], 100],
+            "special": [true, false, false],
+            "tags": ["homer", "trip", "funny"]
+          },
+          "omightyhomer": {
+            "image": "/omightyhomer.webp",
+            "title": "o'mighty homer",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[36, 30], [21, 17]], 250, 195],
+            "special": [true, false, false],
+            "tags": ["giant"]
+          },
+          "bartonglass": {
+            "image": "/bartonglass.webp",
+            "title": "bart on glass",
+            "type": "Giclée on paper",
+            "dimensions": [[13, 19], 195],
+            "special": [true, false, false],
+            "tags": ["bart", "homer", "family"]
+          },
+          "crowdaghast": {
+            "image": "/crowdaghast.webp",
+            "title": "crowd aghast",
+            "type": "Giclée on paper",
+            "dimensions": [[13, 19],195],
+            "special": [true, false, false],
+            "tags": ["shocked", "family"]
+          },
+          "flaminghomer": {
+            "image": "/flaminghomer.webp",
+            "title": "flaming homer",
+            "type": "Giclée on paper",
+            "dimensions": [[13, 19], 195],
+            "special": [true, false, false],
+            "tags": ["fire", "hot"]
+          },
+          "mobwithtorches": {
+            "image": "/mobwithtorches.webp",
+            "title": "mob with torches",
+            "type": "Giclée on paper",
+            "dimensions": [[13, 19], 195],
+            "special": [true, false, false],
+            "tags": ["fire", "hot"]
+          },
+          "monorail": {
+            "image": "/monorail.webp",
+            "title": "monorail",
+            "type": "Giclée on paper",
+            "dimensions": [[16, 12], 295],
+            "special": [true, false, false],
+            "tags": ["train"]
+          },
+          "bartman": {
+            "image": "/bartman.webp",
+            "title": "bartman",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[16, 24], [17, 22]], 150, 100],
+            "special": [true, false, false],
+            "tags": ["hero", "villain"]
+          },
+          "dayatkrustyland": {
+            "image": "/dayatkrustyland.webp",
+            "title": "day at krustyland",
+            "type": "Lithograph",
+            "dimensions": [[28.5, 6.5], 1000],
+            "special": [true, false, false],
+            "tags": ["park", "theme", "bart"]
+          },
+          "timeandpunishment": {
+            "image": "/timeandpunishment.webp",
+            "title": "time and punishment",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 30], [16, 23]], 150, 250],
+            "special": [true, false, false],
+            "tags": ["book", "magazine"]
+          },
+          "islandofdrhibbert": {
+            "image": "/islandofdrhibbert.webp",
+            "title": "island of dr. Hibbert",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 30], [16, 23]], 150, 250],
+            "special": [true, false, false],
+            "tags": ["magazine", "book", "bart", "homer"]
+          },
+          "radioactiveman": {
+            "image": "/radioactiveman.webp",
+            "title": "radioactive man",
+            "type": "Giclée on paper",
+            "dimensions": [[16, 24], 100],
+            "special": [true, false, false],
+            "tags": ["hero", "villain"]
+          },
+          "treehouseofhorrorxvi": {
+            "image": "/treehouseofhorrorxvi.webp",
+            "title": "treehouse of horror XVI",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 30], [16, 23]], 250, 250],
+            "special": [true, false, false],
+            "tags": ["magazine", "book", "homer"]
+          },
+          "treehouseofhorrorxxiv": {
+            "image": "/treehouseofhorrorxxiv.webp",
+            "title": "treehouse of horror XXIV",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 28], [16, 23]], 200, 50],
+            "special": [true, false, false],
+            "tags": ["magazine", "book"]
+          },
+          "treehouseofhorrorXXV": {
+            "image": "/treehouseofhorrorXXV.webp",
+            "title": "treehouse of horror XXV",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 28], [16, 23]], 200, 50],
+            "special": [true, false, false],
+            "tags": ["magazine", "book"]
+          },
+          "treehouseofhorrorXXVI": {
+            "image": "/treehouseofhorrorXXVI.webp",
+            "title": "treehouse of horror XXVI",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 28], [16, 23]], 200, 50],
+            "special": [true, false, false],
+            "tags": ["magazine", "book", "homer"]
+          },
+          "treehouseofhorrorXIX": {
+            "image": "/treehouseofhorrorXIX.webp",
+            "title": "treehouse of horror XIX",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 28], [16, 23]], 200, 50],
+            "special": [true, false, false],
+            "tags": ["magazine", "book"]
+          }
         },
         "originals": {
-          
+
         }
       }
     },
@@ -4516,6 +4659,60 @@
             "tags": ["DC", "Canvas", "Giclée", "Alex Ross"],
             "special": [true, false, false]
           },
+          "gothamscrusaders": {
+            "title": "gotham's crusadors",
+            "image": "/gothamscrusaders.webp",
+            "type": "Giclée on paper",
+            "dimensions": [[[25, 18], [30.25, 21.5]], 250],
+            "tags": ["batman", "batgirl", "gotham"],
+            "note": "Signed by Jim Lee",
+            "special": [true, true]
+          },
+          "beaclown": {
+            "title": "be a clown",
+            "image": "/beaclown.webp",
+            "type": "Giclée on canvas",
+            "dimensions": [[17, 22], 250],
+            "tags": ["batman", "batgirl", "gotham"],
+            "special": [true, true],
+            "note": "Signed by Bruce Timm"
+          },
+          "heroes": {
+            "title": "heroes",
+            "image": "/heroes.webp",
+            "type": "Giclée on paper",
+            "dimensions": [[35, 19.5], 250],
+            "tags": ["batman", "batgirl", "gotham"],
+            "special": [true, true],
+            "note": "Signed by Jim Lee"
+          },
+          "kissingtheknight": {
+            "title": "kissing the knight",
+            "image": "/kissingtheknight.webp",
+            "type": "Giclée on paper",
+            "dimensions": [[[13.75, 20.75], [20, 30]], 250, 100],
+            "tags": ["batman", "batgirl", "gotham"],
+            "special": [true, true],
+            "note": "Signed by Jim Lee"
+          },
+          "girlsnightout": {
+            "title": "girl's night out",
+            "image": "/girlsnightout.webp",
+            "type": "Giclée on canvas",
+            "dimensions": [[17, 22], 100],
+            "tags": ["batman", "batgirl", "gotham"],
+            "special": [true, true],
+            "note": "Signed by Bruce Timm"
+          },
+          "batman#1": {
+            "title": "batman #1",
+            "image": "/batman#1.avif",
+            "type": "Giclée on canvas",
+            "dimensions": [[30, 20]],
+            "tags": ["batman", "batgirl", "gotham"],
+            "special": [true, true],
+            "note": "Signed by Lee Bermejo"
+          },
           "joker_clown_prince_of_crime": {
           "title": "Joker Clown Prince Of Crime",
           "image": "/joker_clown_prince_of_crime.jpg",
@@ -5137,6 +5334,15 @@
             "dimensions": [[12, 20], 100],
             "tags": ["batman", "batgirl"],
             "note": "Hand painted and signed by Bruce Timm"
+          }
+        },
+        "sericels": {
+          "knightmoves": {
+            "title": "knight moves",
+            "type": "Sericel",
+            "image": "/knightmoves.gif",
+            "tags": ["batman", "batgirl"],
+            "dimensions": [0]
           }
         }
       }

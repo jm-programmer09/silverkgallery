@@ -341,7 +341,6 @@ section.cards figcaption {
 }
 section.cards figcaption > img {
   width: 75%;
-  max-height: 120px;
 }
 section.cards a:hover > figcaption {
   transition: all 200ms;

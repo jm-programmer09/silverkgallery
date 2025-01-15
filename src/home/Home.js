@@ -145,15 +145,15 @@ export default function Home () {
         {/* Row of the special cards */}
         <div className="theme-row">
           <SpecialCard url={"/animation/marvel"} src={"/animation/marvel/spidermen.jpg"} logosrc={"/animation/marvel/marvelogo.png"} fromleft={true} delay={0.2}/>
-          <SpecialCard url={"/animation/simpsons"} src={"/animation/simpsons/tatumvssimpson.gif"} logosrc={"/animation/simpsons/simpsonslogo.png"} styling={{ marginLeft: "-80px"}} fromleft={true} />
-          <SpecialCard url={"/animation/star-wars"} src={"/animation/star-wars/whatremains.jpg"} logosrc={"/animation/star-wars/swlogo.png"} styling={{ marginLeft: "-25px"}} fromleft={false} />
-          <SpecialCard url={"/animation/disney"} src={"/animation/disney/celebratethemouse.gif"} logosrc={"/animation/disney/disneylogo.svg"} fromleft={false} delay={0.2}/>
+          <SpecialCard url={"/animation/dc-comics"} src={"/animation/dc-comics/batman1000.webp"} logosrc={"/animation/dc-comics/logo.png"} styling={{ marginLeft: "-280px"}} fromleft={true} logoStyling={{ width: "45%", marginBottom: "-20px", marginTop: "-20px"}} />
+          <SpecialCard url={"/animation/star-wars"} src={"/animation/star-wars/whatremains.jpg"} logosrc={"/animation/star-wars/swlogo.png"} styling={{ marginLeft: "-25px"}} fromleft={false} logoStyling={{ marginTop: "-10px"}} />
+          <SpecialCard url={"/animation/disney"} src={"/animation/disney/celebratethemouse.gif"} logosrc={"/animation/disney/disneylogo.svg"} fromleft={false} delay={0.2} logoStyling={{ maxHeight: "150px", marginBottom: "-35px", marginTop: "-20px"}}/>
         </div>
         
         {/* Mobile theme row */}
         <div className="mobile-theme-row">
           <Link to={"/collection/animation/marvel"}><img loading="eager" fetchpriority="high" src={process.env.PUBLIC_URL + "/img/animation/marvel/marvelogo.png"} alt="Marvel" title="Marvel"/></Link>
-          <Link to={"/collection/animation/simpsons"}><img loading="eager" fetchpriority="high" src={process.env.PUBLIC_URL + "/img/animation/simpsons/simpsonslogo.png"} alt="Simpsons" title="Simpsons"/></Link>
+          <Link to={"/collection/animation/dc-comics"}><img loading="eager" fetchpriority="high" src={process.env.PUBLIC_URL + "/img/animation/dc-comics/logo.png"} alt="Simpsons" title="Simpsons"/></Link>
           <Link to={"/collection/animation/star-wars"}><img loading="eager" fetchpriority="high" src={process.env.PUBLIC_URL + "/img/animation/star-wars/swlogo.png"} alt="Star Wars" title="Star Wars" /></Link>
           <Link to={"/collection/animation/disney"}><img loading="eager" fetchpriority="high" style={{ marginTop: "10px"}} className="disney" title="disney" src={process.env.PUBLIC_URL + "/img/animation/disney/dislogoblack.svg"} alt="Disney"/></Link>
         </div>

@@ -620,6 +620,16 @@
         "type": "Sericel",
         "dimensions": [0, 350],
         "tags": ["love", "rom"]
+      },
+
+
+      "subcategories": {
+        "limited-editions": {
+
+        },
+        "originals": {
+          
+        }
       }
     },
     "star-wars": {
@@ -5127,6 +5137,36 @@
             "dimensions": [[12, 20], 100],
             "tags": ["batman", "batgirl"],
             "note": "Hand painted and signed by Bruce Timm"
+          }
+        }
+      }
+    },
+    "super-friends": {
+      "subcategories": {
+        "production-cels": {
+          "207superfriends": {
+            "image": "/207superfriends.jpg",
+            "title": "#207 Super Friends",
+            "type": "Production Cel",
+            "dimensions": [0],
+            "special": [true, true],
+            "tags": ["superman", "batman", "robin"]
+          },
+          "209superfriends": {
+            "image": "/209superfriends.jpg",
+            "title": "#209 Pied Piper from Space Title",
+            "type": "Production Cel",
+            "special": [true, true],
+            "dimensions": [0],
+            "tags": ["batman", "batgirl", "robin", "super"]
+          },
+          "213batmanandrobin": {
+            "image": "/213batmanandrobin.jpg",
+            "title": "#213 batman and robin",
+            "type": "Production Cel",
+            "special": [true, true],
+            "dimensions": [0],
+            "tags": ["batman", "robin", "joker"]
           }
         }
       }

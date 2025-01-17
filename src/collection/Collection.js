@@ -111,8 +111,20 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
  * @returns {JSX.Element} // returns the JSX element for the menu
  */
 // this function when having boxes checked only changes the url, does not do anything else
-function MenuCheckBoxes ( { category, selectorMap, featured, themes, navigate, categories, search } ) {  
+function MenuCheckBoxes ( { category, selectorMap, featured, themes, navigate, categories } ) {  
   const [searchParams, setSearchParams] = useSearchParams();
+
+  // for the generating more button
+  const [shouldScroll, setShouldScroll] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
+  
+
+  useEffect(() => {
+    if (shouldScroll) {
+      window.scrollTo({ top: scrollPosition, behavior: "instant" });
+      setShouldScroll(false);
+    }
+  }, [shouldScroll, scrollPosition]);
 
   const updateOneParam = (paramName, newValue) => {
     const newSearchParams = new URLSearchParams(searchParams);
@@ -121,9 +133,17 @@ function MenuCheckBoxes ( { category, selectorMap, featured, themes, navigate, c
   };
 
   // feautured and search are already defined in the parent function and accessible as paramters, the rest for the subcategory will be defined later
+
+  function generalClick () {
+    const howFarTheUserIsDown = window.pageYOffset;
+    setScrollPosition(howFarTheUserIsDown);
+    setShouldScroll(true);
+  }
   
   // the function for if the all button is checked on/off
 function allClicked(category) {
+  generalClick();
+
   const endCategoryList = themes.length < 1 ? categories.includes(category) ? categories.filter(cat => cat !== category).join("+") : categories.concat(category).join("+") : categories.join("+");      
   
   let endThemeList = "";
@@ -150,6 +170,8 @@ function allClicked(category) {
   // the function for featured
   // featured works
   function featuredClicked () {
+    generalClick();
+
     if (category === "animation") {
       updateOneParam("featured", `${featured[0] === 1 ? "0" : "1"}+${featured[1]}`);
     } else {
@@ -159,6 +181,7 @@ function allClicked(category) {
 
   // For the themes
   function themeClicked (currentTheme) {
+    generalClick();
     // if the theme is already selected, then we want to remove it from the url
     // if the theme is not selected, then we want to add it to the url
     const endThemeList = themes.includes(currentTheme) ? themes.filter(theme => theme !== currentTheme).join("+") : themes.concat(currentTheme).join("+");
@@ -175,6 +198,8 @@ function allClicked(category) {
 
   // For clicking on the subcategories
   function subCategoryClicked (parent_theme, subcategory) {
+    generalClick();
+
     // if the subcategory is already selected, then we want to remove it from the url
     // if the subcategory is not selected, then we want to add it to the url
     // if there is no sub${theme} in the url then we want to add it to the url

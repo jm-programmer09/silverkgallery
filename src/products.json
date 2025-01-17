@@ -6079,6 +6079,7 @@
             "title": "garfield diving",
             "type": "Pencil drawing",
             "author": "Jim Davis",
+            "dimensions": [0],
             "special": [false, true, true],
             "tags": ["cat", "drawing"]
           },
@@ -6087,6 +6088,7 @@
             "title": "odie & garfield in uniform",
             "type": "Pencil drawing",
             "author": "Jim Davis",
+            "dimensions": [0],
             "special": [false, true, true],
             "tags": ["cat", "drawing", "police officer", "fireman"]
           },
@@ -6095,6 +6097,7 @@
             "title": "garfield dentist",
             "type": "Pencil drawing",
             "author": "Jim Davis",
+            "dimensions": [0],
             "special": [false, true, true],
             "tags": ["cat", "drawing"]
           },
@@ -6103,6 +6106,7 @@
             "title": "garfield golfer",
             "type": "Pencil drawing",
             "author": "Jim Davis",
+            "dimensions": [0],
             "special": [false, true, true],
             "tags": ["cat", "drawing"]
           },
@@ -6112,7 +6116,8 @@
             "type": "Pencil drawing",
             "author": "Jim Davis",
             "special": [false, true, true],
-            "tags": ["cat", "drawing"]
+            "tags": ["cat", "drawing"],
+            "dimensions": [0]
           }
         },
         "originals": {
@@ -6123,6 +6128,7 @@
             "author": "Jim Davis",
             "note": "Original production cell",
             "special": [true, true, true],
+            "dimensions": [0],
             "tags": ["cat", "show", "tv", "television"]
           },
           "gonfence": {
@@ -6132,6 +6138,7 @@
             "author": "Jim Davis",
             "note": "Original production cell",
             "special": [true, true, true],
+            "dimensions": [0],
             "tags": ["cat", "show", "tv", "television"]
           },
           "ggonfence": {
@@ -6139,6 +6146,7 @@
             "title": "garfield on fence",
             "type": "Hand painted",
             "author": "Jim Davis",
+            "dimensions": [0],
             "note": "Original production cell",
             "special": [true, true, true],
             "tags": ["cat", "show", "tv", "television"]
@@ -6148,6 +6156,7 @@
             "title": "garfield director",
             "type": "Hand painted",
             "author": "Jim Davis",
+            "dimensions": [0],
             "note": "Original production cell",
             "special": [true, true, true],
             "tags": ["cat", "show", "tv", "television"]
@@ -6159,6 +6168,7 @@
             "author": "Jim Davis",
             "note": "Original production cell",
             "special": [true, true, true],
+            "dimensions": [0],
             "tags": ["cat", "show", "tv", "television"]
           },
           "jgodie": {
@@ -6168,6 +6178,7 @@
             "author": "Jim Davis",
             "note": "Original production cell",
             "special": [true, true, true],
+            "dimensions": [0],
             "tags": ["cat", "show", "tv", "television"]
           },
           "oncouch": {
@@ -6177,6 +6188,7 @@
             "author": "Jim Davis",
             "note": "Original production cell",
             "special": [true, true, true],
+            "dimensions": [0],
             "tags": ["cat", "show", "tv", "television"]
           },
           "withfood": {
@@ -6184,6 +6196,7 @@
             "title": "garfield with food",
             "type": "Hand painted",
             "author": "Jim Davis",
+            "dimensions": [0],
             "note": "Original production cell",
             "special": [true, true, true],
             "tags": ["cat", "show", "tv", "television"]
@@ -6192,6 +6205,7 @@
             "image": "/instreet.gif",
             "title": "garfield & odie in street",
             "type": "Hand painted",
+            "dimensions": [0],
             "author": "Jim Davis",
             "note": "Original production cell",
             "special": [true, true, true],
@@ -6202,6 +6216,7 @@
             "title": "Odie & Garfield with hydrant",
             "type": "Hand painted",
             "author": "Jim Davis",
+            "dimensions": [0],
             "note": "Original production cell",
             "special": [true, true, true],
             "tags": ["cat", "show", "tv", "television"]
@@ -6211,6 +6226,7 @@
             "title": "Garfield on stage",
             "type": "Hand painted",
             "author": "Jim Davis",
+            "dimensions": [0],
             "note": "Original production cell",
             "special": [true, true, true],
             "tags": ["cat", "show", "tv", "television"]
@@ -6220,6 +6236,7 @@
             "title": "garfield with plates",
             "type": "Hand painted",
             "author": "Jim Davis",
+            "dimensions": [0],
             "note": "Original production cell",
             "special": [true, true, true],
             "tags": ["cat", "show", "tv", "television"]

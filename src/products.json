@@ -5347,6 +5347,550 @@
         }
       }
     },
+    "indiana-jones": {
+      "preparetomeetkali": {
+        "image": "/preparetomeetkali.webp",
+        "title": "prepare to meet kali",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "theultimateadventure": {
+        "image": "/theultimateadventure.webp",
+        "title": "the ultimate adventure",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[24, 18], 250],
+        "tags": ["jungle", "movie", "poster"]
+      },
+      "expertontheoccult": {
+        "image": "/expertontheoccult.webp",
+        "title": "expert on the occult",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie", "poster"]
+      },
+      "obtainerofrareantiquities": {
+        "image": "/obtainerofrareantiquities.webp",
+        "title": "obtainer of rare antiquities",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie", "poster"]
+      },
+      "adventureawaits": {
+        "image": "/adventureawaits.webp",
+        "title": "adventure awaits",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[16, 20], 250],
+        "tags": ["jungle", "movie", "poster"]
+      },
+      "adventurehasaname": {
+        "image": "/adventurehasaname.webp",
+        "title": "adventure has a name",
+        "type": "Lithograph",
+        "special": [false, false, true],
+        "dimensions": [[18, 24], 295],
+        "tags": ["jungle", "movie"]
+      },
+      "wellofsouls": {
+        "image": "/wellofsouls.webp",
+        "title": "well of souls",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie"]
+      },
+      "yougotheartkid": {
+        "image": "/yougotheartkid.webp",
+        "title": "you got heart, kid",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[17, 24], 250],
+        "tags": ["jungle", "movie", "poster"]
+      },
+      "arrivingbytrain": {
+        "image": "/arrivingbytrain.webp",
+        "title": "arriving by train",
+        "type": "Giclée on paper",
+        "special": [false, false, true],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "theygotus": {
+        "image": "/theygotus.webp",
+        "title": "they got us",
+        "type": "Giclée on paper",
+        "special": [false, false, true],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie", "plane"]
+      },
+      "chasingtheironhorse": {
+        "image": "/chasingtheironhorse.webp",
+        "title": "chasing the iron horse",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[19, 13], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "crusade": {
+        "image": "/crusade.webp",
+        "title": "crusade",
+        "type": "Lithograph",
+        "special": [false, false, true],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie"]
+      },
+      "certaindoom": {
+        "image": "/certaindoom.webp",
+        "title": "certain doom",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie"]
+      },
+      "eternalthrills": {
+        "image": "/eternalthrills.webp",
+        "title": "eternal thrills",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie"]
+      },
+      "arkofthecovenant": {
+        "image": "/arkofthecovenant.webp",
+        "title": "ark of the covenant",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[19, 13], 100],
+        "tags": ["jungle", "movie"]
+      },
+      "crusade2": {
+        "image": "/crusade2.webp",
+        "title": "crusade",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[19, 13], 100],
+        "tags": ["jungle", "movie"]
+      },
+      "ifadventurehasaname": {
+        "image": "/ifadventurehasaname.webp",
+        "title": "if adventure has a name...",
+        "type": "Giclée on canvas gem",
+        "special": [false, false, false],
+        "dimensions": [[8.4, 18], 495],
+        "tags": ["jungle", "movie"]
+      },
+      "theadventurecontinues": {
+        "image": "/theadventurecontinues.webp",
+        "title": "the adventure continues",
+        "type": "Giclée on canvas gem",
+        "special": [false, false, false],
+        "dimensions": [[8.4, 18], 495],
+        "tags": ["jungle", "movie"]
+      },
+      "havetheadventureof": {
+        "image": "/havetheadventureof.webp",
+        "title": "have the adventure of...",
+        "type": "Giclée on canvas gem",
+        "special": [false, false, false],
+        "dimensions": [[8.4, 18],495],
+        "tags": ["jungle", "movie"]
+      },
+      "indythetorchisgoing": {
+        "image": "/indythetorchisgoing.webp",
+        "title": "indy... the torch is going..",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 125],
+        "tags": ["jungle", "movie"]
+      },
+      "doyouhavesomething": {
+        "image": "/doyouhavesomething.webp",
+        "title": "do you have something...",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 125],
+        "tags": ["jungle", "movie"]
+      },
+      "letmechoose": {
+        "image": "/letmechoose.webp",
+        "title": "let me choose",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 125],
+        "tags": ["jungle", "movie"]
+      },
+      "wellofsouls2": {
+        "image": "/wellofsouls2.webp",
+        "title": "well of souls",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "pankotpalace": {
+        "image": "/pankotpalace.webp",
+        "title": "pankot palace",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "thelastcrusade": {
+        "image": "/thelastcrusade.webp",
+        "title": "the last crusade",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "themaninthehat": {
+        "image": "/themaninthehat.avif",
+        "title": "the man in the hat",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[8.5, 22], 95],
+        "tags": ["jungle", "movie"]
+      },
+      "inthelostcity": {
+        "image": "/inthelostcity.webp",
+        "title": "in the lost city...",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[16, 21], 195],
+        "tags": ["jungle", "movie"]
+      },
+      "theraven": {
+        "image": "/theraven.webp",
+        "title": "the raven",
+        "type": "Giclée on paper",
+        "special": [false, false, true],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "theidol": {
+        "image": "/theidol.webp",
+        "title": "THE IDOL!",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[19, 13], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "fortuneandglory": {
+        "image": "/fortuneandglory.webp",
+        "title": "fortune and glory",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie"]
+      },
+      "dontcallhimjunior": {
+        "image": "/dontcallhimjunior.webp",
+        "title": "don't call him junior",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[24, 18], 250],
+        "tags": ["jungle", "movie"]
+      },
+      "callhimdrjones": {
+        "image": "/callhimdrjones.webp",
+        "title": "call him Dr. Jones",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie"]
+      }
+    },
+    "family-guy": {
+      "subcategories": {
+        "hand-painted": {
+          "loveanddieindixie": {
+            "image": "/loveanddieindixie.gif",
+            "title": "love and die in dixie - the cowtones",
+            "type": "Giclée on paper",
+            "special": [true, false, false],
+            "dimensions": [0],
+            "tags": ["peter", "stewie", "gun"]
+          },
+          "loveanddieindixie2": {
+            "image": "/loveanddieindixie2.gif",
+            "title": "love and die in dixie - sheriff",
+            "type": "Giclée on paper",
+            "special": [true, false, false],
+            "dimensions": [0],
+            "tags": ["peter", "stewie", "law", "police"]
+          },
+          "northbynorth": {
+            "image": "/northbynorth.gif",
+            "title": "north by northquohog",
+            "type": "Giclée on paper",
+            "special": [true, false, false],
+            "dimensions": [0],
+            "tags": ["peter", "stewie"]
+          },
+          "fishing": {
+            "image": "/fishing.gif",
+            "title": "fishing",
+            "type": "Giclée on paper",
+            "special": [true, false, false],
+            "dimensions": [0],
+            "tags": ["peter", "stewie"]
+          }
+        },
+        "interpretive-art": {
+          "apossesedpeter": {
+            "image": "/apossesedpeter.gif",
+            "title": "peter finds the magic marigold",
+            "type": "Cel",
+            "author": "Ryan Bubnis",
+            "special": [false, false, true],
+            "dimensions": [0],
+            "tags": ["peter", "stewie", "meghan"]
+          },
+          "megroach": {
+            "image": "/megroach.gif",
+            "title": "megroach",
+            "type": "Cel",
+            "special": [false, false, true],
+            "dimensions": [0],
+            "author": "Joe Vaux",
+            "tags": ["peter", "stewie", "meghan"]
+          },
+          "ridetothemoon": {
+            "image": "/ridetothemoon.gif",
+            "title": "ride to the moon",
+            "type": "Cel",
+            "special": [false, false, false],
+            "dimensions": [0],
+            "author": "Yoskay yamamoto",
+            "tags": ["peter", "stewie", "meghan"]
+          },
+          "cookiequest": {
+            "image": "/cookiequest.gif",
+            "title": "cookie quest",
+            "type": "Cel",
+            "author": "Joel Trussel",
+            "special": [false, false, true],
+            "dimensions": [0],
+            "tags": ["peter", "stewie"]
+          },
+          "chrisheartny": {
+            "image": "/chrisheartny.gif",
+            "title": "chris heart NY",
+            "type": "Cel",
+            "special": [false, false, true],
+            "dimensions": [0],
+            "author": "Andy Tauke",
+            "tags": ["peter", "stewie"]
+          },
+          "damnyou": {
+            "image": "/damnyou.gif",
+            "title": "damn you",
+            "type": "Cel",
+            "special": [false, false, false],
+            "dimensions": [0],
+            "author": "David Swift",
+            "tags": ["peter", "stewie"]
+          },
+          "treachery": {
+            "image": "/treachery.gif",
+            "title": "treachery",
+            "type": "Cel",
+            "special": [false, false, false],
+            "dimensions": [0],
+            "author": "Todd Spenceman",
+            "tags": ["frog"]
+          },
+          "parastic stewie": {
+            "image": "/parastic stewie.gif",
+            "title": "parastic stewie",
+            "type": "Cel",
+            "special": [false, false, false],
+            "dimensions": [0],
+            "author": "Michael Slack",
+            "tags": ["peter", "stewie", "meghan"]
+          },
+          "waitasecond": {
+            "image": "/waitasecond.gif",
+            "title": "wait a second",
+            "type": "Cel",
+            "special": [false, false, true],
+            "author": "Greg Simkins",
+            "dimensions": [0],
+            "tags": ["peter", "stewie", "meghan"]
+          },
+          "bandagedbaby": {
+            "image": "/bandagedbaby.gif",
+            "title": "bandaged baby 'n bear",
+            "type": "Cel",
+            "author": "Alex Ruiz",
+            "special": [false, false, true],
+            "dimensions": [0],
+            "tags": ["stewie"]
+          },
+          "stewietheearlyyears": {
+            "image": "/stewietheearlyyears.gif",
+            "title": "stewie the early years",
+            "type": "Cel",
+            "author": "Dave Pressler",
+            "special": [false, false, false],
+            "dimensions": [0],
+            "tags": ["peter", "stewie", "meghan"]
+          },
+          "dontthreatenmewithagoodtime": {
+            "image": "/dontthreatenmewithagoodtime.gif",
+            "title": "don't threaten me with a good time",
+            "type": "Cel",
+            "author": "Brandt Peters",
+            "special": [false, false, false],
+            "dimensions": [0],
+            "tags": ["peter", "stewie", "meghan"]
+          },
+          "shrinerstewie": {
+            "image": "/shrinerstewie.gif",
+            "title": "shriner stewie",
+            "type": "Cel",
+            "author": "Kathie Olivas",
+            "special": [false, false, false],
+            "dimensions": [0],
+            "tags": ["stewie"]
+          },
+          "dial91": {
+            "image": "/dial91.gif",
+            "title": "dial 91",
+            "type": "Cel",
+            "special": [false, false, true],
+            "dimensions": [0],
+            "author": "Spencer Laudiero",
+            "tags": ["drunk"]
+          },
+          "giggity": {
+            "image": "/giggity.gif",
+            "title": "giggity",
+            "type": "Cel",
+            "special": [false, false, false],
+            "dimensions": [0],
+            "author": "Rik Catlow",
+            "tags": ["peter", "stewie", "meghan"]
+          },
+          "stewiesdream": {
+            "image": "/stewiesdream.gif",
+            "title": "stewie's dream",
+            "type": "Cel",
+            "special": [false, false, false],
+            "dimensions": [0],
+            "author": "Mark Covell",
+            "tags": ["peter", "stewie", "meghan"]
+          },
+          "speeddemon": {
+            "image": "/speeddemon.gif",
+            "title": "speed demon",
+            "type": "Cel",
+            "author": "Bob Dob",
+            "special": [false, false, true],
+            "dimensions": [0],
+            "tags": ["peter", "stewie", "meghan"]
+          },
+          "evilmonkey": {
+            "image": "/evilmonkey.gif",
+            "title": "evil monkey business",
+            "type": "Cel",
+            "special": [false, false, true],
+            "dimensions": [0],
+            "author": "Mike Santos",
+            "tags": ["peter", "stewie", "meghan"]
+          }
+        },
+        "posters": {
+          "blueharvest": {
+            "image": "/blueharvest.gif",
+            "title": "blue harvest",
+            "type": "Poster",
+            "dimensions": [0],
+            "special": [false, true],
+            "tags": ["peter", "star wars", "lightsaber"]
+          }
+        }
+      }
+    },
+    "the-muppets": {
+      "backstageattheshow": {
+        "image": "/backstageattheshow.gif",
+        "title": "back stage at the show",
+        "type": "Giclée on paper",
+        "dimensions": [[12, 36], 50],
+        "tags": ["show", "television", "tv"],
+        "special": [false, false, true]
+      },
+      "basketofflowers": {
+        "image": "/basketofflowers.gif",
+        "title": "baskset of flowers",
+        "type": "Giclée on paper",
+        "dimensions": [[11, 14], 50],
+        "tags": ["show", "television", "tv"],
+        "special": [false, false, true]
+      },
+      "electricmayhemband": {
+        "image": "/electricmayhemband.gif",
+        "title": "electric mayhem band",
+        "type": "Giclée on canvas",
+        "dimensions": [[20, 27], 95],
+        "tags": ["show", "television", "tv"],
+        "special": [false, false, true]
+      },
+      "ticklingtheivory": {
+        "image": "/ticklingtheivory.gif",
+        "title": "tickling the ivory",
+        "type": "Giclée on canvas",
+        "dimensions": [[12, 36], 95],
+        "tags": ["show", "television", "tv"],
+        "special": [false, false, true]
+      },
+      "zoothesax": {
+        "image": "/zoothesax.gif",
+        "title": "zoot the sax",
+        "type": "Giclée on canvas",
+        "dimensions": [[24, 18], 95],
+        "tags": ["show", "television", "tv"],
+        "special": [false, false, true]
+      },
+      "decofuzzie": {
+        "image": "/decofuzzie.jpg",
+        "title": "deco fozzie",
+        "type": "Giclée on canvas and paper",
+        "dimensions": [[[18, 22], [16, 20]], 0, 275, 150],
+        "tags": ["show", "television", "tv"],
+        "special": [false, false, false]
+      },
+      "decokermit": {
+        "image": "/decokermit.jpg",
+        "title": "deco kermit",
+        "type": "Giclée on canvas and paper",
+        "dimensions": [[[18, 22], [16, 20]], 0, 275, 150],
+        "tags": ["show", "television", "tv"],
+        "special": [false, false, false]
+      },
+      "decomisspiggy": {
+        "image": "/decomisspiggy.jpg",
+        "title": "deco miss piggy",
+        "type": "Giclée on canvas and paper",
+        "dimensions": [[[18, 22], [16, 20]], 0, 275, 150],
+        "tags": ["show", "television", "tv"],
+        "special": [false, false, false]
+      },
+      "themuppetshow": {
+        "image": "/themuppetshow.jpg",
+        "title": "the muppet show",
+        "type": "Giclée on canvas and paper",
+        "dimensions": [[[18, 22], [16, 20]], 0, 275, 150],
+        "tags": ["show", "television", "tv"],
+        "special": [false, false, false]
+      }
+    },
     "super-friends": {
       "subcategories": {
         "production-cels": {
@@ -5375,6 +5919,203 @@
             "tags": ["batman", "robin", "joker"]
           }
         }
+      }
+    },
+    "shrek": {
+      "inlove": {
+        "image": "/inlove.gif",
+        "title": "in love",
+        "type": "Giclée on canvas",
+        "dimensions": [0, 195],
+        "special": [false, true, false],
+        "tags": ["fiona"]
+      },
+      "love": {
+        "image": "/love.gif",
+        "title": "love",
+        "type": "Giclée on canvas",
+        "dimensions": [0, 195],
+        "special": [false, true, false],
+        "tags": ["donkey", "dragon"]
+      },
+      "gingyandflowers": {
+        "image": "/gingyandflowers.gif",
+        "title": "gingy and flowers",
+        "type": "Giclée on canvas",
+        "dimensions": [0, 195],
+        "special": [true, true, false],
+        "tags": ["field"]
+      },
+      "friendsforever": {
+        "image": "/friendsforever.gif",
+        "title": "friends forever",
+        "type": "Giclée on canvas",
+        "dimensions": [0],
+        "special": [false, true, false],
+        "tags": ["donkey"],
+        "author": "Jens Schnabel"
+      },
+      "lamour": {
+        "image": "/lamour.gif",
+        "title": "L'Amour",
+        "type": "Giclée on canvas",
+        "dimensions": [0, 195],
+        "special": [true, true, false],
+        "tags": ["puss in boots"]
+      },
+      "pussndonkey": {
+        "image": "/pussndonkey.gif",
+        "title": "puss and donkey",
+        "type": "Giclée on canvas",
+        "dimensions": [0, 195],
+        "special": [true, true, false],
+        "tags": ["puss in boots"]
+      },
+      "shrekanddonkey": {
+        "image": "/shrekanddonkey.gif",
+        "title": "shrek and donkey in the woods",
+        "type": "Giclée on canvas",
+        "dimensions": [0, 195],
+        "special": [true, true, false],
+        "tags": ["forest"]
+      },
+      "shrekandfionasunset": {
+        "image": "/shrekandfionasunset.gif",
+        "title": "shrek and fiona sunsset",
+        "type": "Giclée on canvas",
+        "dimensions": [0, 195],
+        "special": [true, true, false],
+        "tags": ["romance", "love"]
+      },
+      "shrekandfionawedding": {
+        "image": "/shrekandfionawedding.gif",
+        "title": "shrek and fiona wedding",
+        "type": "Giclée on canvas",
+        "dimensions": [0, 195],
+        "special": [true, true, false],
+        "tags": ["love"]
+      },
+      "shrekatdinner": {
+        "image": "/shrekatdinner.gif",
+        "title": "shrek at dinner",
+        "type": "Giclée on canvas",
+        "dimensions": [0, 195],
+        "special": [true, true, false],
+        "tags": ["food"]
+      },
+      "dragoninfight": {
+        "image": "/dragoninfight.gif",
+        "title": "Dragon in fight",
+        "type": "Giclée on canvas",
+        "dimensions": [0, 195],
+        "special": [true, true, false],
+        "tags": ["donkey"]
+      }
+    },
+    "winnie-the-pooh": {
+      "subcategories": {
+        "original-cels": {
+          "ibelieveandmakebelieve": {
+            "image": "/ibelieveandmakebelieve.gif",
+            "title": "i believe in make believe",
+            "type": "Hand painted",
+            "note": "Made 1985",
+            "special": [true, true, false],
+            "dimensions": [0],
+            "tags": ["honey"]
+          },
+          "poohcatchesspringfever": {
+            "image": "/poohcatchesspringfever.gif",
+            "title": "pooh catches spring fever",
+            "type": "Hand painted",
+            "note": "Made 1983",
+            "special": [true, true, false],
+            "dimensions": [0],
+            "tags": ["tigger"]
+          }
+        }
+      }
+    },
+    "futurama": {
+      "implantchip": {
+        "image": "/implantchip.gif",
+        "title": "Resist the Permanent Implant Chip",
+        "type": "Giclée on paper",
+        "special": [true],
+        "dimensions": [0],
+        "tags": ["poster"]    
+      }
+    },
+    "star-trek": {
+      "finalfrontier": {
+        "image": "/finalfrontier.gif",
+        "title": "The final frontier",
+        "author": "Alex Ross",
+        "dimensions": [[24, 24], 50],
+        "type": "Hand painted",
+        "tags": ["ship", "space"],
+        "special": [true, true, false],
+        "note": "15 artist, presentation and exhibition proofs",
+        "featured": true
+      },
+      "animatedseries": {
+        "image": "/animatedseries.jpg",
+        "title": "The animated series",
+        "type": "Hand painted",
+        "dimensions": [[[4.25, 4.25], [6.25, 6.25]], 10],
+        "note": "This piece, made in 1976, is very rare, and Silver K only has one copy",
+        "tags": ["crew", "deck", "ship"],
+        "special": [true, true, true]
+      }
+    },
+    "felix-the-cat": {
+      "felix1": {
+        "image": "/felix1.gif",
+        "title": "felix",
+        "type": "Hand painted",
+        "special": [false, true, true],
+        "tags": ["tree", "lake"],
+        "dimensions": [0]
+      },
+      "felix2": {
+        "image": "/felix2.gif",
+        "title": "felix",
+        "type": "Hand painted",
+        "special": [false, true, true],
+        "tags": [],
+        "dimensions": [0]
+      },
+      "felix3": {
+        "image": "/felix3.gif",
+        "title": "felix",
+        "type": "Hand painted",
+        "special": [false, true, true],
+        "tags": ["train"],
+        "dimensions": [0]
+      },
+      "felix4": {
+        "image": "/felix4.gif",
+        "title": "felix",
+        "type": "Hand painted",
+        "special": [false, true, true],
+        "tags": ["show"],
+        "dimensions": [0]
+      },
+      "felix5": {
+        "image": "/felix5.gif",
+        "title": "felix",
+        "type": "Hand painted",
+        "special": [false, true, true],
+        "tags": ["island", "tropical"],
+        "dimensions": [0]
+      },
+      "felix6": {
+        "image": "/felix6.gif",
+        "title": "felix",
+        "type": "Hand painted",
+        "special": [false, true, true],
+        "tags": ["train", "run"],
+        "dimensions": [0]
       }
     }
   },

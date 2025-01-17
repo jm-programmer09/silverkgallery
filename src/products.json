@@ -778,6 +778,41 @@
     "star-wars": {
       "subcategories": {
         "feature-films": {
+          "trenchrun2": {
+            "image": "/trenchrun2.webp",
+            "title": "death star trench run",
+            "type": "Giclée on paper",
+            "dimensions": [[13, 19], 150],
+            "special": [true, true],
+            "featured": true
+          },
+          "deepinbongo": {
+            "image": "/deepinbongo.webp",
+            "title": "Deep in the bongo",
+            "type": "Giclée on paper",
+            "dimensions": [[13, 19], 150],
+            "special": [true, true],
+            "author": "Steve Thomas",
+            "featured": true
+          },
+          "empirestrikesback": {
+            "image": "/empirestrikesback.png",
+            "featured": true,
+            "title": "TIE defense",
+            "dimensions": [[13.5, 10.5], 250],
+            "type": "Giclée on paper",
+            "tags": ["death star", "planes", "guns", "battle"],
+            "special": [true, true]
+          },
+          "swordfight": {
+            "image": "/swordfight.png",
+            "featured": true,
+            "title": "Sword fight on antenna",
+            "dimensions": [[11, 23], 250],
+            "type": "Giclée on paper",
+            "tags": ["darth vader", "Luke Skywalker", "rocket"],
+            "special": [true, true]
+          },
           "luminousbeing": {
           "image": "/luminousbeing.gif",
           "title": "Luminous Being",
@@ -1078,6 +1113,7 @@
             "image": "/at-atattacks.webp",
             "title": "AT-AT Attacks",
             "type": "Giclée on paper",
+            "featured": true,
             "dimensions": [[16, 12], 250, 0, 0, 0],
             "tags": ["at-at", "attack", "star", "wars"]
           },
@@ -5917,6 +5953,276 @@
             "special": [true, true],
             "dimensions": [0],
             "tags": ["batman", "robin", "joker"]
+          }
+        }
+      }
+    },
+    "harry-potter": {
+      "battlewiththedragon": {
+        "image": "/battlewiththedragon.gif",
+        "title": "battle with the dragon",
+        "type": "Giclée on paper",
+        "dimensions": [0, 250],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "expelliarmus": {
+        "image": "/expelliarmus.gif",
+        "title": "expelliarmus",
+        "type": "Giclée on paper",
+        "dimensions": [0, 250],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "escapeofthedragon": {
+        "image": "/escapeofthedragon.gif",
+        "title": "escape of the dragon",
+        "type": "Giclée on paper",
+        "dimensions": [0, 500],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "fullmoon": {
+        "image": "/fullmoon.gif",
+        "title": "full moon at hogwarts",
+        "type": "Giclée on paper",
+        "dimensions": [0, 250],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "harrypottersstone": {
+        "image": "/harrypottersstone.gif",
+        "title": "the sorcerer's stone",
+        "type": "Cel",
+        "dimensions": [0, 0],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "grimmauldplace": {
+        "image": "/grimmauldplace.gif",
+        "title": "#12 Grimmauld Place",
+        "type": "Cel",
+        "dimensions": [0, 0],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "gringotts": {
+        "image": "/gringotts.gif",
+        "title": "escape from gringotts",
+        "type": "Cel",
+        "dimensions": [0, 0],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "hogwartsexpress2": {
+        "image": "/hogwartsexpress2.gif",
+        "title": "hogwarts express",
+        "type": "Cel",
+        "dimensions": [0, 0],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "countingdays": {
+        "image": "/countingdays.gif",
+        "title": "counting the days",
+        "type": "Cel",
+        "dimensions": [0, 0],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "mirroroferised": {
+        "image": "/mirroroferised.gif",
+        "title": "the mirror of erised",
+        "type": "Cel",
+        "dimensions": [0, 0],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "harryandhedwig": {
+        "image": "/harryandhedwig.gif",
+        "title": "harry and hedwig",
+        "type": "Cel",
+        "dimensions": [0, 0],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "goldensnitch": {
+        "image": "/goldensnitch.gif",
+        "title": "the golden snitch",
+        "type": "Cel",
+        "dimensions": [0, 0],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "orderofpheonix": {
+        "image": "/orderofpheonix.gif",
+        "title": "order of the pheonix",
+        "type": "Cel",
+        "dimensions": [0, 0],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "chamberofsecrets": {
+        "image": "/chamberofsecrets.gif",
+        "title": "the chamber of secrets",
+        "type": "Lithograph",
+        "dimensions": [0, 0],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "gobletoffire": {
+        "image": "/gobletoffire.gif",
+        "title": "the goblet of fire",
+        "type": "Cel",
+        "dimensions": [0, 0],
+        "tags": ["castle", "fantasy", "mystic"]
+      },
+      "prisoner": {
+        "image": "/prisoner.gif",
+        "title": "the prisoner of azkaban",
+        "type": "Lithograph",
+        "dimensions": [0, 0],
+        "tags": ["castle", "fantasy", "mystic"]
+      }
+    },
+    "garfield": {
+      "subcategories": {
+        "drawings": {
+          "diving": {
+            "image": "/diving.gif",
+            "title": "garfield diving",
+            "type": "Pencil drawing",
+            "author": "Jim Davis",
+            "special": [false, true, true],
+            "tags": ["cat", "drawing"]
+          },
+          "uniform": {
+            "image": "/uniform.gif",
+            "title": "odie & garfield in uniform",
+            "type": "Pencil drawing",
+            "author": "Jim Davis",
+            "special": [false, true, true],
+            "tags": ["cat", "drawing", "police officer", "fireman"]
+          },
+          "dentist": {
+            "image": "/dentist.gif",
+            "title": "garfield dentist",
+            "type": "Pencil drawing",
+            "author": "Jim Davis",
+            "special": [false, true, true],
+            "tags": ["cat", "drawing"]
+          },
+          "golf": {
+            "image": "/golf.gif",
+            "title": "garfield golfer",
+            "type": "Pencil drawing",
+            "author": "Jim Davis",
+            "special": [false, true, true],
+            "tags": ["cat", "drawing"]
+          },
+          "builder": {
+            "image": "/builder.gif",
+            "title": "Garfield builder",
+            "type": "Pencil drawing",
+            "author": "Jim Davis",
+            "special": [false, true, true],
+            "tags": ["cat", "drawing"]
+          }
+        },
+        "originals": {
+          "onfence": {
+            "image": "/onfence.gif",
+            "title": "odie & garfield on fence",
+            "type": "Hand painted",
+            "author": "Jim Davis",
+            "note": "Original production cell",
+            "special": [true, true, true],
+            "tags": ["cat", "show", "tv", "television"]
+          },
+          "gonfence": {
+            "image": "/gonfence.gif",
+            "title": "garfield on fence",
+            "type": "Hand painted",
+            "author": "Jim Davis",
+            "note": "Original production cell",
+            "special": [true, true, true],
+            "tags": ["cat", "show", "tv", "television"]
+          },
+          "ggonfence": {
+            "image": "/ggonfence.gif",
+            "title": "garfield on fence",
+            "type": "Hand painted",
+            "author": "Jim Davis",
+            "note": "Original production cell",
+            "special": [true, true, true],
+            "tags": ["cat", "show", "tv", "television"]
+          },
+          "gdirector": {
+            "image": "/gdirector.gif",
+            "title": "garfield director",
+            "type": "Hand painted",
+            "author": "Jim Davis",
+            "note": "Original production cell",
+            "special": [true, true, true],
+            "tags": ["cat", "show", "tv", "television"]
+          },
+          "&jon": {
+            "image": "/&jon.gif",
+            "title": "garfield & jon",
+            "type": "Hand painted",
+            "author": "Jim Davis",
+            "note": "Original production cell",
+            "special": [true, true, true],
+            "tags": ["cat", "show", "tv", "television"]
+          },
+          "jgodie": {
+            "image": "/jgodie.gif",
+            "title": "jon, Garfield & Odie",
+            "type": "Hand painted",
+            "author": "Jim Davis",
+            "note": "Original production cell",
+            "special": [true, true, true],
+            "tags": ["cat", "show", "tv", "television"]
+          },
+          "oncouch": {
+            "image": "/oncouch.gif",
+            "title": "odie and garfield on couch",
+            "type": "Hand painted",
+            "author": "Jim Davis",
+            "note": "Original production cell",
+            "special": [true, true, true],
+            "tags": ["cat", "show", "tv", "television"]
+          },
+          "withfood": {
+            "image": "/withfood.gif",
+            "title": "garfield with food",
+            "type": "Hand painted",
+            "author": "Jim Davis",
+            "note": "Original production cell",
+            "special": [true, true, true],
+            "tags": ["cat", "show", "tv", "television"]
+          },
+          "instreet": {
+            "image": "/instreet.gif",
+            "title": "garfield & odie in street",
+            "type": "Hand painted",
+            "author": "Jim Davis",
+            "note": "Original production cell",
+            "special": [true, true, true],
+            "tags": ["cat", "show", "tv", "television"]
+          },
+          "withhydrant": {
+            "image": "/withhydrant.gif",
+            "title": "Odie & Garfield with hydrant",
+            "type": "Hand painted",
+            "author": "Jim Davis",
+            "note": "Original production cell",
+            "special": [true, true, true],
+            "tags": ["cat", "show", "tv", "television"]
+          },
+          "onstage": {
+            "image": "/onstage.gif",
+            "title": "Garfield on stage",
+            "type": "Hand painted",
+            "author": "Jim Davis",
+            "note": "Original production cell",
+            "special": [true, true, true],
+            "tags": ["cat", "show", "tv", "television"]
+          },
+          "plates": {
+            "image": "/plates.gif",
+            "title": "garfield with plates",
+            "type": "Hand painted",
+            "author": "Jim Davis",
+            "note": "Original production cell",
+            "special": [true, true, true],
+            "tags": ["cat", "show", "tv", "television"]
           }
         }
       }

@@ -411,7 +411,7 @@
       "title": "Mighty Captain Marvel",
       "image": "/mighty_captain_marvel.gif",
       "special": [true],
-      "type": "Lithograph on paper unsigned",
+      "type": "Lithograph on paper",
       "dimensions": [[16, 15], 0, 0, 0, 0],
       "tags": ["Captain Marvel", "Marvel", "Lithograph"],
       "note": "AP, PP, EP Edition Size: 25"
@@ -5639,6 +5639,572 @@
         "special": [false, false, false],
         "dimensions": [[18, 24], 250],
         "tags": ["jungle", "movie"]
+      }
+    },
+    "warner-bros": {
+      "subcategories": {
+        "limited-editions": {
+          "stoplookandhasten": {
+            "image": "/stoplookandhasten.webp",
+            "title": "STOP! LOOK! AND HASTEN",
+            "type": "Cel",
+            "dimensions": [[12, 10.5], 20],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "tunnel", "Will. E", "coyote"]
+          },
+          "acorny": {
+            "image": "/acorny.webp",
+            "title": "a corny concerto",
+            "type": "Hand painted",
+            "dimensions": [[15.5, 32.5], 500],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny", "pig"]
+          },
+          "asliceofheaven": {
+            "image": "/asliceofheaven.webp",
+            "title": "a little slice of heaven",
+            "type": "Sericel",
+            "dimensions": [[10.5, 12], 1250],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "acmexray": {
+            "image": "/acmexray.webp",
+            "title": "acme X-Ray",
+            "type": "Giclée on paper",
+            "dimensions": [[10.75, 13], 250],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny", "donald duck"]
+          },
+          "airandhare": {
+            "image": "/airandhare.webp",
+            "title": "air and hare: Deluxe edition",
+            "type": "Hand painted",
+            "dimensions": [[12, 9.5], 23],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "michael jordan", "bugs bunny"]
+          },
+          "amourparisienne": {
+            "image": "/amourparisienne.webp",
+            "title": "amour parisienne",
+            "type": "Hand painted",
+            "dimensions": [[26.75, 10.5]],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "babybugs": {
+            "image": "/babybugs.webp",
+            "title": "baby bugs and elmer",
+            "type": "Giclée on paper",
+            "dimensions": [[12, 9.5], 250],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "bacalltoarms": {
+            "image": "/bacalltoarms.webp",
+            "title": "bacall to arms",
+            "type": "Hand painted",
+            "dimensions": [[11.5, 12.5], 250],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "badolputty": {
+            "image": "/badolputty.webp",
+            "title": "bad ol' putty tat",
+            "type": "Cel",
+            "dimensions": [[11.5, 12.5], 750],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "baggedbybonnybugs": {
+            "image": "/baggedbybonnybugs.webp",
+            "title": "bagged by bonny bugs",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[19.75, 12], 250],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny", "golf"]
+          },
+          "barnyardbully": {
+            "image": "/barnyardbully.webp",
+            "title": "barnyard bully",
+            "type": "Sericel",
+            "dimensions": [[10.5, 25], 2500],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "chicken"]
+          },
+          "behindthescenes": {
+            "image": "/behindthescenes.webp",
+            "title": "behind the scenes",
+            "type": "Giclée on paper",
+            "dimensions": [0, 500],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny", "cat"]
+          },
+          "birdsanon": {
+            "image": "/birdsanon.webp",
+            "title": "birds anonymous",
+            "type": "Hand painted",
+            "dimensions": [[10.5, 12.5], 750],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "cat", "bird"]
+          },
+          "birdyandbeast": {
+            "image": "/birdyandbeast.webp",
+            "title": "birdy and the beast",
+            "type": "Cel",
+            "dimensions": [[10.5, 12.5], 500],
+            "special": [true, false, true],
+            "tags": ["looney tunes"]
+          },
+          "birdandthebeast": {
+            "image": "/birdandthebeast.webp",
+            "title": "birdy and the beast",
+            "type": "Hand painted",
+            "dimensions": [[10, 11.5], 500],
+            "special": [true, false, true],
+            "tags": ["looney tunes"]
+          },
+          "bobclampett": {
+            "image": "/bobclampett.webp",
+            "title": "bob clampett tribute lithograph",
+            "type": "Lithograph on paper",
+            "dimensions": [[], 250],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "bowerybugs": {
+            "image": "/bowerybugs.webp",
+            "title": "bowery bugs",
+            "type": "Hand painted",
+            "dimensions": [[17, 11], 500],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "bugsbunnysheet": {
+            "image": "/bugsbunnysheet.webp",
+            "title": "bugs bunny model sheet",
+            "type": "Cel",
+            "dimensions": [[13.5, 16.5], 250],
+            "special": [true, false, true],
+            "tags": ["looney tunes"]
+          },
+          "bugscourtsbonnie": {
+            "image": "/bugscourtsbonnie.webp",
+            "title": "bugs courts bonnie",
+            "type": "Hand painted",
+            "dimensions": [[12, 10], 300],
+            "special": [true, false, true],
+            "tags": ["looney tunes"]
+          },
+          "bugspersona": {
+            "image": "/bugspersona.webp",
+            "title": "bugs persona",
+            "type": "Hand painted",
+            "dimensions": [[16.5, 13.5], 750],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "bugsvintage": {
+            "image": "/bugsvintage.webp",
+            "title": "bugs vintage cartoon director",
+            "type": "Hand painted",
+            "dimensions": [[18, 11.75], 100],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "bugshideaway": {
+            "image": "/bugshideaway.webp",
+            "title": "bugs' hideaway",
+            "type": "Hand painted",
+            "dimensions": [[13.5, 16.5], 100],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "police", "bugs bunny"]
+          },
+          "caughtagain": {
+            "image": "/caughtagain.webp",
+            "title": "caught again",
+            "type": "Hand painted",
+            "dimensions": [[12, 10], 750],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "cat", "bird"]
+          },
+          "celebration": {
+            "image": "/celebration.webp",
+            "title": "celebration",
+            "type": "Hand painted",
+            "dimensions": [[18, 15], 750],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "cowboy"]
+          },
+          "cheektosheik": {
+            "image": "/cheektosheik.webp",
+            "title": "cheek to sheik",
+            "type": "Sericel",
+            "dimensions": [[10.5, 12.5], 2500],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "chickentonight": {
+            "image": "/chickentonight.webp",
+            "title": "chicken tonight",
+            "type": "Cel",
+            "dimensions": [[10.5, 12.5], 500],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "classicbugs": {
+            "image": "/classicbugs.webp",
+            "title": "classic bugs",
+            "type": "Cel",
+            "dimensions": [[10.5, 12.5], 500],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "classicmichigan": {
+            "image": "/classicmichigan.webp",
+            "title": "classic michigan J. Frog",
+            "type": "Hand painted",
+            "dimensions": [[10.5, 12.5], 500],
+            "special": [true, false, true],
+            "tags": ["looney tunes"]
+          },
+          "classicpepe": {
+            "image": "/classicpepe.webp",
+            "title": "classic pepe",
+            "type": "Cel",
+            "dimensions": [[10.5, 12.5], 500],
+            "special": [true, false, true],
+            "tags": ["looney tunes"]
+          },
+          "classictaz": {
+            "image": "/classictaz.webp",
+            "title": "classic taz",
+            "type": "Hand painted",
+            "dimensions": [[10.5, 12.5], 500],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "dog"]
+          },
+          "classictweety": {
+            "image": "/classictweety.webp",
+            "title": "classic tweety",
+            "type": "Hand painted",
+            "dimensions": [[10.5, 12.5], 500],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "daffydoc": {
+            "image": "/daffydoc.webp",
+            "title": "daffy doc",
+            "type": "Hand painted",
+            "dimensions": [[10.5, 12.5], 100],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "daffy duck", "pig"]
+          },
+          "daffyduckmodelsheet": {
+            "image": "/daffyduckmodelsheet.webp",
+            "title": "daffy duck model sheet",
+            "type": "Cel",
+            "dimensions": [[13.5, 16.5]],
+            "special": [true, false, true],
+            "tags": ["looney tunes"]
+          },
+          "daffyfilmeditor": {
+            "image": "/daffyfilmeditor.webp",
+            "title": "daffy film editor",
+            "type": "Giclée on paper",
+            "dimensions": [[13, 10.5], 250],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "daffy duck"]
+          },
+          "daffylobbycard": {
+            "image": "/daffylobbycard.jpg",
+            "title": "daffy lobby card",
+            "type": "Hand painted",
+            "dimensions": [[15.75, 11.75], 100],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "8ballbunny": {
+            "image": "/8ballbunny.webp",
+            "title": "eight ball bunny",
+            "type": "Sericel",
+            "dimensions": [[10.5, 12.5], 2500],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "enchantedevening": {
+            "image": "/enchantedevening.webp",
+            "title": "enchanted evening",
+            "type": "Sericel",
+            "dimensions": [[11, 13], 1000],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny", "romance"]
+          },
+          "famishius": {
+            "image": "/famishius.webp",
+            "title": "famishius vs Birdius",
+            "type": "Hand painted",
+            "dimensions": [[10.5, 12.5], 50],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "fastandfurry-ous": {
+            "image": "/fastandfurry-ous.webp",
+            "title": "fast and furry-ous",
+            "type": "Cel",
+            "dimensions": [[12.5, 10.5], 50],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "feelingabitunder": {
+            "image": "/feelingabitunder.jpg",
+            "title": "feeling a bit under par",
+            "type": "Sericel",
+            "dimensions": [[10.5, 21], 2500],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "daffy duck", "bugs bunny"]
+          },
+          "football": {
+            "image": "/football.webp",
+            "title": "football follies",
+            "type": "Sericel",
+            "dimensions": [[13.5, 20], 2500],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny", "nfl"]
+          },
+          "forbetterorworse": {
+            "image": "/forbetterorworse.webp",
+            "title": "for better or for worse",
+            "type": "Hand painted",
+            "dimensions": [[10.5, 12.5], 100],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "goal": {
+            "image": "/goal.webp",
+            "title": "goal, lemieux",
+            "type": "Cel",
+            "dimensions": [[24, 13.5], 350],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "hockey", "movie", "bugs bunny"]
+          },
+          "goassamer": {
+            "image": "/goassamer.webp",
+            "title": "gossamer model sheet",
+            "type": "Hand painted",
+            "dimensions": [[13.5, 16.5], 750],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "hedidit": {
+            "image": "/hedidit.webp",
+            "title": "he did it",
+            "type": "Hand painted",
+            "dimensions": [[13.5, 16.5], 750],
+            "special": [true, false, true],
+            "tags": ["looney tunes"]
+          },
+          "hereslookingat": {
+            "image": "/hereslookingat.webp",
+            "title": "here's looking at you kitty",
+            "type": "Cel",
+            "dimensions": [[11, 13], 250],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "romance", "bugs bunny"]
+          },
+          "hollywood": {
+            "image": "/hollywood.webp",
+            "title": "hollywood bugs",
+            "type": "Hand painted",
+            "dimensions": [[10.5, 12.5], 50],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "invadersfrommars": {
+            "image": "/invadersfrommars.webp",
+            "title": "invaders from mars!",
+            "type": "Lithograph on paper",
+            "dimensions": [[31.75, 21], 500],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "juniorleague": {
+            "image": "/juniorleague.webp",
+            "title": "junior's league",
+            "type": "Hand painted",
+            "dimensions": [[25.5, 13], 350],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "baseball"]
+          },
+          "kittyinred": {
+            "image": "/kittyinred.jpg",
+            "title": "kitty in red",
+            "type": "Giclée on canvas",
+            "dimensions": [[17, 25], 50],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "cat"]
+          },
+          "kittykornered": {
+            "image": "/kittykornered.webp",
+            "title": "kitty kornered",
+            "type": "Hand painted",
+            "dimensions": [[10.5, 12.5], 500],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "pig"]
+          },
+          "knighty": {
+            "image": "/knighty.webp",
+            "title": "knighty-knight bugs",
+            "type": "Hand painted",
+            "dimensions": [[15, 21], 100],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "lastofthedo": {
+            "image": "/lastofthedo.webp",
+            "title": "last of the do-dos",
+            "type": "Hand painted",
+            "dimensions": [[10.5, 12.5], 500],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "pig"]
+          },
+          "lejump": {
+            "image": "/lejump.webp",
+            "title": "le jump D'Ski",
+            "type": "Sericel",
+            "dimensions": [[10.5, 12], 1250],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "cat"]
+          },
+          "legalbriefs": {
+            "image": "/legalbriefs.webp",
+            "title": "legal briefs",
+            "type": "Hand painted",
+            "dimensions": [[11.5, 15.5], 20],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "letsplay": {
+            "image": "/letsplay.jpg",
+            "title": "let's play ball",
+            "type": "Sericel",
+            "dimensions": [[11.5, 14.75], 2500],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "lifeofmarvin": {
+            "image": "/lifeofmarvin.webp",
+            "title": "life of marvin",
+            "type": "Giclée on paper",
+            "dimensions": [[20, 20], 150],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "looneyopening": {
+            "image": "/looneyopening.jpg",
+            "title": "looney tunes art opening",
+            "type": "Sericel",
+            "dimensions": [[15.5, 15.5], 2500],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "looneytunesemer": {
+            "image": "/looneytunesemer.jpg",
+            "title": "looney tunes emergency",
+            "type": "Hand painted",
+            "dimensions": [[11.5, 16.75], 200],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "onparade": {
+            "image": "/onparade.webp",
+            "title": "looney tunes on parade",
+            "type": "Hand painted",
+            "dimensions": [[33, 16.5], 750],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "daffy duck", "bugs bunny", "porky pig"]
+          },
+          "marcantony": {
+            "image": "/marcantony.webp",
+            "title": "marc antony and pussyfoot model sheet",
+            "type": "Hand painted",
+            "dimensions": [[13.5, 16.5], 100],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "dog"]
+          },
+          "meetmeat": {
+            "image": "/meetmeat.jpg",
+            "title": "meet me at the Taz Cafe",
+            "type": "Lithograph on paper",
+            "dimensions": [[19.5, 26.5], 500],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "car"]
+          },
+          "mighty": {
+            "image": "/mighty.webp",
+            "title": "Ain't I a stinka'",
+            "type": "Giclée on canvas",
+            "dimensions": [[12, 12], 50],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "mosterofastar": {
+            "image": "/mosterofastar.webp",
+            "title": "moster of a star",
+            "type": "Lithograph on paper",
+            "dimensions": [[30.5, 25.25], 500],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "morebull": {
+            "image": "/morebull.webp",
+            "title": "more bull than the market can bear",
+            "type": "Sericel",
+            "dimensions": [[10.5, 12.5], 5000],
+            "special": [true, false, false],
+            "tags": ["looney tunes", "bugs bunny"]
+          },
+          "mytown": {
+            "image": "/mytown.webp",
+            "title": "my town",
+            "type": "Hand painted",
+            "dimensions": [[18, 14.5], 750],
+            "special": [true, false, true],
+            "tags": ["looney tunes"]
+          },
+          "notnest": {
+            "image": "/notnest.webp",
+            "title": "not nest-essarily love",
+            "type": "Cel",
+            "dimensions": [[14.25, 11.75], 100],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "onwiththeshow": {
+            "image": "/onwiththeshow.webp",
+            "title": "on with the show",
+            "type": "Hand painted",
+            "dimensions": [[11.75, 28.75], 25],
+            "special": [true, false, true],
+            "tags": ["looney tunes", "bugs bunny", "daffy duck"]
+          },
+          "outofpatients": {
+            "image": "/outofpatients.webp",
+            "title": "out of patients",
+            "type": "Sericel",
+            "dimensions": [[12.5, 16.5], 2500],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          },
+          "pop": {
+            "image": "/pop.webp",
+            "title": "pop 'im pop",
+            "type": "Sericel",
+            "dimensions": [[10.5, 12.5], 2500],
+            "special": [true, false, false],
+            "tags": ["looney tunes"]
+          }
+        }
       }
     },
     "family-guy": {

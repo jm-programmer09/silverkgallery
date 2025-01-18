@@ -1,20 +1,84 @@
-- add a bit in the hompage where it includes the location and tells people where to go
-- underneath have a contact us bit
-- need to make it so that when the search bar closes we also close all of the open details things
-
-- make it so that if one of the theme thingos in the search bar are already open and the user opens another, shut the preevious one
-- collectors editions - for disney stuff - the images from limited edition
-
-
-
-- ringo starr, beatles, 
-
-
-- for coming back to put more marvel limited editions in, I am up to Fantastic Four: Origins (has not been done yet)
-
-
-- try and get the menu at the top right when it goes down to the mobile version
-- change the simpsons card on the main page to the dc-comics
 - we have to ask col which cards he wants featured for on the home page
 - and we have to setup the emailjs to be in his name
 - fix the search thing in the collections page so that it only looks for things that are similar when there are currently no results to show, so then like 'heroes unite' comes up before things with the tag 'hero'
+- fix the 
+
+      "subcategories": {
+        "sericels": {
+          "barnyard": {
+            "image": "/barnyard.gif",
+            "title": "barnyard bully",
+            "dimensions": [0],
+            "special": [true, false, true],
+            "type": "Sericel",
+            "tags": ["chicken", "dog"]
+          },
+          "tennisanyone": {
+            "image": "/tennisanyone.gif",
+            "title": "tennis anyone?",
+            "dimensions": [0],
+            "special": [true, false, true],
+            "type": "Sericel",
+            "tags": ["bugs bunny"]
+          },
+          "popimpop": {
+            "image": "/popimpop.gif",
+            "title": "pop im pop",
+            "dimensions": [0],
+            "special": [true, false, true],
+            "type": "Sericel",
+            "tags": ["cat"]
+          },
+          "": {
+            "image": "/.gif",
+            "title": "",
+            "dimensions": [0],
+            "special": [true, false, true],
+            "type": "Sericel",
+            "tags": [""]
+          },
+          "": {
+            "image": "/.gif",
+            "title": "",
+            "dimensions": [0],
+            "special": [true, false, true],
+            "type": "Sericel",
+            "tags": [""]
+          },
+          "": {
+            "image": "/.gif",
+            "title": "",
+            "dimensions": [0],
+            "special": [true, false, true],
+            "type": "Sericel",
+            "tags": [""]
+          },
+          "": {
+            "image": "/.gif",
+            "title": "",
+            "dimensions": [0],
+            "special": [true, false, true],
+            "type": "Sericel",
+            "tags": [""]
+          },
+          "": {
+            "image": "/.gif",
+            "title": "",
+            "dimensions": [0],
+            "special": [true, false, true],
+            "type": "Sericel",
+            "tags": [""]
+          },
+          "": {
+            "image": "/.gif",
+            "title": "",
+            "dimensions": [0],
+            "special": [true, false, true],
+            "type": "Sericel",
+            "tags": [""]
+          }
+        },
+        "hand-painted": {
+
+        }
+      }

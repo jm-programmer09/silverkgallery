@@ -186,7 +186,7 @@ export default function ContactUs () {
               <form onSubmit={sendMessage}>
                 <input name="email" type="email" className="email" id="name" placeholder="Your email..." autoComplete="off" autoCapitalize="false" required/>
                 <textarea name="message" placeholder="Your message..." id="message" autoComplete="off" required></textarea>
-                <label><input type="checkbox" name="newsletter" />Signup to our weekly newsletter</label>
+                <label><input type="checkbox" name="newsletter" id="newsletter" />Signup to our weekly newsletter</label>
                 <button type="submit">{formButtonText}</button>
               </form>
 

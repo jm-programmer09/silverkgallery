@@ -784,7 +784,8 @@
             "type": "Giclée on paper",
             "dimensions": [[13, 19], 150],
             "special": [true, true],
-            "featured": true
+            "featured": true,
+            "tags": ["space ship"]
           },
           "deepinbongo": {
             "image": "/deepinbongo.webp",
@@ -793,6 +794,7 @@
             "dimensions": [[13, 19], 150],
             "special": [true, true],
             "author": "Steve Thomas",
+            "tags": [],
             "featured": true
           },
           "empirestrikesback": {
@@ -817,6 +819,7 @@
           "image": "/luminousbeing.gif",
           "title": "Luminous Being",
           "type": "Giclée on canvas",
+          "featured": true,
           "special": [true, true, true],
           "dimensions": [[20, 27], 50],
           "tags": ["star wars", "force", "spiritual"]
@@ -2576,6 +2579,7 @@
           "fallenjedi": {
           "image": "/fallenjedi.gif",
           "title": "Fallen Jedi",
+          "featured": true,
           "type": "Giclée on canvas",
           "special": [true, false, true],
           "dimensions": [[18, 36], 195],
@@ -2864,6 +2868,7 @@
           "contraband": {
           "image": "/contraband.gif",
           "title": "Contraband",
+          "featured": true,
           "type": "Canvas and Paper",
           "special": [true, false, false],
           "dimensions": [[[18, 24], [15, 20]], 95, 95],

@@ -1,780 +1,5 @@
 {
   "animation": {
-    "marvel": {
-      "spidermen": {
-        "image": "/spidermen.jpg",
-        "title": "Spider-Men #2 (Number 1 variant edition)",
-        "type": "Giclée on canvas",
-        "dimensions": [[17, 26], 95],
-        "special": [true],
-        "featured": true,
-        "tags": ["spider", "red", "medium", "hero"]
-      },
-      "amazingspiderman": {
-        "image": "/amazingspiderman.jpg",
-        "title": "amazing spiderman #610",
-        "type": "Giclée on canvas",
-        "dimensions": [[15, 22]],
-        "special": [true, false, true],
-        "tags": ["punch", "signed", "hero"]
-      },
-      "icandothisallday": {
-        "image": "/icandothisallday.jpg",
-        "title": "i can do this all day",
-        "type": "Giclée on canvas",
-        "dimensions": [[16, 24]],
-        "special": [true],
-        "tags": ["america", "usa", "shield", "colonial", "hero"]
-      },
-      "thetruthis": {
-        "image": "/thetruthis.jpg",
-        "title": "the truth is",
-        "type": "Giclée on canvas",
-        "special": [true],
-        "featured": true,
-        "dimensions": [[[16, 24], [16, 34]], 195],
-        "note": "20 artist proofs.",
-        "tags": ["iron", "man", "robot", "tech", "hero"]
-      },
-      "thunderbolts": {
-        "image": "/thunderbolts.jpg",
-        "title": "thunderbolts",
-        "type": "Giclée on canvas",
-        "special": [true],
-        "dimensions": [[17, 26]],
-        "tags": ["fire", "chain", "hell", "hero", "avengers"]
-      },
-      "wakanda-forever": {
-        "image": "/wakandaforever.jpg",
-        "title": "wakanda forever",
-        "type": "Giclée on canvas",
-        "dimensions": [[24, 31]],
-        "special": [true],
-        "tags": ["wakanda", "black panther", "panther", "avengers", "hero"]
-      },
-      "the-best-their-is": {
-        "image": "/thebesttheiris.jpg",
-        "title": "the best their is",
-        "type": "Lithograph on paper",
-        "dimensions": [[12, 24]],
-        "special": [true],
-        "tags": ["wolverine", "fight"]
-      },
-      "directflight": {
-        "image": "/directflight.jpg",
-        "title": "direct flight",
-        "type": "Giclée on canvas",
-        "special": [true],
-        "featured": true,
-        "dimensions": [[20, 26], 95],
-        "tags": ["ironman", "fight", "flight"]
-      },
-      "amazing": {
-        "image": "/amazing.jpg",
-        "title": "amazing",
-        "type": "Giclée on canvas",
-        "special": [true],
-        "dimensions": [[17, 26], 95],
-        "tags": ["spiderman", "mask"]
-      },
-      "deadpoolandwolverine": {
-        "image": "/deadpoolandwolverine.jpg",
-        "title": "deadpool and wolverine",
-        "type": "Giclée on canvas",
-        "dimensions": [[15, 23], 0, 100, 0, 25],
-        "tags": ["wolf", "teddy", "signed"],
-        "special": [true, false, true]
-      },
-      "deadpoolbadderblood": {
-        "image": "/deadpoolbadderblood.jpg",
-        "title": "deadpool badder blood",
-        "type": "Giclée on canvas",
-        "dimensions": [[15, 23], 0, 100, 0, 25],
-        "tags": ["guns", "wolf", "action"],
-        "special": [true, false, true]
-      },
-      "avengers60th": {
-        "image": "/avengers60th.jpg",
-        "title": "Avengers 60th",
-        "type": "Giclée on canvas",
-        "dimensions": [[[19, 47], [18, 40]], 75],
-        "note": "Had 25 artist and printers proofs. Smaller size is in digital print paper.",
-        "tags": ["avengers", "team"],
-        "special": [true]
-      },
-      "marvelknights2": {
-        "image": "/marvelknights2.jpg",
-        "title": "Marvel Knights 2",
-        "type": "Digital Print Paper",
-        "dimensions": [[18, 24], 75],
-        "note": "15 artist and printers proofs.",
-        "tags": ["fight", "action", "city"],
-        "special": [true]
-      },
-      "tributeamazingfantasy": {
-        "image": "/tributeamazingfantasy.jpg",
-        "title": "Tribute Amazing Fantasy",
-        "type": "Giclée on canvas",
-        "dimensions": [[16, 24], 75],
-        "note": "15 artist and printers proofs.",
-        "tags": ["fight", "action", "city"],
-        "special": [true]
-      },
-      "x-men1": {
-        "image": "/x-men1.jpg",
-        "title": "X-Men #1",
-        "type": "Giclée on canvas",
-        "dimensions": [[15, 37], 45],
-        "tags": ["x-men", "fight", "action"],
-        "special": [true]
-      },
-      "endoftheline": {
-        "image": "/endoftheline.jpg",
-        "title": "end of the line",
-        "type": "Lithograph on paper",
-        "dimensions": [[16, 24], 195],
-        "tags": ["action", "fight", "winter", "soldier"],
-        "special": [true]
-      },
-      "spidersense": {
-        "image": "/spidersense.jpg",
-        "title": "Spider Sense",
-        "type": "Lithograph on paper",
-        "dimensions": [[12, 24], 350],
-        "tags": ["venom", "spider"],
-        "special": [true]
-      },
-      "godsthor": {
-        "image": "/godsthor.jpg",
-        "title": "God's: Thor",
-        "type": "Giclée on canvas",
-        "dimensions": [[14, 34], 50],
-        "note": "15 artist and publicity proofs.",
-        "tags": ["thor"],
-        "special": [true]
-      },
-      "marvelheros1": {
-        "image": "/marvelheros1.jpg",
-        "title": "Marvel Heroes",
-        "type": "Digital print paper",
-        "dimensions": [[27, 37]],
-        "note": "50 artist and publicity proofs.",
-        "tags": ["avengers"],
-        "special": [true]
-      },
-      "moonknightfistofvengeance": {
-        "image": "/moonknightfistofvengeance.jpg",
-        "title": "Moon Knight: Fist of Vengeance",
-        "type": "Giclée on canvas",
-        "dimensions": [[13, 23], 50],
-        "note": "15 artist and publicity proofs.",
-        "tags": ["white"],
-        "special": [true]
-      },
-      "fantastic_four_origins": {
-      "title": "Fantastic Four: Origins",
-      "image": "/fantastic_four_origins.jpg",
-      "type": "Digital paper print",
-      "dimensions": [[27, 37], 0, 0, 0, 0],
-      "tags": ["Fantastic Four", "Origins", "Marvel", "Superhero", "Digital Print"],
-      "special": [true],
-      "note": "25 artist proofs, 25 publicity proofs"
-      },
-      "i_ve_got_it": {
-      "title": "I've Got It",
-      "image": "/i_ve_got_it.jpg",
-      "type": "Lithograph",
-      "dimensions": [[18, 24], 250, 0, 0, 0],
-      "special": [true],
-      "tags": ["Marvel", "Lithograph", "Fine Art"]
-      },
-      "spider_geddon_0": {
-      "title": "Spider-Geddon #0",
-      "image": "/spider_geddon_0.jpg",
-      "type": "Giclée on canvas",
-      "dimensions": [[17, 26], 95, 0, 95, 95],
-      "special": [true],
-      "tags": ["Spider-Geddon", "Marvel", "Canvas", "Giclée"]
-      },
-      "web_warriors_8": {
-      "title": "Web Warriors #8",
-      "image": "/web_warriors_8.jpg",
-      "type": "Giclée on canvas",
-      "special": [true],
-      "dimensions": [[17, 26], 95, 0, 95, 95],
-      "tags": ["Web Warriors", "Marvel", "Canvas", "Giclée"]
-      },
-      "daredevil": {
-      "title": "Daredevil",
-      "image": "/daredevil.jpg",
-      "type": "Giclée on canvas",
-      "dimensions": [[17, 26], 95, 0, 95, 95],
-      "special": [true],
-      "tags": ["Daredevil", "Marvel", "Canvas", "Giclée", "Superhero"]
-      },
-      "spiderman_61": {
-      "title": "Spiderman #61",
-      "image": "/spiderman_61.jpg",
-      "type": "Giclée on canvas",
-      "dimensions": [[17, 26], 95, 0, 95, 95],
-      "special": [true],
-      "tags": ["Spiderman", "Marvel", "Canvas", "Giclée"]
-      },
-      "captain_marvel_1": {
-      "title": "Captain Marvel #1",
-      "image": "/captain_marvel_1.jpg",
-      "type": "Giclée on canvas",
-      "dimensions": [[17, 26], 95, 0, 95, 95],
-      "special": [true],
-      "tags": ["Captain Marvel", "Marvel", "Canvas", "Giclée"]
-      },
-      "avengers_3": {
-      "title": "Avengers #3",
-      "image": "/avengers_3.jpg",
-      "type": "Giclée on canvas",
-      "special": [true],
-      "dimensions": [[17, 26], 95, 0, 95, 95],
-      "tags": ["Avengers", "Marvel", "Canvas", "Giclée", "Superhero"]
-      },
-      "hey_bub": {
-      "title": "Hey Bub",
-      "image": "/hey_bub.jpg",
-      "type": "Giclée on canvas",
-      "special": [true],
-      "dimensions": [[20, 30], 95, 0, 95, 95],
-      "tags": ["Marvel", "Canvas", "Giclée", "Wolverine", "X-Men"]
-      },
-      "hulk_smash": {
-      "title": "Hulk Smash",
-      "image": "/hulk_smash.jpg",
-      "type": "Giclée on canvas",
-      "special": [true],
-      "dimensions": [[26, 26], 95, 0, 95, 95],
-      "tags": ["Hulk", "Marvel", "Canvas", "Giclée", "Superhero"]
-      },
-      "wolverine": {
-      "title": "Wolverine",
-      "image": "/wolverine.jpg",
-      "special": [true],
-      "type": "Lithograph",
-      "dimensions": [[26, 26], 95, 0, 0, 0],
-      "tags": ["Wolverine", "Marvel", "Lithograph", "X-Men", "Superhero"]
-      },
-      "web_of_spider_man": {
-      "title": "Web Of Spider-Man",
-      "image": "/web_of_spider_man.jpg",
-      "type": "Lithograph",
-      "special": [true],
-      "dimensions": [[18, 24], 295, 0, 0, 0],
-      "tags": ["Spider-Man", "Marvel", "Lithograph", "Superhero"]
-      },
-      "wolverine_x": {
-      "title": "Wolverine X",
-      "image": "/wolverine_x.jpg",
-      "type": "Print on paper",
-      "dimensions": [[11, 17], 0, 0, 0, 0],
-      "special": [true],
-      "tags": ["Wolverine", "Marvel", "Print", "X-Men", "Superhero"],
-      "note": "25 artist proofs, 25 publicity proofs"
-      },
-      "marvel_4_x_force": {
-      "title": "Marvel 4-X Force",
-      "image": "/marvel_4_x_force.jpg",
-      "special": [true],
-      "type": "Print on paper",
-      "dimensions": [[19, 27], 0, 0, 0, 0],
-      "tags": ["X-Force", "Marvel", "Print", "Superhero", "Team"],
-      "note": "25 artist proofs, 25 publicity proofs"
-      },
-      "black_widow": {
-      "title": "Black Widow",
-      "image": "/black_widow.jpg",
-      "type": "Lithograph on paper",
-      "special": [true],
-      "dimensions": [[18, 24], 395, 0, 0, 0],
-      "tags": ["Black Widow", "Marvel", "Lithograph", "Superhero", "Avenger"]
-      },
-      "worthy": {
-      "title": "Worthy",
-      "image": "/worthy.jpg",
-      "type": "Giclée on Canvas",
-      "special": [true],
-      "dimensions": [[19, 26], [18, 24], 95, 495, 95, 95],
-      "tags": ["Marvel", "Canvas", "Giclée", "Thor", "Superhero"],
-      "note": "Giclée on pearlescent paper: 495"
-      },
-      "master_of_the_mystic_arts": {
-      "title": "Master Of The Mystic Arts",
-      "image": "/master_of_the_mystic_arts.jpg",
-      "type": "Lithograph on paper",
-      "special": [true],
-      "dimensions": [[16, 24], 295, 0, 0, 0],
-      "tags": ["Doctor Strange", "Marvel", "Lithograph", "Superhero", "Mystic"]
-      },
-      "marvelocity_ff": {
-      "title": "Marvelocity: FF",
-      "image": "/marvelocity_ff.jpg",
-      "special": [true],
-      "type": "Giclée on Canvas",
-      "dimensions": [[20, 33], 44, 0, 44, 44],
-      "tags": ["Fantastic Four", "Marvel", "Giclée", "Canvas", "Superhero"],
-      "note": "15 artist proofs and presentation proofs"
-      },
-      "xmen_tribute": {
-      "title": "XMen Tribute",
-      "image": "/xmen_tribute.jpg",
-      "special": [true],
-      "type": "Giclée on Canvas",
-      "dimensions": [[17, 34], 50, 0, 50, 50],
-      "tags": ["X-Men", "Marvel", "Giclée", "Canvas", "Superhero", "Team"],
-      "note": "15 artist proofs and presentation proofs"
-      },
-      "teen_titans_tribute": {
-      "title": "Teen Titans Tribute",
-      "image": "/teen_titans_tribute.jpg",
-      "special": [true],
-      "type": "Giclée on Canvas",
-      "dimensions": [[17, 34], 50, 0, 50, 50],
-      "tags": ["Teen Titans", "DC", "Giclée", "Canvas", "Superhero", "Team"],
-      "note": "15 artist proofs and presentation proofs"
-      },
-      "marvelous": {
-      "title": "Marvelous",
-      "image": "/marvelous.gif",
-      "special": [true],
-      "type": "Giclée on Canvas",
-      "dimensions": [[20, 30], 50, 0, 50, 50],
-      "tags": ["Marvel", "Canvas", "Giclée", "Superhero", "Fine Art"]
-      },
-      "doves_fly": {
-      "title": "Doves Fly",
-      "image": "/doves_fly.gif",
-      "special": [true],
-      "type": "Giclee on Canvas",
-      "dimensions": [[20, 30], 50, 0, 50, 50],
-      "tags": ["Canvas", "Giclee", "Fine Art"]
-      },
-      "guardians": {
-      "title": "Guardians",
-      "image": "/guardians.gif",
-      "special": [true, false, true],
-      "type": "Giclee on Canvas",
-      "dimensions": [[20, 30], 50, 0, 50, 50],
-      "tags": ["Canvas", "Giclee", "Marvel"]
-      },
-      "heroes_and_foes": {
-      "title": "Heroes and Foes",
-      "image": "/heroes_and_foes.gif",
-      "type": "Lithograph on paper",
-      "special": [true],
-      "dimensions": [[15, 20], 0, 0, 0, 0],
-      "tags": ["Lithograph", "Fine Art", "Marvel"],
-      "note": "AP, PP, EP Edition Size: 25"
-      },
-      "marvelcity_captain_america": {
-      "title": "Marvelcity: Captain America",
-      "image": "/marvelcity_captain_america.gif",
-      "special": [true],
-      "type": "Giclee on Canvas",
-      "dimensions": [[17, 22], 100, 0, 100, 100],
-      "tags": ["Canvas", "Giclee", "Captain America"],
-      "note": "AP, PP, EP Edition Size: 25"
-      },
-      "marvelcity_doctor_strange": {
-      "title": "Marvelcity: Doctor Strange",
-      "image": "/marvelcity_doctor_strange.gif",
-      "type": "Giclee on Canvas",
-      "special": [true],
-      "dimensions": [[17, 22], 100, 0, 100, 100],
-      "tags": ["Canvas", "Giclee", "Doctor Strange"],
-      "note": "AP, PP, EP Edition Size: 25"
-      },
-      "marvelcity_iron_man": {
-      "title": "Marvelcity: Iron Man",
-      "image": "/marvelcity_iron_man.gif",
-      "special": [true],
-      "type": "Giclée on Canvas",
-      "dimensions": [[17, 22], 100, 0, 100, 100],
-      "tags": ["Iron Man", "Marvel", "Canvas", "Giclée", "Marvelcity"],
-      "note": "AP, PP, EP Edition Size: 25"
-      },
-      "marvelcity_spiderman": {
-      "title": "Marvelcity: Spiderman",
-      "image": "/marvelcity_spiderman.gif",
-      "type": "Giclée on Canvas",
-      "special": [true],
-      "dimensions": [[17, 22], 100, 0, 100, 100],
-      "tags": ["Spiderman", "Marvel", "Canvas", "Giclée", "Marvelcity"],
-      "note": "AP, PP, EP Edition Size: 25"
-      },
-      "mighty_captain_marvel": {
-      "title": "Mighty Captain Marvel",
-      "image": "/mighty_captain_marvel.gif",
-      "special": [true],
-      "type": "Lithograph on paper",
-      "dimensions": [[16, 15], 0, 0, 0, 0],
-      "tags": ["Captain Marvel", "Marvel", "Lithograph"],
-      "note": "AP, PP, EP Edition Size: 25"
-      },
-      "luke_cage_hero_for_hire": {
-      "title": "Luke Cage: Hero for Hire",
-      "image": "/luke_cage_hero_for_hire.gif",
-      "type": "Giclée on Canvas",
-      "dimensions": [[17, 23], 25, 0, 25, 25],
-      "special": [true],
-      "tags": ["Luke Cage", "Marvel", "Canvas", "Giclée"],
-      "note": "AP, PP, EP Edition Size: 7"
-      },
-      "captain_america_allegiance": {
-      "title": "Captain America: Allegiance",
-      "image": "/captain_america_allegiance.gif",
-      "special": [true],
-      "type": "Giclée on Canvas",
-      "dimensions": [[13, 17], 150, 0, 150, 150],
-      "tags": ["Captain America", "Marvel", "Canvas", "Giclée"],
-      "note": "AP, PP, EP Edition Size: 25"
-      },
-      "legacy_venom": {
-      "title": "Legacy: Venom",
-      "image": "/legacy_venom.gif",
-      "type": "Giclée on Canvas",
-      "special": [true],
-      "dimensions": [[18, 24], 50, 0, 50, 50],
-      "tags": ["Venom", "Marvel", "Canvas", "Giclée"],
-      "note": "Artist Proof: 15"
-      },
-      "black_panther_forever": {
-      "title": "Black Panther Forever",
-      "image": "/black_panther_forever.gif",
-      "type": "Giclée on Canvas",
-      "special": [true],
-      "dimensions": [[12, 18], 118, 0, 118, 118],
-      "tags": ["Black Panther", "Marvel", "Canvas", "Giclée"]
-      },
-      "captain_america_patriot": {
-      "title": "Captain America - Patriot",
-      "image": "/captain_america_patriot.gif",
-      "type": "Giclée on Canvas",
-      "special": [true],
-      "dimensions": [[22, 29], 50, 0, 50, 50],
-      "tags": ["Captain America", "Marvel", "Canvas", "Giclée"],
-      "note": "Artist Proof: 15"
-      },
-      "captain_america_ready_for_battle": {
-      "title": "Captain America - Ready for Battle",
-      "image": "/captain_america_ready_for_battle.gif",
-      "type": "Giclée on Canvas",
-      "special": [true],
-      "dimensions": [[16, 24], 25, 0, 25, 25],
-      "tags": ["Captain America", "Marvel", "Canvas", "Giclée"],
-      "note": "Artist Proof only"
-      },
-      "along_came_a_goblin": {
-      "title": "Along Came A Goblin",
-      "image": "/along_came_a_goblin.gif",
-      "special": [true],
-      "type": "Canvas Giclée",
-      "dimensions": [[20, 30], 50, 0, 50, 50],
-      "tags": ["Spider-Man", "Green Goblin", "Marvel", "Canvas", "Giclée"]
-      },
-      "guardians_of_the_galaxy": {
-      "title": "Guardians Of The Galaxy",
-      "image": "/guardians_of_the_galaxy.gif",
-      "special": [true],
-      "type": "Giclée on canvas",
-      "dimensions": [[20, 30], 50, 0, 50, 50],
-      "tags": ["Guardians of the Galaxy", "Marvel", "Canvas", "Giclée"],
-      "note": "Artist Proof 15 only"
-      },
-      "shadows_flash": {
-      "title": "Shadows: Flash",
-      "image": "/shadows_flash.jpg",
-      "special": [true],
-      "type": "Giclée on canvas",
-      "dimensions": [[17, 34], 50, 0, 50, 50],
-      "tags": ["Flash", "DC", "Canvas", "Giclée", "Shadows"],
-      "note": "Artist Proof 15 only"
-      },
-      "shadows_captain_america": {
-      "title": "Shadows: Captain America",
-      "image": "/shadows_captain_america.gif",
-      "type": "Giclée on canvas",
-      "special": [true],
-      "dimensions": [[17, 34], 50, 0, 50, 50],
-      "tags": ["Captain America", "Marvel", "Canvas", "Giclée", "Shadows"],
-      "note": "Artist Proof 15 only"
-      },
-      "shadows_thor": {
-      "title": "Shadows: Thor",
-      "image": "/shadows_thor.gif",
-      "special": [true],
-      "type": "Giclée on canvas",
-      "dimensions": [[17, 34], 50, 0, 50, 50],
-      "tags": ["Thor", "Marvel", "Canvas", "Giclée", "Shadows"],
-      "note": "Artist Proof 15 only"
-      },
-      "shadows_iron_man": {
-      "title": "Shadows: Iron Man",
-      "image": "/shadows_iron_man.gif",
-      "special": [true],
-      "type": "Giclée on canvas",
-      "dimensions": [[17, 34], 50, 0, 50, 50],
-      "tags": ["Iron Man", "Marvel", "Canvas", "Giclée", "Shadows"],
-      "note": "Artist Proof 15 only"
-      },
-      "shadows_hulk": {
-      "title": "Shadows: Hulk",
-      "image": "/shadows_hulk.gif",
-      "special": [true],
-      "type": "Giclée on canvas",
-      "dimensions": [[17, 34], 50, 0, 50, 50],
-      "tags": ["Hulk", "Marvel", "Canvas", "Giclée", "Shadows"],
-      "note": "Artist Proof 15 only"
-      },
-      "superior_iron_man": {
-      "title": "Superior Iron Man",
-      "image": "/superior_iron_man.gif",
-      "special": [true],
-      "type": "Giclée",
-      "dimensions": [[19, 30], 75, 0, 75, 75],
-      "tags": ["Iron Man", "Marvel", "Giclée", "Alex Ross"]
-      },
-      "avengers_4": {
-      "title": "Avengers 4",
-      "image": "/avengers_4.gif",
-      "type": "Giclée",
-      "special": [true],
-      "dimensions": [[12, 18], 25, 0, 25, 25],
-      "tags": ["Avengers", "Marvel", "Giclée", "Alex Ross"],
-      "note": "Artist Proof ONLY"
-      },
-      "captain_america_homecoming": {
-      "title": "Captain America Homecoming",
-      "image": "/captain_america_homecoming.gif",
-      "type": "Giclée",
-      "special": [true],
-      "dimensions": [[10, 16], 500, 0, 500, 500],
-      "tags": ["Captain America", "Marvel", "Giclée"]
-      },
-      "fearless_deluxe": {
-      "title": "Fearless Deluxe",
-      "image": "/fearless_deluxe.gif",
-      "special": [true],
-      "type": "Giclée",
-      "dimensions": [[30, 45], 50, 0, 50, 50],
-      "tags": ["Marvel", "Giclée", "Deluxe"]
-      },
-      "avengers_invaders": {
-      "title": "Avengers Invaders",
-      "image": "/avengers_invaders.gif",
-      "special": [true],
-      "type": "Giclée",
-      "dimensions": [[30, 45], 50, 0, 50, 50],
-      "tags": ["Avengers", "Invaders", "Marvel", "Giclée"]
-      },
-      "alex_ross_assemble": {
-      "title": "Assemble",
-      "image": "/alex_ross_assemble.gif",
-      "special": [true],
-      "type": "Giclée",
-      "dimensions": [0, 0, 0, 0, 0],
-      "tags": ["Avengers", "Marvel", "Giclée", "Alex Ross"],
-      "note": "Available on both canvas and paper"
-      },
-      "visions_iron_man": {
-      "title": "Visions: Iron Man",
-      "image": "/visions_iron_man.gif",
-      "type": "Giclée",
-      "special": [true],
-      "dimensions": [0, 0, 0, 0, 0],
-      "tags": ["Iron Man", "Marvel", "Giclée", "Alex Ross", "Visions"]
-      }
-    },
-    "simpsons": {
-      "devilandhomer": {
-        "image": "/devilandhomer.gif",
-        "title": "the devil and homer",
-        "type": "Hand painted",
-        "dimensions": [0, 50],
-        "featured": true,
-        "tags": ["episode"]
-      },
-      "gardenofspringfield": {
-        "image": "/gardenofspringfield.gif",
-        "title": "the garden of springfield",
-        "type": "Hand painted",
-        "dimensions": [0, 50],
-        "tags": ["garden", "springfield"]
-      },
-      "heatwave": {
-        "image": "/heatwave.gif",
-        "title": "heatwave",
-        "type": "Hand painted",
-        "dimensions": [0, 50],
-        "featured": true,
-        "tags": ["hot", "family"]
-      },
-      "homerandmargepersona": {
-        "image": "/homerandmargepersona.gif",
-        "title": "homer and marge persona",
-        "type": "Sericel",
-        "dimensions": [0, 350],
-        "tags": ["love", "rom"]
-      },
-
-
-      "subcategories": {
-        "limited-editions": {
-          "vivathesimpsons": {
-            "image": "/vivathesimpsons.webp",
-            "title": "viva the simpsons",
-            "type": "Sericel",
-            "dimensions": [[16.5, 13.5], 2500],
-            "special": [true, false, false],
-            "tags": ["simpson", "family", "circus"]
-          },
-          "homerdescending": {
-            "image": "/homerdescending.webp",
-            "title": "homer descending",
-            "type": "Giclée on canvas",
-            "dimensions": [[24, 30], 100],
-            "special": [true, false, false],
-            "tags": ["homer", "trip", "funny"]
-          },
-          "omightyhomer": {
-            "image": "/omightyhomer.webp",
-            "title": "o'mighty homer",
-            "type": "Giclée on canvas and paper",
-            "dimensions": [[[36, 30], [21, 17]], 250, 195],
-            "special": [true, false, false],
-            "tags": ["giant"]
-          },
-          "bartonglass": {
-            "image": "/bartonglass.webp",
-            "title": "bart on glass",
-            "type": "Giclée on paper",
-            "dimensions": [[13, 19], 195],
-            "special": [true, false, false],
-            "tags": ["bart", "homer", "family"]
-          },
-          "crowdaghast": {
-            "image": "/crowdaghast.webp",
-            "title": "crowd aghast",
-            "type": "Giclée on paper",
-            "dimensions": [[13, 19],195],
-            "special": [true, false, false],
-            "tags": ["shocked", "family"]
-          },
-          "flaminghomer": {
-            "image": "/flaminghomer.webp",
-            "title": "flaming homer",
-            "type": "Giclée on paper",
-            "dimensions": [[13, 19], 195],
-            "special": [true, false, false],
-            "tags": ["fire", "hot"]
-          },
-          "mobwithtorches": {
-            "image": "/mobwithtorches.webp",
-            "title": "mob with torches",
-            "type": "Giclée on paper",
-            "dimensions": [[13, 19], 195],
-            "special": [true, false, false],
-            "tags": ["fire", "hot"]
-          },
-          "monorail": {
-            "image": "/monorail.webp",
-            "title": "monorail",
-            "type": "Giclée on paper",
-            "dimensions": [[16, 12], 295],
-            "special": [true, false, false],
-            "tags": ["train"]
-          },
-          "bartman": {
-            "image": "/bartman.webp",
-            "title": "bartman",
-            "type": "Giclée on canvas and paper",
-            "dimensions": [[[16, 24], [17, 22]], 150, 100],
-            "special": [true, false, false],
-            "tags": ["hero", "villain"]
-          },
-          "dayatkrustyland": {
-            "image": "/dayatkrustyland.webp",
-            "title": "day at krustyland",
-            "type": "Lithograph",
-            "dimensions": [[28.5, 6.5], 1000],
-            "special": [true, false, false],
-            "tags": ["park", "theme", "bart"]
-          },
-          "timeandpunishment": {
-            "image": "/timeandpunishment.webp",
-            "title": "time and punishment",
-            "type": "Giclée on canvas and paper",
-            "dimensions": [[[20, 30], [16, 23]], 150, 250],
-            "special": [true, false, false],
-            "tags": ["book", "magazine"]
-          },
-          "islandofdrhibbert": {
-            "image": "/islandofdrhibbert.webp",
-            "title": "island of dr. Hibbert",
-            "type": "Giclée on canvas and paper",
-            "dimensions": [[[20, 30], [16, 23]], 150, 250],
-            "special": [true, false, false],
-            "tags": ["magazine", "book", "bart", "homer"]
-          },
-          "radioactiveman": {
-            "image": "/radioactiveman.webp",
-            "title": "radioactive man",
-            "type": "Giclée on paper",
-            "dimensions": [[16, 24], 100],
-            "special": [true, false, false],
-            "tags": ["hero", "villain"]
-          },
-          "treehouseofhorrorxvi": {
-            "image": "/treehouseofhorrorxvi.webp",
-            "title": "treehouse of horror XVI",
-            "type": "Giclée on canvas and paper",
-            "dimensions": [[[20, 30], [16, 23]], 250, 250],
-            "special": [true, false, false],
-            "tags": ["magazine", "book", "homer"]
-          },
-          "treehouseofhorrorxxiv": {
-            "image": "/treehouseofhorrorxxiv.webp",
-            "title": "treehouse of horror XXIV",
-            "type": "Giclée on canvas and paper",
-            "dimensions": [[[20, 28], [16, 23]], 200, 50],
-            "special": [true, false, false],
-            "tags": ["magazine", "book"]
-          },
-          "treehouseofhorrorXXV": {
-            "image": "/treehouseofhorrorXXV.webp",
-            "title": "treehouse of horror XXV",
-            "type": "Giclée on canvas and paper",
-            "dimensions": [[[20, 28], [16, 23]], 200, 50],
-            "special": [true, false, false],
-            "tags": ["magazine", "book"]
-          },
-          "treehouseofhorrorXXVI": {
-            "image": "/treehouseofhorrorXXVI.webp",
-            "title": "treehouse of horror XXVI",
-            "type": "Giclée on canvas and paper",
-            "dimensions": [[[20, 28], [16, 23]], 200, 50],
-            "special": [true, false, false],
-            "tags": ["magazine", "book", "homer"]
-          },
-          "treehouseofhorrorXIX": {
-            "image": "/treehouseofhorrorXIX.webp",
-            "title": "treehouse of horror XIX",
-            "type": "Giclée on canvas and paper",
-            "dimensions": [[[20, 28], [16, 23]], 200, 50],
-            "special": [true, false, false],
-            "tags": ["magazine", "book"]
-          }
-        },
-        "originals": {
-
-        }
-      }
-    },
     "star-wars": {
       "subcategories": {
         "feature-films": {
@@ -3117,6 +2342,1295 @@
         }
       }
     },
+    "marvel": {
+      "spidermen": {
+        "image": "/spidermen.jpg",
+        "title": "Spider-Men #2 (Number 1 variant edition)",
+        "type": "Giclée on canvas",
+        "dimensions": [[17, 26], 95],
+        "special": [true],
+        "featured": true,
+        "tags": ["spider", "red", "medium", "hero"]
+      },
+      "amazingspiderman": {
+        "image": "/amazingspiderman.jpg",
+        "title": "amazing spiderman #610",
+        "type": "Giclée on canvas",
+        "dimensions": [[15, 22]],
+        "special": [true, false, true],
+        "tags": ["punch", "signed", "hero"]
+      },
+      "icandothisallday": {
+        "image": "/icandothisallday.jpg",
+        "title": "i can do this all day",
+        "type": "Giclée on canvas",
+        "dimensions": [[16, 24]],
+        "special": [true],
+        "tags": ["america", "usa", "shield", "colonial", "hero"]
+      },
+      "thetruthis": {
+        "image": "/thetruthis.jpg",
+        "title": "the truth is",
+        "type": "Giclée on canvas",
+        "special": [true],
+        "featured": true,
+        "dimensions": [[[16, 24], [16, 34]], 195],
+        "note": "20 artist proofs.",
+        "tags": ["iron", "man", "robot", "tech", "hero"]
+      },
+      "thunderbolts": {
+        "image": "/thunderbolts.jpg",
+        "title": "thunderbolts",
+        "type": "Giclée on canvas",
+        "special": [true],
+        "dimensions": [[17, 26]],
+        "tags": ["fire", "chain", "hell", "hero", "avengers"]
+      },
+      "wakanda-forever": {
+        "image": "/wakandaforever.jpg",
+        "title": "wakanda forever",
+        "type": "Giclée on canvas",
+        "dimensions": [[24, 31]],
+        "special": [true],
+        "tags": ["wakanda", "black panther", "panther", "avengers", "hero"]
+      },
+      "the-best-their-is": {
+        "image": "/thebesttheiris.jpg",
+        "title": "the best their is",
+        "type": "Lithograph on paper",
+        "dimensions": [[12, 24]],
+        "special": [true],
+        "tags": ["wolverine", "fight"]
+      },
+      "directflight": {
+        "image": "/directflight.jpg",
+        "title": "direct flight",
+        "type": "Giclée on canvas",
+        "special": [true],
+        "featured": true,
+        "dimensions": [[20, 26], 95],
+        "tags": ["ironman", "fight", "flight"]
+      },
+      "amazing": {
+        "image": "/amazing.jpg",
+        "title": "amazing",
+        "type": "Giclée on canvas",
+        "special": [true],
+        "dimensions": [[17, 26], 95],
+        "tags": ["spiderman", "mask"]
+      },
+      "deadpoolandwolverine": {
+        "image": "/deadpoolandwolverine.jpg",
+        "title": "deadpool and wolverine",
+        "type": "Giclée on canvas",
+        "dimensions": [[15, 23], 0, 100, 0, 25],
+        "tags": ["wolf", "teddy", "signed"],
+        "special": [true, false, true]
+      },
+      "deadpoolbadderblood": {
+        "image": "/deadpoolbadderblood.jpg",
+        "title": "deadpool badder blood",
+        "type": "Giclée on canvas",
+        "dimensions": [[15, 23], 0, 100, 0, 25],
+        "tags": ["guns", "wolf", "action"],
+        "special": [true, false, true]
+      },
+      "avengers60th": {
+        "image": "/avengers60th.jpg",
+        "title": "Avengers 60th",
+        "type": "Giclée on canvas",
+        "dimensions": [[[19, 47], [18, 40]], 75],
+        "note": "Had 25 artist and printers proofs. Smaller size is in digital print paper.",
+        "tags": ["avengers", "team"],
+        "special": [true]
+      },
+      "marvelknights2": {
+        "image": "/marvelknights2.jpg",
+        "title": "Marvel Knights 2",
+        "type": "Digital Print Paper",
+        "dimensions": [[18, 24], 75],
+        "note": "15 artist and printers proofs.",
+        "tags": ["fight", "action", "city"],
+        "special": [true]
+      },
+      "tributeamazingfantasy": {
+        "image": "/tributeamazingfantasy.jpg",
+        "title": "Tribute Amazing Fantasy",
+        "type": "Giclée on canvas",
+        "dimensions": [[16, 24], 75],
+        "note": "15 artist and printers proofs.",
+        "tags": ["fight", "action", "city"],
+        "special": [true]
+      },
+      "x-men1": {
+        "image": "/x-men1.jpg",
+        "title": "X-Men #1",
+        "type": "Giclée on canvas",
+        "dimensions": [[15, 37], 45],
+        "tags": ["x-men", "fight", "action"],
+        "special": [true]
+      },
+      "endoftheline": {
+        "image": "/endoftheline.jpg",
+        "title": "end of the line",
+        "type": "Lithograph on paper",
+        "dimensions": [[16, 24], 195],
+        "tags": ["action", "fight", "winter", "soldier"],
+        "special": [true]
+      },
+      "spidersense": {
+        "image": "/spidersense.jpg",
+        "title": "Spider Sense",
+        "type": "Lithograph on paper",
+        "dimensions": [[12, 24], 350],
+        "tags": ["venom", "spider"],
+        "special": [true]
+      },
+      "godsthor": {
+        "image": "/godsthor.jpg",
+        "title": "God's: Thor",
+        "type": "Giclée on canvas",
+        "dimensions": [[14, 34], 50],
+        "note": "15 artist and publicity proofs.",
+        "tags": ["thor"],
+        "special": [true]
+      },
+      "marvelheros1": {
+        "image": "/marvelheros1.jpg",
+        "title": "Marvel Heroes",
+        "type": "Digital print paper",
+        "dimensions": [[27, 37]],
+        "note": "50 artist and publicity proofs.",
+        "tags": ["avengers"],
+        "special": [true]
+      },
+      "moonknightfistofvengeance": {
+        "image": "/moonknightfistofvengeance.jpg",
+        "title": "Moon Knight: Fist of Vengeance",
+        "type": "Giclée on canvas",
+        "dimensions": [[13, 23], 50],
+        "note": "15 artist and publicity proofs.",
+        "tags": ["white"],
+        "special": [true]
+      },
+      "fantastic_four_origins": {
+      "title": "Fantastic Four: Origins",
+      "image": "/fantastic_four_origins.jpg",
+      "type": "Digital paper print",
+      "dimensions": [[27, 37], 0, 0, 0, 0],
+      "tags": ["Fantastic Four", "Origins", "Marvel", "Superhero", "Digital Print"],
+      "special": [true],
+      "note": "25 artist proofs, 25 publicity proofs"
+      },
+      "i_ve_got_it": {
+      "title": "I've Got It",
+      "image": "/i_ve_got_it.jpg",
+      "type": "Lithograph",
+      "dimensions": [[18, 24], 250, 0, 0, 0],
+      "special": [true],
+      "tags": ["Marvel", "Lithograph", "Fine Art"]
+      },
+      "spider_geddon_0": {
+      "title": "Spider-Geddon #0",
+      "image": "/spider_geddon_0.jpg",
+      "type": "Giclée on canvas",
+      "dimensions": [[17, 26], 95, 0, 95, 95],
+      "special": [true],
+      "tags": ["Spider-Geddon", "Marvel", "Canvas", "Giclée"]
+      },
+      "web_warriors_8": {
+      "title": "Web Warriors #8",
+      "image": "/web_warriors_8.jpg",
+      "type": "Giclée on canvas",
+      "special": [true],
+      "dimensions": [[17, 26], 95, 0, 95, 95],
+      "tags": ["Web Warriors", "Marvel", "Canvas", "Giclée"]
+      },
+      "daredevil": {
+      "title": "Daredevil",
+      "image": "/daredevil.jpg",
+      "type": "Giclée on canvas",
+      "dimensions": [[17, 26], 95, 0, 95, 95],
+      "special": [true],
+      "tags": ["Daredevil", "Marvel", "Canvas", "Giclée", "Superhero"]
+      },
+      "spiderman_61": {
+      "title": "Spiderman #61",
+      "image": "/spiderman_61.jpg",
+      "type": "Giclée on canvas",
+      "dimensions": [[17, 26], 95, 0, 95, 95],
+      "special": [true],
+      "tags": ["Spiderman", "Marvel", "Canvas", "Giclée"]
+      },
+      "captain_marvel_1": {
+      "title": "Captain Marvel #1",
+      "image": "/captain_marvel_1.jpg",
+      "type": "Giclée on canvas",
+      "dimensions": [[17, 26], 95, 0, 95, 95],
+      "special": [true],
+      "tags": ["Captain Marvel", "Marvel", "Canvas", "Giclée"]
+      },
+      "avengers_3": {
+      "title": "Avengers #3",
+      "image": "/avengers_3.jpg",
+      "type": "Giclée on canvas",
+      "special": [true],
+      "dimensions": [[17, 26], 95, 0, 95, 95],
+      "tags": ["Avengers", "Marvel", "Canvas", "Giclée", "Superhero"]
+      },
+      "hey_bub": {
+      "title": "Hey Bub",
+      "image": "/hey_bub.jpg",
+      "type": "Giclée on canvas",
+      "special": [true],
+      "dimensions": [[20, 30], 95, 0, 95, 95],
+      "tags": ["Marvel", "Canvas", "Giclée", "Wolverine", "X-Men"]
+      },
+      "hulk_smash": {
+      "title": "Hulk Smash",
+      "image": "/hulk_smash.jpg",
+      "type": "Giclée on canvas",
+      "special": [true],
+      "dimensions": [[26, 26], 95, 0, 95, 95],
+      "tags": ["Hulk", "Marvel", "Canvas", "Giclée", "Superhero"]
+      },
+      "wolverine": {
+      "title": "Wolverine",
+      "image": "/wolverine.jpg",
+      "special": [true],
+      "type": "Lithograph",
+      "dimensions": [[26, 26], 95, 0, 0, 0],
+      "tags": ["Wolverine", "Marvel", "Lithograph", "X-Men", "Superhero"]
+      },
+      "web_of_spider_man": {
+      "title": "Web Of Spider-Man",
+      "image": "/web_of_spider_man.jpg",
+      "type": "Lithograph",
+      "special": [true],
+      "dimensions": [[18, 24], 295, 0, 0, 0],
+      "tags": ["Spider-Man", "Marvel", "Lithograph", "Superhero"]
+      },
+      "wolverine_x": {
+      "title": "Wolverine X",
+      "image": "/wolverine_x.jpg",
+      "type": "Print on paper",
+      "dimensions": [[11, 17], 0, 0, 0, 0],
+      "special": [true],
+      "tags": ["Wolverine", "Marvel", "Print", "X-Men", "Superhero"],
+      "note": "25 artist proofs, 25 publicity proofs"
+      },
+      "marvel_4_x_force": {
+      "title": "Marvel 4-X Force",
+      "image": "/marvel_4_x_force.jpg",
+      "special": [true],
+      "type": "Print on paper",
+      "dimensions": [[19, 27], 0, 0, 0, 0],
+      "tags": ["X-Force", "Marvel", "Print", "Superhero", "Team"],
+      "note": "25 artist proofs, 25 publicity proofs"
+      },
+      "black_widow": {
+      "title": "Black Widow",
+      "image": "/black_widow.jpg",
+      "type": "Lithograph on paper",
+      "special": [true],
+      "dimensions": [[18, 24], 395, 0, 0, 0],
+      "tags": ["Black Widow", "Marvel", "Lithograph", "Superhero", "Avenger"]
+      },
+      "worthy": {
+      "title": "Worthy",
+      "image": "/worthy.jpg",
+      "type": "Giclée on Canvas",
+      "special": [true],
+      "dimensions": [[19, 26], [18, 24], 95, 495, 95, 95],
+      "tags": ["Marvel", "Canvas", "Giclée", "Thor", "Superhero"],
+      "note": "Giclée on pearlescent paper: 495"
+      },
+      "master_of_the_mystic_arts": {
+      "title": "Master Of The Mystic Arts",
+      "image": "/master_of_the_mystic_arts.jpg",
+      "type": "Lithograph on paper",
+      "special": [true],
+      "dimensions": [[16, 24], 295, 0, 0, 0],
+      "tags": ["Doctor Strange", "Marvel", "Lithograph", "Superhero", "Mystic"]
+      },
+      "marvelocity_ff": {
+      "title": "Marvelocity: FF",
+      "image": "/marvelocity_ff.jpg",
+      "special": [true],
+      "type": "Giclée on Canvas",
+      "dimensions": [[20, 33], 44, 0, 44, 44],
+      "tags": ["Fantastic Four", "Marvel", "Giclée", "Canvas", "Superhero"],
+      "note": "15 artist proofs and presentation proofs"
+      },
+      "xmen_tribute": {
+      "title": "XMen Tribute",
+      "image": "/xmen_tribute.jpg",
+      "special": [true],
+      "type": "Giclée on Canvas",
+      "dimensions": [[17, 34], 50, 0, 50, 50],
+      "tags": ["X-Men", "Marvel", "Giclée", "Canvas", "Superhero", "Team"],
+      "note": "15 artist proofs and presentation proofs"
+      },
+      "teen_titans_tribute": {
+      "title": "Teen Titans Tribute",
+      "image": "/teen_titans_tribute.jpg",
+      "special": [true],
+      "type": "Giclée on Canvas",
+      "dimensions": [[17, 34], 50, 0, 50, 50],
+      "tags": ["Teen Titans", "DC", "Giclée", "Canvas", "Superhero", "Team"],
+      "note": "15 artist proofs and presentation proofs"
+      },
+      "marvelous": {
+      "title": "Marvelous",
+      "image": "/marvelous.gif",
+      "special": [true],
+      "type": "Giclée on Canvas",
+      "dimensions": [[20, 30], 50, 0, 50, 50],
+      "tags": ["Marvel", "Canvas", "Giclée", "Superhero", "Fine Art"]
+      },
+      "doves_fly": {
+      "title": "Doves Fly",
+      "image": "/doves_fly.gif",
+      "special": [true],
+      "type": "Giclee on Canvas",
+      "dimensions": [[20, 30], 50, 0, 50, 50],
+      "tags": ["Canvas", "Giclee", "Fine Art"]
+      },
+      "guardians": {
+      "title": "Guardians",
+      "image": "/guardians.gif",
+      "special": [true, false, true],
+      "type": "Giclee on Canvas",
+      "dimensions": [[20, 30], 50, 0, 50, 50],
+      "tags": ["Canvas", "Giclee", "Marvel"]
+      },
+      "heroes_and_foes": {
+      "title": "Heroes and Foes",
+      "image": "/heroes_and_foes.gif",
+      "type": "Lithograph on paper",
+      "special": [true],
+      "dimensions": [[15, 20], 0, 0, 0, 0],
+      "tags": ["Lithograph", "Fine Art", "Marvel"],
+      "note": "AP, PP, EP Edition Size: 25"
+      },
+      "marvelcity_captain_america": {
+      "title": "Marvelcity: Captain America",
+      "image": "/marvelcity_captain_america.gif",
+      "special": [true],
+      "type": "Giclee on Canvas",
+      "dimensions": [[17, 22], 100, 0, 100, 100],
+      "tags": ["Canvas", "Giclee", "Captain America"],
+      "note": "AP, PP, EP Edition Size: 25"
+      },
+      "marvelcity_doctor_strange": {
+      "title": "Marvelcity: Doctor Strange",
+      "image": "/marvelcity_doctor_strange.gif",
+      "type": "Giclee on Canvas",
+      "special": [true],
+      "dimensions": [[17, 22], 100, 0, 100, 100],
+      "tags": ["Canvas", "Giclee", "Doctor Strange"],
+      "note": "AP, PP, EP Edition Size: 25"
+      },
+      "marvelcity_iron_man": {
+      "title": "Marvelcity: Iron Man",
+      "image": "/marvelcity_iron_man.gif",
+      "special": [true],
+      "type": "Giclée on Canvas",
+      "dimensions": [[17, 22], 100, 0, 100, 100],
+      "tags": ["Iron Man", "Marvel", "Canvas", "Giclée", "Marvelcity"],
+      "note": "AP, PP, EP Edition Size: 25"
+      },
+      "marvelcity_spiderman": {
+      "title": "Marvelcity: Spiderman",
+      "image": "/marvelcity_spiderman.gif",
+      "type": "Giclée on Canvas",
+      "special": [true],
+      "dimensions": [[17, 22], 100, 0, 100, 100],
+      "tags": ["Spiderman", "Marvel", "Canvas", "Giclée", "Marvelcity"],
+      "note": "AP, PP, EP Edition Size: 25"
+      },
+      "mighty_captain_marvel": {
+      "title": "Mighty Captain Marvel",
+      "image": "/mighty_captain_marvel.gif",
+      "special": [true],
+      "type": "Lithograph on paper",
+      "dimensions": [[16, 15], 0, 0, 0, 0],
+      "tags": ["Captain Marvel", "Marvel", "Lithograph"],
+      "note": "AP, PP, EP Edition Size: 25"
+      },
+      "luke_cage_hero_for_hire": {
+      "title": "Luke Cage: Hero for Hire",
+      "image": "/luke_cage_hero_for_hire.gif",
+      "type": "Giclée on Canvas",
+      "dimensions": [[17, 23], 25, 0, 25, 25],
+      "special": [true],
+      "tags": ["Luke Cage", "Marvel", "Canvas", "Giclée"],
+      "note": "AP, PP, EP Edition Size: 7"
+      },
+      "captain_america_allegiance": {
+      "title": "Captain America: Allegiance",
+      "image": "/captain_america_allegiance.gif",
+      "special": [true],
+      "type": "Giclée on Canvas",
+      "dimensions": [[13, 17], 150, 0, 150, 150],
+      "tags": ["Captain America", "Marvel", "Canvas", "Giclée"],
+      "note": "AP, PP, EP Edition Size: 25"
+      },
+      "legacy_venom": {
+      "title": "Legacy: Venom",
+      "image": "/legacy_venom.gif",
+      "type": "Giclée on Canvas",
+      "special": [true],
+      "dimensions": [[18, 24], 50, 0, 50, 50],
+      "tags": ["Venom", "Marvel", "Canvas", "Giclée"],
+      "note": "Artist Proof: 15"
+      },
+      "black_panther_forever": {
+      "title": "Black Panther Forever",
+      "image": "/black_panther_forever.gif",
+      "type": "Giclée on Canvas",
+      "special": [true],
+      "dimensions": [[12, 18], 118, 0, 118, 118],
+      "tags": ["Black Panther", "Marvel", "Canvas", "Giclée"]
+      },
+      "captain_america_patriot": {
+      "title": "Captain America - Patriot",
+      "image": "/captain_america_patriot.gif",
+      "type": "Giclée on Canvas",
+      "special": [true],
+      "dimensions": [[22, 29], 50, 0, 50, 50],
+      "tags": ["Captain America", "Marvel", "Canvas", "Giclée"],
+      "note": "Artist Proof: 15"
+      },
+      "captain_america_ready_for_battle": {
+      "title": "Captain America - Ready for Battle",
+      "image": "/captain_america_ready_for_battle.gif",
+      "type": "Giclée on Canvas",
+      "special": [true],
+      "dimensions": [[16, 24], 25, 0, 25, 25],
+      "tags": ["Captain America", "Marvel", "Canvas", "Giclée"],
+      "note": "Artist Proof only"
+      },
+      "along_came_a_goblin": {
+      "title": "Along Came A Goblin",
+      "image": "/along_came_a_goblin.gif",
+      "special": [true],
+      "type": "Canvas Giclée",
+      "dimensions": [[20, 30], 50, 0, 50, 50],
+      "tags": ["Spider-Man", "Green Goblin", "Marvel", "Canvas", "Giclée"]
+      },
+      "guardians_of_the_galaxy": {
+      "title": "Guardians Of The Galaxy",
+      "image": "/guardians_of_the_galaxy.gif",
+      "special": [true],
+      "type": "Giclée on canvas",
+      "dimensions": [[20, 30], 50, 0, 50, 50],
+      "tags": ["Guardians of the Galaxy", "Marvel", "Canvas", "Giclée"],
+      "note": "Artist Proof 15 only"
+      },
+      "shadows_flash": {
+      "title": "Shadows: Flash",
+      "image": "/shadows_flash.jpg",
+      "special": [true],
+      "type": "Giclée on canvas",
+      "dimensions": [[17, 34], 50, 0, 50, 50],
+      "tags": ["Flash", "DC", "Canvas", "Giclée", "Shadows"],
+      "note": "Artist Proof 15 only"
+      },
+      "shadows_captain_america": {
+      "title": "Shadows: Captain America",
+      "image": "/shadows_captain_america.gif",
+      "type": "Giclée on canvas",
+      "special": [true],
+      "dimensions": [[17, 34], 50, 0, 50, 50],
+      "tags": ["Captain America", "Marvel", "Canvas", "Giclée", "Shadows"],
+      "note": "Artist Proof 15 only"
+      },
+      "shadows_thor": {
+      "title": "Shadows: Thor",
+      "image": "/shadows_thor.gif",
+      "special": [true],
+      "type": "Giclée on canvas",
+      "dimensions": [[17, 34], 50, 0, 50, 50],
+      "tags": ["Thor", "Marvel", "Canvas", "Giclée", "Shadows"],
+      "note": "Artist Proof 15 only"
+      },
+      "shadows_iron_man": {
+      "title": "Shadows: Iron Man",
+      "image": "/shadows_iron_man.gif",
+      "special": [true],
+      "type": "Giclée on canvas",
+      "dimensions": [[17, 34], 50, 0, 50, 50],
+      "tags": ["Iron Man", "Marvel", "Canvas", "Giclée", "Shadows"],
+      "note": "Artist Proof 15 only"
+      },
+      "shadows_hulk": {
+      "title": "Shadows: Hulk",
+      "image": "/shadows_hulk.gif",
+      "special": [true],
+      "type": "Giclée on canvas",
+      "dimensions": [[17, 34], 50, 0, 50, 50],
+      "tags": ["Hulk", "Marvel", "Canvas", "Giclée", "Shadows"],
+      "note": "Artist Proof 15 only"
+      },
+      "superior_iron_man": {
+      "title": "Superior Iron Man",
+      "image": "/superior_iron_man.gif",
+      "special": [true],
+      "type": "Giclée",
+      "dimensions": [[19, 30], 75, 0, 75, 75],
+      "tags": ["Iron Man", "Marvel", "Giclée", "Alex Ross"]
+      },
+      "avengers_4": {
+      "title": "Avengers 4",
+      "image": "/avengers_4.gif",
+      "type": "Giclée",
+      "special": [true],
+      "dimensions": [[12, 18], 25, 0, 25, 25],
+      "tags": ["Avengers", "Marvel", "Giclée", "Alex Ross"],
+      "note": "Artist Proof ONLY"
+      },
+      "captain_america_homecoming": {
+      "title": "Captain America Homecoming",
+      "image": "/captain_america_homecoming.gif",
+      "type": "Giclée",
+      "special": [true],
+      "dimensions": [[10, 16], 500, 0, 500, 500],
+      "tags": ["Captain America", "Marvel", "Giclée"]
+      },
+      "fearless_deluxe": {
+      "title": "Fearless Deluxe",
+      "image": "/fearless_deluxe.gif",
+      "special": [true],
+      "type": "Giclée",
+      "dimensions": [[30, 45], 50, 0, 50, 50],
+      "tags": ["Marvel", "Giclée", "Deluxe"]
+      },
+      "avengers_invaders": {
+      "title": "Avengers Invaders",
+      "image": "/avengers_invaders.gif",
+      "special": [true],
+      "type": "Giclée",
+      "dimensions": [[30, 45], 50, 0, 50, 50],
+      "tags": ["Avengers", "Invaders", "Marvel", "Giclée"]
+      },
+      "alex_ross_assemble": {
+      "title": "Assemble",
+      "image": "/alex_ross_assemble.gif",
+      "special": [true],
+      "type": "Giclée",
+      "dimensions": [0, 0, 0, 0, 0],
+      "tags": ["Avengers", "Marvel", "Giclée", "Alex Ross"],
+      "note": "Available on both canvas and paper"
+      },
+      "visions_iron_man": {
+      "title": "Visions: Iron Man",
+      "image": "/visions_iron_man.gif",
+      "type": "Giclée",
+      "special": [true],
+      "dimensions": [0, 0, 0, 0, 0],
+      "tags": ["Iron Man", "Marvel", "Giclée", "Alex Ross", "Visions"]
+      }
+    },
+    "dc-comics": {
+      "subcategories": {
+        "limited-editions": {
+          "the_original_7": {
+            "title": "The Original 7",
+            "image": "/the_original_7.gif",
+            "type": "Giclée on canvas",
+            "dimensions": [[23, 53], 77, 0, 0, 77],
+            "tags": ["DC", "Canvas", "Giclée", "Alex Ross"],
+            "special": [true, false, false]
+          },
+          "gothamscrusaders": {
+            "title": "gotham's crusadors",
+            "image": "/gothamscrusaders.webp",
+            "type": "Giclée on paper",
+            "dimensions": [[[25, 18], [30.25, 21.5]], 250],
+            "tags": ["batman", "batgirl", "gotham"],
+            "note": "Signed by Jim Lee",
+            "special": [true, true]
+          },
+          "beaclown": {
+            "title": "be a clown",
+            "image": "/beaclown.webp",
+            "type": "Giclée on canvas",
+            "dimensions": [[17, 22], 250],
+            "tags": ["batman", "batgirl", "gotham"],
+            "special": [true, true],
+            "note": "Signed by Bruce Timm"
+          },
+          "heroes": {
+            "title": "heroes",
+            "image": "/heroes.webp",
+            "type": "Giclée on paper",
+            "dimensions": [[35, 19.5], 250],
+            "tags": ["batman", "batgirl", "gotham"],
+            "special": [true, true],
+            "note": "Signed by Jim Lee"
+          },
+          "kissingtheknight": {
+            "title": "kissing the knight",
+            "image": "/kissingtheknight.webp",
+            "type": "Giclée on paper",
+            "dimensions": [[[13.75, 20.75], [20, 30]], 250, 100],
+            "tags": ["batman", "batgirl", "gotham"],
+            "special": [true, true],
+            "note": "Signed by Jim Lee"
+          },
+          "girlsnightout": {
+            "title": "girl's night out",
+            "image": "/girlsnightout.webp",
+            "type": "Giclée on canvas",
+            "dimensions": [[17, 22], 100],
+            "tags": ["batman", "batgirl", "gotham"],
+            "special": [true, true],
+            "note": "Signed by Bruce Timm"
+          },
+          "batman#1": {
+            "title": "batman #1",
+            "image": "/batman#1.avif",
+            "type": "Giclée on canvas",
+            "dimensions": [[30, 20]],
+            "tags": ["batman", "batgirl", "gotham"],
+            "special": [true, true],
+            "note": "Signed by Lee Bermejo"
+          },
+          "joker_clown_prince_of_crime": {
+          "title": "Joker Clown Prince Of Crime",
+          "image": "/joker_clown_prince_of_crime.jpg",
+          "type": "Giclée on canvas",
+          "dimensions": [[17.5, 23.5], 100, 0, 100, 100],
+          "tags": ["Joker", "DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "batman_scars": {
+          "title": "Batman Scars",
+          "image": "/batman_scars.jpg",
+          "type": "Giclée on canvas",
+          "dimensions": [[17.5, 23.5], 195, 0, 195, 195],
+          "tags": ["Batman", "DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "bat_signal": {
+          "title": "Bat Signal",
+          "image": "/bat_signal.jpg",
+          "type": "Giclée on canvas",
+          "dimensions": [[24, 28], 50, 15, 15, 50],
+          "tags": ["Batman", "DC", "Canvas", "Giclée"],
+          "special": [true, false, false],
+          "note": " AP: 25, PP: 25"
+          },
+          "batman_tribute_to_1970s_villains": {
+          "title": "Batman - Tribute To 1970's Villains",
+          "image": "/batman_tribute_to_1970s_villains.jpg",
+          "type": "Giclée on canvas",
+          "dimensions": [[24, 32], 25, 10, 10, 25],
+          "tags": ["Batman", "DC", "Canvas", "Giclée", "Villains"],
+          "special": [true, false, false]
+          },
+          "batman_over_gotham": {
+          "title": "Batman Over Gotham",
+          "image": "/batman_over_gotham.jpg",
+          "type": "Lithograph",
+          "dimensions": [[24, 36], 0, 0, 0, 0],
+          "tags": ["Batman", "DC", "Lithograph"],
+          "special": [true, false, false]
+          },
+          "gods_wonder_woman": {
+          "title": "Gods: Wonder Woman",
+          "image": "/gods_wonder_woman.jpg",
+          "type": "Giclée on canvas",
+          "dimensions": [[14, 34], 50, 15, 15, 50],
+          "tags": ["Wonder Woman", "DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "batman_defender_of_gotham": {
+          "title": "Batman Defender Of Gotham",
+          "image": "/batman_defender_of_gotham.jpg",
+          "type": "Giclée on canvas",
+          "dimensions": [[13, 23], 100, 25, 25, 100],
+          "tags": ["Batman", "DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "black_adam": {
+          "title": "Black Adam",
+          "image": "/black_adam.jpg",
+          "type": "Digital paper print",
+          "dimensions": [[18, 24], 0, 25, 25, 0],
+          "tags": ["Black Adam", "DC", "Digital Print"],
+          "special": [true, false, false]
+          },
+          "kingdom_come_wr": {
+          "title": "Kingdom Come: WR",
+          "image": "/kingdom_come_wr.jpg",
+          "type": "Giclée on canvas",
+          "dimensions": [[22, 48], 25, 25, 25, 25],
+          "tags": ["Kingdom Come", "DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "enigma": {
+          "title": "Enigma",
+          "image": "/enigma.jpg",
+          "type": "Giclée on canvas",
+          "dimensions": [[16, 20], 75, 25, 25, 75],
+          "tags": ["DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "superman_saving_the_planet": {
+          "title": "Superman Saving The Planet",
+          "image": "/superman_saving_the_planet.jpg",
+          "type": "Giclée on canvas",
+          "dimensions": [[9, 14], 250, 25, 25, 250],
+          "tags": ["Superman", "DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "batman_detective_1000": {
+          "title": "Batman Detective 1000",
+          "image": "/batman_detective_1000.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [[24, 42], [20, 35], 100, 0, 0, 100],
+          "tags": ["Batman", "DC", "Canvas", "Paper", "Giclée"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "wonderwoman": {
+          "title": "Wonderwoman",
+          "image": "/wonderwoman.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[20, 24], 95, 0, 0, 95],
+          "tags": ["Wonder Woman", "DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "hush": {
+          "title": "Hush",
+          "image": "/hush.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [[20, 30], [13, 21], 100, 0, 0, 100],
+          "tags": ["DC", "Canvas", "Paper", "Giclée"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "heroes_unite": {
+          "title": "Heroes Unite",
+          "image": "/heroes_unite.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [[20, 30], [13, 21], 100, 0, 0, 100],
+          "tags": ["DC", "Canvas", "Paper", "Giclée"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "bring_on_the_rain": {
+          "title": "Bring On The Rain",
+          "image": "/bring_on_the_rain.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [[20, 30], [13, 21], 100, 0, 0, 100],
+          "tags": ["DC", "Canvas", "Paper", "Giclée"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "icons": {
+          "title": "Icons",
+          "image": "/icons.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[20, 30], 100, 0, 0, 100],
+          "tags": ["DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "league": {
+          "title": "League",
+          "image": "/league.gif",
+          "type": "Lithograph on paper",
+          "dimensions": [[15, 20], 0, 25, 25, 0],
+          "tags": ["DC", "Lithograph"],
+          "special": [true, false, false]
+          },
+          "justice": {
+          "title": "Justice",
+          "image": "/justice.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[20, 30], 50, 15, 15, 50],
+          "tags": ["DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "gotham_knight": {
+          "title": "Gotham Knight",
+          "image": "/gotham_knight.gif",
+          "type": "Giclée on paper",
+          "dimensions": [[20, 30], [13, 17], 150, 25, 25, 150],
+          "tags": ["Batman", "DC", "Paper", "Giclée"],
+          "special": [true, false, false],
+          "note": "AP, PP, EP edition size 25"
+          },
+          "origins_justice_league_of_america": {
+          "title": "Origins: Justice League of America",
+          "image": "/origins_justice_league_of_america.gif",
+          "type": "Lithograph on Paper",
+          "dimensions": [[20, 30], 0, 75, 75, 0],
+          "tags": ["Justice League", "DC", "Lithograph"],
+          "special": [true, false, false]
+          },
+          "absolute_justice": {
+          "title": "Absolute Justice",
+          "image": "/absolute_justice.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[48, 32], 25, 5, 0, 25],
+          "tags": ["DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "final_crisis": {
+          "title": "Final Crisis",
+          "image": "/final_crisis.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[21, 30], 7, 7, 0, 7],
+          "tags": ["DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "origins_superman": {
+          "title": "Origins - Superman",
+          "image": "/origins_superman.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[16, 15], 75, 0, 0, 75],
+          "tags": ["Superman", "DC", "Canvas", "Giclée"],
+          "special": [true, false, false],
+          "note": "Artist Proof only (unsigned)"
+          },
+          "kal_el": {
+          "title": "KAL EL",
+          "image": "/kal_el.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[16, 24], 50, 15, 0, 50],
+          "tags": ["Superman", "DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "wonderwoman_goddess_of_truth": {
+          "title": "Wonderwoman - Goddess Of Truth",
+          "image": "/wonderwoman_goddess_of_truth.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [[17, 26], [14, 21], 100, 0, 0, 100],
+          "tags": ["Wonder Woman", "DC", "Canvas", "Paper", "Giclée"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "crisis": {
+          "title": "Crisis",
+          "image": "/crisis.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[57, 36], 50, 15, 0, 50],
+          "tags": ["DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "wonderwoman_defender_of_truth": {
+          "title": "Wonderwoman: Defender Of Truth",
+          "image": "/wonderwoman_defender_of_truth.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[20, 28], 50, 15, 0, 50],
+          "tags": ["Wonder Woman", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "kingdom_come_superman": {
+          "title": "Kingdom Come Superman",
+          "image": "/kingdom_come_superman.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[16, 20], 50, 0, 0, 50],
+          "tags": ["Superman", "Kingdom Come", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "kingdom_come_war": {
+          "title": "Kingdom Come War",
+          "image": "/kingdom_come_war.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[16, 20], 50, 0, 0, 50],
+          "tags": ["Kingdom Come", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "kingdom_come_absolute": {
+          "title": "Kingdom Come Absolute",
+          "image": "/kingdom_come_absolute.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[16, 20], 50, 0, 0, 50],
+          "tags": ["Kingdom Come", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "the_new_gods": {
+          "title": "The New Gods",
+          "image": "/the_new_gods.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[22, 44], 7, 0, 0, 7],
+          "tags": ["New Gods", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "jla_secret_origins": {
+          "title": "JLA Secret Origins",
+          "image": "/jla_secret_origins.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[32, 24], 100, 0, 0, 100],
+          "tags": ["JLA", "Justice League", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "shadows_batman": {
+          "title": "Shadows Batman",
+          "image": "/shadows_batman.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[35, 18], 50, 0, 0, 50],
+          "tags": ["Batman", "DC", "Canvas", "Giclée", "Alex Ross", "Shadows"],
+          "special": [true, false, false]
+          },
+          "shadows_aquaman": {
+          "title": "Shadows Aquaman",
+          "image": "/shadows_aquaman.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[35, 18], 50, 0, 0, 50],
+          "tags": ["Aquaman", "DC", "Canvas", "Giclée", "Alex Ross", "Shadows"],
+          "special": [true, false, false]
+          },
+          "shadows_wonder_woman": {
+          "title": "Shadows Wonder Woman",
+          "image": "/shadows_wonder_woman.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[35, 18], 50, 0, 0, 50],
+          "tags": ["Wonder Woman", "DC", "Canvas", "Giclée", "Alex Ross", "Shadows"],
+          "special": [true, false, false]
+          },
+          "shadows_superman": {
+          "title": "Shadows Superman",
+          "image": "/shadows_superman.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[35, 18], 50, 0, 0, 50],
+          "tags": ["Superman", "DC", "Canvas", "Giclée", "Alex Ross", "Shadows"],
+          "special": [true, false, false]
+          },
+          "liberty_and_justice_jla_mini": {
+          "title": "Liberty and Justice JLA (mini)",
+          "image": "/liberty_and_justice_jla_mini.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[12, 18], 500, 0, 0, 500],
+          "tags": ["JLA", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "liberty_and_justice_trinity_mini": {
+          "title": "Liberty and Justice Trinity (mini)",
+          "image": "/liberty_and_justice_trinity_mini.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[12, 18], 500, 0, 0, 500],
+          "tags": ["Trinity", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "batman_the_legend": {
+          "title": "Batman The Legend",
+          "image": "/batman_the_legend.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [[26, 26], [22, 22], 100, 0, 0, 100],
+          "tags": ["Batman", "DC", "Canvas", "Paper", "Giclée", "Alex Ross"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "to_tease_the_bat": {
+          "title": "To Tease The Bat",
+          "image": "/to_tease_the_bat.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [[21, 26], [15, 20], 100, 0, 0, 100],
+          "tags": ["Batman", "DC", "Canvas", "Paper", "Giclée", "Alex Ross"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "trinity": {
+          "title": "Trinity",
+          "image": "/trinity.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[17, 34], 100, 0, 0, 100],
+          "tags": ["Trinity", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "75th_anniversary_batman": {
+          "title": "75th Anniversary: The History Of Batman",
+          "image": "/75th_anniversary_batman.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [[23, 38], [18, 30], 100, 0, 0, 100],
+          "tags": ["Batman", "DC", "Canvas", "Paper", "Giclée", "Alex Ross", "Anniversary"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "batman_66_and_green_hornet": {
+          "title": "Batman '66 and The Green Hornet",
+          "image": "/batman_66_and_green_hornet.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [[33.5, 22], [16.5, 25], 100, 0, 0, 100],
+          "tags": ["Batman", "Green Hornet", "DC", "Canvas", "Paper", "Giclée", "Alex Ross"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "green_lantern_power_of_the_ring": {
+          "title": "Green Lantern the Power of the Ring",
+          "image": "/green_lantern_power_of_the_ring.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [[21, 32], [12, 16], 100, 0, 0, 100],
+          "tags": ["Green Lantern", "DC", "Canvas", "Paper", "Giclée", "Alex Ross"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "superman_rocket": {
+          "title": "Superman Rocket",
+          "image": "/superman_rocket.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[21, 33], 100, 0, 0, 100],
+          "tags": ["Superman", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "dark_knight_detective": {
+          "title": "Dark Knight Detective",
+          "image": "/dark_knight_detective.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[29, 17], 50, 0, 0, 50],
+          "tags": ["Batman", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "man_of_tomorrow": {
+          "title": "The Man Of Tomorrow",
+          "image": "/man_of_tomorrow.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [[29, 17], 50, 0, 0, 50],
+          "tags": ["Superman", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "mythology_catwoman": {
+          "title": "Mythology Catwoman",
+          "image": "/mythology_catwoman.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [0, 100],
+          "tags": ["Catwoman", "DC", "Canvas", "Paper", "Giclée", "Alex Ross", "Mythology"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "mythology_batman": {
+          "title": "Mythology: Batman",
+          "image": "/mythology_batman.gif",
+          "type": "Giclée on paper",
+          "dimensions": [0, 250, 0, 0, 250],
+          "tags": ["Batman", "DC", "Paper", "Giclée", "Alex Ross", "Mythology"],
+          "special": [true, false, false]
+          },
+          "mythology_wonder_woman": {
+          "title": "Mythology: Wonder Woman",
+          "image": "/mythology_wonder_woman.gif",
+          "type": "Giclée on paper",
+          "dimensions": [0, 250, 0, 0, 250],
+          "tags": ["Wonder Woman", "DC", "Paper", "Giclée", "Alex Ross", "Mythology"],
+          "special": [true, false, false]
+          },
+          "mythology_flash": {
+          "title": "Mythology: The Flash",
+          "image": "/mythology_flash.gif",
+          "type": "Giclée on paper",
+          "dimensions": [0, 250, 0, 0, 250],
+          "tags": ["Flash", "DC", "Paper", "Giclée", "Alex Ross", "Mythology"],
+          "special": [true, false, false]
+          },
+          "mythology_green_lantern": {
+          "title": "Mythology: Green Lantern",
+          "image": "/mythology_green_lantern.gif",
+          "type": "Giclée on paper",
+          "dimensions": [0, 250, 0, 0, 250],
+          "tags": ["Green Lantern", "DC", "Paper", "Giclée", "Alex Ross", "Mythology"],
+          "special": [true, false, false]
+          },
+          "mythology_joker": {
+          "title": "Mythology Joker",
+          "image": "/mythology_joker.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [0, 100, 0, 0, 100],
+          "tags": ["Joker", "DC", "Canvas", "Giclée", "Alex Ross", "Mythology"],
+          "special": [true, false, false]
+          },
+          "rough_justice": {
+          "title": "Rough Justice",
+          "image": "/rough_justice.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [0, 100, 0, 0, 100],
+          "tags": ["DC", "Canvas", "Paper", "Giclée", "Alex Ross"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "liberty_and_justice": {
+          "title": "Liberty and Justice",
+          "image": "/liberty_and_justice.gif",
+          "type": "Giclée on canvas and paper",
+          "dimensions": [0, 100, 0, 0, 100],
+          "tags": ["DC", "Canvas", "Paper", "Giclée", "Alex Ross"],
+          "special": [true, false, false],
+          "note": "Paper edition size: 250"
+          },
+          "knight_over_gotham": {
+          "title": "Knight Over Gotham",
+          "image": "/knight_over_gotham.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [0, 25, 0, 0, 25],
+          "tags": ["Batman", "DC", "Canvas", "Giclée", "Alex Ross"],
+          "special": [true, false, false]
+          },
+          "justice_league_america_secret_origins": {
+          "title": "Secret Origins",
+          "image": "/justice_league_america_secret_origins.gif",
+          "type": "Giclée on paper",
+          "dimensions": [0, 0, 0, 0, 0],
+          "tags": ["Justice League", "DC", "Paper", "Giclée"],
+          "special": [true, false, false]
+          },
+          "tango_with_evil": {
+          "title": "Tango With Evil",
+          "image": "/tango_with_evil.gif",
+          "type": "Giclée on paper",
+          "dimensions": [0, 250, 0, 0, 250],
+          "tags": ["DC", "Paper", "Giclée"],
+          "special": [true, false, false]
+          },
+          "superman_20th_century": {
+          "title": "Superman 20th Century",
+          "image": "/superman_20th_century.gif",
+          "type": "Giclée on canvas",
+          "dimensions": [0, 100, 0, 0, 100],
+          "tags": ["Superman", "DC", "Canvas", "Giclée"],
+          "special": [true, false, false]
+          },
+          "jokers_reckoning": {
+          "title": "Jokers Reckoning",
+          "image": "/jokers_reckoning.gif",
+          "type": "Giclée on paper",
+          "dimensions": [0, 250, 0, 0, 250],
+          "tags": ["Joker", "DC", "Paper", "Giclée"],
+          "special": [true, false, false]
+          },
+          "the_new_jla": {
+          "title": "The New JLA",
+          "image": "/the_new_jla.jpg",
+          "type": "Giclée on paper",
+          "dimensions": [0, 250, 0, 0, 250],
+          "tags": ["Justice League", "DC", "Paper", "Giclée"],
+          "special": [true, false, false]
+          }
+        },
+        "hand-painted": {
+          "classic-harley-quinn": {
+            "image": "/classic-harley-quinn.gif",
+            "title": "classic harley quinn",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [0, 500],
+            "tags": ["quinn", "harley", "joker", "puppet", "villain"],
+            "note": "Hand painted"
+          },
+          "classicjoker": {
+            "image": "/classicjoker.gif",
+            "title": "classic joker",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [0, 500],
+            "tags": ["joker", "clas", "warner", "bros", "villain"],
+            "note": "Hand painted"
+          },
+          "classicbatman": {
+            "image": "/classicbatman.gif",
+            "title": "classic batman",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [0, 500],
+            "tags": ["batman", "hero", "batsignal", "warner", "bros"],
+            "note": "Hand painted"
+          },
+          "classicsuperman": {
+            "image": "/classicsuperman.gif",
+            "title": "classic superman",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [0, 500],
+            "tags": ["super", "man", "hero", "warner", "bro"],
+            "note": "Hand painted"
+          },
+          "worldsfinest": {
+            "image": "/worldsfinest.gif",
+            "title": "world's finest",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [0, 500],
+            "tags": ["hero", "bat", "man", "super"],
+            "note": "Hand painted"
+          },
+          "gothamsdynamicduo": {
+            "image": "/gothamsdynamicduo.gif",
+            "title": "gothams dynamic duo",
+            "type": "Cel",
+            "special": [true, false, false],
+            "dimensions": [0, 500],
+            "tags": ["bat", "man", "robin"],
+            "note": "Hand painted"
+          },
+          "andvengeancebegins": {
+            "image": "/andvengeancebegins.gif",
+            "title": "and vengeance begins",
+            "type": "Cel",
+            "special": [true, false, false],
+            "dimensions": [0, 500],
+            "tags": ["bat", "man", "warner", "bros"],
+            "note": "Hand painted"
+          },
+          "thepowerofseven": {
+            "image": "/thepowerofseven.gif",
+            "title": "the power of seven",
+            "type": "Cel",
+            "special": [true, false, false],
+            "dimensions": [0, 500],
+            "tags": ["bat", "super", "girl", "man", "flash", "green", "lantern"],
+            "note": "Hand painted"
+          },
+          "arkhamasylum": {
+            "image": "/arkhamasylum.gif",
+            "title": "arkham asylum",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [0, 500],
+            "tags": ["bat", "man", "villain", "hero"],  
+            "note": "Hand painted"
+          },
+          "legendsofthedarkknight": {
+            "image": "/legendsofthedarkknight.webp",
+            "title": "legends of the dark knight",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [[13.5, 16.5], 250],
+            "tags": ["bat", "man", "hero", "villain"],
+            "note": "Hand painted and signed by Bruce Timm"
+          },
+          "girlsfinest": {
+            "image": "/girlsfinest.webp",
+            "title": "girl's finest",
+            "type": "Cel",
+            "special": [true, false, false],
+            "dimensions": [[13.5, 16.5], 350],
+            "tags": ["villain", "joker", "dc", "harley quinn"],
+            "note": "Hand painted"
+          },
+          "batmanandbeyond": {
+            "image": "/batmanandbeyond.webp",
+            "title": "batman and beyond",
+            "type": "Cel",
+            "special": [true, false, true],
+            "dimensions": [[12, 20], 100],
+            "tags": ["batman", "batgirl"],
+            "note": "Hand painted and signed by Bruce Timm"
+          }
+        },
+        "sericels": {
+          "knightmoves": {
+            "title": "knight moves",
+            "type": "Sericel",
+            "image": "/knightmoves.gif",
+            "tags": ["batman", "batgirl"],
+            "dimensions": [0]
+          }
+        }
+      }
+    },
     "disney": {
       "subcategories": {
         "assorted-characters": {
@@ -4680,970 +5194,7 @@
             "dimensions": [0, 195],
             "tags": ["minnie"]
           }
-        },
-
-        "original-production": {
-
         }
-
-
-      }
-    },
-    "dc-comics": {
-      "subcategories": {
-        "limited-editions": {
-          "the_original_7": {
-            "title": "The Original 7",
-            "image": "/the_original_7.gif",
-            "type": "Giclée on canvas",
-            "dimensions": [[23, 53], 77, 0, 0, 77],
-            "tags": ["DC", "Canvas", "Giclée", "Alex Ross"],
-            "special": [true, false, false]
-          },
-          "gothamscrusaders": {
-            "title": "gotham's crusadors",
-            "image": "/gothamscrusaders.webp",
-            "type": "Giclée on paper",
-            "dimensions": [[[25, 18], [30.25, 21.5]], 250],
-            "tags": ["batman", "batgirl", "gotham"],
-            "note": "Signed by Jim Lee",
-            "special": [true, true]
-          },
-          "beaclown": {
-            "title": "be a clown",
-            "image": "/beaclown.webp",
-            "type": "Giclée on canvas",
-            "dimensions": [[17, 22], 250],
-            "tags": ["batman", "batgirl", "gotham"],
-            "special": [true, true],
-            "note": "Signed by Bruce Timm"
-          },
-          "heroes": {
-            "title": "heroes",
-            "image": "/heroes.webp",
-            "type": "Giclée on paper",
-            "dimensions": [[35, 19.5], 250],
-            "tags": ["batman", "batgirl", "gotham"],
-            "special": [true, true],
-            "note": "Signed by Jim Lee"
-          },
-          "kissingtheknight": {
-            "title": "kissing the knight",
-            "image": "/kissingtheknight.webp",
-            "type": "Giclée on paper",
-            "dimensions": [[[13.75, 20.75], [20, 30]], 250, 100],
-            "tags": ["batman", "batgirl", "gotham"],
-            "special": [true, true],
-            "note": "Signed by Jim Lee"
-          },
-          "girlsnightout": {
-            "title": "girl's night out",
-            "image": "/girlsnightout.webp",
-            "type": "Giclée on canvas",
-            "dimensions": [[17, 22], 100],
-            "tags": ["batman", "batgirl", "gotham"],
-            "special": [true, true],
-            "note": "Signed by Bruce Timm"
-          },
-          "batman#1": {
-            "title": "batman #1",
-            "image": "/batman#1.avif",
-            "type": "Giclée on canvas",
-            "dimensions": [[30, 20]],
-            "tags": ["batman", "batgirl", "gotham"],
-            "special": [true, true],
-            "note": "Signed by Lee Bermejo"
-          },
-          "joker_clown_prince_of_crime": {
-          "title": "Joker Clown Prince Of Crime",
-          "image": "/joker_clown_prince_of_crime.jpg",
-          "type": "Giclée on canvas",
-          "dimensions": [[17.5, 23.5], 100, 0, 100, 100],
-          "tags": ["Joker", "DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "batman_scars": {
-          "title": "Batman Scars",
-          "image": "/batman_scars.jpg",
-          "type": "Giclée on canvas",
-          "dimensions": [[17.5, 23.5], 195, 0, 195, 195],
-          "tags": ["Batman", "DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "bat_signal": {
-          "title": "Bat Signal",
-          "image": "/bat_signal.jpg",
-          "type": "Giclée on canvas",
-          "dimensions": [[24, 28], 50, 15, 15, 50],
-          "tags": ["Batman", "DC", "Canvas", "Giclée"],
-          "special": [true, false, false],
-          "note": " AP: 25, PP: 25"
-          },
-          "batman_tribute_to_1970s_villains": {
-          "title": "Batman - Tribute To 1970's Villains",
-          "image": "/batman_tribute_to_1970s_villains.jpg",
-          "type": "Giclée on canvas",
-          "dimensions": [[24, 32], 25, 10, 10, 25],
-          "tags": ["Batman", "DC", "Canvas", "Giclée", "Villains"],
-          "special": [true, false, false]
-          },
-          "batman_over_gotham": {
-          "title": "Batman Over Gotham",
-          "image": "/batman_over_gotham.jpg",
-          "type": "Lithograph",
-          "dimensions": [[24, 36], 0, 0, 0, 0],
-          "tags": ["Batman", "DC", "Lithograph"],
-          "special": [true, false, false]
-          },
-          "gods_wonder_woman": {
-          "title": "Gods: Wonder Woman",
-          "image": "/gods_wonder_woman.jpg",
-          "type": "Giclée on canvas",
-          "dimensions": [[14, 34], 50, 15, 15, 50],
-          "tags": ["Wonder Woman", "DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "batman_defender_of_gotham": {
-          "title": "Batman Defender Of Gotham",
-          "image": "/batman_defender_of_gotham.jpg",
-          "type": "Giclée on canvas",
-          "dimensions": [[13, 23], 100, 25, 25, 100],
-          "tags": ["Batman", "DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "black_adam": {
-          "title": "Black Adam",
-          "image": "/black_adam.jpg",
-          "type": "Digital paper print",
-          "dimensions": [[18, 24], 0, 25, 25, 0],
-          "tags": ["Black Adam", "DC", "Digital Print"],
-          "special": [true, false, false]
-          },
-          "kingdom_come_wr": {
-          "title": "Kingdom Come: WR",
-          "image": "/kingdom_come_wr.jpg",
-          "type": "Giclée on canvas",
-          "dimensions": [[22, 48], 25, 25, 25, 25],
-          "tags": ["Kingdom Come", "DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "enigma": {
-          "title": "Enigma",
-          "image": "/enigma.jpg",
-          "type": "Giclée on canvas",
-          "dimensions": [[16, 20], 75, 25, 25, 75],
-          "tags": ["DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "superman_saving_the_planet": {
-          "title": "Superman Saving The Planet",
-          "image": "/superman_saving_the_planet.jpg",
-          "type": "Giclée on canvas",
-          "dimensions": [[9, 14], 250, 25, 25, 250],
-          "tags": ["Superman", "DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "batman_detective_1000": {
-          "title": "Batman Detective 1000",
-          "image": "/batman_detective_1000.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [[24, 42], [20, 35], 100, 0, 0, 100],
-          "tags": ["Batman", "DC", "Canvas", "Paper", "Giclée"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "wonderwoman": {
-          "title": "Wonderwoman",
-          "image": "/wonderwoman.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[20, 24], 95, 0, 0, 95],
-          "tags": ["Wonder Woman", "DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "hush": {
-          "title": "Hush",
-          "image": "/hush.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [[20, 30], [13, 21], 100, 0, 0, 100],
-          "tags": ["DC", "Canvas", "Paper", "Giclée"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "heroes_unite": {
-          "title": "Heroes Unite",
-          "image": "/heroes_unite.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [[20, 30], [13, 21], 100, 0, 0, 100],
-          "tags": ["DC", "Canvas", "Paper", "Giclée"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "bring_on_the_rain": {
-          "title": "Bring On The Rain",
-          "image": "/bring_on_the_rain.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [[20, 30], [13, 21], 100, 0, 0, 100],
-          "tags": ["DC", "Canvas", "Paper", "Giclée"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "icons": {
-          "title": "Icons",
-          "image": "/icons.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[20, 30], 100, 0, 0, 100],
-          "tags": ["DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "league": {
-          "title": "League",
-          "image": "/league.gif",
-          "type": "Lithograph on paper",
-          "dimensions": [[15, 20], 0, 25, 25, 0],
-          "tags": ["DC", "Lithograph"],
-          "special": [true, false, false]
-          },
-          "justice": {
-          "title": "Justice",
-          "image": "/justice.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[20, 30], 50, 15, 15, 50],
-          "tags": ["DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "gotham_knight": {
-          "title": "Gotham Knight",
-          "image": "/gotham_knight.gif",
-          "type": "Giclée on paper",
-          "dimensions": [[20, 30], [13, 17], 150, 25, 25, 150],
-          "tags": ["Batman", "DC", "Paper", "Giclée"],
-          "special": [true, false, false],
-          "note": "AP, PP, EP edition size 25"
-          },
-          "origins_justice_league_of_america": {
-          "title": "Origins: Justice League of America",
-          "image": "/origins_justice_league_of_america.gif",
-          "type": "Lithograph on Paper",
-          "dimensions": [[20, 30], 0, 75, 75, 0],
-          "tags": ["Justice League", "DC", "Lithograph"],
-          "special": [true, false, false]
-          },
-          "absolute_justice": {
-          "title": "Absolute Justice",
-          "image": "/absolute_justice.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[48, 32], 25, 5, 0, 25],
-          "tags": ["DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "final_crisis": {
-          "title": "Final Crisis",
-          "image": "/final_crisis.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[21, 30], 7, 7, 0, 7],
-          "tags": ["DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "origins_superman": {
-          "title": "Origins - Superman",
-          "image": "/origins_superman.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[16, 15], 75, 0, 0, 75],
-          "tags": ["Superman", "DC", "Canvas", "Giclée"],
-          "special": [true, false, false],
-          "note": "Artist Proof only (unsigned)"
-          },
-          "kal_el": {
-          "title": "KAL EL",
-          "image": "/kal_el.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[16, 24], 50, 15, 0, 50],
-          "tags": ["Superman", "DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "wonderwoman_goddess_of_truth": {
-          "title": "Wonderwoman - Goddess Of Truth",
-          "image": "/wonderwoman_goddess_of_truth.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [[17, 26], [14, 21], 100, 0, 0, 100],
-          "tags": ["Wonder Woman", "DC", "Canvas", "Paper", "Giclée"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "crisis": {
-          "title": "Crisis",
-          "image": "/crisis.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[57, 36], 50, 15, 0, 50],
-          "tags": ["DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "wonderwoman_defender_of_truth": {
-          "title": "Wonderwoman: Defender Of Truth",
-          "image": "/wonderwoman_defender_of_truth.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[20, 28], 50, 15, 0, 50],
-          "tags": ["Wonder Woman", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "kingdom_come_superman": {
-          "title": "Kingdom Come Superman",
-          "image": "/kingdom_come_superman.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[16, 20], 50, 0, 0, 50],
-          "tags": ["Superman", "Kingdom Come", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "kingdom_come_war": {
-          "title": "Kingdom Come War",
-          "image": "/kingdom_come_war.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[16, 20], 50, 0, 0, 50],
-          "tags": ["Kingdom Come", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "kingdom_come_absolute": {
-          "title": "Kingdom Come Absolute",
-          "image": "/kingdom_come_absolute.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[16, 20], 50, 0, 0, 50],
-          "tags": ["Kingdom Come", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "the_new_gods": {
-          "title": "The New Gods",
-          "image": "/the_new_gods.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[22, 44], 7, 0, 0, 7],
-          "tags": ["New Gods", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "jla_secret_origins": {
-          "title": "JLA Secret Origins",
-          "image": "/jla_secret_origins.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[32, 24], 100, 0, 0, 100],
-          "tags": ["JLA", "Justice League", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "shadows_batman": {
-          "title": "Shadows Batman",
-          "image": "/shadows_batman.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[35, 18], 50, 0, 0, 50],
-          "tags": ["Batman", "DC", "Canvas", "Giclée", "Alex Ross", "Shadows"],
-          "special": [true, false, false]
-          },
-          "shadows_aquaman": {
-          "title": "Shadows Aquaman",
-          "image": "/shadows_aquaman.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[35, 18], 50, 0, 0, 50],
-          "tags": ["Aquaman", "DC", "Canvas", "Giclée", "Alex Ross", "Shadows"],
-          "special": [true, false, false]
-          },
-          "shadows_wonder_woman": {
-          "title": "Shadows Wonder Woman",
-          "image": "/shadows_wonder_woman.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[35, 18], 50, 0, 0, 50],
-          "tags": ["Wonder Woman", "DC", "Canvas", "Giclée", "Alex Ross", "Shadows"],
-          "special": [true, false, false]
-          },
-          "shadows_superman": {
-          "title": "Shadows Superman",
-          "image": "/shadows_superman.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[35, 18], 50, 0, 0, 50],
-          "tags": ["Superman", "DC", "Canvas", "Giclée", "Alex Ross", "Shadows"],
-          "special": [true, false, false]
-          },
-          "liberty_and_justice_jla_mini": {
-          "title": "Liberty and Justice JLA (mini)",
-          "image": "/liberty_and_justice_jla_mini.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[12, 18], 500, 0, 0, 500],
-          "tags": ["JLA", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "liberty_and_justice_trinity_mini": {
-          "title": "Liberty and Justice Trinity (mini)",
-          "image": "/liberty_and_justice_trinity_mini.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[12, 18], 500, 0, 0, 500],
-          "tags": ["Trinity", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "batman_the_legend": {
-          "title": "Batman The Legend",
-          "image": "/batman_the_legend.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [[26, 26], [22, 22], 100, 0, 0, 100],
-          "tags": ["Batman", "DC", "Canvas", "Paper", "Giclée", "Alex Ross"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "to_tease_the_bat": {
-          "title": "To Tease The Bat",
-          "image": "/to_tease_the_bat.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [[21, 26], [15, 20], 100, 0, 0, 100],
-          "tags": ["Batman", "DC", "Canvas", "Paper", "Giclée", "Alex Ross"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "trinity": {
-          "title": "Trinity",
-          "image": "/trinity.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[17, 34], 100, 0, 0, 100],
-          "tags": ["Trinity", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "75th_anniversary_batman": {
-          "title": "75th Anniversary: The History Of Batman",
-          "image": "/75th_anniversary_batman.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [[23, 38], [18, 30], 100, 0, 0, 100],
-          "tags": ["Batman", "DC", "Canvas", "Paper", "Giclée", "Alex Ross", "Anniversary"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "batman_66_and_green_hornet": {
-          "title": "Batman '66 and The Green Hornet",
-          "image": "/batman_66_and_green_hornet.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [[33.5, 22], [16.5, 25], 100, 0, 0, 100],
-          "tags": ["Batman", "Green Hornet", "DC", "Canvas", "Paper", "Giclée", "Alex Ross"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "green_lantern_power_of_the_ring": {
-          "title": "Green Lantern the Power of the Ring",
-          "image": "/green_lantern_power_of_the_ring.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [[21, 32], [12, 16], 100, 0, 0, 100],
-          "tags": ["Green Lantern", "DC", "Canvas", "Paper", "Giclée", "Alex Ross"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "superman_rocket": {
-          "title": "Superman Rocket",
-          "image": "/superman_rocket.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[21, 33], 100, 0, 0, 100],
-          "tags": ["Superman", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "dark_knight_detective": {
-          "title": "Dark Knight Detective",
-          "image": "/dark_knight_detective.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[29, 17], 50, 0, 0, 50],
-          "tags": ["Batman", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "man_of_tomorrow": {
-          "title": "The Man Of Tomorrow",
-          "image": "/man_of_tomorrow.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [[29, 17], 50, 0, 0, 50],
-          "tags": ["Superman", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "mythology_catwoman": {
-          "title": "Mythology Catwoman",
-          "image": "/mythology_catwoman.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [0, 100],
-          "tags": ["Catwoman", "DC", "Canvas", "Paper", "Giclée", "Alex Ross", "Mythology"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "mythology_batman": {
-          "title": "Mythology: Batman",
-          "image": "/mythology_batman.gif",
-          "type": "Giclée on paper",
-          "dimensions": [0, 250, 0, 0, 250],
-          "tags": ["Batman", "DC", "Paper", "Giclée", "Alex Ross", "Mythology"],
-          "special": [true, false, false]
-          },
-          "mythology_wonder_woman": {
-          "title": "Mythology: Wonder Woman",
-          "image": "/mythology_wonder_woman.gif",
-          "type": "Giclée on paper",
-          "dimensions": [0, 250, 0, 0, 250],
-          "tags": ["Wonder Woman", "DC", "Paper", "Giclée", "Alex Ross", "Mythology"],
-          "special": [true, false, false]
-          },
-          "mythology_flash": {
-          "title": "Mythology: The Flash",
-          "image": "/mythology_flash.gif",
-          "type": "Giclée on paper",
-          "dimensions": [0, 250, 0, 0, 250],
-          "tags": ["Flash", "DC", "Paper", "Giclée", "Alex Ross", "Mythology"],
-          "special": [true, false, false]
-          },
-          "mythology_green_lantern": {
-          "title": "Mythology: Green Lantern",
-          "image": "/mythology_green_lantern.gif",
-          "type": "Giclée on paper",
-          "dimensions": [0, 250, 0, 0, 250],
-          "tags": ["Green Lantern", "DC", "Paper", "Giclée", "Alex Ross", "Mythology"],
-          "special": [true, false, false]
-          },
-          "mythology_joker": {
-          "title": "Mythology Joker",
-          "image": "/mythology_joker.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [0, 100, 0, 0, 100],
-          "tags": ["Joker", "DC", "Canvas", "Giclée", "Alex Ross", "Mythology"],
-          "special": [true, false, false]
-          },
-          "rough_justice": {
-          "title": "Rough Justice",
-          "image": "/rough_justice.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [0, 100, 0, 0, 100],
-          "tags": ["DC", "Canvas", "Paper", "Giclée", "Alex Ross"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "liberty_and_justice": {
-          "title": "Liberty and Justice",
-          "image": "/liberty_and_justice.gif",
-          "type": "Giclée on canvas and paper",
-          "dimensions": [0, 100, 0, 0, 100],
-          "tags": ["DC", "Canvas", "Paper", "Giclée", "Alex Ross"],
-          "special": [true, false, false],
-          "note": "Paper edition size: 250"
-          },
-          "knight_over_gotham": {
-          "title": "Knight Over Gotham",
-          "image": "/knight_over_gotham.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [0, 25, 0, 0, 25],
-          "tags": ["Batman", "DC", "Canvas", "Giclée", "Alex Ross"],
-          "special": [true, false, false]
-          },
-          "justice_league_america_secret_origins": {
-          "title": "Secret Origins",
-          "image": "/justice_league_america_secret_origins.gif",
-          "type": "Giclée on paper",
-          "dimensions": [0, 0, 0, 0, 0],
-          "tags": ["Justice League", "DC", "Paper", "Giclée"],
-          "special": [true, false, false]
-          },
-          "tango_with_evil": {
-          "title": "Tango With Evil",
-          "image": "/tango_with_evil.gif",
-          "type": "Giclée on paper",
-          "dimensions": [0, 250, 0, 0, 250],
-          "tags": ["DC", "Paper", "Giclée"],
-          "special": [true, false, false]
-          },
-          "superman_20th_century": {
-          "title": "Superman 20th Century",
-          "image": "/superman_20th_century.gif",
-          "type": "Giclée on canvas",
-          "dimensions": [0, 100, 0, 0, 100],
-          "tags": ["Superman", "DC", "Canvas", "Giclée"],
-          "special": [true, false, false]
-          },
-          "jokers_reckoning": {
-          "title": "Jokers Reckoning",
-          "image": "/jokers_reckoning.gif",
-          "type": "Giclée on paper",
-          "dimensions": [0, 250, 0, 0, 250],
-          "tags": ["Joker", "DC", "Paper", "Giclée"],
-          "special": [true, false, false]
-          },
-          "the_new_jla": {
-          "title": "The New JLA",
-          "image": "/the_new_jla.jpg",
-          "type": "Giclée on paper",
-          "dimensions": [0, 250, 0, 0, 250],
-          "tags": ["Justice League", "DC", "Paper", "Giclée"],
-          "special": [true, false, false]
-          }
-        },
-        "hand-painted": {
-          "classic-harley-quinn": {
-            "image": "/classic-harley-quinn.gif",
-            "title": "classic harley quinn",
-            "type": "Cel",
-            "special": [true, false, true],
-            "dimensions": [0, 500],
-            "tags": ["quinn", "harley", "joker", "puppet", "villain"],
-            "note": "Hand painted"
-          },
-          "classicjoker": {
-            "image": "/classicjoker.gif",
-            "title": "classic joker",
-            "type": "Cel",
-            "special": [true, false, true],
-            "dimensions": [0, 500],
-            "tags": ["joker", "clas", "warner", "bros", "villain"],
-            "note": "Hand painted"
-          },
-          "classicbatman": {
-            "image": "/classicbatman.gif",
-            "title": "classic batman",
-            "type": "Cel",
-            "special": [true, false, true],
-            "dimensions": [0, 500],
-            "tags": ["batman", "hero", "batsignal", "warner", "bros"],
-            "note": "Hand painted"
-          },
-          "classicsuperman": {
-            "image": "/classicsuperman.gif",
-            "title": "classic superman",
-            "type": "Cel",
-            "special": [true, false, true],
-            "dimensions": [0, 500],
-            "tags": ["super", "man", "hero", "warner", "bro"],
-            "note": "Hand painted"
-          },
-          "worldsfinest": {
-            "image": "/worldsfinest.gif",
-            "title": "world's finest",
-            "type": "Cel",
-            "special": [true, false, true],
-            "dimensions": [0, 500],
-            "tags": ["hero", "bat", "man", "super"],
-            "note": "Hand painted"
-          },
-          "gothamsdynamicduo": {
-            "image": "/gothamsdynamicduo.gif",
-            "title": "gothams dynamic duo",
-            "type": "Cel",
-            "special": [true, false, false],
-            "dimensions": [0, 500],
-            "tags": ["bat", "man", "robin"],
-            "note": "Hand painted"
-          },
-          "andvengeancebegins": {
-            "image": "/andvengeancebegins.gif",
-            "title": "and vengeance begins",
-            "type": "Cel",
-            "special": [true, false, false],
-            "dimensions": [0, 500],
-            "tags": ["bat", "man", "warner", "bros"],
-            "note": "Hand painted"
-          },
-          "thepowerofseven": {
-            "image": "/thepowerofseven.gif",
-            "title": "the power of seven",
-            "type": "Cel",
-            "special": [true, false, false],
-            "dimensions": [0, 500],
-            "tags": ["bat", "super", "girl", "man", "flash", "green", "lantern"],
-            "note": "Hand painted"
-          },
-          "arkhamasylum": {
-            "image": "/arkhamasylum.gif",
-            "title": "arkham asylum",
-            "type": "Cel",
-            "special": [true, false, true],
-            "dimensions": [0, 500],
-            "tags": ["bat", "man", "villain", "hero"],  
-            "note": "Hand painted"
-          },
-          "legendsofthedarkknight": {
-            "image": "/legendsofthedarkknight.webp",
-            "title": "legends of the dark knight",
-            "type": "Cel",
-            "special": [true, false, true],
-            "dimensions": [[13.5, 16.5], 250],
-            "tags": ["bat", "man", "hero", "villain"],
-            "note": "Hand painted and signed by Bruce Timm"
-          },
-          "girlsfinest": {
-            "image": "/girlsfinest.webp",
-            "title": "girl's finest",
-            "type": "Cel",
-            "special": [true, false, false],
-            "dimensions": [[13.5, 16.5], 350],
-            "tags": ["villain", "joker", "dc", "harley quinn"],
-            "note": "Hand painted"
-          },
-          "batmanandbeyond": {
-            "image": "/batmanandbeyond.webp",
-            "title": "batman and beyond",
-            "type": "Cel",
-            "special": [true, false, true],
-            "dimensions": [[12, 20], 100],
-            "tags": ["batman", "batgirl"],
-            "note": "Hand painted and signed by Bruce Timm"
-          }
-        },
-        "sericels": {
-          "knightmoves": {
-            "title": "knight moves",
-            "type": "Sericel",
-            "image": "/knightmoves.gif",
-            "tags": ["batman", "batgirl"],
-            "dimensions": [0]
-          }
-        }
-      }
-    },
-    "indiana-jones": {
-      "preparetomeetkali": {
-        "image": "/preparetomeetkali.webp",
-        "title": "prepare to meet kali",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[13, 19], 150],
-        "tags": ["jungle", "movie"]
-      },
-      "theultimateadventure": {
-        "image": "/theultimateadventure.webp",
-        "title": "the ultimate adventure",
-        "type": "Lithograph",
-        "special": [false, false, false],
-        "dimensions": [[24, 18], 250],
-        "tags": ["jungle", "movie", "poster"]
-      },
-      "expertontheoccult": {
-        "image": "/expertontheoccult.webp",
-        "title": "expert on the occult",
-        "type": "Lithograph",
-        "special": [false, false, false],
-        "dimensions": [[18, 24], 250],
-        "tags": ["jungle", "movie", "poster"]
-      },
-      "obtainerofrareantiquities": {
-        "image": "/obtainerofrareantiquities.webp",
-        "title": "obtainer of rare antiquities",
-        "type": "Lithograph",
-        "special": [false, false, false],
-        "dimensions": [[18, 24], 250],
-        "tags": ["jungle", "movie", "poster"]
-      },
-      "adventureawaits": {
-        "image": "/adventureawaits.webp",
-        "title": "adventure awaits",
-        "type": "Lithograph",
-        "special": [false, false, false],
-        "dimensions": [[16, 20], 250],
-        "tags": ["jungle", "movie", "poster"]
-      },
-      "adventurehasaname": {
-        "image": "/adventurehasaname.webp",
-        "title": "adventure has a name",
-        "type": "Lithograph",
-        "special": [false, false, true],
-        "dimensions": [[18, 24], 295],
-        "tags": ["jungle", "movie"]
-      },
-      "wellofsouls": {
-        "image": "/wellofsouls.webp",
-        "title": "well of souls",
-        "type": "Lithograph",
-        "special": [false, false, false],
-        "dimensions": [[18, 24], 250],
-        "tags": ["jungle", "movie"]
-      },
-      "yougotheartkid": {
-        "image": "/yougotheartkid.webp",
-        "title": "you got heart, kid",
-        "type": "Lithograph",
-        "special": [false, false, false],
-        "dimensions": [[17, 24], 250],
-        "tags": ["jungle", "movie", "poster"]
-      },
-      "arrivingbytrain": {
-        "image": "/arrivingbytrain.webp",
-        "title": "arriving by train",
-        "type": "Giclée on paper",
-        "special": [false, false, true],
-        "dimensions": [[13, 19], 150],
-        "tags": ["jungle", "movie"]
-      },
-      "theygotus": {
-        "image": "/theygotus.webp",
-        "title": "they got us",
-        "type": "Giclée on paper",
-        "special": [false, false, true],
-        "dimensions": [[13, 19], 150],
-        "tags": ["jungle", "movie", "plane"]
-      },
-      "chasingtheironhorse": {
-        "image": "/chasingtheironhorse.webp",
-        "title": "chasing the iron horse",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[19, 13], 150],
-        "tags": ["jungle", "movie"]
-      },
-      "crusade": {
-        "image": "/crusade.webp",
-        "title": "crusade",
-        "type": "Lithograph",
-        "special": [false, false, true],
-        "dimensions": [[18, 24], 250],
-        "tags": ["jungle", "movie"]
-      },
-      "certaindoom": {
-        "image": "/certaindoom.webp",
-        "title": "certain doom",
-        "type": "Lithograph",
-        "special": [false, false, false],
-        "dimensions": [[18, 24], 250],
-        "tags": ["jungle", "movie"]
-      },
-      "eternalthrills": {
-        "image": "/eternalthrills.webp",
-        "title": "eternal thrills",
-        "type": "Lithograph",
-        "special": [false, false, false],
-        "dimensions": [[18, 24], 250],
-        "tags": ["jungle", "movie"]
-      },
-      "arkofthecovenant": {
-        "image": "/arkofthecovenant.webp",
-        "title": "ark of the covenant",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[19, 13], 100],
-        "tags": ["jungle", "movie"]
-      },
-      "crusade2": {
-        "image": "/crusade2.webp",
-        "title": "crusade",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[19, 13], 100],
-        "tags": ["jungle", "movie"]
-      },
-      "ifadventurehasaname": {
-        "image": "/ifadventurehasaname.webp",
-        "title": "if adventure has a name...",
-        "type": "Giclée on canvas gem",
-        "special": [false, false, false],
-        "dimensions": [[8.4, 18], 495],
-        "tags": ["jungle", "movie"]
-      },
-      "theadventurecontinues": {
-        "image": "/theadventurecontinues.webp",
-        "title": "the adventure continues",
-        "type": "Giclée on canvas gem",
-        "special": [false, false, false],
-        "dimensions": [[8.4, 18], 495],
-        "tags": ["jungle", "movie"]
-      },
-      "havetheadventureof": {
-        "image": "/havetheadventureof.webp",
-        "title": "have the adventure of...",
-        "type": "Giclée on canvas gem",
-        "special": [false, false, false],
-        "dimensions": [[8.4, 18],495],
-        "tags": ["jungle", "movie"]
-      },
-      "indythetorchisgoing": {
-        "image": "/indythetorchisgoing.webp",
-        "title": "indy... the torch is going..",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[13, 19], 125],
-        "tags": ["jungle", "movie"]
-      },
-      "doyouhavesomething": {
-        "image": "/doyouhavesomething.webp",
-        "title": "do you have something...",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[13, 19], 125],
-        "tags": ["jungle", "movie"]
-      },
-      "letmechoose": {
-        "image": "/letmechoose.webp",
-        "title": "let me choose",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[13, 19], 125],
-        "tags": ["jungle", "movie"]
-      },
-      "wellofsouls2": {
-        "image": "/wellofsouls2.webp",
-        "title": "well of souls",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[13, 19], 150],
-        "tags": ["jungle", "movie"]
-      },
-      "pankotpalace": {
-        "image": "/pankotpalace.webp",
-        "title": "pankot palace",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[13, 19], 150],
-        "tags": ["jungle", "movie"]
-      },
-      "thelastcrusade": {
-        "image": "/thelastcrusade.webp",
-        "title": "the last crusade",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[13, 19], 150],
-        "tags": ["jungle", "movie"]
-      },
-      "themaninthehat": {
-        "image": "/themaninthehat.avif",
-        "title": "the man in the hat",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[8.5, 22], 95],
-        "tags": ["jungle", "movie"]
-      },
-      "inthelostcity": {
-        "image": "/inthelostcity.webp",
-        "title": "in the lost city...",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[16, 21], 195],
-        "tags": ["jungle", "movie"]
-      },
-      "theraven": {
-        "image": "/theraven.webp",
-        "title": "the raven",
-        "type": "Giclée on paper",
-        "special": [false, false, true],
-        "dimensions": [[13, 19], 150],
-        "tags": ["jungle", "movie"]
-      },
-      "theidol": {
-        "image": "/theidol.webp",
-        "title": "THE IDOL!",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[19, 13], 150],
-        "tags": ["jungle", "movie"]
-      },
-      "fortuneandglory": {
-        "image": "/fortuneandglory.webp",
-        "title": "fortune and glory",
-        "type": "Giclée on paper",
-        "special": [false, false, false],
-        "dimensions": [[18, 24], 250],
-        "tags": ["jungle", "movie"]
-      },
-      "dontcallhimjunior": {
-        "image": "/dontcallhimjunior.webp",
-        "title": "don't call him junior",
-        "type": "Lithograph",
-        "special": [false, false, false],
-        "dimensions": [[24, 18], 250],
-        "tags": ["jungle", "movie"]
-      },
-      "callhimdrjones": {
-        "image": "/callhimdrjones.webp",
-        "title": "call him Dr. Jones",
-        "type": "Lithograph",
-        "special": [false, false, false],
-        "dimensions": [[18, 24], 250],
-        "tags": ["jungle", "movie"]
       }
     },
     "warner-bros": {
@@ -6208,8 +5759,958 @@
             "dimensions": [[10.5, 12.5], 2500],
             "special": [true, false, false],
             "tags": ["looney tunes"]
+          },
+          "elma": {
+            "image": "/elma.jpg",
+            "title": "elma fudd",
+            "type": "Giclee print",
+            "special": [false, true, true],
+            "dimensions": [0, 100],
+            "note": "Signed by Chuck Jones",
+            "tags": ["gun"]
+          },
+          "pepe": {
+            "image": "/pepe.jpg",
+            "title": "pepe le pew",
+            "type": "Giclee print",
+            "special": [false, true, true],
+            "dimensions": [0, 100],
+            "note": "Signed by Chuck Jones",
+            "tags": ["cat"]
+          },
+          "marvin": {
+            "image": "/marvin.gif",
+            "title": "marvin",
+            "type": "Giclee print",
+            "special": [false, true, true],
+            "dimensions": [0, 100],
+            "note": "Signed by Chuck Jones",
+            "tags": []
           }
+        },
+        "original-cels": {
+          "bugsbunny": {
+            "image": "/bugsbunny.gif",
+            "title": "bugs bunny",
+            "type": "Hand painted",
+            "dimensions": [0],
+            "special": [false, true, true],
+            "note": "Production cel and signed by Chuck Jones",
+            "tags": []
+          },
+          "bugsbunny1": {
+            "image": "/bugsbunny1.gif",
+            "title": "bugs bunny",
+            "type": "Hand painted",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "note": "Production cel",
+            "tags": []
+          },
+          "bugsbunny2": {
+            "image": "/bugsbunny2.gif",
+            "title": "bugs bunny",
+            "type": "Hand painted",
+            "special": [false, true, false],
+            "note": "Production cel",
+            "dimensions": [0],
+            "tags": []
+          },
+          "bugsbunny3": {
+            "image": "/bugsbunny3.gif",
+            "title": "bugs bunny",
+            "type": "Hand painted",
+            "special": [false, true, false],
+            "note": "Production cel",
+            "dimensions": [0],
+            "tags": []
+          },
+          "bugsbunny4": {
+            "image": "/bugsbunny4.gif",
+            "title": "bugs bunny",
+            "type": "Hand painted",
+            "special": [false, true, false],
+            "note": "Production cel",
+            "dimensions": [0],
+            "tags": ["march"]
+          },
+          "bugsbunny5": {
+            "image": "/bugsbunny5.gif",
+            "title": "bugs bunny",
+            "type": "Hand painted",
+            "special": [false, true, false],
+            "note": "Production cel",
+            "dimensions": [0],
+            "tags": []
+          },
+          "daffyduck": {
+            "image": "/daffyduck.gif",
+            "title": "daffy duck",
+            "type": "Hand painted",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "note": "Original production cel with accompanying production drawing",
+            "tags": ["art", "dinner"]
+          },
+          "carrotblanca1": {
+            "image": "/carrotblanca1.gif",
+            "title": "carrotblanca",
+            "type": "Production cel",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": ["cat"]
+          },
+          "carrotblanca2": {
+            "image": "/carrotblanca2.gif",
+            "title": "carrotblanca",
+            "type": "Production cel",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": ["yosemite sam", "bugs bunny"]
+          },
+          "carrotblanca3": {
+            "image": "/carrotblanca3.gif",
+            "title": "carrotblanca",
+            "type": "Production cel",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": ["bugs bunny"]
+          },
+          "carrotblanca4": {
+            "image": "/carrotblanca4.gif",
+            "title": "carrotblanca",
+            "type": "Production cel",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": ["daffy duck", "bugs bunny"]
+          },
+          "pepelepew": {
+            "image": "/pepelepew.gif",
+            "title": "pepe le pew",
+            "type": "Production cel",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "pepelepew1": {
+            "image": "/pepelepew1.gif",
+            "title": "pepe le pew",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "note": "Comes with production drawing",
+            "dimensions": [0],
+            "tags": []
+          },
+          "4": {
+            "image": "/4.gif",
+            "title": "pepe le pew",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "note": "Comes with production drawing",
+            "dimensions": [0],
+            "tags": []
+          },
+          "porkypig": {
+            "image": "/porkypig.gif",
+            "title": "porky pig and foghorn",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "note": "Comes with production drawing",
+            "dimensions": [0],
+            "tags": ["foghorn leghorn"]
+          },
+          "roadrunner": {
+            "image": "/roadrunner.gif",
+            "title": "roadrunner",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": ["road runner"]
+          },
+          "coyote": {
+            "image": "/coyote.gif",
+            "title": "coyote",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": []
+          },
+          "coyote1": {
+            "image": "/coyote1.gif",
+            "title": "coyote",
+            "type": "Production cel",
+            "special": [false, true, true],
+            "dimensions": [0],
+            "tags": []
+          },
+          "coyote2": {
+            "image": "/coyote2.gif",
+            "title": "coyote",
+            "type": "Production cel",
+            "special": [false, true, true],
+            "dimensions": [0],
+            "tags": []
+          },
+          "coyote3": {
+            "image": "/coyote3.gif",
+            "title": "coyote",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": []
+          },
+          "speedygonzales": {
+            "image": "/speedygonzales.gif",
+            "title": "speedy gonzales",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": ["mouse", "mice"]
+          },
+          "tazdevil": {
+            "image": "/tazdevil.gif",
+            "title": "taz devil",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": []
+          },
+          "tazdevil1": {
+            "image": "/tazdevil.gif",
+            "title": "taz devil",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": []
+          },
+          "tazdevil2": {
+            "image": "/tazdevil.gif",
+            "title": "taz devil",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": []
+          },
+          "tazdevil3": {
+            "image": "/tazdevil.gif",
+            "title": "taz devil",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": []
+          },
+          "tazdevil4": {
+            "image": "/tazdevil.gif",
+            "title": "taz devil",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": []
+          },
+          "marvinthemartian": {
+            "image": "/marvinthemartian.gif",
+            "title": "marvin the martian",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": []
+          },
+          "marvinthemartian1": {
+            "image": "/marvinthemartian.gif",
+            "title": "marvin the martian",
+            "type": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": []
+          },
+          "sylvester": {
+            "image": "/sylvester.gif",
+            "title": "sylvester",
+            "type": "Hand painted",
+            "note": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": []
+          },
+          "andhector": {
+            "image": "/andhector.gif",
+            "title": "sylvester and hector",
+            "type": "Hand painted",
+            "note": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": ["dog"]
+          },
+          "yosemitesam1": {
+            "image": "/yosemitesam1.gif",
+            "title": "yosemite sam",
+            "type": "Hand painted",
+            "note": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": []
+          },
+          "yosemitesam2": {
+            "image": "/yosemitesam2.gif",
+            "title": "yosemite sam",
+            "type": "Hand painted",
+            "note": "Production cel",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": []
+          },
+          "yosemitesam3": {
+            "image": "/yosemitesam3.gif",
+            "title": "yosemite sam",
+            "type": "Hand painted",
+            "note": "Production cel",
+            "special": [false, true, true],
+            "dimensions": [0],
+            "tags": []
+          },
+          "yosemitesam4": {
+            "image": "/yosemitesam4.gif",
+            "title": "yosemite sam",
+            "type": "Hand painted",
+            "note": "Production cel",
+            "special": [false, true, true],
+            "dimensions": [0],
+            "tags": []
+          },
+          "yosemitesam5": {
+            "image": "/yosemitesam5.gif",
+            "title": "yosemite sam",
+            "type": "Hand painted",
+            "note": "Production cel",
+            "special": [false, true, true],
+            "dimensions": [0],
+            "tags": []
+          },
+          "yosemitesam6": {
+            "image": "/yosemitesam6.gif",
+            "title": "yosemite sam",
+            "type": "Hand painted",
+            "note": "Production cel",
+            "special": [false, true, true],
+            "dimensions": [0],
+            "tags": []
+          }
+        },
+        "virgil-ross": {
+          "yosemitesam10": {
+            "image": "/yosemitesam10.gif",
+            "title": "yosemite sam",
+            "type": "Pencil drawing",
+            "special": [false, false, true],
+            "author": "Virgil Ross",
+            "dimensions": [0],
+            "tags": []
+          },
+          "daffydevi": {
+            "image": "/daffydevi.gif",
+            "title": "daffy duck as the devil",
+            "type": "Pencil drawing",
+            "special": [false, false,true],
+            "dimensions": [0],
+            "author": "Virgil Ross",
+            "tags": []
+          }
+        },
+        "model-sheets": {
+          "brromstickbunny": {
+            "image": "/brromstickbunny.gif",
+            "title": "broom-stick bunny",
+            "type": "Model sheet",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": [],
+            "note": "These pieces were created by the Warner Bros. Directors Chuck Jones, Friz Freleng, and Robert McKimson. They were used as a guide to show other animators working on cartoons the character layout and feel. Very, very, rare"
+          },
+          "boyhooddaze": {
+            "image": "/boyhooddaze.gif",
+            "title": "boyhood daze",
+            "type": "Model sheet",
+            "special": [false, true, true],
+            "note": "Signed by Chuck Jones",
+            "dimensions": [0],
+            "tags": []
+          },
+          "deduceyousay": {
+            "image": "/deduceyousay.gif",
+            "title": "deduce, you say",
+            "type": "Model sheet",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": [],
+            "note": "These pieces were created by the Warner Bros. Directors Chuck Jones, Friz Freleng, and Robert McKimson. They were used as a guide to show other animators working on cartoons the character layout and feel. Very, very, rare"
+          },
+          "90daywondering": {
+            "image": "/90daywondering.gif",
+            "title": "90 day wondering",
+            "type": "Model sheet",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": [],
+            "note": "These pieces were created by the Warner Bros. Directors Chuck Jones, Friz Freleng, and Robert McKimson. They were used as a guide to show other animators working on cartoons the character layout and feel. Very, very, rare"
+          },
+          "tohareishuman": {
+            "image": "/tohareishuman.gif",
+            "title": "to hare is human",
+            "type": "Model sheet",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": [],
+            "note": "These pieces were created by the Warner Bros. Directors Chuck Jones, Friz Freleng, and Robert McKimson. They were used as a guide to show other animators working on cartoons the character layout and feel. Very, very, rare"
+          },
+          "draftyisnt": {
+            "image": "/draftyisnt.gif",
+            "title": "drafty isn't it",
+            "type": "Model sheet",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": [],
+            "note": "These pieces were created by the Warner Bros. Directors Chuck Jones, Friz Freleng, and Robert McKimson. They were used as a guide to show other animators working on cartoons the character layout and feel. Very, very, rare"
+          },
+          "thehoneymousers": {
+            "image": "/thehoneymousers.gif",
+            "title": "the honey-mousers",
+            "type": "Model sheet",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": [],
+            "note": "These pieces were created by the Warner Bros. Directors Chuck Jones, Friz Freleng, and Robert McKimson. They were used as a guide to show other animators working on cartoons the character layout and feel. Very, very, rare"
+          },
+          "robinhooddaffy": {
+            "image": "/robinhooddaffy.gif",
+            "title": "robin hood daffy",
+            "type": "Model sheet",
+            "special": [false, true, false],
+            "dimensions": [0],
+            "tags": [],
+            "note": "These pieces were created by the Warner Bros. Directors Chuck Jones, Friz Freleng, and Robert McKimson. They were used as a guide to show other animators working on cartoons the character layout and feel. Very, very, rare"
+          }
+        },
+        "original-drawings": {
+          "elmafudd": {
+            "image": "/elmafudd.gif",
+            "title": "elma fudd",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "porkypig1": {
+            "image": "/porkypig1.gif",
+            "title": "porky pig",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "bugsbunny10": {
+            "image": "/bugsbunny10.gif",
+            "title": "bugs bunny",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "foghornleghorn": {
+            "image": "/foghornleghorn.gif",
+            "title": "foghorn leghorn",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "michigan": {
+            "image": "/michigan.gif",
+            "title": "michigan J. frog",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "pepelepew3": {
+            "image": "/pepelepew3.gif",
+            "title": "pepe le pew",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "tweety": {
+            "image": "/tweety.gif",
+            "title": "tweety",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "yosemitesam7": {
+            "image": "/yosemitesam7.gif",
+            "title": "yosemite sam",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "michiganjfrog": {
+            "image": "/michiganjfrog.gif",
+            "title": "michigan j. frog",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "tweety2": {
+            "image": "/tweety2.gif",
+            "title": "tweety",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "foghornleghorn1": {
+            "image": "/foghornleghorn1.gif",
+            "title": "foghorn leghorn",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "elmafudd2": {
+            "image": "/elmafudd2.gif",
+            "title": "elma fudd",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          },
+          "bugsbunny8": {
+            "image": "/bugsbunny8.gif",
+            "title": "bugs bunny",
+            "type": "Pencil drawing",
+            "dimensions": [0],
+            "special": [false, true, false],
+            "tags": []
+          }
+
         }
+      }
+    },
+
+
+
+    "simpsons": {
+      "subcategories": {
+        "limited-editions": {
+          "vivathesimpsons": {
+            "image": "/vivathesimpsons.webp",
+            "title": "viva the simpsons",
+            "type": "Sericel",
+            "dimensions": [[16.5, 13.5], 2500],
+            "special": [true, false, false],
+            "tags": ["simpson", "family", "circus"]
+          },
+          "homerdescending": {
+            "image": "/homerdescending.webp",
+            "title": "homer descending",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 30], 100],
+            "special": [true, false, false],
+            "tags": ["homer", "trip", "funny"]
+          },
+          "omightyhomer": {
+            "image": "/omightyhomer.webp",
+            "title": "o'mighty homer",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[36, 30], [21, 17]], 250, 195],
+            "special": [true, false, false],
+            "tags": ["giant"]
+          },
+          "bartonglass": {
+            "image": "/bartonglass.webp",
+            "title": "bart on glass",
+            "type": "Giclée on paper",
+            "dimensions": [[13, 19], 195],
+            "special": [true, false, false],
+            "tags": ["bart", "homer", "family"]
+          },
+          "crowdaghast": {
+            "image": "/crowdaghast.webp",
+            "title": "crowd aghast",
+            "type": "Giclée on paper",
+            "dimensions": [[13, 19],195],
+            "special": [true, false, false],
+            "tags": ["shocked", "family"]
+          },
+          "flaminghomer": {
+            "image": "/flaminghomer.webp",
+            "title": "flaming homer",
+            "type": "Giclée on paper",
+            "dimensions": [[13, 19], 195],
+            "special": [true, false, false],
+            "tags": ["fire", "hot"]
+          },
+          "mobwithtorches": {
+            "image": "/mobwithtorches.webp",
+            "title": "mob with torches",
+            "type": "Giclée on paper",
+            "dimensions": [[13, 19], 195],
+            "special": [true, false, false],
+            "tags": ["fire", "hot"]
+          },
+          "monorail": {
+            "image": "/monorail.webp",
+            "title": "monorail",
+            "type": "Giclée on paper",
+            "dimensions": [[16, 12], 295],
+            "special": [true, false, false],
+            "tags": ["train"]
+          },
+          "bartman": {
+            "image": "/bartman.webp",
+            "title": "bartman",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[16, 24], [17, 22]], 150, 100],
+            "special": [true, false, false],
+            "tags": ["hero", "villain"]
+          },
+          "dayatkrustyland": {
+            "image": "/dayatkrustyland.webp",
+            "title": "day at krustyland",
+            "type": "Lithograph",
+            "dimensions": [[28.5, 6.5], 1000],
+            "special": [true, false, false],
+            "tags": ["park", "theme", "bart"]
+          },
+          "timeandpunishment": {
+            "image": "/timeandpunishment.webp",
+            "title": "time and punishment",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 30], [16, 23]], 150, 250],
+            "special": [true, false, false],
+            "tags": ["book", "magazine"]
+          },
+          "islandofdrhibbert": {
+            "image": "/islandofdrhibbert.webp",
+            "title": "island of dr. Hibbert",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 30], [16, 23]], 150, 250],
+            "special": [true, false, false],
+            "tags": ["magazine", "book", "bart", "homer"]
+          },
+          "radioactiveman": {
+            "image": "/radioactiveman.webp",
+            "title": "radioactive man",
+            "type": "Giclée on paper",
+            "dimensions": [[16, 24], 100],
+            "special": [true, false, false],
+            "tags": ["hero", "villain"]
+          },
+          "treehouseofhorrorxvi": {
+            "image": "/treehouseofhorrorxvi.webp",
+            "title": "treehouse of horror XVI",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 30], [16, 23]], 250, 250],
+            "special": [true, false, false],
+            "tags": ["magazine", "book", "homer"]
+          },
+          "treehouseofhorrorxxiv": {
+            "image": "/treehouseofhorrorxxiv.webp",
+            "title": "treehouse of horror XXIV",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 28], [16, 23]], 200, 50],
+            "special": [true, false, false],
+            "tags": ["magazine", "book"]
+          },
+          "treehouseofhorrorXXV": {
+            "image": "/treehouseofhorrorXXV.webp",
+            "title": "treehouse of horror XXV",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 28], [16, 23]], 200, 50],
+            "special": [true, false, false],
+            "tags": ["magazine", "book"]
+          },
+          "treehouseofhorrorXXVI": {
+            "image": "/treehouseofhorrorXXVI.webp",
+            "title": "treehouse of horror XXVI",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 28], [16, 23]], 200, 50],
+            "special": [true, false, false],
+            "tags": ["magazine", "book", "homer"]
+          },
+          "treehouseofhorrorXIX": {
+            "image": "/treehouseofhorrorXIX.webp",
+            "title": "treehouse of horror XIX",
+            "type": "Giclée on canvas and paper",
+            "dimensions": [[[20, 28], [16, 23]], 200, 50],
+            "special": [true, false, false],
+            "tags": ["magazine", "book"]
+          }
+        },
+        "originals": {
+
+        }
+      }
+    },
+    "indiana-jones": {
+      "preparetomeetkali": {
+        "image": "/preparetomeetkali.webp",
+        "title": "prepare to meet kali",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "theultimateadventure": {
+        "image": "/theultimateadventure.webp",
+        "title": "the ultimate adventure",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[24, 18], 250],
+        "tags": ["jungle", "movie", "poster"]
+      },
+      "expertontheoccult": {
+        "image": "/expertontheoccult.webp",
+        "title": "expert on the occult",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie", "poster"]
+      },
+      "obtainerofrareantiquities": {
+        "image": "/obtainerofrareantiquities.webp",
+        "title": "obtainer of rare antiquities",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie", "poster"]
+      },
+      "adventureawaits": {
+        "image": "/adventureawaits.webp",
+        "title": "adventure awaits",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[16, 20], 250],
+        "tags": ["jungle", "movie", "poster"]
+      },
+      "adventurehasaname": {
+        "image": "/adventurehasaname.webp",
+        "title": "adventure has a name",
+        "type": "Lithograph",
+        "special": [false, false, true],
+        "dimensions": [[18, 24], 295],
+        "tags": ["jungle", "movie"]
+      },
+      "wellofsouls": {
+        "image": "/wellofsouls.webp",
+        "title": "well of souls",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie"]
+      },
+      "yougotheartkid": {
+        "image": "/yougotheartkid.webp",
+        "title": "you got heart, kid",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[17, 24], 250],
+        "tags": ["jungle", "movie", "poster"]
+      },
+      "arrivingbytrain": {
+        "image": "/arrivingbytrain.webp",
+        "title": "arriving by train",
+        "type": "Giclée on paper",
+        "special": [false, false, true],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "theygotus": {
+        "image": "/theygotus.webp",
+        "title": "they got us",
+        "type": "Giclée on paper",
+        "special": [false, false, true],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie", "plane"]
+      },
+      "chasingtheironhorse": {
+        "image": "/chasingtheironhorse.webp",
+        "title": "chasing the iron horse",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[19, 13], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "crusade": {
+        "image": "/crusade.webp",
+        "title": "crusade",
+        "type": "Lithograph",
+        "special": [false, false, true],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie"]
+      },
+      "certaindoom": {
+        "image": "/certaindoom.webp",
+        "title": "certain doom",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie"]
+      },
+      "eternalthrills": {
+        "image": "/eternalthrills.webp",
+        "title": "eternal thrills",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie"]
+      },
+      "arkofthecovenant": {
+        "image": "/arkofthecovenant.webp",
+        "title": "ark of the covenant",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[19, 13], 100],
+        "tags": ["jungle", "movie"]
+      },
+      "crusade2": {
+        "image": "/crusade2.webp",
+        "title": "crusade",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[19, 13], 100],
+        "tags": ["jungle", "movie"]
+      },
+      "ifadventurehasaname": {
+        "image": "/ifadventurehasaname.webp",
+        "title": "if adventure has a name...",
+        "type": "Giclée on canvas gem",
+        "special": [false, false, false],
+        "dimensions": [[8.4, 18], 495],
+        "tags": ["jungle", "movie"]
+      },
+      "theadventurecontinues": {
+        "image": "/theadventurecontinues.webp",
+        "title": "the adventure continues",
+        "type": "Giclée on canvas gem",
+        "special": [false, false, false],
+        "dimensions": [[8.4, 18], 495],
+        "tags": ["jungle", "movie"]
+      },
+      "havetheadventureof": {
+        "image": "/havetheadventureof.webp",
+        "title": "have the adventure of...",
+        "type": "Giclée on canvas gem",
+        "special": [false, false, false],
+        "dimensions": [[8.4, 18],495],
+        "tags": ["jungle", "movie"]
+      },
+      "indythetorchisgoing": {
+        "image": "/indythetorchisgoing.webp",
+        "title": "indy... the torch is going..",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 125],
+        "tags": ["jungle", "movie"]
+      },
+      "doyouhavesomething": {
+        "image": "/doyouhavesomething.webp",
+        "title": "do you have something...",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 125],
+        "tags": ["jungle", "movie"]
+      },
+      "letmechoose": {
+        "image": "/letmechoose.webp",
+        "title": "let me choose",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 125],
+        "tags": ["jungle", "movie"]
+      },
+      "wellofsouls2": {
+        "image": "/wellofsouls2.webp",
+        "title": "well of souls",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "pankotpalace": {
+        "image": "/pankotpalace.webp",
+        "title": "pankot palace",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "thelastcrusade": {
+        "image": "/thelastcrusade.webp",
+        "title": "the last crusade",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "themaninthehat": {
+        "image": "/themaninthehat.avif",
+        "title": "the man in the hat",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[8.5, 22], 95],
+        "tags": ["jungle", "movie"]
+      },
+      "inthelostcity": {
+        "image": "/inthelostcity.webp",
+        "title": "in the lost city...",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[16, 21], 195],
+        "tags": ["jungle", "movie"]
+      },
+      "theraven": {
+        "image": "/theraven.webp",
+        "title": "the raven",
+        "type": "Giclée on paper",
+        "special": [false, false, true],
+        "dimensions": [[13, 19], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "theidol": {
+        "image": "/theidol.webp",
+        "title": "THE IDOL!",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[19, 13], 150],
+        "tags": ["jungle", "movie"]
+      },
+      "fortuneandglory": {
+        "image": "/fortuneandglory.webp",
+        "title": "fortune and glory",
+        "type": "Giclée on paper",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie"]
+      },
+      "dontcallhimjunior": {
+        "image": "/dontcallhimjunior.webp",
+        "title": "don't call him junior",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[24, 18], 250],
+        "tags": ["jungle", "movie"]
+      },
+      "callhimdrjones": {
+        "image": "/callhimdrjones.webp",
+        "title": "call him Dr. Jones",
+        "type": "Lithograph",
+        "special": [false, false, false],
+        "dimensions": [[18, 24], 250],
+        "tags": ["jungle", "movie"]
       }
     },
     "family-guy": {
@@ -7010,6 +7511,95 @@
         "special": [false, true, true],
         "tags": ["train", "run"],
         "dimensions": [0]
+      }
+    },
+    "afl": {
+      "bombersaway": {
+        "image": "/bombersaway.gif",
+        "title": "bombers away",
+        "type": "Hand painted",
+        "special": [true, true, true],
+        "note": "Signed by James Hird and artist Bob Singer",
+        "dimensions": [0, 200],
+        "tags": ["james hird"]
+      },
+      "fredsbigmark": {
+        "image": "/fredsbigmark.gif",
+        "title": "freds big mark",
+        "type": "Hand painted",
+        "special": [true, true, true],
+        "note": "Hand signed by Stephen Kernahan & artist Iwao Takamoto",
+        "dimensions": [0, 200],
+        "tags": ["stephen kernahan", "iwao takamoto"]
+      },
+      "highflyingmagpie": {
+        "image": "/highflyingmagpie.gif",
+        "title": "high flying magpie",
+        "type": "Hand painted",
+        "special": [true, true, true],
+        "note": "Hand signed by Nathan Buckley & artist Charles McKimson",
+        "dimensions": [0, 200],
+        "tags": ["nathan buckley", "charles mckimson"]
+      }
+    },
+    "animaniacs": {
+      "anim1": {
+        "image": "/anim1.gif",
+        "title": "animaniacs",
+        "type": "Production cel",
+        "dimensions": [0],
+        "special": [false, true, false],
+        "tags": []
+      },
+      "anim2": {
+        "image": "/anim2.gif",
+        "title": "animaniacs",
+        "type": "Production cel",
+        "dimensions": [0],
+        "special": [false, true, false],
+        "tags": []
+      },
+      "anim3": {
+        "image": "/anim3.gif",
+        "title": "animaniacs in disguise",
+        "type": "Production cel",
+        "dimensions": [0],
+        "special": [false, true, false],
+        "tags": []
+      },
+      "anim4": {
+        "image": "/anim4.gif",
+        "title": "animaniacs",
+        "type": "Production cel",
+        "dimensions": [0],
+        "special": [false, true, false],
+        "tags": []
+      }
+    },
+    "the-beatles": {
+      "bullride": {
+        "image": "/bullride.gif",
+        "title": "bull ride",
+        "type": "Production cel",
+        "dimensions": [0],
+        "special": [false, false, false],
+        "tags": []
+      },
+      "inair": {
+        "image": "/inair.gif",
+        "title": "in air",
+        "type": "Production cel",
+        "dimensions": [0],
+        "special": [false, false, false],
+        "tags": []
+      },
+      "nowappearing": {
+        "image": "/nowappearing.gif",
+        "title": "now appearing",
+        "type": "Production cel",
+        "dimensions": [0],
+        "special": [false, false, false],
+        "tags": []
       }
     }
   },

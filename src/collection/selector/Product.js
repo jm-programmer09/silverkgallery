@@ -116,7 +116,7 @@ export default function Product () {
             {/* List of details */}
             <ul>
               { product.type && categories !== "photography" &&
-                <li>{ product.special ? <>Limited edition {product.type.toLowerCase()}</> : <>{String(product.type).charAt(0).toUpperCase() + String(product.type).slice(1)}</> }</li>
+                <li>{ product.special ? <>{product.special[0] && <>Limited edition</> } {product.special[1] && <> {product.special[0] ? <>o</> : <>O</>}riginal </>} {product.type.toLowerCase()}</> : <>{String(product.type).charAt(0).toUpperCase() + String(product.type).slice(1)}</> }</li>
               }
 
               {/* For the sizing  */}

@@ -36,6 +36,7 @@ section.products .top > .hierarchyrow > a {
   color: var(--p);
   font-weight: 400;
   cursor: pointer;
+  font-size: 14.5px;
 }
 
 /* Now for the image below */
@@ -272,8 +273,5 @@ section.products > .right .button-row > a:hover path {
   }
   section.products > .right > h3 {
     margin-top: 10px;
-  }
-  section.products > .left > .top > .hierarchyrow {
-    font-size: 16px;
   }
 }

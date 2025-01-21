@@ -48,12 +48,12 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
                 if (featured.includes(1)) {
                   if (subproduct.featured && (featured[category === "animation" ? 0 : 1] === 1) && ( subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
                 } else if (( 
-                  subcategory.includes(searchTerm.replace(" ", "-")) ||
-                  searchTerm.replace(" ", "-").includes(subcategory) ||
+                  subcategory.includes(searchTerm.replaceAll(" ", "-")) ||
+                  searchTerm.replaceAll(" ", "-").includes(subcategory) ||
                   theme.includes(searchTerm) ||
                   searchTerm.includes(theme) ||
-                  theme.includes(searchTerm.replace(" ", "-")) ||
-                  searchTerm.replace(" ", "-").includes(theme) ||
+                  theme.includes(searchTerm.replaceAll(" ", "-")) ||
+                  searchTerm.replaceAll(" ", "-").includes(theme) ||
                   
                   
                   subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.some((tag) => tag.toLowerCase().includes(searchTerm) || searchTerm.includes(tag.toLowerCase()))  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
@@ -84,8 +84,8 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
           // for searching for themes
           theme.includes(searchTerm) ||
           searchTerm.includes(theme) ||
-          theme.includes(searchTerm.replace(" ", "-")) ||
-          searchTerm.replace(" ", "-").includes(theme) 
+          theme.includes(searchTerm.replaceAll(" ", "-")) ||
+          searchTerm.replaceAll(" ", "-").includes(theme) 
 
 
         )) results.push(`${category}.${theme}.${productID}`);
@@ -249,7 +249,7 @@ function allClicked(category) {
               checked={selectorMap[category][theme]}
               onChange={() => themeClicked(theme)}
             />
-            <label htmlFor={`${category}-${theme}-${index}`}>{theme === "dc-comics" ? "DC Comics" : theme.replace(/-/g, " ")}</label>
+            <label htmlFor={`${category}-${theme}-${index}`}>{theme === "dc-comics" ? "DC Comics" : ( theme === "afl" ? "AFL" : theme.replaceAll("-", " "))}</label>
           </li>
 
           {/* These are for the subcategories */}
@@ -269,7 +269,7 @@ function allClicked(category) {
                 onChange={() => subCategoryClicked(theme, subcategoryKey)}
               />
               <label htmlFor={`subcategory-${category}-${theme}-${subIndex}`} style={{ fontSize: "16px", marginBottom: "1px"}}>
-               {subcategoryKey.replace(/-/g, " ")}
+               {subcategoryKey.replaceAll("-", " ")}
               </label>
             </li>
           ))}

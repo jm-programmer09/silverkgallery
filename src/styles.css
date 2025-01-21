@@ -202,46 +202,123 @@ header button > div.open::after {
   top: 0;
   width: 20px;
 }
-
-/* For the mobile navbar */
+/* For the mobile menu */
 header nav.mobile {
   position: absolute;
   top: var(--header-height);
   z-index: 100;
   left: 0;
-  width: 100%;
+  right: 0;
   background-color: black;
   flex-direction: column;
-  gap: 0px;
-  padding-left: 20px;
-  padding-top: 8px;
-  padding-right: 20px;
+  padding: 8px 20px;
   box-sizing: border-box;
-  padding-bottom: 8px;
 }
+
 header > nav.mobile * {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 10px;
   font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
+
+header > nav.mobile > details {
+  display: flex;
+  flex-direction: column;
+}
+
+header > nav.mobile > div,
+header > nav.mobile > details > summary {
+  padding: 10px 0;
   height: 30px;
   display: flex;
   align-items: center;
-  font-weight: 400;
-  text-align: left;
-  margin-right: 20px;
+  width: 100%;
 }
-header > nav.mobile > *:hover {
+
+header > nav.mobile > div:hover,
+header > nav.mobile > details > summary:hover {
   background-color: #111;
 }
 
-header > nav.mobile div {
-  display: flex;
-}
 header nav.mobile > div > a {
   width: 100%;
+  padding-left: 20px;
 }
+
+/* For the dropdown */
+header nav.mobile > details {
+  width: 100%;
+}
+
+header nav.mobile > details > summary {
+  cursor: pointer;
+  list-style-type: none;
+  width: 100%;
+}
+
+header nav.mobile details > section {
+  width: calc(100vw - 57px) !important;
+  box-sizing: border-box;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  padding: 0;
+}
+header nav.mobile details > section > a:hover {
+  cursor: pointer;
+  background-color: #111;
+}
+header nav.mobile details > section > a  {
+  padding: 10px;
+  padding-left: 40px;
+}
+
+
+
+/* For the dropdown */
+header nav.mobile > details {
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  height: fit-content !important;
+  padding: 0;
+}
+header nav.mobile > details > summary {
+  width: 100%;
+  cursor: pointer;
+  list-style-type: "";
+  padding: 10px;
+  height: 50px;
+  padding-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+header nav.mobile > details > summary:hover {
+  background-color: #111;
+}
+header nav.mobile details > ul {
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-left:20px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+header nav.mobile ul > li {
+  padding: 5px;
+  padding-left: 40px;
+  font-size: 14px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+header nav.mobile ul > li:hover {
+  background-color: #111;
+}
+
 
 /* Styling for the searchbar */
 header > form {
@@ -381,7 +458,7 @@ header .seperatelinks > details {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16.5px;
+  font-size: 16px;
   font-weight: 400;
   position: relative;
   padding-left: 10px;
@@ -392,7 +469,8 @@ header .seperatelinks ul {
   position: absolute;
   background-color: black;
   top: 100%;
-  width: 100%;
+  min-width: 100%;
+  width: max-content;
   left:  0;
   list-style-type: none;
   margin: 0;
@@ -403,10 +481,11 @@ header .seperatelinks ul {
 }
 header .seperatelinks li {
   width: 100%;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
   display: flex;
   box-sizing: border-box;
+  padding-right: 20px;
 }
 header .seperatelinks li > a {
   color: rgb(210, 210, 210);
@@ -511,9 +590,20 @@ header .seperatelinks details[open] > summary::after {
   header nav.pc > button {
     display: block;
   }
+  header .seperatelinks > details {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 26px;
+  }
   header .header-search-icon {
     padding-top: 2px;
   }
+
 }
 
 /* For getting rid of the seperate links */

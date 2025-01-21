@@ -6299,10 +6299,37 @@
         }
       }
     },
-
-
-
     "simpsons": {
+          "devilandhomer": {
+        "image": "/devilandhomer.gif",
+        "title": "the devil and homer",
+        "type": "Hand painted",
+        "dimensions": [0, 50],
+        "featured": true,
+        "tags": ["episode"]
+      },
+      "gardenofspringfield": {
+        "image": "/gardenofspringfield.gif",
+        "title": "the garden of springfield",
+        "type": "Hand painted",
+        "dimensions": [0, 50],
+        "tags": ["garden", "springfield"]
+      },
+      "heatwave": {
+        "image": "/heatwave.gif",
+        "title": "heatwave",
+        "type": "Hand painted",
+        "dimensions": [0, 50],
+        "featured": true,
+        "tags": ["hot", "family"]
+      },
+      "homerandmargepersona": {
+        "image": "/homerandmargepersona.gif",
+        "title": "homer and marge persona",
+        "type": "Sericel",
+        "dimensions": [0, 350],
+        "tags": ["love", "rom"]
+      },
       "subcategories": {
         "limited-editions": {
           "vivathesimpsons": {
@@ -6449,12 +6476,11 @@
             "special": [true, false, false],
             "tags": ["magazine", "book"]
           }
-        },
-        "originals": {
-
         }
       }
     },
+
+    
     "indiana-jones": {
       "preparetomeetkali": {
         "image": "/preparetomeetkali.webp",

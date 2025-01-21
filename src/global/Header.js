@@ -12,6 +12,127 @@ function searchSubmit(navigate, request) {
     navigate(`/collection/?search=${encodeURIComponent(request.trim())}`);
   }
 }
+
+function DetailsComponent({ data }) {
+  const [openDetail, setOpenDetail] = useState(null);
+  const [shrunk, setShrunk] = useState(false);
+
+
+  const detailsRefs = {
+    'dc-comics': useRef(),
+    'star-wars': useRef(),
+    'warner-bros': useRef(),
+    'photography': useRef(),
+    'animation': useRef()
+  };
+
+  useEffect(() => {
+    Object.entries(detailsRefs).forEach(([key, ref]) => {
+      if (ref.current) {
+        if (key === openDetail) {
+          ref.current.setAttribute('open', '');
+        } else {
+          ref.current.removeAttribute('open');
+        }
+      }
+    });
+  }, [openDetail]);
+
+  const handleToggle = (detailName) => {
+    setOpenDetail(prev => prev === detailName ? null : detailName);
+  };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1165) {
+        setShrunk(true);
+      } else {
+        setShrunk(false);
+      }
+    }
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  return (
+    <>
+      { !shrunk ? (
+        <>
+          <details ref={detailsRefs['dc-comics']} onClick={(e) => { e.preventDefault(); handleToggle('dc-comics'); }}>
+            <summary>DC Comics</summary>
+            <ul>
+              {Object.keys(data.animation["dc-comics"].subcategories).map((subcat, index) => (
+                <li key={index}>
+                  <Link to={`/collection/animation/dc-comics/?subdc-comics=${subcat}`}>{subcat.replaceAll("-", " ")}</Link>
+                </li>
+              ))}
+            </ul>
+          </details>
+
+          <details ref={detailsRefs['star-wars']} onClick={(e) => { e.preventDefault(); handleToggle('star-wars'); }}>
+            <summary>Star Wars</summary>
+            <ul>
+              {Object.keys(data.animation["star-wars"].subcategories).map((subcat, index) => (
+                <li key={index}>
+                  <Link to={`/collection/animation/dc-comics/?subdc-comics=${subcat}`}>{subcat.replaceAll("-", " ")}</Link>
+                </li>
+              ))}
+            </ul>
+          </details>
+
+          <details ref={detailsRefs['warner-bros']} onClick={(e) => { e.preventDefault(); handleToggle('warner-bros'); }}>
+            <summary>Warner Bros</summary>
+            <ul>
+              {Object.keys(data.animation["warner-bros"].subcategories).map((subcat, index) => (
+                <li key={index}>
+                  <Link to={`/collection/animation/dc-comics/?subdc-comics=${subcat}`}>{subcat.replaceAll("-", " ")}</Link>
+                </li>
+              ))}
+            </ul>
+          </details>
+
+
+        </>
+      ) : (
+        <>
+          <details ref={detailsRefs['animation']} onClick={(e) => { e.preventDefault(); handleToggle('animation'); }}>
+            <summary>Animation</summary>
+
+            <ul>
+              {Object.keys(data.animation).map((theme, index) => (
+                index < 6 && (
+                  <li key={index}>
+                    <Link to={`/collection/animation/${theme}`}>{theme.replaceAll("-", " ")}</Link>
+                  </li>
+                )
+
+              ))}
+
+            </ul>
+
+          </details>
+
+        </>
+      )}
+
+      <details ref={detailsRefs['photography']} onClick={(e) => { e.preventDefault(); handleToggle('photography'); }}>
+        <summary>Photography</summary>
+        <ul>
+          {Object.keys(data.photography).map((theme, index) => (
+            <li key={index}>
+              <Link to={`/collection/photography/${theme}`}>{theme.replace("-", " ")}</Link>
+            </li>
+          ))}
+        </ul>
+      </details>
+    </>
+  );
+}
+
 export default function Header () {
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -75,8 +196,8 @@ export default function Header () {
       <motion.nav
       ref={mobileNavRef}
       initial={{ opacity: 0, height: 0 }}
-      animate={isMobileMenuInView ? { opacity: 1, height: 216} : {opacity: 0, height: 0}}
-      transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }} 
+      animate={isMobileMenuInView ? { opacity: 1, height: "fit-content"} : {opacity: 0, height: 0}}
+      transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }} 
       className="mobile" style={{ display: mobileMenuOpen ? "flex" : "none"}}>
         <motion.div 
         initial={{ opacity: 0, x: -100 }}
@@ -86,18 +207,55 @@ export default function Header () {
         <motion.div 
         initial={{ opacity: 0, x: -100 }}
         animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
-        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.1}}
+        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.05}}
         ><Link to="/collection" onClick={() => { setMobileMenuOpen(false); }}>Our Collection</Link></motion.div>
         <motion.div 
         initial={{ opacity: 0, x: -100 }}
         animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
-        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.2}}
+        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.1}}
         ><Link to="/exhibitions" onClick={() => { setMobileMenuOpen(false); }}>Exhibitions</Link></motion.div>
         <motion.div
         initial={{ opacity: 0, x: -100 }}
         animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
-        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.3}}
+        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.15}}
         > <Link to="/contactus" onClick={() => { setMobileMenuOpen(false); }}>Contact Us</Link></motion.div>
+        
+        
+        
+        <motion.details
+        initial={{ opacity: 0, x: -100 }}
+        animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
+        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.2}}
+        > 
+          <summary>Animation</summary>
+
+          <section>
+            {Object.keys(data.animation).map((value, index) => (
+              index < 6 && (
+                <Link to={`/collection/animation/${value}`} key={index}>{value.replaceAll("-", " ")}</Link>
+              )
+            ))}
+          </section>
+        
+        
+        </motion.details>
+        <motion.details
+        initial={{ opacity: 0, x: -100 }}
+        animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
+        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.2}}
+        > 
+          <summary>Photography</summary>
+
+          <section>
+            {Object.keys(data.photography).map((value, index) => (
+              index < 6 && (
+                <Link to={`/collection/photography/${value}`} key={index}>{value.replaceAll("-", " ")}</Link>
+              )
+            ))}
+          </section>
+        
+        
+        </motion.details>
       </motion.nav>
 
       {/* The search bar menu */}
@@ -125,27 +283,7 @@ export default function Header () {
 
         {/* only will be shown on desktop mode cos it will be too big for on mobile */}
         <div className="seperatelinks">
-          <details>
-            <summary>Animation</summary>
-            <ul>
-              {Object.keys(data.animation).map((theme, index) => (
-                <li key={index}>
-                  <Link to={`/collection/animation/${theme}`}>{theme.replace("-", " ")}</Link>
-                </li>
-              ))}
-            </ul>
-          </details>
-
-          <details>
-            <summary>Photography</summary>
-            <ul>
-              {Object.keys(data.photography).map((theme, index) => (
-                <li key={index}>
-                  <Link to={`/collection/photography/${theme}`}>{theme.replace("-", " ")}</Link>
-                </li>
-              ))}
-            </ul>
-          </details>
+          <DetailsComponent data={data} />
         </div>
       
       </motion.form>

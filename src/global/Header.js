@@ -227,7 +227,7 @@ export default function Header () {
         animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
         transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.2}}
         > 
-          <summary>Animation</summary>
+          <summary><span>Animation</span></summary>
 
           <section>
             {Object.keys(data.animation).map((value, index) => (
@@ -244,7 +244,7 @@ export default function Header () {
         animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
         transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.2}}
         > 
-          <summary>Photography</summary>
+          <summary><span>Photography</span></summary>
 
           <section>
             {Object.keys(data.photography).map((value, index) => (

@@ -112,13 +112,11 @@ const Footer = () => {
                   <h4>{category}</h4>
 
                   {Object.keys(data[category]).map((theme, key) => {
-                    if (key > 5) return <></>;
-
-                    return (
+                    key > 5 && (
                       <li key={key}>
                         <Link to={`/collection/${category}/${theme}`}>{theme.replace("-", " ")}</Link>
                       </li>
-                    );
+                    )
                   })}
                 </ul>
               );

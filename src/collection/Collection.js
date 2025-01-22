@@ -116,6 +116,8 @@ function MenuCheckBoxes ( { category, selectorMap, featured, themes, navigate, c
 
   // for the generating more button
   const [shouldScroll, setShouldScroll] = useState(false);
+  const [showAllThemes, setShowAllThemes] = useState(false);
+
   const [scrollPosition, setScrollPosition] = useState(0);
   
 
@@ -242,6 +244,63 @@ function allClicked(category) {
       {/* The rest of the themes */}
       {Object.keys(data[category]).map((theme, index) => (
         <Fragment key={`${category}-${theme}-${index}`}>
+          {(index < 6 || showAllThemes) && (
+            <>
+              <li>
+                <input
+                  type="checkbox"
+                  id={`${category}-${theme}-${index}`}
+                  checked={selectorMap[category][theme]}
+                  onChange={() => themeClicked(theme)}
+                />
+                <label htmlFor={`${category}-${theme}-${index}`}>{theme === "dc-comics" ? "DC Comics" : (theme === "afl" ? "AFL" : theme.replaceAll("-", " "))}</label>
+              </li>
+
+              {/* These are for the subcategories */}
+              <motion.ul 
+                initial={{ opacity: 0, height: "0px" }}
+                animate={selectorMap[category][theme] ? { opacity:1, height: "auto" } : { opacity:0, height: "0px" }}
+                transition={{ duration: .2, ease: [0.16,1,0.3,1] }}
+                className="theme-list" style={{display: selectorMap[category][theme] ? "block" : "none"}}>
+                {/* Subcategories rendering code... */}
+                {Object.keys(data[category][theme].subcategories || {}).map((subcategoryKey, subIndex) => (
+                  <li key={`${category}-${theme}-${subIndex}-subcat`}>
+                    <input
+                      type="checkbox"
+                      id={`subcategory-${category}-${theme}-${subIndex}`}
+                      checked={searchParams.get(`sub${theme}`) === null ? false : searchParams.get(`sub${theme}`).split("+").includes(subcategoryKey)}
+                      onChange={() => subCategoryClicked(theme, subcategoryKey)}
+                    />
+                    <label htmlFor={`subcategory-${category}-${theme}-${subIndex}`} style={{ fontSize: "16px", marginBottom: "1px"}}>
+                     {subcategoryKey.replaceAll("-", " ")}
+                    </label>
+                  </li>
+                ))}
+              </motion.ul>
+            </>
+          )}
+        </Fragment>
+      ))}
+
+      {Object.keys(data[category]).length > 6 && !showAllThemes && (
+        <li onClick={() => setShowAllThemes(true)} id="downButton">
+          See more
+          <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24" fill="none">
+            <path d="M9.71069 18.2929C10.1012 18.6834 10.7344 18.6834 11.1249 18.2929L16.0123 13.4006C16.7927 12.6195 16.7924 11.3537 16.0117 10.5729L11.1213 5.68254C10.7308 5.29202 10.0976 5.29202 9.70708 5.68254C9.31655 6.07307 9.31655 6.70623 9.70708 7.09676L13.8927 11.2824C14.2833 11.6729 14.2833 12.3061 13.8927 12.6966L9.71069 16.8787C9.32016 17.2692 9.32016 17.9023 9.71069 18.2929Z" fill="var(--gradientTo)"/>
+          </svg>
+        </li>
+      )}
+
+      {showAllThemes && Object.keys(data[category]).length > 6 && (
+        <li onClick={() => setShowAllThemes(false)} className="upButton">
+          See less
+          <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 24 24" fill="none">
+            <path d="M9.71069 18.2929C10.1012 18.6834 10.7344 18.6834 11.1249 18.2929L16.0123 13.4006C16.7927 12.6195 16.7924 11.3537 16.0117 10.5729L11.1213 5.68254C10.7308 5.29202 10.0976 5.29202 9.70708 5.68254C9.31655 6.07307 9.31655 6.70623 9.70708 7.09676L13.8927 11.2824C14.2833 11.6729 14.2833 12.3061 13.8927 12.6966L9.71069 16.8787C9.32016 17.2692 9.32016 17.9023 9.71069 18.2929Z" fill="var(--gradientTo)"/>
+          </svg>
+        </li>
+      )}
+      {/* {Object.keys(data[category]).map((theme, index) => (
+        <Fragment key={`${category}-${theme}-${index}`}>
           <li>
             <input
               type="checkbox"
@@ -252,14 +311,21 @@ function allClicked(category) {
             <label htmlFor={`${category}-${theme}-${index}`}>{theme === "dc-comics" ? "DC Comics" : ( theme === "afl" ? "AFL" : theme.replaceAll("-", " "))}</label>
           </li>
 
-          {/* These are for the subcategories */}
+          {index === 5 && (
+            <>
+              <a>See more</a>
+
+            </>
+          )}
+
+          {/* These are for the subcategories 
 
           <motion.ul 
           initial={{ opacity: 0, height: "0px" }}
           animate={selectorMap[category][theme] ? { opacity:1, height: "auto" } : { opacity:0, height: "0px" }}
           transition={{ duration: .2, ease: [0.16,1,0.3,1] }}
           className="theme-list" style={{display: selectorMap[category][theme] ? "block" : "none"}}>
-            {/* This is for the actual subcategories and not just searching for limited editions etc */}
+            {/* This is for the actual subcategories and not just searching for limited editions etc 
            {Object.keys(data[category][theme].subcategories || {}).map((subcategoryKey, subIndex) => (
             <li key={`${category}-${theme}-${subIndex}-subcat`}>
               <input
@@ -275,7 +341,7 @@ function allClicked(category) {
           ))}
           </motion.ul>
         </Fragment>
-      ))}
+      ))} */}
 
     </>
   )

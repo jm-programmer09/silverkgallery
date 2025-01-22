@@ -172,6 +172,7 @@ section.collection nav > ul > li.top::before {
   background-color: rgb(170, 170, 170);
 }
 
+
 /* End of the grey border line */
 
 section.collection nav > ul > li > h4 {
@@ -198,6 +199,32 @@ section.collection ul.theme-list li {
   align-items: center;
   gap: 5px;
 }
+
+/* For the see more buttons */
+#downButton, li.upButton {
+  padding: 10px;
+  width: calc(100% - 20px);
+  cursor: pointer;
+  justify-content: center;
+}
+#downButton >svg {
+  transform: rotate(90deg);
+}
+li.upButton >svg {
+  transform: rotate(-90deg);
+  margin-bottom: -5px;
+}
+
+section.collection ul.theme-list li.downy {
+  display: flex;
+  flex-direction: column;
+}
+section.collection ul.theme-list li.up {
+  display: flex;
+  flex-direction: column;
+}
+
+
 /* This is for the label of the inputcheckbox */
 section.collection ul.theme-list label {
   cursor: pointer;

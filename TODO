@@ -1,4 +1,4 @@
 - we have to ask col which cards he wants featured for on the home page
 - and we have to setup the emailjs to be in his name
 - fix the search thing in the collections page so that it only looks for things that are similar when there are currently no results to show, so then like 'heroes unite' comes up before things with the tag 'hero'
-- have a 'see more' on the menu or just have an arrow
+- make it so that the search works regardless of the theme that you have selected but instead just makes the ones from that theme come first

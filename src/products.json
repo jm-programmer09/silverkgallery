@@ -3618,6 +3618,262 @@
     "disney": {
       "subcategories": {
         "assorted-characters": {
+          "tinktwist": {
+            "image": "/tinktwist.webp",
+            "title": "tink twist",
+            "type": "Giclée on canvas",
+            "dimensions": [[15, 40], 195],
+            "special": [true, false, true],
+            "tags": ["tinkerbell"]
+          },
+          "lilotoys": {
+            "image": "/lilotoys.webp",
+            "title": "lilo's toys",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 18], 295],
+            "special": [true, false, true],
+            "tags": ["lilo and stitch"]
+          },
+          "mickeyandminnieenjoyview": {
+            "image": "/mickeyandminnieenjoyview.webp",
+            "title": "mickey and minnie enjoy the view",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 32], 95],
+            "special": [true, false, true],
+            "tags": []
+          },
+          "fallstroll": {
+            "image": "/fallstroll.webp",
+            "title": "fall stroll",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 24],195],
+            "special": [true, false, true],
+            "tags": ["winnie the pooh"]
+          },
+          "poohandpals": {
+            "image": "/poohandpals.webp",
+            "title": "pooh and his pals",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 32], 195],
+            "special": [true, false, true],
+            "tags": ["winnie the pooh"]
+          },
+          "moonclimbs": {
+            "image": "/moonclimbs.webp",
+            "title": "the moon climbs high",
+            "type": "Giclée on canvas",
+            "dimensions": [[16, 32], 195],
+            "special": [true, false, true],
+            "tags": []
+          },
+          "meaninginhunt": {
+            "image": "/meaninginhunt.webp",
+            "title": "i found meaning in the hunt",
+            "type": "Giclée on canvas",
+            "dimensions": [[8, 14], 295],
+            "special": [true, false, true],
+            "tags": ["dog"]
+          },
+          "thingsnotstrange": {
+            "image": "/thingsnotstrange.webp",
+            "title": "things not that strange are false",
+            "type": "Giclée on canvas",
+            "dimensions": [[8, 14], 295],
+            "special": [true, false, true],
+            "tags": ["goofy"]
+          },
+          "notgonnastopme": {
+            "image": "/notgonnastopme.webp",
+            "title": "not gonna stop me",
+            "type": "Giclée on canvas",
+            "dimensions": [[8, 14], 295],
+            "special": [true, false, true],
+            "tags": ["duck"]
+          },
+          "cantlose": {
+            "image": "/cantlose.webp",
+            "title": "we can't lose!",
+            "type": "Giclée on canvas",
+            "dimensions": [[8, 14], 295],
+            "special": [true, false, true],
+            "tags": ["daffy duck"]
+          },
+          "whenready": {
+            "image": "/whenready.webp",
+            "title": "when I'm ready",
+            "type": "Giclée on canvas",
+            "dimensions": [[8, 14], 295],
+            "special": [true, false, true],
+            "tags": ["minnie mouse"]
+          },
+          "power": {
+            "image": "/power.webp",
+            "title": "I like the power",
+            "type": "Giclée on canvas",
+            "dimensions": [[8, 14], 295],
+            "special": [true, false, true],
+            "tags": ["mickey mouse"]
+          },
+          "inthebrew": {
+            "image": "/inthebrew.webp",
+            "title": "in the brew",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 18], 195],
+            "special": [true, false, true],
+            "tags": ["witch"]
+          },
+          "spellbound": {
+            "image": "/spellbound.webp",
+            "title": "spellbound",
+            "type": "Giclée on canvas",
+            "dimensions": [[16, 32], 195],
+            "special": [true, false, true],
+            "tags": ["mickey mouse"]
+          },
+          "likestars": {
+            "image": "/likestars.webp",
+            "title": "good friends are like stars",
+            "type": "Giclée on canvas",
+            "dimensions": [[30, 24], 195],
+            "special": [true, false, true],
+            "tags": ["winnie the pooh"]
+          },
+          "we'llkeepthem": {
+            "image": "/we'llkeepthem.webp",
+            "title": "we'll keep em",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 24], 95],
+            "special": [true, false, true],
+            "tags": ["101 dalmations"]
+          },
+          "castingmagic": {
+            "image": "/castingmagic.webp",
+            "title": "casting magic",
+            "type": "Giclée on canvas",
+            "dimensions": [[32, 24], 100],
+            "special": [true, false, true],
+            "tags": ["mickey mouse"]
+          },
+          "mickeypaints": {
+            "image": "/mickeypaints.webp",
+            "title": "mickey paints mickey",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 24], 195],
+            "special": [true, false, true],
+            "tags": ["mickey mouse"]
+          },
+          "teaparty": {
+            "image": "/teaparty.webp",
+            "title": "tea party",
+            "type": "Giclée on canvas",
+            "dimensions": [[16, 32], 195],
+            "special": [true, false, true],
+            "tags": ["graveyard"]
+          },
+          "movienight": {
+            "image": "/movienight.webp",
+            "title": "movie night",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 36], 195],
+            "special": [true, false, false],
+            "tags": ["101 dalmations"]
+          },
+          "ghostchasers": {
+            "image": "/ghostchasers.webp",
+            "title": "ghost chasers",
+            "type": "Giclée on canvas",
+            "dimensions": [[32, 24], 195],
+            "special": [true, false, false],
+            "tags": ["mickey mouse", "goofy"]
+          },
+          "rabbithole": {
+            "image": "/rabbithole.webp",
+            "title": "rabbit hole",
+            "type": "Giclée on canvas",
+            "dimensions": [[32, 16], 195],
+            "special": [true, false, false],
+            "tags": ["cinderella"]
+          },
+          "blackpearl": {
+            "image": "/blackpearl.webp",
+            "title": "the black pearl",
+            "type": "Giclée on canvas",
+            "dimensions": [[32, 24], 195],
+            "special": [true, false, false],
+            "tags": ["pirates of the caribbean"]
+          },
+          "trustnoone": {
+            "image": "/trustnoone.webp",
+            "title": "trust no one",
+            "type": "Giclée on canvas",
+            "dimensions": [[12, 36], 195],
+            "special": [true, false, false],
+            "tags": ["aladdin"]
+          },
+          "thelantern": {
+            "image": "/thelantern.webp",
+            "title": "the lantern",
+            "type": "Giclée on canvas",
+            "dimensions": [[34, 12], 195],
+            "special": [true, false, false],
+            "tags": ["princess", "tangled"]
+          },
+          "actsofkindness": {
+            "image": "/actsofkindness.webp",
+            "title": "acts of kindness",
+            "type": "Giclée on canvas",
+            "dimensions": [[16, 26], 195],
+            "special": [true, false, false],
+            "tags": ["lilo and stitch"]
+          },
+          "sailinginthesun": {
+            "image": "/sailinginthesun.webp",
+            "title": "sailing into the sun",
+            "type": "Giclée on canvas",
+            "dimensions": [[16, 20], 295],
+            "special": [true, false, false],
+            "tags": ["moana"]
+          },
+          "morningsurf": {
+            "image": "/morningsurf.webp",
+            "title": "morning surf",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 30], 295],
+            "special": [true, false, false],
+            "tags": ["lilo and stitch"]
+          },
+          "hulamoon": {
+            "image": "/hulamoon.webp",
+            "title": "hula moon",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 24], 295],
+            "special": [true, false, true],
+            "tags": ["lilo and stitch"]
+          },
+          "firewithin": {
+            "image": "/firewithin.webp",
+            "title": "the fire within",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 36], 95],
+            "special": [true, false, true],
+            "tags": ["redhead"]
+          },
+          "knowtheway": {
+            "image": "/knowtheway.webp",
+            "title": "we know the way",
+            "type": "Giclée on canvas",
+            "dimensions": [[36, 18], 195],
+            "special": [true, false, false],
+            "tags": ["moana"]
+          },
+          "sweetlove": {
+            "image": "/sweetlove.webp",
+            "title": "sweet love",
+            "type": "Giclée on canvas",
+            "dimensions": [[20, 20], 95],
+            "special": [true, false, false],
+            "tags": ["cartoon"]
+          },
           "whitethingsintheair": {
             "image": "/whitethingsintheair.jpg",
             "title": "white things in the air",

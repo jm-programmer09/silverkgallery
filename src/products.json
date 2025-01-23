@@ -919,14 +919,6 @@
           "dimensions": [[18, 24], 250],
           "tags": ["star wars", "dark side", "sith"]
           },
-          "atatdriver": {
-          "image": "/atatdriver.gif",
-          "title": "AT-AT-Driver",
-          "type": "Canvas and Paper",
-          "special": [true, false, false],
-          "dimensions": [[[22, 27], [13, 19]], 125, 50],
-          "tags": ["star wars", "at-at", "imperial"]
-          },
           "dangerousnegotiations": {
           "image": "/dangerousnegotiations.gif",
           "title": "Dangerous Negotiations",
@@ -1632,14 +1624,6 @@
           "special": [true, false, false],
           "dimensions": [[16, 32], 95],
           "tags": ["star wars", "millennium falcon", "hyperspace"]
-          },
-          "atatpilot": {
-          "image": "/atatpilot.gif",
-          "title": "AT-At Pilot",
-          "type": "Giclée on canvas",
-          "special": [true, false, false],
-          "dimensions": [[16, 32], 95],
-          "tags": ["star wars", "at-at", "pilot"]
           },
           "finalpreparations": {
           "image": "/finalpreparations.gif",

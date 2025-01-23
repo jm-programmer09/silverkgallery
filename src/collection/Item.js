@@ -26,8 +26,6 @@ export function Item (  {  id  } ) {
   const cardInView = useInView(cardRef, { once: true });
 
   // we will now have to check here for subcategories
-
-
   const element = id.split(".").length > 3 ? data[id.split(".")[0]][id.split(".")[1]][id.split(".")[2]][id.split(".")[3]][id.split(".")[4]] : data[id.split(".")[0]][id.split(".")[1]][id.split(".")[2]];
 
   // For error handling

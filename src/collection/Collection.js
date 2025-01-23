@@ -8,94 +8,68 @@ import { Item, shuffleArray } from "./Item";
 
 // End of imports
 
-// function for searching through data.json for suitable results
-// this is a linear search function
-function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNumber, startingResults = [], searchParams= new URLSearchParams()) {
+function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNumber, startingResults = [], searchParams = new URLSearchParams()) {
   searchTerm = searchTerm.toLowerCase();
-  // Once there are more than 52 results then we will have a button to load more
   const results = startingResults;
+  const titleMatches = [];
+  const otherMatches = [];
 
+  function processProduct(product, path) {
+    if (featured.includes(1)) {
+      if (product.featured && (featured[path.split('.')[0] === "animation" ? 0 : 1] === 1) && matchesSearch(product)) {
+        addToAppropriateArray(product, path);
+      }
+    } else if (matchesSearch(product)) {
+      addToAppropriateArray(product, path);
+    }
+  }
 
-  // see whether the .some function works well
+  function matchesSearch(product) {
+    return product.title.toLowerCase().includes(searchTerm) || 
+           product.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || 
+           product.tags.some((tag) => tag.toLowerCase().includes(searchTerm) || searchTerm.includes(tag.toLowerCase()));
+  }
+
+  function addToAppropriateArray(product, path) {
+    if (product.title.toLowerCase().includes(searchTerm)) {
+      titleMatches.push(path);
+    } else {
+      otherMatches.push(path);
+    }
+  }
+
   (categories.length === 0 ? Object.keys(data) : categories).forEach(category => {
-    if (resultMaxNumber <= results.length) return; // if the results are more than the max number then return;
+    if (resultMaxNumber <= results.length) return;
 
-    // Check if it is featured in here as well
     (themes.length === 0 ? Object.keys(data[category]) : themes).forEach(theme => {
-      // this is looping through the themes
-      // the themes.length === 0 blah is so that if the function is on 'all' mode, it then checks through all themes - this goes the same for the categories 
-      if (resultMaxNumber <= results.length) return; // if the results are more than the max number then return;
+      if (resultMaxNumber <= results.length) return;
 
-      // Now iterating through the for loop
       Object.entries(data[category][theme]).forEach(([productID, product]) => {
-        if (resultMaxNumber <= results.length) return; // if the results are more than the max number then return;
+        if (resultMaxNumber <= results.length) return;
 
-        // Cheking if the productID is the subcategory
         if (productID === "subcategories") {
-          // Now filtering through the subcategories
-          // this will be based off of the ?=disney blah blah cos the subcategories picked are like if disney is selected an a subcategory is picked then: ?subdisney=blah
-
-
-          // now that the url is working we just have to search for the item
           Object.keys(data[category][theme].subcategories).forEach(subcategory => {
-            // Now going through all of the items inside of the subcategories
             if (searchParams.get(`sub${theme}`) === null || searchParams.get(`sub${theme}`).split("+").length < 1 || searchParams.get(`sub${theme}`).split("+").includes(subcategory)) {
-              Object.entries(data[category][theme].subcategories[subcategory]).forEach(([subproductID, subproduct]) => { // now going through all fo the products
-                if (resultMaxNumber <= results.length || results.includes(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`)) {
-                  return;
-                }
-
-                if (featured.includes(1)) {
-                  if (subproduct.featured && (featured[category === "animation" ? 0 : 1] === 1) && ( subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
-                } else if (( 
-                  subcategory.includes(searchTerm.replaceAll(" ", "-")) ||
-                  searchTerm.replaceAll(" ", "-").includes(subcategory) ||
-                  theme.includes(searchTerm) ||
-                  searchTerm.includes(theme) ||
-                  theme.includes(searchTerm.replaceAll(" ", "-")) ||
-                  searchTerm.replaceAll(" ", "-").includes(theme) ||
-                  
-                  
-                  subproduct.title.toLowerCase().includes(searchTerm) || subproduct.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || subproduct.tags.some((tag) => tag.toLowerCase().includes(searchTerm) || searchTerm.includes(tag.toLowerCase()))  )) results.push(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
-                
+              Object.entries(data[category][theme].subcategories[subcategory]).forEach(([subproductID, subproduct]) => {
+                if (resultMaxNumber <= results.length || results.includes(`${category}.${theme}.subcategories.${subcategory}.${subproductID}`)) return;
+                processProduct(subproduct, `${category}.${theme}.subcategories.${subcategory}.${subproductID}`);
               });
             }
           });
-
-          return;
+        } else {
+          if (results.includes(`${category}.${theme}.${productID}`)) return;
+          processProduct(product, `${category}.${theme}.${productID}`);
         }
-
-        // Checking for if it is already in the list
-        if (results.includes(`${category}.${theme}.${productID}`)) return;
-
-
-        // if it is featured
-        if (featured.includes(1)) {
-          if (product.featured && (featured[category === "animation" ? 0 : 1] === 1) && ( product.title.toLowerCase().includes(searchTerm) || product.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || product.tags.includes(searchTerm)  )) results.push(`${category}.${theme}.${productID}`);
-        } else if ((
-          product.title.toLowerCase().includes(searchTerm) || 
-          
-          product.type.toLowerCase().includes(searchTerm.toLowerCase() === "giclee" || searchTerm.toLowerCase() === "gicle" ? "giclée" : searchTerm) || product.tags.some((tag) => tag.toLowerCase().includes(searchTerm) || searchTerm.includes(tag.toLowerCase()))
-          ||
-          // For the searching the categories
-          category.includes(searchTerm) ||
-          searchTerm.includes(category) ||
-
-          // for searching for themes
-          theme.includes(searchTerm) ||
-          searchTerm.includes(theme) ||
-          theme.includes(searchTerm.replaceAll(" ", "-")) ||
-          searchTerm.replaceAll(" ", "-").includes(theme) 
-
-
-        )) results.push(`${category}.${theme}.${productID}`);
       });
     });
-
   });
 
+  // Combine results, prioritizing title matches
+  results.push(...titleMatches, ...otherMatches);
 
-  return results;
+  // Trim results to match resultMaxNumber
+
+  return searchTerm.trim().length < 1 ? shuffleArray(results.slice(0, resultMaxNumber)) : results.slice(0, resultMaxNumber);
 }
 
 
@@ -299,49 +273,6 @@ function allClicked(category) {
           </svg>
         </li>
       )}
-      {/* {Object.keys(data[category]).map((theme, index) => (
-        <Fragment key={`${category}-${theme}-${index}`}>
-          <li>
-            <input
-              type="checkbox"
-              id={`${category}-${theme}-${index}`}
-              checked={selectorMap[category][theme]}
-              onChange={() => themeClicked(theme)}
-            />
-            <label htmlFor={`${category}-${theme}-${index}`}>{theme === "dc-comics" ? "DC Comics" : ( theme === "afl" ? "AFL" : theme.replaceAll("-", " "))}</label>
-          </li>
-
-          {index === 5 && (
-            <>
-              <a>See more</a>
-
-            </>
-          )}
-
-          {/* These are for the subcategories 
-
-          <motion.ul 
-          initial={{ opacity: 0, height: "0px" }}
-          animate={selectorMap[category][theme] ? { opacity:1, height: "auto" } : { opacity:0, height: "0px" }}
-          transition={{ duration: .2, ease: [0.16,1,0.3,1] }}
-          className="theme-list" style={{display: selectorMap[category][theme] ? "block" : "none"}}>
-            {/* This is for the actual subcategories and not just searching for limited editions etc 
-           {Object.keys(data[category][theme].subcategories || {}).map((subcategoryKey, subIndex) => (
-            <li key={`${category}-${theme}-${subIndex}-subcat`}>
-              <input
-                type="checkbox"
-                id={`subcategory-${category}-${theme}-${subIndex}`}
-                checked={searchParams.get(`sub${theme}`) === null ? false : searchParams.get(`sub${theme}`).split("+").includes(subcategoryKey)}
-                onChange={() => subCategoryClicked(theme, subcategoryKey)}
-              />
-              <label htmlFor={`subcategory-${category}-${theme}-${subIndex}`} style={{ fontSize: "16px", marginBottom: "1px"}}>
-               {subcategoryKey.replaceAll("-", " ")}
-              </label>
-            </li>
-          ))}
-          </motion.ul>
-        </Fragment>
-      ))} */}
 
     </>
   )
@@ -435,7 +366,7 @@ export default function OurCollection () {
     });
 
     // setting the products
-    setProducts(shuffleArray(searchJSON(data, searchQuery, featured, listedCategories, listedThemes, resultMaxNumber, [], searchParams))); // this is for the products that are shown
+    setProducts(searchJSON(data, searchQuery, featured, listedCategories, listedThemes, resultMaxNumber, [], searchParams)); // this is for the products that are shown
 
     // every time the url changes, the menuProducts needs to be updated, and include the new selectorMap as part of the dependencies
     setAnimationMenu(<MenuCheckBoxes search={searchQuery} category={"animation"} selectorMap={selectorMap} categories={listedCategories} featured={featured} themes={listedThemes} navigate={navigate} />);

@@ -9,7 +9,7 @@ import { useRef } from "react";
 const initialLINK = "/silverkgallery";
 
 // The special cards for the themes
-const SpecialCard = ({ url, src, logosrc, fromleft, styling = {}, delay = 0, logoStyling = {}}) => {
+const SpecialCard = ({ url="", src, logosrc, fromleft, externalLink="", styling = {}, delay = 0, logoStyling = {}}) => {
   const motionReference = useRef(null);
   const isInView = useInView(motionReference, { once: true });
 
@@ -23,7 +23,8 @@ const SpecialCard = ({ url, src, logosrc, fromleft, styling = {}, delay = 0, log
         ease: [0.16, 1, 0.3, 1],
         delay: delay
       }}
-      href={initialLINK + "/collection" + url}
+      target="_blank"
+      href={externalLink === "" ? initialLINK + "/collection" + url : externalLink}
     >
       <figure>
         <img loading="eager" fetchpriority="high" src={process.env.PUBLIC_URL + `/img` + src} alt="Theme" style={styling}/>
@@ -168,27 +169,27 @@ export default function Home () {
 
         {/* Row of the special cards */}
         <div className="theme-row">
-          <SpecialCard url={"/photography/the-beatles"} src={"/photography/the-beatles/beatles_background.webp"} styling={{ marginLeft: "0px", width: "250px", height: "550px", marginTop: "-40px"}} logosrc={"/photography/the-beatles/beatles.png"} fromleft={true} delay={0.2}/>
-          <SpecialCard url={"/photography/marilyn-monroe"} logosrc={"/photography/marilyn-monroe/logo.png"} src={"/photography/marilyn-monroe/background.webp"} fromleft={true} />
-          <SpecialCard url={"/photography/rolling-stones"} logosrc={"/photography/rolling-stones/logo.webp"} src={"/photography/rolling-stones/rollingstones_band.jpeg"} fromleft={false} logoStyling={{ width: "110%", marginBottom: "35px" }} styling={{ marginLeft: "-80px", height: "105%", marginTop: "-10px"}} />
-          <SpecialCard url={"/photography/ronnie-woods"} logosrc={"/photography/ronnie-woods/logo.png"} src={"/photography/ronnie-woods/background.jpg"} fromleft={false} delay={.2} styling={{ height: "115%"}} />
+          <SpecialCard externalLink={"https://silverkgallery.com.au/rock-n-roll-photography/the-beatles/dezo-hoffman-photographs/"} src={"/photography/the-beatles/beatles_background.webp"} styling={{ marginLeft: "0px", width: "250px", height: "550px", marginTop: "-40px"}} logosrc={"/photography/the-beatles/beatles.png"} fromleft={true} delay={0.2}/>
+          <SpecialCard externalLink={"https://silverkgallery.com.au/rock-n-roll-photography/marilyn-monroe/"} logosrc={"/photography/marilyn-monroe/logo.png"} src={"/photography/marilyn-monroe/background.webp"} fromleft={true} />
+          <SpecialCard externalLink={"https://silverkgallery.com.au/rock-n-roll-photography/the-rolling-stones/"} logosrc={"/photography/rolling-stones/logo.webp"} src={"/photography/rolling-stones/rollingstones_band.jpeg"} fromleft={false} logoStyling={{ width: "110%", marginBottom: "35px" }} styling={{ marginLeft: "-80px", height: "105%", marginTop: "-10px"}} />
+          <SpecialCard externalLink={"https://silverkgallery.com.au/rock-n-roll-photography/ronnie-woods-art/"} logosrc={"/photography/ronnie-woods/logo.png"} src={"/photography/ronnie-woods/background.jpg"} fromleft={false} delay={.2} styling={{ height: "115%"}} />
         </div>
 
         {/* Mobile version of above */}
         <div className="mobile-theme-row">
-          <Link to={"/collection/photography/the-beatles"}>
+          <a target="_blank" href={"https://silverkgallery.com.au/rock-n-roll-photography/the-beatles/dezo-hoffman-photographs/"}>
             <img loading="eager" fetchpriority="high" src={process.env.PUBLIC_URL + "/img/photography/the-beatles/beatles-mobile.png"} alt="The Beatles" title="The Beatles" />
-          </Link>
+          </a>
 
-          <Link to={"/collection/photography/marilyn-monroe"}>
+          <a target="_blank" href={"https://silverkgallery.com.au/rock-n-roll-photography/marilyn-monroe/"}>
             <img loading="eager" fetchpriority="high" style={{ transform: "scale(1.2)"}} src={process.env.PUBLIC_URL + "/img/photography/marilyn-monroe/logo-mobile.png"} alt="Marilyn Monroe" title="Marilyn Monroe" />
-          </Link>
-          <Link to={"/collection/photography/rolling-stones"}>
+          </a>
+          <a target="_blank" href={"https://silverkgallery.com.au/rock-n-roll-photography/the-rolling-stones/"}>
             <img loading="eager" fetchpriority="high" src={process.env.PUBLIC_URL + "/img/photography/rolling-stones/logo-red.png"} alt="Rolling Stones" title="Rolling Stones" />
-          </Link>
-          <Link to={"/collection/photography/ronnie-woods"}>
+          </a>
+          <a target="_blank" href={"https://silverkgallery.com.au/rock-n-roll-photography/ronnie-woods-art/"}>
             <img loading="eager" fetchpriority="high" style={{ transform: "scale(0.9)"}} src={process.env.PUBLIC_URL + "/img/photography/ronnie-woods/logo.avif"} alt="Ronnie Woods" title="Ronnie Woods" />
-          </Link>
+          </a>
         </div>
 
         <Link className="featured" to={"/collection/photography/?featured=0+1"}>See the featured items...</Link>
@@ -356,9 +357,9 @@ His passion for trains is reflected at Disneyland, which has been home to its ow
           <Card id={"animation/star-wars/feature-films/whatremains"} />
           <Card id={"animation/marvel/thetruthis"} />
           <Card id={"animation/star-wars/feature-films/youweremybrother"} />
-          <Card id={"animation/simpsons/devilandhomer"} />
-          <Card id={"animation/simpsons/heatwave"} />
-          <Card id={"animation/marvel/directflight"} />
+          <Card id={"animation/star-wars/feature-films/trenchrun2"} />
+          <Card id={"animation/disney/assorted-characters/happilyeverafter"} />
+          <Card id={"animation/star-wars/feature-films/deepinbongo"} />
           <Card id={"animation/star-wars/feature-films/waysoftheforce"} />
         </div>
 

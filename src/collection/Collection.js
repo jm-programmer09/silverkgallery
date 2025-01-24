@@ -8,7 +8,7 @@ import { Item, shuffleArray } from "./Item";
 
 // End of imports
 
-function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNumber, startingResults = [], searchParams = new URLSearchParams()) {
+function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNumber, startingResults = [], searchParams = new URLSearchParams(), clickToSeeMore=false) {
   searchTerm = searchTerm.toLowerCase();
   const results = startingResults;
   const titleMatches = [];
@@ -69,7 +69,7 @@ function searchJSON(data, searchTerm, featured, categories, themes, resultMaxNum
 
   // Trim results to match resultMaxNumber
 
-  return searchTerm.trim().length < 1 ? shuffleArray(results.slice(0, resultMaxNumber)) : results.slice(0, resultMaxNumber);
+  return searchTerm.trim().length < 1 && !clickToSeeMore ? shuffleArray(results.slice(0, resultMaxNumber)) : results.slice(0, resultMaxNumber);
 }
 
 
@@ -303,6 +303,9 @@ export default function OurCollection () {
   const [photographyMenuOpen, setPhotographyMenuOpen] = useState(true);
   const [photographyMenu, setPhotographyMenu] = useState(<></>);
 
+  // this is just so that the link can be displayed for the older site
+  const [photographyAll, setPhotographyAll] = useState(false);
+
   // for the retunred products
   const [products, setProducts] = useState([]);
 
@@ -322,6 +325,7 @@ export default function OurCollection () {
 
   // Then adding the 'all' to the selectorMap
   Object.keys(selectorMap).forEach(category => selectorMap[category].all = false);
+
   // selector map looks like this:
   /*
   {
@@ -362,6 +366,15 @@ export default function OurCollection () {
         selectorMap[category].all = true;
       } else {
         selectorMap[category].all = false;
+      }
+    });
+
+    // resetting for another check
+    setPhotographyAll(false);
+
+    Object.keys(selectorMap.photography).forEach(element => {
+      if (selectorMap.photography[element]) {
+        setPhotographyAll(true);
       }
     });
 
@@ -475,7 +488,15 @@ export default function OurCollection () {
               <span className="result">{searchQuery !== "" && <>Results for '{searchQuery}'</>}</span>
             </h2>
           </section>
+          
+          {photographyAll && (
+              <>
+                <a className="photographyresults" target="_blank" href="https://silverkgallery.com.au/rock-n-roll-photography/">
+                  If you are searching for Rock N Roll photography, click here for more products
+                </a>
 
+              </>
+            )}
 
           {/* These are the cards here */}
           <section className={products.length > 0 ? "results_child" : "noresults"}>
@@ -497,7 +518,7 @@ export default function OurCollection () {
           setScrollPosition(howFarTheUserIsDown);
           setShouldScroll(true);
           setResultMaxNumber(resultMaxNumber + 52);
-          setProducts(searchJSON(data, searchQuery, featured, categories !== undefined ? categories.split("+") : [], themes !== undefined ? themes.split("+") : [], resultMaxNumber + 52, products, searchParams));
+          setProducts(searchJSON(data, searchQuery, featured, categories !== undefined ? categories.split("+") : [], themes !== undefined ? themes.split("+") : [], resultMaxNumber + 52, products, searchParams, true));
         }}>Click to see more...</button> </section>)}
 
         </section>

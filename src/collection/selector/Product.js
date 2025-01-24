@@ -177,7 +177,7 @@ export default function Product () {
 
 
                 Call us</a>
-              <Link className="right" to={`/collection/${categories}/${themes}`}>See more like this...</Link>
+              <Link className="right" to={subid === undefined ? `/collection/${categories}/${themes}` : `/collection/${categories}/${themes}/?sub${themes}=${id}`}>See more like this...</Link>
             </div>          
           
           </div>

@@ -29,6 +29,18 @@ section.collection section.result_parent {
 }
 
 
+section.result_parent > a.photographyresults {
+  text-decoration: none;
+  color: var(--gradientTo);
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+section.result_parent > a.photographyresults:hover {
+  text-decoration: underline;
+}
+
 /* This is for the search bar */
 section.searchbar {
   margin: 0;
@@ -271,7 +283,7 @@ section.noresults > p  a:hover {
 /* For the change in size for the collections card */
 section.results_child a.collections-card {
   width: 250px;
-  height: 400px;
+  height: 450px;
 }
 
 /* this is for the extra button when generating more images in */

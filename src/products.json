@@ -3618,6 +3618,310 @@
     "disney": {
       "subcategories": {
         "assorted-characters": {
+          "dreamersandme": {
+            "image": "/dreamersandme.webp",
+            "title": "the dreamers and me",
+            "type": "Giclée on canvas",
+            "dimensions": [[30, 15], 95],
+            "special": [true, false, true],
+            "tags": ["kermit the frog"]
+          },
+          "sunsetser": {
+            "image": "/sunsetser.webp",
+            "title": "sunset serenade",
+            "type": "Giclée on canvas",
+            "dimensions": [[15, 30], 195],
+            "special": [true, false, true],
+            "tags": ["lilo and stitch", "turtle"]
+          },
+          "summernight": {
+            "image": "/summernight.webp",
+            "title": "summer night",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 20], 95],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse"]
+          },
+          "risingineast": {
+            "image": "/risingineast.webp",
+            "title": "rising in the east",
+            "type": "Giclée on canvas",
+            "dimensions": [[36, 12], 95],
+            "special": [true, false, true],
+            "tags": ["beauty and the beast"]
+          },
+          "restandrelax": {
+            "image": "/restandrelax.webp",
+            "title": "rest and relaxation",
+            "type": "Giclée on canvas",
+            "dimensions": [[16, 20], 95],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse"]
+          },
+          "pickingtheperfectpumpkin": {
+            "image": "/pickingtheperfectpumpkin.webp",
+            "title": "picking the perfect pumpkin",
+            "type": "Giclée on canvas",
+            "dimensions": [[15, 30], 50],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse"]
+          },
+          "movinalong": {
+            "image": "/movinalong.webp",
+            "title": "movin' right along",
+            "type": "Giclée on canvas",
+            "dimensions": [[15, 30], 95],
+            "special": [true, false, true],
+            "tags": ["kermit the frog"]
+          },
+          "morningkiss": {
+            "image": "/morningkiss.webp",
+            "title": "morning kiss",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 24], 195],
+            "special": [true, false, true],
+            "tags": ["snow white", "gnomes"]
+          },
+          "moonlightproposal": {
+            "image": "/moonlightproposal.webp",
+            "title": "moonlight proposal",
+            "type": "Giclée on canvas",
+            "dimensions": [[16, 20], 195],
+            "special": [true, false, true],
+            "tags": ["robin hood"]
+          },
+          "newfriend": {
+            "image": "/newfriend.webp",
+            "title": "moana's new friend",
+            "type": "Giclée on canvas",
+            "dimensions": [[15, 30], 195],
+            "special": [true, false, true],
+            "tags": ["moana"]
+          },
+          "summermmemories": {
+            "image": "/summermmemories.webp",
+            "title": "memories of summer",
+            "type": "Giclée on canvas",
+            "dimensions": [[20, 24], 95],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse"]
+          },
+          "imaginationbrewing": {
+            "image": "/imaginationbrewing.webp",
+            "title": "imagination is brewing",
+            "type": "Giclée on canvas",
+            "dimensions": [[30, 15], 95],
+            "special": [true, false, true],
+            "tags": ["princess"]
+          },
+          "hungryhoney": {
+            "image": "/hungryhoney.webp",
+            "title": "hungry for honey",
+            "type": "Giclée on canvas",
+            "dimensions": [[36, 12], 195],
+            "special": [true, false, true],
+            "tags": ["winnie the pooh"]
+          },
+          "hookedonyou": {
+            "image": "/hookedonyou.webp",
+            "title": "hooked on you",
+            "type": "Giclée on canvas",
+            "dimensions": [[22, 28], 195],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse"]
+          },
+          "cleanfun": {
+            "image": "/cleanfun.webp",
+            "title": "good clean fun",
+            "type": "Giclée on canvas",
+            "dimensions": [[15, 30], 95],
+            "special": [true, false, true],
+            "tags": ["elephant"]
+          },
+          "familycamp": {
+            "image": "/familycamp.webp",
+            "title": "family camp out",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 24], 195],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse"]
+          },
+          "curiousbear": {
+            "image": "/curiousbear.webp",
+            "title": "curious bear",
+            "type": "Giclée on canvas",
+            "dimensions": [[20, 16], 195],
+            "special": [true, false, true],
+            "tags": ["winnie the pooh"]
+          },
+          "cuisineofrtwo": {
+            "image": "/cuisineofrtwo.webp",
+            "title": "cuisine for two",
+            "type": "Giclée on canvas",
+            "dimensions": [[30, 15], 195],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse"]
+          },
+          "newadventure": {
+            "image": "/newadventure.webp",
+            "title": "carl's new adventure",
+            "type": "Giclée on canvas",
+            "dimensions": [[48, 12], 195],
+            "special": [true, false, true],
+            "tags": ["up", "dog"]
+          },
+          "summonsthepower": {
+            "image": "/summonsthepower.webp",
+            "title": "maleficent summons the power",
+            "type": "Giclée on canvas",
+            "dimensions": [[30, 15], 195],
+            "special": [true, false, true],
+            "tags": ["evil", "magic", "snow white"]
+          },
+          "friendshipblossoms": {
+            "image": "/friendshipblossoms.webp",
+            "title": "a friendship blossoms",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 24], 95],
+            "special": [true, false, true],
+            "tags": ["deer", "rabbit"]
+          },
+          "youngdreamer": {
+            "image": "/youngdreamer.webp",
+            "title": "young dreamer",
+            "type": "Giclée on canvas",
+            "dimensions": [[12, 48], 195],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse", "goofy", "daffy duck", "kid"]
+          },
+          "colorstheworld": {
+            "image": "/colorstheworld.webp",
+            "title": "mickey colors the world",
+            "type": "Giclée on canvas",
+            "dimensions": [[20, 24], 50],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse"]
+          },
+          "disneyworld": {
+            "image": "/disneyworld.webp",
+            "title": "disney world",
+            "type": "Giclée on canvas",
+            "dimensions": [[20, 24], 50],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse", "daffy duck", "goofy"]
+          },
+          "coloroflove": {
+            "image": "/coloroflove.webp",
+            "title": "colors of love",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 24], 95],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse"]
+          },
+          "burstingintospring": {
+            "image": "/burstingintospring.webp",
+            "title": "bursting into spring",
+            "type": "Giclée on canvas",
+            "dimensions": [[20, 24], 195],
+            "special": [true, false, true],
+            "tags": ["kristoff", "frozen"]
+          },
+          "tigerlilly": {
+            "image": "/tigerlilly.webp",
+            "title": "tiger lilly and hook",
+            "type": "Giclée on canvas",
+            "dimensions": [[16, 20], 195],
+            "special": [true, false, true],
+            "tags": ["captain hook", "peter pan"]
+          },
+          "tickledtink": {
+            "image": "/tickledtink.webp",
+            "title": "tickled tink",
+            "type": "Giclée on canvas",
+            "dimensions": [[12,18], 95],
+            "special": [true, false, true],
+            "tags": ["peter pan", "fairy"]
+          },
+          "singingbirds": {
+            "image": "/singingbirds.webp",
+            "title": "singing with the birds",
+            "type": "Giclée on canvas",
+            "dimensions": [[12, 16], 195],
+            "special": [true, false, true],
+            "tags": ["princess"]
+          },
+          "mickeymousehi": {
+            "image": "/mickeymousehi.webp",
+            "title": "Hi, I'm Mickey Mouse",
+            "type": "Giclée on canvas",
+            "dimensions": [[12, 9], 395],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse"]
+          },
+          "happyhero": {
+            "image": "/happyhero.webp",
+            "title": "happy hero",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 18], 195],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse"]
+          },
+          "dreammaker": {
+            "image": "/dreammaker.webp",
+            "title": "dream maker",
+            "type": "Giclée on canvas",
+            "dimensions": [[20, 30], 195],
+            "special": [true, false, true],
+            "tags": ["mickey minnie mouse", "goofy", "daffy duck"]
+          },
+          "willfuldaughter": {
+            "image": "/willfuldaughter.webp",
+            "title": "willful daughter",
+            "type": "Giclée on canvas",
+            "dimensions": [[15, 10], 195],
+            "special": [true, false, true],
+            "tags": ["redhead"]
+          },
+          "hauntedmansion": {
+            "image": "/hauntedmansion.webp",
+            "title": "the haunted mansion",
+            "type": "Giclée on canvas",
+            "dimensions": [[30, 30], 195],
+            "special": [true, false, true],
+            "tags": ["scary"]
+          },
+          "flamesmaleficient": {
+            "image": "/flamesmaleficient.webp",
+            "title": "flames of maleficent",
+            "type": "Giclée on canvas",
+            "dimensions": [[48, 12], 195],
+            "special": [true, false, true],
+            "tags": ["snow white"]
+          },
+          "dogslife": {
+            "image": "/dogslife.webp",
+            "title": "a dog's life",
+            "type": "Giclée on canvas",
+            "dimensions": [[11, 26], 195],
+            "special": [true, false, true],
+            "tags": ["dog"]
+          },
+          "bellanotte": {
+            "image": "/bellanotte.webp",
+            "title": "bella notte",
+            "type": "Giclée on canvas",
+            "dimensions": [[18, 24], 195],
+            "special": [true, false, true],
+            "tags": ["dog", "realistic"]
+          },
+          "babyofmine": {
+            "image": "/babyofmine.webp",
+            "title": "baby of mine",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 18], 295],
+            "special": [true, false, true],
+            "tags": ["realistic", "dumbo", "elephant"]
+          },
           "tinktwist": {
             "image": "/tinktwist.webp",
             "title": "tink twist",
@@ -3633,14 +3937,6 @@
             "dimensions": [[24, 18], 295],
             "special": [true, false, true],
             "tags": ["lilo and stitch"]
-          },
-          "mickeyandminnieenjoyview": {
-            "image": "/mickeyandminnieenjoyview.webp",
-            "title": "mickey and minnie enjoy the view",
-            "type": "Giclée on canvas",
-            "dimensions": [[24, 32], 95],
-            "special": [true, false, true],
-            "tags": []
           },
           "fallstroll": {
             "image": "/fallstroll.webp",
@@ -3698,22 +3994,6 @@
             "special": [true, false, true],
             "tags": ["daffy duck"]
           },
-          "whenready": {
-            "image": "/whenready.webp",
-            "title": "when I'm ready",
-            "type": "Giclée on canvas",
-            "dimensions": [[8, 14], 295],
-            "special": [true, false, true],
-            "tags": ["minnie mouse"]
-          },
-          "power": {
-            "image": "/power.webp",
-            "title": "I like the power",
-            "type": "Giclée on canvas",
-            "dimensions": [[8, 14], 295],
-            "special": [true, false, true],
-            "tags": ["mickey mouse"]
-          },
           "inthebrew": {
             "image": "/inthebrew.webp",
             "title": "in the brew",
@@ -3721,14 +4001,6 @@
             "dimensions": [[24, 18], 195],
             "special": [true, false, true],
             "tags": ["witch"]
-          },
-          "spellbound": {
-            "image": "/spellbound.webp",
-            "title": "spellbound",
-            "type": "Giclée on canvas",
-            "dimensions": [[16, 32], 195],
-            "special": [true, false, true],
-            "tags": ["mickey mouse"]
           },
           "likestars": {
             "image": "/likestars.webp",
@@ -3746,22 +4018,6 @@
             "special": [true, false, true],
             "tags": ["101 dalmations"]
           },
-          "castingmagic": {
-            "image": "/castingmagic.webp",
-            "title": "casting magic",
-            "type": "Giclée on canvas",
-            "dimensions": [[32, 24], 100],
-            "special": [true, false, true],
-            "tags": ["mickey mouse"]
-          },
-          "mickeypaints": {
-            "image": "/mickeypaints.webp",
-            "title": "mickey paints mickey",
-            "type": "Giclée on canvas",
-            "dimensions": [[24, 24], 195],
-            "special": [true, false, true],
-            "tags": ["mickey mouse"]
-          },
           "teaparty": {
             "image": "/teaparty.webp",
             "title": "tea party",
@@ -3777,14 +4033,6 @@
             "dimensions": [[18, 36], 195],
             "special": [true, false, false],
             "tags": ["101 dalmations"]
-          },
-          "ghostchasers": {
-            "image": "/ghostchasers.webp",
-            "title": "ghost chasers",
-            "type": "Giclée on canvas",
-            "dimensions": [[32, 24], 195],
-            "special": [true, false, false],
-            "tags": ["mickey mouse", "goofy"]
           },
           "rabbithole": {
             "image": "/rabbithole.webp",
@@ -3843,7 +4091,7 @@
             "tags": ["lilo and stitch"]
           },
           "hulamoon": {
-            "image": "/hulamoon.webp",
+            "image": "/hulamoon.jpg",
             "title": "hula moon",
             "type": "Giclée on canvas",
             "dimensions": [[18, 24], 295],
@@ -4064,6 +4312,7 @@
           "happilyeverafter": {
             "image": "/happilyeverafter.jpg",
             "title": "happily ever after",
+            "featured": true,
             "type":"Giclée on canvas",
             "special": [true, true],
             "dimensions": [[12, 16], 1500],
@@ -4880,6 +5129,54 @@
         },
 
         "mickey-mouse": {
+          "mickeyandminnieenjoyview": {
+            "image": "/mickeyandminnieenjoyview.webp",
+            "title": "mickey and minnie enjoy the view",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 32], 95],
+            "special": [true, false, true],
+            "tags": []
+          },
+          "whenready": {
+            "image": "/whenready.webp",
+            "title": "when I'm ready",
+            "type": "Giclée on canvas",
+            "dimensions": [[8, 14], 295],
+            "special": [true, false, true],
+            "tags": ["minnie mouse"]
+          },
+          "ghostchasers": {
+            "image": "/ghostchasers.webp",
+            "title": "ghost chasers",
+            "type": "Giclée on canvas",
+            "dimensions": [[32, 24], 195],
+            "special": [true, false, false],
+            "tags": ["mickey mouse", "goofy"]
+          },
+          "castingmagic": {
+            "image": "/castingmagic.webp",
+            "title": "casting magic",
+            "type": "Giclée on canvas",
+            "dimensions": [[32, 24], 100],
+            "special": [true, false, true],
+            "tags": ["mickey mouse"]
+          },
+          "mickeypaints": {
+            "image": "/mickeypaints.webp",
+            "title": "mickey paints mickey",
+            "type": "Giclée on canvas",
+            "dimensions": [[24, 24], 195],
+            "special": [true, false, true],
+            "tags": ["mickey mouse"]
+          },
+          "spellbound": {
+            "image": "/spellbound.webp",
+            "title": "spellbound",
+            "type": "Giclée on canvas",
+            "dimensions": [[16, 32], 195],
+            "special": [true, false, true],
+            "tags": ["mickey mouse"]
+          },
           "sweptupinthemagic": {
             "image": "/sweptupinthemagic.jpg",
             "title": "swept up in the magic",
@@ -7876,6 +8173,7 @@
         "title": "paul McCartney",
         "type": "Photography",
         "author": "robert freeman",
+        "featured": true,
         "dimensions" : [0],
         "tags": ["paul mccartney", "paul", "mc"]
       },
@@ -7883,6 +8181,7 @@
         "image" : "/johnglasses.jpg",
         "title": "John Lennon",
         "type": "Photography",
+        "featured": true,
         "author": "robert freeman",
         "dimensions": [0],
         "tags": ["john lennon", "glasses"]
@@ -7892,6 +8191,7 @@
       "rollinstones": {
         "image": "/rollinstones.jpg",
         "title": "Rollin Stones",
+        "featured": true,
         "type": "Photography",
         "dimensions": [0],
         "tags": ["band", "guitar", "sing"]
@@ -7903,6 +8203,7 @@
         "title": "out the window",
         "type": "Photography",
         "author": "Sam Shaw",
+        "featured": true,
         "dimensions": [0],
         "tags": ["Sam", "shaw", "mary", "monroe", "girl", "woman"]
       },
@@ -7911,6 +8212,7 @@
         "title": "Flower In Mouth",
         "type": "Photography",
         "author": "Sam Shaw",
+        "featured": true,
         "dimensions": [0],
         "tags": ["girl", "woman", "dress", "outside", "mary", "monroe"]
       }
@@ -7924,6 +8226,7 @@
         "title": "Conversation ||",
         "type": "Photography",
         "author": "Ronnie Woods",
+        "featured": true,
         "dimensions": [0],
         "tags": ["ronnie", "woods", "convo", "band", "guitar"]
       },
@@ -7933,6 +8236,7 @@
         "type": "Photography",
         "author": "Ronnie Woods",
         "dimensions": [0],
+        "featured": true,
         "tags": ["guitar", "woods", "ronnie"]
       }
     },
@@ -7941,6 +8245,7 @@
         "image": "/thegoodclinteastwood.jpg",
         "title": "The Good - Clint Eastwood",
         "type": "Photography",
+        "featured": true,
        "dimensions": [0],
         "tags": ["clint", "eastwood", "cowboy", "outback"]
       }

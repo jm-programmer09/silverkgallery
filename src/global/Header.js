@@ -179,113 +179,210 @@ export default function Header () {
 
   return (
     <header>
-      <Link to="/"><img loading="eager" fetchpriority="high" src={process.env.PUBLIC_URL + "/img/logo.png"} alt="Silver K Gallery" /></Link>
+      <Link to="/">
+        <img
+          loading="eager"
+          fetchpriority="high"
+          src={process.env.PUBLIC_URL + "/img/logo.png"}
+          alt="Silver K Gallery"
+        />
+      </Link>
 
       {/* Links */}
       <nav className="pc">
-        <Link to="/" className={location.pathname === "/" ? "selected" : ""}>Home</Link>
-        <Link to="/collection" className={location.pathname.includes("/collection") ? "selected" : ""}>Our Collection</Link>
-        <Link to="/exhibitions" className={location.pathname === "/exhibitions" ? "selected" : ""}>Exhibitions</Link>
-        <Link to="/contactus" className={location.pathname === "/contactus" ? "selected" : ""} >Contact Us</Link>
+        <Link to="/" className={location.pathname === "/" ? "selected" : ""}>
+          Home
+        </Link>
+        <Link
+          to="/collection"
+          className={
+            location.pathname.includes("/collection") ? "selected" : ""
+          }
+        >
+          Our Collection
+        </Link>
+        <Link
+          to="/contactus"
+          className={location.pathname === "/contactus" ? "selected" : ""}
+        >
+          Contact Us
+        </Link>
 
-        <SearchIcon classname="header-search-icon" size={24} onClick={() => { searchBarOpen ? setSearchBarOpen(false) : setSearchBarOpen(true) }}/> 
-        <button title="Menu" tabIndex={0} aria-label="Menu button" onClick={() => {mobileMenuOpen ? setMobileMenuOpen(false) : setMobileMenuOpen(true)}}><div role="button" className={mobileMenuOpen ? "open" : undefined}></div></button>
+        <SearchIcon
+          classname="header-search-icon"
+          size={24}
+          onClick={() => {
+            searchBarOpen ? setSearchBarOpen(false) : setSearchBarOpen(true);
+          }}
+        />
+        <button
+          title="Menu"
+          tabIndex={0}
+          aria-label="Menu button"
+          onClick={() => {
+            mobileMenuOpen ? setMobileMenuOpen(false) : setMobileMenuOpen(true);
+          }}
+        >
+          <div
+            role="button"
+            className={mobileMenuOpen ? "open" : undefined}
+          ></div>
+        </button>
       </nav>
 
       {/* The mobile menu */}
       <motion.nav
-      ref={mobileNavRef}
-      initial={{ opacity: 0, height: 0 }}
-      animate={isMobileMenuInView ? { opacity: 1, height: "fit-content"} : {opacity: 0, height: 0}}
-      transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }} 
-      className="mobile" style={{ display: mobileMenuOpen ? "flex" : "none"}}>
-        <motion.div 
-        initial={{ opacity: 0, x: -100 }}
-        animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
-        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1]}}
-        ><Link to="/" onClick={() => { setMobileMenuOpen(false); }} >Home</Link></motion.div>
-        <motion.div 
-        initial={{ opacity: 0, x: -100 }}
-        animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
-        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.05}}
-        ><Link to="/collection" onClick={() => { setMobileMenuOpen(false); }}>Our Collection</Link></motion.div>
-        <motion.div 
-        initial={{ opacity: 0, x: -100 }}
-        animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
-        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.1}}
-        ><Link to="/exhibitions" onClick={() => { setMobileMenuOpen(false); }}>Exhibitions</Link></motion.div>
+        ref={mobileNavRef}
+        initial={{ opacity: 0, height: 0 }}
+        animate={
+          isMobileMenuInView
+            ? { opacity: 1, height: "fit-content" }
+            : { opacity: 0, height: 0 }
+        }
+        transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+        className="mobile"
+        style={{ display: mobileMenuOpen ? "flex" : "none" }}
+      >
         <motion.div
-        initial={{ opacity: 0, x: -100 }}
-        animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
-        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.15}}
-        > <Link to="/contactus" onClick={() => { setMobileMenuOpen(false); }}>Contact Us</Link></motion.div>
-        
-        
-        
+          initial={{ opacity: 0, x: -100 }}
+          animate={
+            isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }
+          }
+          transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <Link
+            to="/"
+            onClick={() => {
+              setMobileMenuOpen(false);
+            }}
+          >
+            Home
+          </Link>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          animate={
+            isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }
+          }
+          transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1], delay: 0.05 }}
+        >
+          <Link
+            to="/collection"
+            onClick={() => {
+              setMobileMenuOpen(false);
+            }}
+          >
+            Our Collection
+          </Link>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          animate={
+            isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }
+          }
+          transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1], delay: 0.15 }}
+        >
+          {" "}
+          <Link
+            to="/contactus"
+            onClick={() => {
+              setMobileMenuOpen(false);
+            }}
+          >
+            Contact Us
+          </Link>
+        </motion.div>
+
         <motion.details
-        initial={{ opacity: 0, x: -100 }}
-        animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
-        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.2}}
-        > 
-          <summary><span>Animation</span></summary>
+          initial={{ opacity: 0, x: -100 }}
+          animate={
+            isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }
+          }
+          transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
+        >
+          <summary>
+            <span>Animation</span>
+          </summary>
 
           <section>
-            {Object.keys(data.animation).map((value, index) => (
-              index < 6 && (
-                <Link to={`/collection/animation/${value}`} key={index}>{value.replaceAll("-", " ")}</Link>
-              )
-            ))}
+            {Object.keys(data.animation).map(
+              (value, index) =>
+                index < 6 && (
+                  <Link to={`/collection/animation/${value}`} key={index}>
+                    {value.replaceAll("-", " ")}
+                  </Link>
+                )
+            )}
           </section>
-        
-        
         </motion.details>
         <motion.details
-        initial={{ opacity: 0, x: -100 }}
-        animate={isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100}}
-        transition={{ duration: 0.2, ease:[0.16, 1, 0.3, 1], delay: 0.2}}
-        > 
-          <summary><span>Photography</span></summary>
+          initial={{ opacity: 0, x: -100 }}
+          animate={
+            isMobileMenuInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -100 }
+          }
+          transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
+        >
+          <summary>
+            <span>Photography</span>
+          </summary>
 
           <section>
-            {Object.keys(data.photography).map((value, index) => (
-              index < 6 && (
-                <Link to={`/collection/photography/${value}`} key={index}>{value.replaceAll("-", " ")}</Link>
-              )
-            ))}
+            {Object.keys(data.photography).map(
+              (value, index) =>
+                index < 6 && (
+                  <Link to={`/collection/photography/${value}`} key={index}>
+                    {value.replaceAll("-", " ")}
+                  </Link>
+                )
+            )}
           </section>
-        
-        
         </motion.details>
       </motion.nav>
 
       {/* The search bar menu */}
       <motion.form
         ref={searchBarRef}
-        initial={{opacity: 0}}
-        animate={isSearchBarInView ? {opacity: 1} : { opacity: 0}}
-        transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1]}}
+        initial={{ opacity: 0 }}
+        animate={isSearchBarInView ? { opacity: 1 } : { opacity: 0 }}
+        transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
         className="searchbar"
-        style={{ display: searchBarOpen ? "flex" : "none"}}
+        style={{ display: searchBarOpen ? "flex" : "none" }}
         onSubmit={(e) => {
           e.preventDefault(); // Prevent default form submission
           searchSubmit(navigate, searchRef.current.value);
         }}
       >
         <div className="input">
-          <SearchIcon classname={"icon"} size={22} onClick={() => {navigate(`/collection?search=${searchRef.current.value.trim()}`); setSearchBarOpen(false); }} />
+          <SearchIcon
+            classname={"icon"}
+            size={22}
+            onClick={() => {
+              navigate(`/collection?search=${searchRef.current.value.trim()}`);
+              setSearchBarOpen(false);
+            }}
+          />
 
-          <input ref={searchRef} placeholder="Search..." name="search" autoComplete="off" autoCapitalize="off" />
+          <input
+            ref={searchRef}
+            placeholder="Search..."
+            name="search"
+            autoComplete="off"
+            autoCapitalize="off"
+          />
 
-          <button type="button" onClick={() => { setSearchBarOpen(false) }} className="close"></button>
-
-
+          <button
+            type="button"
+            onClick={() => {
+              setSearchBarOpen(false);
+            }}
+            className="close"
+          ></button>
         </div>
 
         {/* only will be shown on desktop mode cos it will be too big for on mobile */}
         <div className="seperatelinks">
           <DetailsComponent data={data} />
         </div>
-      
       </motion.form>
     </header>
   );

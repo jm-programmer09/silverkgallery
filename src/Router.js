@@ -13,7 +13,6 @@ import { ScrollButton } from "./global/modules";
 import Product from "./collection/selector/Product";
 import ContactUs from "./contact/ContactUs";
 import PrivacyPolicy from "./global/privacypolicy";
-import Exhibition from "./exhibition/exhibition";
 
 export default function Router () {
   return (
@@ -40,9 +39,6 @@ export default function Router () {
 
         {/* For the privacy policy */}
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-
-        {/* For the exhibitions page */}
-        <Route path="/exhibitions" element={<Exhibition />} />
 
         <Route path="/collection/:categories/:themes/:id/:subid?" element={ <Product /> } />
       </Routes>
